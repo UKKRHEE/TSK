@@ -27,4 +27,9 @@ spriteTypes = {
 		name = "GFX_decision_prk_coup"
 		texturefile = "gfx/interface/decisions/프룬제.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_decision_tut"
+		texturefile = "gfx/interface/decisions/tut.png"
+	}
 }
