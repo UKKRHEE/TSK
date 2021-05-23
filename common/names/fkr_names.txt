@@ -4,20 +4,6 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
-default = {
-	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes"}
-		surnames = { }
-		callsigns = { }
-	}
-	#female = {
-	#	names = { "Juliette" "Anna" }
-	#	surnames = { }
-	#	callsigns = { "Queen Of The Sky" "The Red Princess" }
-	#}
-	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
-}
 
 KOR = {
 	male = {
@@ -39,7 +25,7 @@ KOR = {
 		Park Park Park Park Choi Choi Choi Jeong Jeong Kang Kang Jo Jo Yoon Yoon Jang Jang Jung Im Han Han Oh Oh
 		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song Roh Roh Yi Jegal Ko
  	}
-	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 갓 이리 강치 깍두기 김치 }
+	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 비룡 이리 강치 청룡 흑룡 현무 무적 승리 사냥꾼 }
 }
 
 MKR = {
@@ -62,7 +48,7 @@ MKR = {
 		Park Park Park Park Choi Choi Choi Jeong Jeong Kang Kang Jo Jo Yoon Yoon Jang Jang Jung Im Han Han Oh Oh
 		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song Roh Roh Yi Jegal Ko
  	}
-	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 갓 이리 강치 깍두기 김치 }
+	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 비룡 이리 강치 청룡 흑룡 현무 무적 승리 사냥꾼 }
 }
 
 ROK = {
@@ -85,7 +71,7 @@ ROK = {
 		Park Park Park Park Choi Choi Choi Jeong Jeong Kang Kang Jo Jo Yoon Yoon Jang Jang Jung Im Han Han Oh Oh
 		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song Roh Roh Yi Jegal Ko
  	}
-	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 갓 이리 강치 깍두기 김치 }
+	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 비룡 이리 강치 청룡 흑룡 현무 무적 승리 사냥꾼 }
 }
 
 KR1 = {
@@ -108,7 +94,7 @@ KR1 = {
 		Park Park Park Park Choi Choi Choi Jeong Jeong Kang Kang Jo Jo Yoon Yoon Jang Jang Jung Im Han Han Oh Oh
 		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song Roh Roh Yi Jegal Ko
  	}
-	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 갓 이리 강치 깍두기 김치 }
+	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 비룡 이리 강치 청룡 흑룡 현무 무적 승리 사냥꾼 }
 }
 
 PRK = {
@@ -131,7 +117,7 @@ PRK = {
 		Park Park Park Park Choi Choi Choi Jeong Jeong Kang Kang Jo Jo Yoon Yoon Jang Jang Jung Im Han Han Oh Oh
 		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song
  	}
-	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 갓 이리 강치 깍두기 김치 }
+	callsigns = { 주체 부엉이 번개 괴력난신 용 공포 박지 반달곰 철풍 신령 산신 장창 전격 혁명 불곰 령웅 백호 날개 독수리 불바다 이리 강치 }
 }
 
 KPA = {
@@ -154,5 +140,5 @@ KPA = {
 		Park Park Park Park Choi Choi Choi Jeong Jeong Kang Kang Jo Jo Yoon Yoon Jang Jang Jung Im Han Han Oh Oh
 		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song
  	}
-	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 갓 이리 강치 깍두기 김치 }
+	callsigns = { 주체 부엉이 번개 괴력난신 용 공포 박지 반달곰 철풍 신령 산신 장창 전격 혁명 불곰 령웅 백호 날개 독수리 불바다 이리 강치 }
 }
