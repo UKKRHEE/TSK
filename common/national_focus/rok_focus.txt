@@ -11,7 +11,7 @@ focus_tree = {
 	}
 	focus = {
 		id = presidential_election
-		icon = GFX_goal_unknown
+		icon = GFX_presidential_election
 		cost = 10.00
 		x = 9
 		y = 0
@@ -37,7 +37,7 @@ focus_tree = {
 	}
 	focus = { #김구 대통령
 		id = President_Kim_Koo
-		icon = GFX_goal_unknown
+		icon = GFX_President_Kim_Koo
 		cost = 10.00
 		prerequisite = {
 			focus = presidential_election
@@ -109,7 +109,7 @@ focus_tree = {
 	}
 	focus = { #김영삼 대통령
 		id = President_Kim_Young_sam
-		icon = GFX_goal_unknown
+		icon = GFX_President_Kim_Young_sam
 		cost = 10.00
 		prerequisite = {
 			focus = presidential_election

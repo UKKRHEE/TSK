@@ -219,4 +219,16 @@ spriteTypes = {
 		name = "GFX_prk_prk_Treaty_on_the_Abortment_of_hostilities"
 		texturefile = "gfx/interface/goals/K_asche/prk_Treaty_on_the_Abortment_of_hostilities.png"
 	}
+	SpriteType = {
+		name = "GFX_presidential_election"
+		texturefile = "gfx/interface/goals/K_asche/presidential_election.png"
+	}
+	SpriteType = {
+		name = "GFX_President_Kim_Koo"
+		texturefile = "gfx/interface/goals/K_asche/President_Kim_Koo.png"
+	}
+	SpriteType = {
+		name = "GFX_President_Kim_Young_sam"
+		texturefile = "gfx/interface/goals/K_asche/President_Kim_Young_sam.png"
+	}
 }
