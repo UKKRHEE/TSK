@@ -213,6 +213,10 @@ news_event = {#부산함락
 		name = kor_news.5.c
 		trigger = { TAG = ROK }
 	}
+	option = {
+		name = kor_news.5.d
+		trigger = { TAG = PRK }
+	}
 }
 # 동해 무력시위
 news_event = {
