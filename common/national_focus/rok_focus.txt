@@ -138,7 +138,7 @@ focus_tree = {
 	}
 	focus = {
 		id = freedom_equality
-		icon = GFX_goal_unknown
+		icon = GFX_freedom_equality
 		cost = 10.00
 		prerequisite = {
 			focus = President_Kim_Young_sam
@@ -198,7 +198,7 @@ focus_tree = {
 	}
 	focus = {
 		id = war_of_liberation
-		icon = GFX_goal_unknown
+		icon = GFX_war_of_liberation
 		cost = 10.00
 		prerequisite = {
 			focus = test_Japan

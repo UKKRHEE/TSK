@@ -231,4 +231,8 @@ spriteTypes = {
 		name = "GFX_President_Kim_Young_sam"
 		texturefile = "gfx/interface/goals/K_asche/President_Kim_Young_sam.png"
 	}
+	SpriteType = {
+		name = "GFX_freedom_equality"
+		texturefile = "gfx/interface/goals/K_asche/freedom_equality.png"
+	}
 }
