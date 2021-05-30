@@ -235,4 +235,40 @@ spriteTypes = {
 		name = "GFX_freedom_equality"
 		texturefile = "gfx/interface/goals/K_asche/freedom_equality.png"
 	}
+	SpriteType = {
+		name = "GFX_enactment_of_law"
+		texturefile = "gfx/interface/goals/K_asche/enactment_of_law.png"
+	}
+	SpriteType = {
+		name = "GFX_elimination_of_censorship"
+		texturefile = "gfx/interface/goals/K_asche/elimination_of_censorship.png"
+	}
+	SpriteType = {
+		name = "GFX_Central_Office_Demolition"
+		texturefile = "gfx/interface/goals/K_asche/Central_Office_Demolition.png"
+	}
+	SpriteType = {
+		name = "GFX_test_Japan"
+		texturefile = "gfx/interface/goals/K_asche/test_Japan.png"
+	}
+	SpriteType = {
+		name = "GFX_test_China"
+		texturefile = "gfx/interface/goals/K_asche/test_China.png"
+	}
+	SpriteType = {
+		name = "GFX_Contact_with_China"
+		texturefile = "gfx/interface/goals/K_asche/Contact_with_China.png"
+	}
+	SpriteType = {
+		name = "GFX_demand_from_jang"
+		texturefile = "gfx/interface/goals/K_asche/demand_from_jang.png"
+	}
+	SpriteType = {
+		name = "GFX_meet_chang"
+		texturefile = "gfx/interface/goals/K_asche/meet_chang.png"
+	}
+	SpriteType = {
+		name = "GFX_theorem_of_warlords"
+		texturefile = "gfx/interface/goals/K_asche/theorem_of_warlords.png"
+	}
 }

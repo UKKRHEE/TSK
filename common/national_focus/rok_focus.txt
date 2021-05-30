@@ -126,7 +126,7 @@ focus_tree = {
 	}
 	focus = {
 		id = enactment_of_law
-		icon = GFX_goal_unknown
+		icon = GFX_enactment_of_law
 		cost = 10.00
 		prerequisite = {
 			focus = President_Kim_Young_sam
@@ -150,7 +150,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Central_Office_Demolition
-		icon = GFX_goal_unknown
+		icon = GFX_Central_Office_Demolition
 		cost = 10.00
 		prerequisite = {
 			focus = President_Kim_Young_sam
@@ -162,7 +162,7 @@ focus_tree = {
 	}
 	focus = {
 		id = test_Japan
-		icon = GFX_goal_unknown
+		icon = GFX_test_Japan
 		cost = 10.00
 		prerequisite = {
 			focus = Central_Office_Demolition
@@ -173,7 +173,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Contact_with_China
-		icon = GFX_goal_unknown
+		icon = GFX_Contact_with_China
 		cost = 10.00
 		prerequisite = {
 			focus = test_Japan
@@ -226,7 +226,7 @@ focus_tree = {
 	}
 	focus = {
 		id = elimination_of_censorship
-		icon = GFX_goal_unknown
+		icon = GFX_elimination_of_censorship
 		cost = 10.00
 		prerequisite = {
 			focus = President_Kim_Young_sam
@@ -238,7 +238,7 @@ focus_tree = {
 	}
 	focus = {
 		id = test_China
-		icon = GFX_goal_unknown
+		icon = GFX_test_China
 		cost = 10.00
 		prerequisite = {
 			focus = test_Japan
@@ -252,7 +252,7 @@ focus_tree = {
 	}
 	focus = {
 		id = demand_from_jang
-		icon = GFX_goal_unknown
+		icon = GFX_demand_from_jang
 		cost = 10.00
 		prerequisite = {
 			focus = test_China
@@ -263,7 +263,7 @@ focus_tree = {
 	}
 	focus = {
 		id = theorem_of_warlords
-		icon = GFX_goal_unknown
+		icon = GFX_theorem_of_warlords
 		cost = 10.00
 		prerequisite = {
 			focus = demand_from_jang
@@ -1084,7 +1084,7 @@ focus_tree = {
 	}
 	focus = {
 		id = meet_chang
-		icon = GFX_goal_unknown
+		icon = GFX_meet_chang
 		cost = 10.00
 		prerequisite = {
 			focus = Contact_with_China
