@@ -6,7 +6,7 @@ if = {
 		not = { has_dlc = "Man the Guns" }
 	}
 
-	set_naval_oob = "KOR_1936_naval"
+	set_naval_oob = "KOR_1936_naval_mtg"
 }
 if = {
 	limit = {

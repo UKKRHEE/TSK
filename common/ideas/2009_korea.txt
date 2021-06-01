@@ -17,23 +17,33 @@ ideas = {
 				supply_consumption_factor = -0.6
 				}
 			}
-			#KOR_modern_airforce = { #미래 국군 = (왜넣음? 공군은딱히 더건들필요없는데?)
-			#picture = generic_production_bonus
-			#allowed = {
-			#	always = yes
-			#}
-			#
-			#removal_cost = -1
-			#
-			#
-			#modifier = {
-			#	air_attack_factor = 0.8
-			#	air_defence_factor = 0.8
-			#	air_agility_factor = 0.8
-			#	}
-			#}
+			KOR_modern_airforce = { #미래 국군 = (왜넣음? 공군은 딱히 더 건들필요 없는데?) #북괴새끼들에게 09년 공군이 갈갈되어서 넣은거다. 09년 뽕맛 전용이니 지우지 말자
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			
+			modifier = {
+				air_attack_factor = 0.8
+				air_defence_factor = 0.8
+				air_agility_factor = 0.8
+				}
+			}
 		} 
 	country = { 
+		KOR_north_south_problem = {
+			 modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				political_power_cost = 0.2
+				fascism_drift = 0.01
+				communism_drift = 0.01
+				neutrality_drift = 0.01
+			 }
+		}
 		sead = { #시드임무
 			
 			allowed = {
