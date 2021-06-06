@@ -202,7 +202,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_prk_south_wave_espionage"
 		texturefile = "gfx/interface/goals/K_asche/prk_south_wave_espionage.png"
-	}
+	} 
 	SpriteType = {
 		name = "GFX_prk_yeo_visit_south"
 		texturefile = "gfx/interface/goals/K_asche/prk_yeo_visit_south.png"
@@ -270,5 +270,27 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_theorem_of_warlords"
 		texturefile = "gfx/interface/goals/K_asche/theorem_of_warlords.png"
+	}
+	SpriteType = {
+		name = "GFX_ROK_military_reform"
+		texturefile = "gfx/interface/goals/K_asche/GFX_ROK_military_reform.png"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_gold_move_gfx"
+		texturefile = "gfx//superevent_pictures//gold_move_gfx.png"
+		legacy_lazy_load = no 
+		noOfFrames = 8
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_booming_economy"
+		texturefile = "gfx//superevent_pictures//booming_economy.png"
+		legacy_lazy_load = no 
+		noOfFrames = 6
+		animation_rate_fps = 6
+		looping = yes
+		play_on_show = yes
 	}
 }
