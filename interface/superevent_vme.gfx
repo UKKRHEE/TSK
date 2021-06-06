@@ -1,0 +1,11 @@
+spriteTypes = {
+	frameAnimatedSpriteType = {
+		name = "GFX_superevent_vme"
+		texturefile = "gfx//superevent_pictures//vme.png"
+		legacy_lazy_load = no 
+		noOfFrames = 109
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+	}
+}

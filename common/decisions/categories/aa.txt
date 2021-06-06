@@ -1,6 +1,6 @@
 aa = {
 
-	picture = GFX_decision_aa
+	picture = GFX_superevent_vme
 
 	icon = GFX_decision_category_infiltration
 	

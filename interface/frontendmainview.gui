@@ -234,6 +234,17 @@ guiTypes = {
 			maxWidth = 350
 			maxHeight = 20
 		}
+		instantTextBoxType = {
+			name ="TSK_version_label"
+			position = { x = 10 y = -89 }
+			textureFile = ""
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "TIME SLIP KOREA: 1991 New Year"
+			format = right
+			maxWidth = 350
+			maxHeight = 20
+		}
 
 		#ghost window used for buttons background
 		containerWindowType = {
