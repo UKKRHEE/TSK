@@ -35,11 +35,6 @@ add_ideas = {
 set_country_flag = sead_arm
 set_variable = sead_arm
 set_party_name = {
-    ideology = fascism
-    long_name = "한나라당"
-    name = "한나라당"
-}
-set_party_name = {
     ideology = communism
     long_name = "통합진보당"
     name = "통합진보당"
@@ -53,6 +48,11 @@ set_party_name = {
     ideology = neutrality
     long_name = "대한제국 복권파"
     name = "대한제국 복권파"
+}
+set_party_name = {
+    ideology = fascism
+    long_name = "한나라당"
+    name = "한나라당"
 }
 
 set_fuel_ratio = 1.0

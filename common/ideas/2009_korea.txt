@@ -1562,7 +1562,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-				has_completed_focus = KOR_MB_politic_election
+				has_completed_focus = KOR_MB_consorvatism_won
 				has_completed_focus = KOR_MB_timeslip
 			}
 			cost = 100
@@ -1572,7 +1572,7 @@ ideas = {
 		roh_hoichan = {
 			picture = aa
 			allowed = {
-				original_tag = KOR
+				original_tag = KOR 
 			}
 			available = {
 				has_completed_focus = KOR_MB_minju_won
@@ -1792,7 +1792,7 @@ ideas = {
 				
 			}
 						
-			traits = { army_chief_offensive_2 }
+			traits = { future_army_infantry }
 			
 			ai_will_do = {
 				factor = 1
