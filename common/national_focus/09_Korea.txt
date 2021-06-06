@@ -3632,8 +3632,6 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_4
-		}
-		prerequisite = {
 			focus = KOR_2
 		}
 		prerequisite = {
