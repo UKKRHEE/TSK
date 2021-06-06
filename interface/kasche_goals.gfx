@@ -289,7 +289,7 @@ spriteTypes = {
 		texturefile = "gfx//superevent_pictures//booming_economy.png"
 		legacy_lazy_load = no 
 		noOfFrames = 6
-		animation_rate_fps = 6
+		animation_rate_fps = 10
 		looping = yes
 		play_on_show = yes
 	}
