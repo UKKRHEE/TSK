@@ -1409,6 +1409,9 @@ focus_tree = {
 					525 = {
 						remove_claim_by = KPA
 					}
+					808 = {
+						remove_claim_by = KPA
+					}
 					807 = {
 						remove_claim_by = KPA
 					}
@@ -1466,6 +1469,9 @@ focus_tree = {
 									can_not_declare_war = no
 								}
 					525 = {
+						remove_claim_by = KPA
+					}
+					808 = {
 						remove_claim_by = KPA
 					}
 					807 = {
