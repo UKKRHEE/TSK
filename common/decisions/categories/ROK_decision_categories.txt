@@ -1,0 +1,12 @@
+Hana_hoe_residual = {
+	
+	icon = GFX_decision_category_infiltration
+	
+	allowed = {
+		tag = ROK
+	}
+
+	visible = { 
+		always = yes
+	}
+}

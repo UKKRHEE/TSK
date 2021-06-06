@@ -9,7 +9,7 @@ focus_tree = {
 			tag = TSK
 		}
 	}
-	focus = {
+	focus = { #14대 대선
 		id = presidential_election
 		icon = GFX_presidential_election
 		cost = 10.00
@@ -19,7 +19,7 @@ focus_tree = {
 			country_event = { id = rok.1 }
 		}
 	}
-	focus = {
+	focus = { #경제위기
 		id = economis_cris
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -27,7 +27,7 @@ focus_tree = {
 		y = 0
 
 	}
-	focus = {
+	focus = { #하나회 잔당 소거
 		id = ROK_military_reform
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -52,7 +52,7 @@ focus_tree = {
 		y = 1
 
 	}
-	focus = {
+	focus = { #새 국가보안법
 		id = new_national_security_law
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -63,7 +63,7 @@ focus_tree = {
 		y = 2
 
 	}
-	focus = {
+	focus = { #복지정책 도입
 		id = welfare_policy
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -74,7 +74,7 @@ focus_tree = {
 		y = 4
 
 	}
-	focus = {
+	focus = { #북한과 접촉
 		id = contact_with_NK
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -85,7 +85,7 @@ focus_tree = {
 		y = 3
 
 	}
-	focus = {
+	focus = { #자유국가
 		id = libration
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -96,7 +96,7 @@ focus_tree = {
 		y = 4
 
 	}
-	focus = {
+	focus = { #국민 단결
 		id = ROK_lian_dai
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -124,7 +124,7 @@ focus_tree = {
 		y = 1
 
 	}
-	focus = {
+	focus = { #국가안전기획부 약화
 		id = enactment_of_law
 		icon = GFX_enactment_of_law
 		cost = 10.00
@@ -136,7 +136,7 @@ focus_tree = {
 		y = 2
 
 	}
-	focus = {
+	focus = { #자유,평등
 		id = freedom_equality
 		icon = GFX_freedom_equality
 		cost = 10.00
@@ -148,7 +148,7 @@ focus_tree = {
 		y = 2
 
 	}
-	focus = {
+	focus = { #조선총독부 철거
 		id = Central_Office_Demolition
 		icon = GFX_Central_Office_Demolition
 		cost = 10.00
@@ -160,7 +160,7 @@ focus_tree = {
 		y = 3
 
 	}
-	focus = {
+	focus = { #일본을 시험하다
 		id = test_Japan
 		icon = GFX_test_Japan
 		cost = 10.00
@@ -171,7 +171,7 @@ focus_tree = {
 		y = 4
 
 	}
-	focus = {
+	focus = { #중국에 접촉
 		id = Contact_with_China
 		icon = GFX_Contact_with_China
 		cost = 10.00
@@ -185,7 +185,7 @@ focus_tree = {
 		y = 5
 
 	}
-	focus = {
+	focus = { #국공내전 개입
 		id = intervention_in_the_civil_war
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -196,7 +196,7 @@ focus_tree = {
 		y = 6
 
 	}
-	focus = {
+	focus = { #일본 해방전쟁
 		id = war_of_liberation
 		icon = GFX_war_of_liberation
 		cost = 10.00
@@ -210,7 +210,7 @@ focus_tree = {
 		y = 7
 
 	}
-	focus = {
+	focus = { #일본에 최후통첩
 		id = an_ultimatum_to_Japan
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -224,7 +224,7 @@ focus_tree = {
 		y = 7
 
 	}
-	focus = {
+	focus = { #검열 철폐
 		id = elimination_of_censorship
 		icon = GFX_elimination_of_censorship
 		cost = 10.00
@@ -236,7 +236,7 @@ focus_tree = {
 		y = 2
 
 	}
-	focus = {
+	focus = { #중국을 시험하다
 		id = test_China
 		icon = GFX_test_China
 		cost = 10.00
@@ -250,7 +250,7 @@ focus_tree = {
 		y = 5
 
 	}
-	focus = {
+	focus = { #장제스에게 요구하다
 		id = demand_from_jang
 		icon = GFX_demand_from_jang
 		cost = 10.00
@@ -261,7 +261,7 @@ focus_tree = {
 		y = 6
 
 	}
-	focus = {
+	focus = { #군벌을 정리하다
 		id = theorem_of_warlords
 		icon = GFX_theorem_of_warlords
 		cost = 10.00
@@ -275,7 +275,7 @@ focus_tree = {
 		y = 7
 
 	}
-	focus = {
+	focus = { #오랜 적군
 		id = old_enemy
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -289,7 +289,7 @@ focus_tree = {
 		y = 7
 
 	}
-	focus = {
+	focus = { #동아시아 연합
 		id = East_Asian_Union
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -304,7 +304,7 @@ focus_tree = {
 		y = 8
 
 	}
-	focus = {
+	focus = { #하나회 관련자 처벌
 		id = Punishment_of_those_involved
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -315,7 +315,7 @@ focus_tree = {
 		y = 3
 
 	}
-	focus = {
+	focus = { #역사 바로알기 정책
 		id = history_correctly
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -326,7 +326,7 @@ focus_tree = {
 		y = 4
 
 	}
-	focus = {
+	focus = { #일본의 만행 알리기
 		id = ROK_good_japan_is_dead_japan
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -337,7 +337,7 @@ focus_tree = {
 		y = 5
 
 	}
-	focus = {
+	focus = { #금융실명제
 		id = real_name_financial
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -348,7 +348,7 @@ focus_tree = {
 		y = 2
 
 	}
-	focus = {
+	focus = { #교육에 투자
 		id = investment_in_education
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -359,7 +359,7 @@ focus_tree = {
 		y = 4
 
 	}
-	focus = {
+	focus = { #연합국 가입
 		id = Allied_accession
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -373,7 +373,7 @@ focus_tree = {
 		y = 8
 
 	}
-	focus = {
+	focus = { #독일의 위협 홍보
 		id = ROK_germans_attack
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -384,7 +384,7 @@ focus_tree = {
 		y = 9
 
 	}
-	focus = {
+	focus = { #절멸계획 알리기
 		id = ROK_auschibitz
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -395,7 +395,7 @@ focus_tree = {
 		y = 10
 
 	}
-	focus = {
+	focus = { #미국을 초청하다
 		id = ROK_with_usa
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -406,7 +406,7 @@ focus_tree = {
 		y = 11
 
 	}
-	focus = {
+	focus = { #진주만은 없다
 		id = ROK_hawwai_defence
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -417,7 +417,7 @@ focus_tree = {
 		y = 12
 
 	}
-	focus = {
+	focus = { #범 태평양-인도양 패권 확보
 		id = ROK_the_taepyung_indo_plan
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -428,7 +428,7 @@ focus_tree = {
 		y = 13
 
 	}
-	focus = {
+	focus = { #국민주의 분쇄작전
 		id = ROK_national_attack
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -439,7 +439,7 @@ focus_tree = {
 		y = 10
 
 	}
-	focus = {
+	focus = { #작전명 초록
 		id = ROK_plan_green
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -450,7 +450,7 @@ focus_tree = {
 		y = 11
 
 	}
-	focus = {
+	focus = { #작전명 검정
 		id = ROK_plan_black
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -461,7 +461,7 @@ focus_tree = {
 		y = 11
 
 	}
-	focus = {
+	focus = { #에스파냐를 압박
 		id = ROK_protect_spain_democracy
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -475,7 +475,7 @@ focus_tree = {
 		y = 12
 
 	}
-	focus = {
+	focus = { #남아메리카를 보호
 		id = ROK_south_american_fascism_attack
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -489,8 +489,8 @@ focus_tree = {
 		y = 12
 
 	}
-	focus = {
-		id = ROK_earth_liberty's_defencer
+	focus = { #지구 자유의 수호자
+		id = ROK_earth_libertys_defencer
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -503,7 +503,7 @@ focus_tree = {
 		y = 13
 
 	}
-	focus = {
+	focus = { #20세기 후반의 인권보장
 		id = ROK_bokji_of_20th_end
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -514,7 +514,7 @@ focus_tree = {
 		y = 10
 
 	}
-	focus = {
+	focus = { #살기좋은 우리나라로 이민오세요
 		id = ROK_happy_korea
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -525,7 +525,7 @@ focus_tree = {
 		y = 11
 
 	}
-	focus = {
+	focus = { #다문화 가정인식 개편
 		id = ROK_many_culture
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -536,7 +536,7 @@ focus_tree = {
 		y = 12
 
 	}
-	focus = {
+	focus = { #범 태평양-인도양 패권 확보
 		id = ROK_social_many
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -547,7 +547,7 @@ focus_tree = {
 		y = 13
 
 	}
-	focus = {
+	focus = { #한국이 주도하는 UN
 		id = ROK_koreas_United_nation
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -564,7 +564,7 @@ focus_tree = {
 		y = 14
 
 	}
-	focus = {
+	focus = { #차관을 요청하다
 		id = ask_for_a_loan
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -575,7 +575,7 @@ focus_tree = {
 		y = 1
 
 	}
-	focus = {
+	focus = { #금모으기운동
 		id = gold_collecting_movement
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -586,7 +586,7 @@ focus_tree = {
 		y = 2
 
 	}
-	focus = {
+	focus = { #육군 재편성
 		id = ROK_army_reform
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -597,7 +597,7 @@ focus_tree = {
 		y = 8
 
 	}
-	focus = {
+	focus = { #장비 양산화
 		id = ROK_equipment_reuse
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -608,7 +608,7 @@ focus_tree = {
 		y = 9
 
 	}
-	focus = {
+	focus = { #현대식 교리 재편
 		id = ROK_gospel_reform
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -619,7 +619,7 @@ focus_tree = {
 		y = 10
 
 	}
-	focus = {
+	focus = { #긴급 기업보조금 승인
 		id = approval_of_corporate_subsidies
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -630,7 +630,7 @@ focus_tree = {
 		y = 1
 
 	}
-	focus = {
+	focus = { #새로운 장교들
 		id = ROK_new_general
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -641,7 +641,7 @@ focus_tree = {
 		y = 9
 
 	}
-	focus = {
+	focus = { #개호주 계획
 		id = ROK_the_plan_of_tiger
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -652,7 +652,7 @@ focus_tree = {
 		y = 10
 
 	}
-	focus = {
+	focus = { #독립군 장성 고용
 		id = ROK_independence_army
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -663,7 +663,7 @@ focus_tree = {
 		y = 10
 
 	}
-	focus = {
+	focus = { #한국군의 대원수는...
 		id = ROK_the_father_of_rok_army
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -677,7 +677,7 @@ focus_tree = {
 		y = 11
 
 	}
-	focus = {
+	focus = { #실업자 복지정책
 		id = unemployment_welfare_policy
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -688,7 +688,7 @@ focus_tree = {
 		y = 1
 
 	}
-	focus = {
+	focus = { #은행 붕괴방지
 		id = emergency_bank_subsidy
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -702,7 +702,7 @@ focus_tree = {
 		y = 2
 
 	}
-	focus = {
+	focus = { #물가 안정화
 		id = price_stabilization
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -716,7 +716,7 @@ focus_tree = {
 		y = 3
 
 	}
-	focus = {
+	focus = { #경제 안정화
 		id = economic_stabilization
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -727,7 +727,7 @@ focus_tree = {
 		y = 4
 
 	}
-	focus = {
+	focus = { #6차 경제개발5개년 계획
 		id = six_five_year_flan
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -738,7 +738,7 @@ focus_tree = {
 		y = 1
 
 	}
-	focus = {
+	focus = { #사회 개발 확대
 		id = expansion_of_social_development
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -749,7 +749,7 @@ focus_tree = {
 		y = 2
 
 	}
-	focus = {
+	focus = { #지역개발
 		id = regional_development
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -760,7 +760,7 @@ focus_tree = {
 		y = 3
 
 	}
-	focus = {
+	focus = { #시장경제 질서 확립
 		id = establishment_of_market_economy
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -771,7 +771,7 @@ focus_tree = {
 		y = 4
 
 	}
-	focus = {
+	focus = { #인프라개발
 		id = Infrastructure_Development
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -782,7 +782,7 @@ focus_tree = {
 		y = 2
 
 	}
-	focus = {
+	focus = { #공단확장
 		id = Industrial_Complex_Expansion
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -793,7 +793,7 @@ focus_tree = {
 		y = 3
 
 	}
-	focus = {
+	focus = { #산업단지 개발
 		id = Industrial_Complex_Development
 		icon = GFX_goal_unknown
 		cost = 10.00
