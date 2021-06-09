@@ -13249,9 +13249,9 @@
 13246;12;93;42;land;true;forest;6
 13247;212;32;112;land;true;forest;6
 
-13248;31;32;33;land;false;urban;6
+13248;31;32;33;land;false;gwangju;6
 
-13249;111;112;113;land;false;urban;6
-13250;213;11;9;land;false;urban;6
-13251;103;111;9;land;true;urban;6
+13249;111;112;113;land;false;daejeon;6
+13250;213;11;9;land;false;daegu;6
+13251;103;111;9;land;true;ulsan;6
 13252;26;16;91;land;true;urban;6

@@ -1569,6 +1569,22 @@ ideas = {
 			traits = { KOR_hoi_trait }
 			ai_will_do = { factor = 1 }
 		}
+		ahn_cheolsoo = {
+			picture = aa
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				OR = {
+				    has_completed_focus = KOR_MB_5
+				    has_completed_focus = KOR_MB_politic_election
+				}	
+				has_completed_focus = KOR_MB_timeslip
+			}
+			cost = 100
+			traits = { KOR_ahn_trait }
+			ai_will_do = { factor = 1 }
+		}
 		roh_hoichan = {
 			picture = aa
 			allowed = {

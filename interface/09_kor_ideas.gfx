@@ -23,6 +23,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ADVISOR/노무현.png"
 	}
 	spriteType = {
+		name = "GFX_idea_ahn_cheolsoo"
+		texturefile = "gfx/interface/ideas/ADVISOR/안철수.png"
+	}
+	spriteType = {
 		name = "GFX_idea_rok_lee_ghun"
 		texturefile = "gfx/interface/ideas/ADVISOR/이건희.png"
 	}
