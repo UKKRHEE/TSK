@@ -1,6 +1,18 @@
 spriteTypes = {	
 	### KOR - Company
 	spriteType = {
+		name = "GFX_idea_KOR_09_modern_millitary"
+		texturefile = "gfx/interface/ideas/육사.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_09_modern_navy"
+		texturefile = "gfx/interface/ideas/해사.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_modern_airforce"
+		texturefile = "gfx/interface/ideas/공사.png"
+	}
+	spriteType = {
 		name = "GFX_idea_kor_law_of_korean"
 		texturefile = "gfx/interface/ideas/헌법5조.dds"
 	}

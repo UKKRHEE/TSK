@@ -84,11 +84,12 @@
  KOR_moon_trait:0 "인권 변호사"
  KOR_hong_trait:0 "모래시계 검사"
  KOR_han_trait:0 "군부 수장"
- KOR_samsung_trait:0 "삼성전자 부회장"
+ KOR_samsung_trait:0 "삼성그룹 부회장"
  KOR_son_trait:0 "기자"
  KOR_samsung_leader_trait:0 "삼성전자 회장"
  KOR_yi_trait:0 "대한제국 황가"
  KOR_hoi_trait:0 "보수 거물"
+ KOR_general_government_of_japan:0 "일본총독부"
  
  KOR_world_attack:0 "전쟁하자는 것입니까?"
  KOR_world_attack_desc:0 "예 그렇슙니돠"

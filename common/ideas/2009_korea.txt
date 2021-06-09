@@ -52,16 +52,16 @@ ideas = {
 			
 				modifier = {
 					convoy_retreat_speed = 0.2
-					critical_receive_chance = 0.25
+					critical_receive_chance = -0.5
 					fighter_sortie_efficiency = 0.25
 					mines_sweeping_by_fleets_factor = 0.5
 					naval_coordination = 0.3
 					naval_damage_factor = 0.1
 					naval_detection = 0.3
-					naval_enemy_retreat_chance = 0.1
+					naval_enemy_retreat_chance = -0.2
 					naval_invasion_capacity = 100
-					naval_torpedo_cooldown_factor = 0.1
-					navy_visibility = -0.1
+					naval_torpedo_cooldown_factor = -0.3
+					navy_visibility = -0.2
 				}
 			}
 		} 
@@ -948,7 +948,7 @@ ideas = {
 				army_defence_factor = -0.1
 				army_attack_factor = -0.1
 				army_morale_factor = -0.1
-				conscription_factor = -0.77
+				conscription_factor = -0.85
 			
 			}
 		}

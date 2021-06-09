@@ -139,10 +139,7 @@ focus_tree = {
 					KOR = {
 							owns_state = 525
 						}
-					OR = {
-							has_completed_focus = KOR_MB_northen_allied_support
-							has_completed_focus = KOR_MB_northen_fight
-						}
+					has_completed_focus = KOR_MB_politic_election 
 				}
 			completion_reward = {
 					add_political_power = 120
@@ -1165,10 +1162,9 @@ focus_tree = {
 		x = 31
 		y = 4
 			completion_reward = {
-					set_country_flag = big_event_2nd_korean_war
-					declare_war_on = {
-							target = KPA
-							type = annex_everything
+					
+					country_event = {
+							id = KOR_MB.3
 						}
 					hidden_effect = {
 
@@ -2269,11 +2265,11 @@ focus_tree = {
 				remove_ideas = JAP_hirohito
 				set_cosmetic_tag = JAP_republic
 				create_country_leader = {
-					name = "Cho Yung Kil"
+					name = "General Government of Japan"
 					ideology = nazism
-					picture = "gfx/leaders/KOR/Gen_Cho_Yung-kil.dds"
+					picture = "gfx/leaders/KOR/Portrait_KOR_military_junta.dds"
 					traits = {
-					
+						KOR_general_government_of_japan
 					}
 				}
 			}
