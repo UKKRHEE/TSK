@@ -47,7 +47,7 @@ create_country_leader = {
 }
 
 create_navy_leader = {
-	name = "Lee Soo-yong"
+	name = "Lee Soo yong"
 		picture = "이수용.dds"
 	traits = {  }
 	skill = 1
@@ -58,9 +58,53 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Jang Jeong-gil"
-	picture = "장정길.dds"
-	traits = { }
+	name = "Jang Jeong gil"
+		picture = "장정길.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Moon Jung il"
+		picture = "문정일.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Kim Jong ho"
+		picture = "김종호.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Kim Hong ryul"
+		picture = "김홍렬.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Yu sam nam"
+		picture = "유삼남.dds"
+	traits = {  }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1

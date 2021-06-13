@@ -330,4 +330,14 @@ spriteTypes = {
 		name = "GFX_idea_kia_car"
 		texturefile = "gfx/interface/ideas/기아.png"
 	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_rok_roh"
+		texturefile = "gfx/interface/ideas/노태우감옥.png"
+	}
+	spriteType = {
+		name = "GFX_idea_rok_chun"
+		texturefile = "gfx/interface/ideas/전두환감옥.png"
+	}
 }

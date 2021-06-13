@@ -23,12 +23,15 @@ ideas = {
 	
 	country = {
 		rok_remnants_of_the_military = { #군부의 잔재
-
+		
+			allowed = {
+				original_tag = ROK
+	 		    original_tag = PRK
+	 		    original_tag = KR1
+	 		    original_tag = MKR
+			}
+			
 			picture = generic_democratic_drift_bonus
-
-        	allowed = {
-				always = no
-    		}
 
 			allowed_civil_war = {
 	    		always = yes
@@ -37,9 +40,293 @@ ideas = {
         	removal_cost = -1
 
 	   		modifier = { 
-				army_attack_factor = -0.1
-				army_morale	 = -0.1
-				army_org = -0.1
+				political_power_gain = -0.1
+				stability_weekly = -0.05
+			}
+		}
+		rok_National_Security_Act = { #국가보안법
+
+			picture = generic_democratic_drift_bonus
+			
+			allowed = {
+				original_tag = ROK
+	 		    original_tag = PRK
+	 		    original_tag = KR1
+	 		    original_tag = MKR
+			}
+			
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				encryption = 1
+				max_command_power = 20
+			}
+		}
+		rok_Welfare_Policy = { #복지정책
+
+			picture = generic_democratic_drift_bonus
+			
+			allowed = {
+				original_tag = ROK
+	 		    original_tag = PRK
+	 		    original_tag = KR1
+	 		    original_tag = MKR
+			}
+			
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				political_power_gain = 0.1
+				stability_factor = 0.1
+			}
+		}
+		rok_Divided_politics = { #분열된 정계
+			
+			allowed = {
+				original_tag = ROK
+	 		    original_tag = PRK
+	 		    original_tag = KR1
+	 		    original_tag = MKR
+			}
+			
+			picture = generic_democratic_drift_bonus
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				political_power_gain = -0.2
+			}
+		}
+		
+		rok_Political_Integration = { #정계통합
+			
+			allowed = {
+				original_tag = ROK
+	 		    original_tag = PRK
+	 		    original_tag = KR1
+	 		    original_tag = MKR
+			}
+			
+			picture = generic_democratic_drift_bonus
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				political_power_gain = -0.1
+				stability_factor = 0.1
+			}
+		}
+		
+		rok_Political_Integration = { #김영삼게파지원
+			
+			allowed = {
+				original_tag = ROK
+	 		    original_tag = PRK
+	 		    original_tag = KR1
+	 		    original_tag = MKR
+			}
+			
+			picture = generic_democratic_drift_bonus
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				political_power_gain = -0.1
+				stability_factor = 0.1
+			}
+		}
+		
+		
+		rok_strike = { #노조파업
+
+			picture = generic_democratic_drift_bonus
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				consumer_goods_factor = 0.1
+				production_factory_max_efficiency_factor = -0.2 #생산효율성한도%
+				production_factory_efficiency_gain_factor = -0.2 #생산효율성성장%
+			}
+		}
+		rok_strike_1 = { #노조와 협상
+
+			picture = generic_democratic_drift_bonus
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				political_power_gain = -0.05
+			}
+		}
+		rok_strike_2 = { #노조 탄압
+
+			picture = generic_democratic_drift_bonus
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				political_power_gain = 0.05
+				consumer_goods_factor = -0.03
+			}
+		}
+		
+		rok_freedom = { #자유와 평등
+
+			picture = generic_democratic_drift_bonus
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+			modifier = {
+			    democratic_acceptance = 50
+				stability_weekly_factor = 0.05
+				democratic_drift = 0.3
+			}
+		}
+		
+		rok_national_unity = { #국민단결
+
+			picture = generic_democratic_drift_bonus
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+			modifier = {
+				offensive_war_stability_factor = 0.1
+				mobilization_speed = 0.3
+				conscription = 0.05
+			}
+		}
+		
+		rok_financial_system = { #금융실명제
+
+			picture = generic_democratic_drift_bonus
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				encryption = 0.5
+				consumer_goods_factor = -0.03
+			}
+		}
+		
+		rok_chun = { #전두환 구속
+
+			picture = GFX_roh
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+		}
+		
+		rok_roh = { #노태우 구속
+
+			picture = GFX_roh
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+		}
+		
+		rok_Invest_in_Education = { #교육에투자
+
+			picture = generic_democratic_drift_bonus
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+		
+		rok_volunteer = { #의용병파견
+
+			picture = generic_democratic_drift_bonus
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+			modifier = {
+				send_volunteers_tension = -0.5
+			}
+		}
+		
+		
+		prk_volunteer = { #의용병파견
+			
+			allowed = {
+				original_tag = ROK
+	 		    original_tag = PRK
+	 		    original_tag = KR1
+	 		    original_tag = MKR
+			}
+			picture = generic_democratic_drift_bonus
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+			modifier = {
+				send_volunteers_tension = -0.5
+				send_volunteer_size	= 15
+				air_volunteer_cap = 200
 			}
 		}
 	}

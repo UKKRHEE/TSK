@@ -1,0 +1,117 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+# building_target
+
+help_china = {
+	allowed = {
+		original_tag = PRK
+	}
+	enable = {
+		has_country_flag = help_PRC 
+	}
+	
+	ai_strategy = {
+		type = protect
+		id = "PRC"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "PRC"
+		value = 900
+	}
+	ai_strategy = {
+		type = support
+		id = "PRC"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PRC"
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = protect
+		id = "CHI"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "CHI"
+		value = 900
+	}
+	ai_strategy = {
+		type = support
+		id = "CHI"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = 200
+	}
+}
+
+
+help_china_SOV = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		has_country_flag = help_PRC 
+	}
+	
+	ai_strategy = {
+		type = protect
+		id = "PRC"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "PRC"
+		value = 900
+	}
+	ai_strategy = {
+		type = support
+		id = "PRC"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PRC"
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = protect
+		id = "CHI"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "CHI"
+		value = 900
+	}
+	ai_strategy = {
+		type = support
+		id = "CHI"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = 200
+	}
+}

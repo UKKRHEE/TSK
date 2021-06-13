@@ -135,26 +135,25 @@ units = {
 				ship = { name = "SS-074" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = KOR version_name = "손원일급" } } }
 			}
 		}
-	}
-	fleet = {
-		name = "기동전대"			
-		naval_base = 4056
-		task_force = {
-			name = "71기동전대" 
-			location = 4056
-			ship = { name = "ROKS 세종대왕" definition = modern_DDG start_experience_factor = 0.3 equipment = { ship_hull_modern_DDG_2 = { amount = 1 owner = KOR version_name = "세종대왕급" } } }
-			ship = { name = "ROKS 충무공이순신" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = KOR version_name = "충무공이순신급" } } }
-			ship = { name = "ROKS 대조영" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = KOR version_name = "충무공이순신급" } } }
-			ship = { name = "ROKS 강감찬" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = KOR version_name = "충무공이순신급" } } }
+		fleet = {
+			name = "기동전대"			
+			naval_base = 4056
+			task_force = {
+				name = "71기동전대" 
+				location = 4056
+				ship = { name = "ROKS 세종대왕" definition = modern_DDG start_experience_factor = 0.3 equipment = { ship_hull_modern_DDG_2 = { amount = 1 owner = KOR version_name = "세종대왕급" } } }
+				ship = { name = "ROKS 충무공이순신" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = KOR version_name = "충무공이순신급" } } }
+				ship = { name = "ROKS 대조영" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = KOR version_name = "충무공이순신급" } } }
+				ship = { name = "ROKS 강감찬" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = KOR version_name = "충무공이순신급" } } }
+			}
+			task_force = {
+				name = "72기동전대" 
+				location = 4056
+				ship = { name = "ROKS 문무대왕" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = KOR version_name = "충무공이순신급" } } }
+				ship = { name = "ROKS 왕건" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = KOR version_name = "충무공이순신급" } } }
+				ship = { name = "ROKS 최영" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = KOR version_name = "충무공이순신급" } } }
+			}
 		}
-		task_force = {
-			name = "72기동전대" 
-			location = 4056
-			ship = { name = "ROKS 문무대왕" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = KOR version_name = "충무공이순신급" } } }
-			ship = { name = "ROKS 왕건" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = KOR version_name = "충무공이순신급" } } }
-			ship = { name = "ROKS 최영" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = KOR version_name = "충무공이순신급" } } }
-		}
-	}
 }
 
 instant_effect = {

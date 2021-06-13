@@ -149,6 +149,7 @@ set_technology = {
 
 add_ideas = {
     KOR_modern_millitary
+	kor_law_of_korean_5
 }
 
  
@@ -423,6 +424,28 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Moon Jung il"
 		picture = "문정일.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Kim Jong ho"
+		picture = "김종호.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Kim Hong ryul"
+		picture = "김홍렬.dds"
 	traits = {  }
 	skill = 1
 	attack_skill = 1

@@ -9,8 +9,10 @@ Hana_hoe_residual = {
 
 		available = {
 			has_country_flag = Erasing_Residuals
-			has_country_flag = military reform
+			has_country_flag = military_reform
 			has_country_flag = NIS_Weakening
+			has_country_flag = libration
+			has_country_flag = removal_of_censorship
 		}
 
 		days_mission_timeout = 150

@@ -54,7 +54,11 @@ country_event = { # 내전끝
 		name = rok.2.a
 		add_ideas = rok_remnants_of_the_military
 		add_ideas = KOR_economic_collapse_1
+		add_ideas = rok_Divided_politics
+		add_ideas = rok_strike
+		add_ideas = kor_law_of_korean_5
     }	
+	
 }country_event = { # 긴급보안법
 	id = rok_civ.1
 	title = rok_civ.1.t
@@ -228,3 +232,346 @@ country_event = { # 물자보급
 			}
     }
 } 
+
+country_event = { #하나회 장군 숙청
+	id = rok.3
+	title = rok.3.t
+	desc = rok.3.d
+	picture = GFX_two_peo_pic
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #그들은 아직 대한민국의 군인들이다
+		name = rok.3.a
+
+    }	
+	
+	option = { #군사독재의 잔재에게 줄수있는건 처형뿐이다!
+		name = rok.3.b
+	}
+}
+
+country_event = { #경제위기
+	id = rok.4
+	title = rok.4.t
+	desc = rok.4.d
+	picture = GFX_two_peo_pic
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { 
+		name = rok.4.a
+
+    }	
+}
+
+country_event = { #조선총독부 철거
+	id = rok.5
+	title = rok.5.t
+	desc = rok.5.d
+	picture = GFX_조선총독부
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #보존할가치가있다. 다른곳으로 옮기자 
+		name = rok.5.a
+		
+    }	
+	option = { #저 흉측한것을 없애버려라!
+		name = rok.5.b
+		news_event = { hours = 6 id = kor_news.24 }
+    }	
+}
+
+
+country_event = { #자위대가 우리에게 경고하다
+	id = rok.6
+	title = rok.6.t
+	desc = rok.6.d
+	picture = GFX_해상자위대
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = rok.6.a
+		set_country_flag = negotiation_jsdf
+    }	
+}
+
+
+country_event = { #자위대와 협상
+	id = rok.7
+	title = rok.7.t
+	desc = rok.7.d
+	picture = GFX_협상
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = rok.7.a
+    }	
+}
+
+country_event = { #한국통신 파업사태
+	id = rok.8
+	title = rok.8.t
+	desc = rok.8.d
+	picture = GFX_노조
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = rok.8.a
+		swap_ideas = {
+			remove_idea = rok_strike
+			add_idea = rok_strike_1
+		}
+    }	
+	
+}
+
+country_event = { #전두환,노태우 처벌
+	id = rok.9
+	title = rok.9.t
+	desc = rok.9.d
+	picture = GFX_전두환_노태우
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #당장 구속하라!
+		name = rok.9.a
+		add_ideas = rok_chun
+		add_ideas = rok_roh
+    }	
+	option = { #사면할필요가있다 
+		name = rok.9.b
+		add_political_power = 100
+    }	
+}
+
+country_event = { #중국에 접촉
+	id = rok.10
+	title = rok.10.t
+	desc = rok.10.d
+	picture = 
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #불가침조약과 독립보장,군통권제정
+		name = rok.10.a
+		diplomatic_relation = { country = CHI relation = non_aggression_pact }
+		give_military_access = CHI
+		CHI = {
+		give_military_access = ROK
+		}
+    }	
+}
+
+country_event = { #장제스와의 회담
+	id = rok.11
+	title = rok.11.t
+	desc = rok.11.d
+	picture = 
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #장비의 면허생산을 허가한다 
+		name = rok.11.a
+    }	
+	
+	option = { #구식장비 일부를 넘겨준다
+		name = rok.11.b
+		
+    }	
+
+	option = { #산업기술자를 지원해준다
+		name = rok.11.c
+		
+    }	
+}
+
+country_event = { #상하이 도발
+	id = rok.12
+	title = rok.12.t
+	desc = rok.12.d
+	picture = 
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = rok.12.a
+    }	
+}
+
+
+country_event = { #장제스에게 요구하다 
+	id = rok.13
+	title = rok.13.t
+	desc = rok.13.d
+	picture = 
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #간도를 요구한다 
+		name = rok.13.a
+		CHI = {
+			country_event = { id = rok.14 }
+		}
+    }	
+	
+	option = { #대만을 요구한다 
+		name = rok.13.b
+		CHI = {
+			country_event = { id = rok.14 }
+		}
+    }	
+	
+	option = { #둘다 요구한다!
+		name = rok.13.c
+		CHI = {
+			country_event = { id = rok.15 }
+		}
+    }	
+}
+
+
+country_event = { #대한민국의 요구
+	id = rok.14
+	title = rok.14.t
+	desc = rok.14.d
+	picture = 
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #어림도없다!
+		name = rok.14.a
+		ai_chance = { factor = 40 }
+    }	
+	
+	option = { #그들의 힘이 필요하다
+		name = rok.14.b
+		ai_chance = { factor = 60 }
+    }	
+}
+
+country_event = { #대한민국의 요구
+	id = rok.15
+	title = rok.15.t
+	desc = rok.15.d
+	picture = 
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #어림도없다!
+		name = rok.15.a
+		ai_chance = { factor = 70 }
+    }	
+	
+	option = { #그들의 힘이 필요하다
+		name = rok.15.b
+		ai_chance = { factor = 30 }
+    }	
+}
+
+country_event = { #중국이 우리의 요구를 거부하다!!
+	id = rok.16
+	title = rok.16.t
+	desc = rok.16.d
+	picture = 
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #그렇다면 전쟁뿐이다
+		name = rok.16.a
+		create_wargoal = {
+			type = annex_everything
+			target = CHI
+		}
+		CHI = {
+			set_rule = { can_create_factions = yes }
+			create_faction = chinese_united_front
+		}
+		PRK = {
+			country_event = { id = rok.17 }
+			set_country_flag = help_PRC
+			set_rule = { can_send_volunteers = yes }
+		}
+		SOV = {
+			country_event = { id = rok.18 }
+			set_country_flag = help_PRC
+			set_rule = { can_send_volunteers = yes }
+		}
+    }	
+}
+
+
+country_event = { #중국이 우리의 도움을 요청하다
+	id = rok.17
+	title = rok.17.t
+	desc = rok.17.d
+	picture = 
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #적의 적은 동지이다!
+		name = rok.17.a
+		ai_chance = { factor = 100 }
+		add_ideas = prk_volunteer
+    }	
+	
+	option = { #우리가 나설필요는없다!
+		ai_chance = { factor = 0 }
+		name = rok.17.b
+    }	
+}
+
+country_event = { #중국이 우리의 도움을 요청하다
+	id = rok.18
+	title = rok.18.t
+	desc = rok.18.d
+	picture = 
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #적의 적은 동지이다!
+		name = rok.18.a
+		ai_chance = { factor = 100 }
+    }	
+	
+	option = { #우리가 나설필요는없다!
+		ai_chance = { factor = 0 }
+		name = rok.18.b
+    }	
+}

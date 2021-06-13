@@ -259,7 +259,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_mkr_unstable_security"
-		texturefile = "gfx/interface/ideas/치안붕괴.dds"
+		texturefile = "gfx/interface/ideas/치안붕괴.png"
 	}
 	spriteType = {
 		name = "GFX_idea_mkr_unorthodox_goverment"
@@ -552,5 +552,4 @@ spriteTypes = {
 		name = "GFX_idea_KOR_earth_is_korea"
 		texturefile = "gfx/interface/ideas/지구.png"
 	}
-
 }

@@ -246,4 +246,36 @@ spriteTypes = {
 		name = "GFX_F-4EJ"
 		texturefile = "gfx/event_pictures/F-4EJ.png"
 	}
+	spriteType = {
+		name = "GFX_조선총독부"
+		texturefile = "gfx/event_pictures/조선총독부.png"
+	}
+	spriteType = {
+		name = "GFX_조선총독부_철거"
+		texturefile = "gfx/event_pictures/총독부철거.png"
+	}
+	spriteType = {
+		name = "GFX_해상자위대"
+		texturefile = "gfx/event_pictures/해상자위대.png"
+	}
+	spriteType = {
+		name = "GFX_협상"
+		texturefile = "gfx/event_pictures/협상.png"
+	}
+	spriteType = {
+		name = "GFX_노조"
+		texturefile = "gfx/event_pictures/노조.png"
+	}
+	spriteType = {
+		name = "GFX_천안함"
+		texturefile = "gfx/event_pictures/천안함.png"
+	}
+	spriteType = {
+		name = "GFX_천안함1"
+		texturefile = "gfx/event_pictures/천안함1.png"
+	}
+	spriteType = {
+		name = "GFX_전두환_노태우"
+		texturefile = "gfx/event_pictures/땅크와태우.png"
+	}
 }

@@ -386,6 +386,41 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 1
 }
+
+create_navy_leader = {
+	name = "Lee Yong ju"
+		picture = "리용주.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Kim Il chul"
+		picture = "김일철.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Chung Myung do"
+		picture = "정명도.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	

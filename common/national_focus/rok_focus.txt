@@ -6,7 +6,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = TSK
+			tag = KR1
 		}
 	}
 	focus = { #14대 대선
@@ -25,7 +25,9 @@ focus_tree = {
 		cost = 10.00
 		x = 27
 		y = 0
-
+		completion_reward = {
+			country_event = { id = rok.3 }
+		}
 	}
 	focus = { #하나회 잔당 소거
 		id = ROK_military_reform
@@ -33,7 +35,13 @@ focus_tree = {
 		cost = 10.00
 		x = 29
 		y = 7
-
+		completion_reward = {
+			country_event = { id = rok.2 }
+			custom_effect_tooltip = remove_mkr
+			hidden_effect = {
+				set_country_flag = Erasing_Residuals
+			}
+		}
 	}
 	focus = { #김구 대통령
 		id = President_Kim_Koo
@@ -46,7 +54,7 @@ focus_tree = {
 			focus = President_Kim_Young_sam
 		}
 		completion_reward = {
-		set_politics = { ruling_party = democratic elections_allowed = yes }
+			set_politics = { ruling_party = democratic elections_allowed = yes }
 		}
 		x = 4
 		y = 1
@@ -59,6 +67,9 @@ focus_tree = {
 		prerequisite = {
 			focus = President_Kim_Koo
 		}
+		completion_reward = {
+			add_ideas = rok_National_Security_Act
+		}
 		x = 3
 		y = 2
 
@@ -70,16 +81,22 @@ focus_tree = {
 		prerequisite = {
 			focus = President_Kim_Koo
 		}
+		completion_reward = {
+			add_ideas = rok_Welfare_Policy
+		}
 		x = 3
 		y = 4
 
 	}
-	focus = { #북한과 접촉
+	focus = { #노조와 협상
 		id = contact_with_NK
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = President_Kim_Koo
+		}
+		completion_reward = {
+			country_event = { id = rok.8 }
 		}
 		x = 5
 		y = 3
@@ -92,6 +109,9 @@ focus_tree = {
 		prerequisite = {
 			focus = President_Kim_Koo
 		}
+		completion_reward = {
+			add_ideas = rok_freedom
+		}
 		x = 5
 		y = 4
 
@@ -102,6 +122,9 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = libration
+		}
+		completion_reward = {
+			add_ideas = rok_national_unity
 		}
 		x = 5
 		y = 5
@@ -132,6 +155,12 @@ focus_tree = {
 			focus = President_Kim_Young_sam
 			focus = President_Kim_Koo
 		}
+		completion_reward = {
+			custom_effect_tooltip = remove_mkr
+			hidden_effect = {
+				set_country_flag = NIS_Weakening
+			}
+		}
 		x = 7
 		y = 2
 
@@ -144,6 +173,12 @@ focus_tree = {
 			focus = President_Kim_Young_sam
 			focus = President_Kim_Koo
 		}
+		completion_reward = {
+			custom_effect_tooltip = remove_mkr
+			hidden_effect = {
+				set_country_flag = libration
+			}
+		}
 		x = 9
 		y = 2
 
@@ -153,8 +188,12 @@ focus_tree = {
 		icon = GFX_Central_Office_Demolition
 		cost = 10.00
 		prerequisite = {
-			focus = President_Kim_Young_sam
-			focus = President_Kim_Koo
+			focus = freedom_equality
+			focus = enactment_of_law
+			focus = elimination_of_censorship
+		}
+		completion_reward = {
+			country_event = { id = rok.5 }
 		}
 		x = 9
 		y = 3
@@ -166,6 +205,14 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = Central_Office_Demolition
+		}
+		completion_reward = {
+			country_event = { id = mkorea.51 }
+			hidden_effect = { 
+			JDF = {
+			country_event = { id = jsdf.3 }
+			}
+		}
 		}
 		x = 9
 		y = 4
@@ -181,6 +228,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = test_China
 		}
+		completion_reward = {
+			country_event = { id = rok.10 }
+		}
 		x = 7
 		y = 5
 
@@ -192,35 +242,42 @@ focus_tree = {
 		prerequisite = {
 			focus = Contact_with_China
 		}
+		completion_reward = {
+			set_rule = { can_send_volunteers = yes }
+			add_ideas = rok_volunteer
+			CHI = {
+				create_wargoal = {
+					type = annex_everything
+					target = PRC
+				}
+			}
+		}
 		x = 5
 		y = 6
 
 	}
-	focus = { #일본 해방전쟁
+	focus = { #자위대와의 협상
 		id = war_of_liberation
 		icon = GFX_war_of_liberation
 		cost = 10.00
 		prerequisite = {
 			focus = test_Japan
 		}
-		mutually_exclusive = {
-			focus = an_ultimatum_to_Japan
+		completion_reward = {
+			country_event = { id = rok.7 }
 		}
-		x = 8
-		y = 7
+		x = 9
+		y = 6
 
 	}
-	focus = { #일본에 최후통첩
+	focus = { #일본 해방전쟁
 		id = an_ultimatum_to_Japan
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = test_Japan
-		}
-		mutually_exclusive = {
 			focus = war_of_liberation
 		}
-		x = 10
+		x = 9
 		y = 7
 
 	}
@@ -231,6 +288,12 @@ focus_tree = {
 		prerequisite = {
 			focus = President_Kim_Young_sam
 			focus = President_Kim_Koo
+		}
+		completion_reward = {
+			custom_effect_tooltip = remove_mkr
+			hidden_effect = {
+				set_country_flag = removal_of_censorship
+			}
 		}
 		x = 11
 		y = 2
@@ -246,6 +309,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = Contact_with_China
 		}
+		completion_reward = {
+			country_event = { id = rok.12 }
+		}
 		x = 11
 		y = 5
 
@@ -256,6 +322,9 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = test_China
+		}
+		completion_reward = {
+			country_event = { id = rok.14 }
 		}
 		x = 11
 		y = 6
@@ -268,24 +337,7 @@ focus_tree = {
 		prerequisite = {
 			focus = demand_from_jang
 		}
-		mutually_exclusive = {
-			focus = old_enemy
-		}
 		x = 12
-		y = 7
-
-	}
-	focus = { #오랜 적군
-		id = old_enemy
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = demand_from_jang
-		}
-		mutually_exclusive = {
-			focus = theorem_of_warlords
-		}
-		x = 15
 		y = 7
 
 	}
@@ -294,7 +346,6 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = old_enemy
 			focus = theorem_of_warlords
 		}
 		mutually_exclusive = {
@@ -311,6 +362,9 @@ focus_tree = {
 		prerequisite = {
 			focus = President_Kim_Young_sam
 		}
+		completion_reward = {
+			country_event = { id = rok.9 }
+		}
 		x = 14
 		y = 3
 
@@ -321,6 +375,9 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = Punishment_of_those_involved
+		}
+		completion_reward = {
+			add_ideas = KOR_legacy_of_518
 		}
 		x = 13
 		y = 4
@@ -344,6 +401,9 @@ focus_tree = {
 		prerequisite = {
 			focus = President_Kim_Young_sam
 		}
+		completion_reward = {
+			add_ideas = rok_financial_system
+		}
 		x = 15
 		y = 2
 
@@ -355,8 +415,28 @@ focus_tree = {
 		prerequisite = {
 			focus = Punishment_of_those_involved
 		}
+		completion_reward = {
+			add_ideas = rok_Invest_in_Education
+		}
 		x = 15
 		y = 4
+
+	}
+	focus = { #노조탄압
+		id = 노조탄압
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = investment_in_education
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = rok_strike
+				add_idea = rok_strike_2
+			}
+		}
+		x = 15
+		y = 5
 
 	}
 	focus = { #연합국 가입
@@ -1089,6 +1169,9 @@ focus_tree = {
 		prerequisite = {
 			focus = Contact_with_China
 		}
+		completion_reward = {
+			country_event = { id = rok.11 }
+		}
 		x = 7
 		y = 6
 
@@ -1098,7 +1181,6 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = war_of_liberation
 			focus = bury_sb_in_a_warlord
 			focus = an_ultimatum_to_Japan
 		}
@@ -1115,6 +1197,30 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = intervention_in_the_civil_war
+		}
+		completion_reward = {
+			CHI = {
+				create_wargoal = {
+					type = annex_everything
+					target = GXC
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = YUN
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = XSM
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = SHX
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = SIK
+				}
+			}
 		}
 		x = 6
 		y = 7

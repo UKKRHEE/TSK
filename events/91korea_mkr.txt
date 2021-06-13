@@ -935,6 +935,7 @@ country_event = { #독도교전!
 	option = { #훌륭하군
 		name = mkorea.51.a
 		JAP = { 
+
 			destroy_ships = {
 				type = ship_hull_carrier 
 				count = 2
@@ -944,4 +945,47 @@ country_event = { #독도교전!
 		news_event = { hours = 6 id = kor_news.13 }
 		}
 	}
+}
+
+country_event = { #천안함
+	id = mkorea.52
+	title = mkorea.52.t
+	desc = mkorea.52.d
+	picture = GFX_천안함1
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			sound_effect = kor_772
+		}
+	}
+	
+	option = {
+		name = mkorea.52.a
+    }	
+}
+
+
+country_event = { #천안함1
+	id = mkorea.53
+	title = mkorea.53.t
+	desc = mkorea.53.d
+	picture = GFX_천안함1
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = mkorea.53.a
+		destroy_ships = {
+			type = modern_PCC 
+			count = 1
+		}
+    }	
 }

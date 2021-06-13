@@ -896,36 +896,127 @@ news_event = {
     }
 }
 
-# 천안함 폭침
+
+# 철거된 조선총독부 
 news_event = {
-	id = kor_news.24
-	title = kor_news.24.t
-	desc = kor_news.24.desc
-	#picture = something
-
-	major = yes
-
-	is_triggered_only = yes
-
-	option = {
-        name = kor_news.24.a
+    id = kor_news.24
+    title = kor_news.24.t
+    desc = kor_news.24.desc
+    picture = GFX_조선총독부_철거
+    
+    major = yes
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = kor_news.23.a
         trigger = {
             NOT = {
-                TAG = MKR
+                TAG = JAP
                 TAG = PRK
                 TAG = ROK
             }
         }
     }
-	option = {
-		name = kor_news.24.b
-		trigger = {
-			TAG = MKR
-			TAG = ROK
+    option = {
+        name = kor_news.23.b
+        trigger = { TAG = JAP }
+    }
+    option = {
+        name = kor_news.23.c
+        trigger = { TAG = PRK }
+    }
+    option = {
+        name = kor_news.23.d
+        trigger = { TAG = ROK }
+    }
+}
+
+
+
+# 천안함 폭침
+news_event = {
+    id = kor_news.25
+    title = kor_news.25.t
+    desc = kor_news.25.desc
+    picture = GFX_천안함
+    
+    major = yes
+    
+    is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			KR1 = {
+				country_event = { hours = 20 id = mkorea.52 }
+				transfer_ship = {
+					prefer_name = "ROKS 천안"
+					type = modern_PCC
+					target = URG
+				}
+			}	
+			URG = {
+				country_event = { hours = 1 id = mkorea.53 }
+			}	
 		}
 	}
-	option = {
-		name = kor_news.24.c
-		trigger = { TAG = PRK }
-	}
+	
+    option = {
+        name = kor_news.25.a
+        trigger = {
+            NOT = {
+                TAG = JAP
+                TAG = PRK
+                TAG = ROK
+            }
+        }
+    }
+    option = {
+        name = kor_news.25.b
+        trigger = { TAG = JAP }
+    }
+    option = {
+        name = kor_news.25.c
+        trigger = { TAG = PRK }
+    }
+    option = {
+        name = kor_news.25.d
+        trigger = { TAG = MKR }
+    }
+}
+
+
+# 상하이 도발
+news_event = {
+    id = kor_news.26
+    title = kor_news.26.t
+    desc = kor_news.26.desc
+    picture =
+    
+    major = yes
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = kor_news.26.a
+        trigger = {
+            NOT = {
+                TAG = JAP
+                TAG = PRK
+                TAG = ROK
+            }
+        }
+    }
+    option = {
+        name = kor_news.26.b
+        trigger = { TAG = JAP }
+    }
+    option = {
+        name = kor_news.26.c
+        trigger = { TAG = PRK }
+    }
+    option = {
+        name = kor_news.26.d
+        trigger = { TAG = ROK }
+    }
 }

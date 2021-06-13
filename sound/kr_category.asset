@@ -1,0 +1,7 @@
+######################################
+category = {
+ name = "event sound"
+ soundeffects = {
+	kor_772
+ }
+}
