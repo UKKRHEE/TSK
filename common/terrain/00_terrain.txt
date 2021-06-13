@@ -139,6 +139,66 @@ categories =  {
 		enemy_army_bonus_air_superiority_factor = -0.5
 	}
 	
+	daejeon = {
+		color = { 155 0 25 }
+		movement_cost = 1.2
+		ai_terrain_importance_factor = 6.0
+		sound_type = plains
+
+		units = {
+			attack = -0.4
+			movement = -0.2
+			defence = 0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.5
+	}
+	
+	daegu = {
+		color = { 155 0 25 }
+		movement_cost = 1.2
+		ai_terrain_importance_factor = 6.0
+		sound_type = plains
+
+		units = {
+			attack = -0.4
+			movement = -0.2
+			defence = 0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.5
+	}
+	
+	ulsan = {
+		color = { 155 0 25 }
+		movement_cost = 1.2
+		ai_terrain_importance_factor = 6.0
+		sound_type = plains
+
+		units = {
+			attack = -0.4
+			movement = -0.2
+			defence = 0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.5
+	}
+	
+	gwangju = {
+		color = { 155 0 25 }
+		movement_cost = 1.2
+		ai_terrain_importance_factor = 6.0
+		sound_type = plains
+
+		units = {
+			attack = -0.4
+			movement = -0.2
+			defence = 0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.5
+	}
+	
 	pyungyang = {
 		color = { 155 0 25 }
 		movement_cost = 1.2

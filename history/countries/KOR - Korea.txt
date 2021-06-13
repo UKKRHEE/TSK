@@ -267,8 +267,9 @@ set_technology = {
 }
 
 add_ideas = {
-    KOR_09_modern_millitary
-	KOR_modern_airforce
+    KOR_09_modern_millitary #2009년 육군
+	KOR_modern_airforce #2009년 공군
+	KOR_09_modern_navy #2009년 해군
 }
 
 

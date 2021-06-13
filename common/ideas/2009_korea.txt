@@ -11,7 +11,8 @@ ideas = {
 			
 			modifier = {
 				land_reinforce_rate = 0.2
-				land_night_attack = 0.7
+				attrition = -0.8
+				land_night_attack = 0.85
 				army_org_factor = 0.3
 				army_org_regain	= 0.3
 				supply_consumption_factor = -0.6
@@ -30,6 +31,37 @@ ideas = {
 				air_attack_factor = 0.8
 				air_defence_factor = 0.8
 				air_agility_factor = 0.8
+				air_accidents_factor = -0.5
+				air_ace_generation_chance_factor = 0.4
+				air_bombing_targetting = 0.33
+				air_cas_efficiency = 0.2
+				air_cas_present_factor = 0.5
+				air_escort_efficiency = 0.2
+				air_night_penalty = -0.7
+				air_weather_penalty = -0.2
+				}
+			}
+			KOR_09_modern_navy = { #미래 해군 #09년 해상상륙 늘리는 용도
+				picture = generic_production_bonus
+				allowed = {
+					always = yes
+				}
+			
+				removal_cost = -1
+			
+			
+				modifier = {
+					convoy_retreat_speed = 0.2
+					critical_receive_chance = -0.5
+					fighter_sortie_efficiency = 0.25
+					mines_sweeping_by_fleets_factor = 0.5
+					naval_coordination = 0.3
+					naval_damage_factor = 0.1
+					naval_detection = 0.3
+					naval_enemy_retreat_chance = -0.2
+					naval_invasion_capacity = 100
+					naval_torpedo_cooldown_factor = -0.3
+					navy_visibility = -0.2
 				}
 			}
 		} 
@@ -916,7 +948,7 @@ ideas = {
 				army_defence_factor = -0.1
 				army_attack_factor = -0.1
 				army_morale_factor = -0.1
-				conscription_factor = -0.77
+				conscription_factor = -0.85
 			
 			}
 		}
@@ -1567,6 +1599,22 @@ ideas = {
 			}
 			cost = 100
 			traits = { KOR_hoi_trait }
+			ai_will_do = { factor = 1 }
+		}
+		ahn_cheolsoo = {
+			picture = aa
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				OR = {
+				    has_completed_focus = KOR_MB_5
+				    has_completed_focus = KOR_MB_politic_election
+				}	
+				has_completed_focus = KOR_MB_timeslip
+			}
+			cost = 100
+			traits = { KOR_ahn_trait }
 			ai_will_do = { factor = 1 }
 		}
 		roh_hoichan = {

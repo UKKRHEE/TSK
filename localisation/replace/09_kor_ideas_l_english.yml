@@ -76,15 +76,20 @@
  
  KOR_president_moon_disaster:0 "문재인 대통령"
  
+ KOR_09_modern_millitary:0 "미래 국군 - 2009년의 대한 육군"
+ KOR_modern_airforce:0 "미래 국군 - 2009년의 대한 공군"
+ KOR_09_modern_navy:0 "미래 국군 - 2009년의 대한 해군"
+ 
  KOR_roh_trait:0 "사람사는 세상"
  KOR_moon_trait:0 "인권 변호사"
  KOR_hong_trait:0 "모래시계 검사"
  KOR_han_trait:0 "군부 수장"
- KOR_samsung_trait:0 "삼성전자 부회장"
+ KOR_samsung_trait:0 "삼성그룹 부회장"
  KOR_son_trait:0 "기자"
  KOR_samsung_leader_trait:0 "삼성전자 회장"
  KOR_yi_trait:0 "대한제국 황가"
  KOR_hoi_trait:0 "보수 거물"
+ KOR_general_government_of_japan:0 "일본총독부"
  
  KOR_world_attack:0 "전쟁하자는 것입니까?"
  KOR_world_attack_desc:0 "예 그렇슙니돠"
@@ -135,6 +140,7 @@
  choi_yunhoi:0 "최 윤희"
  hwang_kicheol:0 "황 기철"
  kim_sungho:0 "김 성호"
+ ahn_cheolsoo:0 "안 철수"
  
  moon_jaein:0 "문 재인"
  lee_myung_bak_pre:0 "이명박 대통령"
@@ -163,6 +169,8 @@
  KOR_making_sorry:0 "아직 제작 중입니다! 후에 업데이트로 찾아뵐 수 있습니다"
  
  united_state_of_human_wargoal:0 "지구연방 건설"
+ 
+ KOR_ahn_trait:0 "안철수연구소"
  
  nine_doosanDST:0 "두산DST"
  nine_samsungtec:0 "삼성테크원"

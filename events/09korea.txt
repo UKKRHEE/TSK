@@ -87,6 +87,19 @@ country_event = {
 		    factor = 1
 		}
 		set_country_flag = KOR_MB_yeonpyungdo
+		if = {
+			limit = {
+				NOT = {
+					has_completed_focus = KOR_MB_diplo_kill
+				}
+			}	
+			
+			declare_war_on = {
+				target = KPA
+				type = annex_everything
+			}
+					set_country_flag = big_event_2nd_korean_war
+		}
 	}	
 }
 country_event = {

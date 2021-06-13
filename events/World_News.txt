@@ -895,3 +895,37 @@ news_event = {
         trigger = { TAG = ROK }
     }
 }
+
+# 천안함 폭침
+news_event = {
+	id = kor_news.24
+	title = kor_news.24.t
+	desc = kor_news.24.desc
+	#picture = something
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+        name = kor_news.24.a
+        trigger = {
+            NOT = {
+                TAG = MKR
+                TAG = PRK
+                TAG = ROK
+            }
+        }
+    }
+	option = {
+		name = kor_news.24.b
+		trigger = {
+			TAG = MKR
+			TAG = ROK
+		}
+	}
+	option = {
+		name = kor_news.24.c
+		trigger = { TAG = PRK }
+	}
+}
