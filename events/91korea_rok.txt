@@ -367,7 +367,7 @@ country_event = { #중국에 접촉
 	id = rok.10
 	title = rok.10.t
 	desc = rok.10.d
-	picture = 
+	picture = bb
 
 	is_triggered_only = yes
 	
@@ -387,7 +387,7 @@ country_event = { #장제스와의 회담
 	id = rok.11
 	title = rok.11.t
 	desc = rok.11.d
-	picture = 
+	picture = bb
 
 	is_triggered_only = yes
 	
@@ -412,7 +412,7 @@ country_event = { #상하이 도발
 	id = rok.12
 	title = rok.12.t
 	desc = rok.12.d
-	picture = 
+	picture = bb
 
 	is_triggered_only = yes
 	
@@ -428,7 +428,7 @@ country_event = { #장제스에게 요구하다
 	id = rok.13
 	title = rok.13.t
 	desc = rok.13.d
-	picture = 
+	picture = bb
 
 	is_triggered_only = yes
 	
@@ -461,7 +461,7 @@ country_event = { #대한민국의 요구
 	id = rok.14
 	title = rok.14.t
 	desc = rok.14.d
-	picture = 
+	picture = bb
 
 	is_triggered_only = yes
 	
@@ -482,7 +482,7 @@ country_event = { #대한민국의 요구
 	id = rok.15
 	title = rok.15.t
 	desc = rok.15.d
-	picture = 
+	picture = bb
 
 	is_triggered_only = yes
 	
@@ -503,7 +503,7 @@ country_event = { #중국이 우리의 요구를 거부하다!!
 	id = rok.16
 	title = rok.16.t
 	desc = rok.16.d
-	picture = 
+	picture = bb
 
 	is_triggered_only = yes
 	
@@ -511,13 +511,14 @@ country_event = { #중국이 우리의 요구를 거부하다!!
 	
 	option = { #그렇다면 전쟁뿐이다
 		name = rok.16.a
-		create_wargoal = {
+		declare_war_on = {
 			type = annex_everything
 			target = CHI
 		}
 		CHI = {
 			set_rule = { can_create_factions = yes }
 			create_faction = chinese_united_front
+			country_event = rok.19
 		}
 		PRK = {
 			country_event = { id = rok.17 }
@@ -537,7 +538,7 @@ country_event = { #중국이 우리의 도움을 요청하다
 	id = rok.17
 	title = rok.17.t
 	desc = rok.17.d
-	picture = 
+	picture = bb
 
 	is_triggered_only = yes
 	
@@ -559,7 +560,7 @@ country_event = { #중국이 우리의 도움을 요청하다
 	id = rok.18
 	title = rok.18.t
 	desc = rok.18.d
-	picture = 
+	picture = bb
 
 	is_triggered_only = yes
 	
@@ -573,5 +574,40 @@ country_event = { #중국이 우리의 도움을 요청하다
 	option = { #우리가 나설필요는없다!
 		ai_chance = { factor = 0 }
 		name = rok.18.b
+    }	
+}
+
+country_event = { #국공합작결성
+	id = rok.19
+	title = rok.19.t
+	desc = rok.19.d
+	picture = bb
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #적의 적은 동지이다!
+		name = rok.19.a
+		ai_chance = { factor = 100 }
+		annex_country = {
+			target = GXC
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = YUN
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = XSM
+			transfer_troops = yes
+		}
+		add_to_faction = PRC
+		PRC = {
+			annex_country = {
+				target = SHX
+				transfer_troops = yes
+			}
+		}
     }	
 }

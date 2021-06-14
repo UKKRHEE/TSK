@@ -1,0 +1,105 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+# building_target
+
+we_are_strong_rok = {
+	allowed = {
+		original_tag = ROK
+
+	}
+	enable = {
+		alays = yes
+	}
+
+	ai_strategy = {
+		type = consider_weak
+		id = "JAP"
+		value = 100
+	}
+	ai_strategy = {
+		type = consider_weak
+		id = "CHI"
+		value = 100
+	}
+	ai_strategy = {
+		type = consider_weak
+		id = "SOV"
+		value = 100
+	}
+	ai_strategy = {
+		type = consider_weak
+		id = "USA"
+		value = 100
+	}
+	ai_strategy = {
+		type = consider_weak
+		id = "GER"
+		value = 100
+	}
+	ai_strategy = {
+		type = consider_weak
+		id = "ENG"
+		value = 100
+	}
+}
+
+
+prepare_war_with_china_rok = {
+	allowed = {
+		original_tag = ROK
+	}
+
+	enable = {
+		ROK = {			
+			OR = {
+				focus_progress = {
+		  			focus = demand_from_jang
+		  			progress > 0.5
+		  		}
+		  		has_completed_focus = demand_from_jang
+		  	}		
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "CHI"
+		value = 200
+	}
+}
+
+war_with_china_rok = {
+	allowed = {
+		original_tag = ROK
+	}
+	enable = {
+		ROK = {
+			has_war_with = CHI
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"			
+		value = 200
+	}		
+
+	ai_strategy = {
+		type = invade
+		id = "CHI"			
+		value = 1000
+	}
+}

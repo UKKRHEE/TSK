@@ -991,7 +991,7 @@ news_event = {
     id = kor_news.26
     title = kor_news.26.t
     desc = kor_news.26.desc
-    picture =
+    picture = bb
     
     major = yes
     
