@@ -1444,6 +1444,34 @@ technologies = {
 		}
 	}
 	
+
+	PCC_1 = {
+		enable_equipments = { 
+			pcc_1
+		}
+
+		research_cost = 1
+		start_year = 1945
+
+		allow = {
+			always = no
+		}
+	}
+	
+
+	PCC_2 = {
+		enable_equipments = { 
+			pcc_2
+		}
+
+		research_cost = 1
+		start_year = 1945
+
+		allow = {
+			always = no
+		}
+	}
+	
 ############################################################################################
 ###호위함
 ############################################################################################
@@ -1488,6 +1516,45 @@ technologies = {
 		}
 	}
 	
+	FF_1 = { 
+
+		enable_equipments = { 
+			ff_1
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	FF_2 = { 
+
+		enable_equipments = { 
+			ff_2
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	FF_3 = { 
+
+		enable_equipments = { 
+			ff_3
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 ############################################################################################
 ###고속정
 ############################################################################################
@@ -1522,6 +1589,46 @@ technologies = {
 
 		enable_equipments = { 
 			ship_hull_PK_3
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	PK_1 = {#참수리급,SO-1급
+
+		enable_equipments = { 
+			pk_1
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	PK_2 = {#참수리급,SO-1급
+
+		enable_equipments = { 
+			pk_2
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	PK_3 = {#윤영하급
+
+		enable_equipments = { 
+			pk_3
 		}
 
 		research_cost = 1
@@ -1577,6 +1684,48 @@ technologies = {
 			always = no
 		}
 	}
+	
+	DDH_1 = {#하츠유키급,하타카제급
+
+		enable_equipments = { 
+			ddh_1
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	DDH_2 = {#광개토 대왕급
+
+		enable_equipments = { 
+			ddh_2
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	DDH_3 = {#충무공 이순신급
+
+		enable_equipments = { 
+			ddh_3
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 ############################################################################################
 ###이지스 구축함
 ############################################################################################
@@ -1599,6 +1748,34 @@ technologies = {
 
 		enable_equipments = { 
 			ship_hull_modern_DDG_2
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	DDG_1 = {#공고급
+
+		enable_equipments = { 
+			ddg_1
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	DDG_2 = {#세종대왕급
+
+		enable_equipments = { 
+			ddg_2
 		}
 
 		research_cost = 1
@@ -1673,6 +1850,62 @@ technologies = {
 
 		enable_equipments = { 
 			ship_hull_modern_submarine_5
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	SS_1 = {#로미오급
+
+		enable_equipments = { 
+			ss_1
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	SS_2 = {#로미오급
+
+		enable_equipments = { 
+			ss_2
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	SS_3 = {#장보고급,상어급
+
+		enable_equipments = { 
+			ss_3
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	SS_4 = {#손원일급
+
+		enable_equipments = { 
+			ss_4
 		}
 
 		research_cost = 1

@@ -5,8 +5,7 @@ if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
 	}
-
-	set_naval_oob = "KOR_1936_naval_mtg"
+	set_naval_oob = "KOR_1936_naval"
 }
 if = {
 	limit = {
@@ -14,6 +13,7 @@ if = {
 	}
 	set_naval_oob = "KOR_1936_naval_mtg"
 }
+
 add_ideas = {
 	#laws
 	korean_economy
@@ -55,7 +55,56 @@ set_party_name = {
     name = "한나라당"
 }
 
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		transport = 1
+		PCC_1 = 1
+		PCC_2 = 1
+		FF_1 = 1
+		FF_2 = 1
+		FF_3 = 1
+		DDH_1 = 1
+		DDH_2 = 1
+		DDG_1 = 1
+		DDG_2 = 1
+		PK_1 = 1
+		PK_2 = 1
+		PK_3 = 1
+		
+		SS_2 = 1
+		SS_3 = 1
+		SS_4 = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		mtg_transport = 1
+		m_1970PCC = 1
+		m_1980PCC = 1
+		
+		m_1970ff = 1
+		m_1980ff = 1
+		m_1990ff = 1
+		
+		m_1980patrol = 1
+		m_1980patrol = 1
+		
+		m_1990DDG = 1
+		
+		m_1980DDH = 1
+		m_1990DDH = 1
+		
+		m_1980SS = 1
+		m_1990SS = 1
+		m_2000SS = 1
+	}
+}
 set_fuel_ratio = 1.0
+
 set_convoys = 350
 # Starting tech
 set_technology = {
@@ -178,25 +227,6 @@ set_technology = {
 	
 	maritime_helicopter = 1
 	
-	m_1970PCC = 1
-	m_1980PCC = 1
-	
-	m_1970ff = 1
-	m_1980ff = 1
-	m_1990ff = 1
-	
-	m_1980patrol = 1
-	m_1980patrol = 1
-	
-	m_1990DDG = 1
-	
-	m_1980DDH = 1
-	m_1990DDH = 1
-	
-	m_1980SS = 1
-	m_1990SS = 1
-	m_2000SS = 1
-	
 	ship_aegis_radar = 1
 	ship_torpedo_modern_1 = 1
 	ship_vls_1 = 1
@@ -269,25 +299,6 @@ set_technology = {
 add_ideas = {
     KOR_09_modern_millitary
 	KOR_modern_airforce
-}
-
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		mtg_transport = 1
-	}
-	set_naval_oob = "KOR_1936_naval_mtg"
-}
-
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		transport = 1
-	}
-	set_naval_oob = "KOR_1936_naval_mtg"
 }
 
 set_convoys = 250

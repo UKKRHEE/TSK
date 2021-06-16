@@ -31,8 +31,35 @@ set_war_support = 0.4
 set_fuel_ratio = 1.0
 set_convoys = 100
 
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		transport = 1
+		PCC_1 = 1
+		FF_1 = 1
+	
+		SS_1 = 1
+		SS_2 = 1
+		SS_3 = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		mtg_transport = 1
+		m_1970PCC = 1
+		m_1970ff = 1
+	
+		m_1970SS = 1	
+		m_1980SS = 1
+		m_1990SS = 1
+	}
+}
 # Starting tech
 set_technology = {
+
 	ballistic_missile_equipment_1 = 1
 	ballistic_missile_equipment_2 = 1
 	ballistic_missile_equipment_3 = 1
@@ -145,14 +172,6 @@ set_technology = {
 	fuel_silos = 1
 	light_tank_4 = 1
 	light_tank_5 = 1
-	
-	m_1970PCC = 1
-	m_1970ff = 1
-	m_1980patrol = 1
-	
-	m_1970SS = 1	
-	m_1980SS = 1
-	m_1990SS = 1
 	
 	modern_light_battery_1 = 1
 	ship_missile_luncher_1 = 1

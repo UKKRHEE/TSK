@@ -2,6 +2,28 @@
 
 oob = "1936"
 
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		transport = 1
+		PCC_1 = 1
+		PCC_2 = 1
+		FF_1 = 1
+		PK_1 = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		mtg_transport = 1
+		m_1970PCC = 1
+		m_1980PCC = 1
+		m_1970ff = 1
+		m_1980patrol = 1
+	}
+}
 # Starting tech
 set_technology = {
 	light_vehicle_equipment_0 = 1
@@ -105,11 +127,7 @@ set_technology = {
 	m_1990_util_helicopter = 1
 	
 	maritime_helicopter = 1
-	
-	m_1970PCC = 1
-	m_1980PCC = 1
-	m_1970ff = 1
-	m_1980patrol = 1
+
 	modern_moto = 1
 	
 	modern_light_battery_1 = 1

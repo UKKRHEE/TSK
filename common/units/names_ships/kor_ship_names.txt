@@ -1,33 +1,32 @@
 ﻿##### USA NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
 ROK_PCC_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_DESTROYERS
+	name = NAME_THEME_HISTORICAL_PCC
 
 	for_countries = { KOR ROK MKR }
 
 	type = ship
-	ship_types = { ship_hull_PCC ship_hull_FF }			
+	ship_types = { destroyer modern_PCC modern_FF ship_hull_PCC ship_hull_FF }			
 
-	#link_numbering_with = { USA_DE_HISTORICAL }				# IMPROVEMENT: Add script like this so that ships don't share same name when it occurs across multiple lists (confirmed that you can make multiple Albatross Mowe, etc. with GER currently)
 
 	prefix = "ROKS "							
 	fallback_name = "7%d"					
 
-	unique = {											# TO CHECK: "unique = { }" working but does not seem to recognize names already in OOBs
+	ordered = {								
 		# 동해급
-		"동해" "수원" "강릉" "안양"
+		1 = {"동해"} 2 = {"수원"} 3 = {"강릉"} 4 = {"안양"}
 		# 포항급
-		"포항" "군산" "경주" "목포" "김천" "충주" "진주" "여수" "진해" "순천" "익산" "원주" "안동" "천안" "부천" "성남" "제천" "대천" "속초" "영주" 
-		"남원" "광명" "신성" "공주"
+		5 = {"포항"} 6 = {"군산"} 7 = {"경주"} 8 = {"목포"} 9 = {"김천"} 10 = {"충주"} 11 = {"진주"} 12 = {"여수"} 13 = {"진해"} 13 = {"순천"} 14 = {"익산"} 15 = {"원주"} 16 = {"안동"} 17 = {"천안"} 18 = {"부천"} 19 = {"성남"} 20 = {"제천"} 21 = {"대천"} 22 = {"속초"} 23 = {"영주"} 
+		2 = {"수원"} 2 = {"수원"} 2 = {"수원"} 2 = {"수원"}
 		#울산급
-		"울산" "서울" "충남" "마산" "경북" "전남" "제주" "부산" "청주"
+		24 = {"울산"} 25 = {"서울"} 26 = {"충남"} 27 = {"마산"} 28 = {"경북"} 29 = {"전남"} 30 = {"제주"} 31 = {"부산"} 32 = {"청주"}
 		#인천급
-		"인천" "경기" "전북" "강원" "충북" "광주" 
+		33 = {"인천"} 34 = {"경기"} 35 = {"전북"} 36 = {"강원"} 37 = {"충북"} 38 = {"광주"} 
 		#대구급
-		"대구" "경남"
+		39 = {"대구"} 40 = {"경남"}
 		#창작
-		"양산" "밀양" "김해" "사천" "광양" "순천" "나주" "영천" "구미" "김천" "전주" "김제" "논산" "대전" "상주" "문경" "당진" "서산" "평택" 
-		"화성" "안성" "삼척" "태백" "여주" "이천" "용인" "안산" "남양주" "의정부" "김포" "양주" "파주" "포천" "동두천" "춘천"
+		41 = {"양산"} 42 = {"밀양"} 43 = {"김해"} 44 = {"사천"} 45 = {"광양"} 46 = {"순천"} 47 = {"나주"} 48 = {"영천"} 49 = {"구미"} 50 = {"김천"} 51 = {"전주"} 52 = {"김제"} 53 = {"논산"} 54 = {"대전"} 55 = {"상주"} 56 = {"문경"} 57 = {"당진"} 58 = {"서산"} 59 = {"평택"} 
+		60 = {"화성"} 61 = {"안성"} 62 = {"삼척"} 63 = {"태백"} 64 = {"여주"} 65 = {"이천"} 66 = {"용인"} 67 = {"안산"} 68 = {"남양주"} 69 = {"의정부"} 70 = {"김포"} 71 = {"양주"} 72 = {"파주"} 73 = {"포천"} 74 = {"동두천"} 75 = {"춘천"} 76 = {"고양"} 77 = {"군포"} 77 = {"오산"}
 	}
 }
 
@@ -39,7 +38,7 @@ ROK_DDH_HISTORICAL = {
 	for_countries = { KOR ROK MKR }
 
 	type = ship
-	ship_types = { ship_hull_modern_DDH ship_hull_modern_DDG }
+	ship_types = { modern_DDG Modern_DDH ship_hull_modern_DDH ship_hull_modern_DDG }
 	
 	#link_numbering_with = { USA_DD_HISTORICAL }	
 
@@ -66,7 +65,7 @@ ROK_PKM_HISTORICAL = {
 	for_countries = { KOR ROK MKR }
 
 	type = ship
-	ship_types = { ship_hull_PKM }
+	ship_types = { modern_PK ship_hull_PKM }
 	
 	prefix = "ROKS "							
 	fallback_name = "PKM-2%d"
@@ -79,6 +78,8 @@ JDF_DDG_HISTORICAL = {
 	for_countries = { JDF }
 
 	type = ship
+	
+	ship_types = { modern_DDG ship_hull_modern_DDG }
 	
 	prefix = "JDS "							
 	fallback_name = "DDG-%d"
@@ -101,6 +102,8 @@ JDF_DDH_HISTORICAL = {
 	for_countries = { JDF }
 
 	type = ship
+	
+	ship_types = { Modern_DDH ship_hull_modern_DDH }
 	
 	prefix = "JDS "							
 	fallback_name = "DD-1%d"

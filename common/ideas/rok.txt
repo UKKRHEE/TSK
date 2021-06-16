@@ -325,7 +325,7 @@ ideas = {
 
 			modifier = {
 				send_volunteers_tension = -0.5
-				send_volunteer_size	= 15
+				send_volunteer_size	= 5
 				air_volunteer_cap = 200
 			}
 		}

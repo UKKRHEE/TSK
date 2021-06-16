@@ -9,13 +9,43 @@ if = {
 		not = { has_dlc = "Man the Guns" }
 	}
 
-	set_naval_oob = "KPA_naval_mtg"
+	set_naval_oob = "KPA_naval"
 }
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
 	set_naval_oob = "KPA_naval_mtg"
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		transport = 1
+		PCC_1 = 1
+		FF_1 = 1
+	
+		SS_1 = 1
+		SS_2 = 1
+		SS_3 = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		mtg_transport = 1
+
+		m_1970PCC = 1
+		m_1970ff = 1
+		m_1980patrol = 1
+		
+		m_1970SS = 1	
+		m_1980SS = 1
+		m_1990SS = 1
+	}
+	set_naval_oob = "FKR_1936_naval"
 }
 # Starting tech
 set_technology = {
@@ -162,16 +192,6 @@ set_technology = {
 	hydrogen_nukes = 1
 	
 	heavy_mlrs_equipment_1 = 1
-	
-	
-	
-	m_1970PCC = 1
-	m_1970ff = 1
-	m_1980patrol = 1
-	
-	m_1970SS = 1	
-	m_1980SS = 1
-	m_1990SS = 1
 	
 	modern_light_battery_1 = 1
 	ship_missile_luncher_1 = 1

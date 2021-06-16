@@ -414,4 +414,30 @@ spriteTypes = {
 		name = "GFX_KPA_ship_hull_modern_submarine_6_medium"
 		texturefile = "gfx/interface/technologies/navy/PRK_sub_6.png"
 	}
+	
+	
+    SpriteType = {
+		name = "GFX_KPA_ss_1_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_1.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ss_2_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_2.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ss_3_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_3.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ss_4_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_4.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ss_5_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_5.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ss_6_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_6.png"
+	}
 }

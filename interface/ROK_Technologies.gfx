@@ -408,18 +408,7 @@ spriteTypes = {
 		name = "GFX_GER_2000_jet_multirole_equipment_medium"
 		texturefile = "gfx/interface/technologies/planes/2000_jet_multirole.dds"
 	}	
-    SpriteType = {
-		name = "GFX_JDF_ship_hull_modern_DDG_1_medium"
-		texturefile = "gfx/interface/technologies/navy/JDF_ship_hull_DDG_1.dds"
-	}
-    SpriteType = {
-		name = "GFX_JDF_ship_hull_modern_DDH_1_medium"
-		texturefile = "gfx/interface/technologies/navy/JDF_ship_hull_DDH_1.dds"
-	}
-    SpriteType = {
-		name = "GFX_JDF_ship_hull_modern_DDH_2_medium"
-		texturefile = "gfx/interface/technologies/navy/JDF_ship_hull_DDH_2.dds"
-	}
+	
     SpriteType = {
 		name = "GFX_ROK_ship_hull_PCC_1_medium"
 		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PCC_1.dds"
@@ -483,6 +472,72 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/navy/KOR_sub_6.png"
 	}
 	
+	
+    SpriteType = {
+		name = "GFX_ROK_pcc_1_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PCC_1.dds"
+	}
+    SpriteType = {
+		name = "GFX_ROK_pcc_2_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PCC_2.dds"
+	}
+    SpriteType = {
+		name = "GFX_ROK_ff_1_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_FF_1.dds"
+	}
+    SpriteType = {
+		name = "GFX_ROK_ff_2_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_FF_1.dds"
+	}
+    SpriteType = {
+		name = "GFX_ROK_ff_3_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_FF_3.png"
+	}
+    SpriteType = {
+		name = "GFX_ROK_pk_1_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_1.png"
+	}
+    SpriteType = {
+		name = "GFX_ROK_pk_2_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_2.png"
+	}
+    SpriteType = {
+		name = "GFX_ROK_pk_3_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_3.png"
+	}
+    SpriteType = {
+		name = "GFX_ROK_ddh_1_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_DDH_1.png"
+	}
+    SpriteType = {
+		name = "GFX_ROK_ddh_2_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_DDH_2.png"
+	}
+    SpriteType = {
+		name = "GFX_ROK_ddg_2_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_DDG_2.png"
+	}
+	
+	
+    SpriteType = {
+		name = "GFX_ROK_ship_hull_modern_submarine_3_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_3.png"
+	}
+    SpriteType = {
+		name = "GFX_ROK_ship_hull_modern_submarine_4_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_4.png"
+	}
+    SpriteType = {
+		name = "GFX_ROK_ship_hull_modern_submarine_5_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_5.png"
+	}
+    SpriteType = {
+		name = "GFX_ROK_ship_hull_modern_submarine_6_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_6.png"
+	}
+
+
+
 	SpriteType = {
 		name = "GFX_Vertical_maneuvering_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/infantry/입체기동장치.dds"

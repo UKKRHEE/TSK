@@ -16,6 +16,33 @@ if = {
 	set_naval_oob = "JDF_1936_naval_mtg"
 }
 
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		transport = 1
+		DDH_1 = 1
+		DDH_2 = 1
+		DDG_1 = 1
+		SS_2 = 1
+		SS_3 = 1
+		SS_4 = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		mtg_transport = 1
+		m_1990DDG = 1
+		m_1980DDH = 1
+		m_1990DDH = 1
+		
+		m_1980SS = 1
+		m_1990SS = 1
+		m_2000SS = 1
+	}
+}
 set_variable = { constitutionalism = 0 }
 set_variable = { Imperialism = 0 }
 	clamp_variable = {
@@ -30,6 +57,7 @@ set_variable = { Imperialism = 0 }
 	}
 # Starting tech
 set_technology = {
+	transport = 1
 	light_vehicle_equipment_0 = 1
 	light_vehicle_equipment_1 = 1
 	light_vehicle_equipment_2 = 1
@@ -130,15 +158,6 @@ set_technology = {
 	modern_light_battery_2 = 1
 
 	ship_aa_missile_luncher_1 = 1
-	
-	m_1990DDG = 1
-	
-	m_1980DDH = 1
-	m_1990DDH = 1
-	
-	m_1980SS = 1
-	m_1990SS = 1
-	m_2000SS = 1
 	
 	ship_modern_sonar_1 = 1
 	ship_modern_sonar_2 = 1
