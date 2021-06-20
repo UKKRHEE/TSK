@@ -49,6 +49,7 @@ ideas = {
 	} 
 	
 	country = {
+		
 		KOR_cornered = { #궁지에 몰린 여우
 			picture = generic_production_bonus
 			allowed = {

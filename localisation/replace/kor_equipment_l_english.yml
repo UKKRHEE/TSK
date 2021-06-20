@@ -959,16 +959,9 @@
  ship_hull_PCC_2:0 "초계함 선체 II"
  ship_hull_PCC_3:0 "초계함 선체 III"
  
- ship_hull_modern_DDH:0 "미사일 구축함"
- ship_hull_PCC:0 "초계함"
- ship_hull_FF:0 "호위함"
- ship_hull_modern_DDG:0 "이지스 구축함"
- ship_hull_PK:0 "고속정"
- ship_hull_modern_submarine:0 "공격잠수함"
- 
- ship_hull_modern_DDH_1:0 "구축함 선체 I"
- ship_hull_modern_DDH_2:0 "구축함 선체 II"
- ship_hull_modern_DDH_3:0 "구축함 선체 III"
+ ship_hull_modern_DDH_1:0 "미사일 구축함 선체 I"
+ ship_hull_modern_DDH_2:0 "미사일 구축함 선체 II"
+ ship_hull_modern_DDH_3:0 "미사일 구축함 선체 III"
  
  ship_hull_modern_DDG_1:0 "이지스 구축함 선체 I"
  ship_hull_modern_DDG_2:0 "이지스 구축함 선체 II"

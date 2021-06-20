@@ -278,4 +278,8 @@ spriteTypes = {
 		name = "GFX_전두환_노태우"
 		texturefile = "gfx/event_pictures/땅크와태우.png"
 	}
+	spriteType = {
+		name = "GFX_부산함락"
+		texturefile = "gfx/event_pictures/부산함락.png"
+	}
 }

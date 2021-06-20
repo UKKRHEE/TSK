@@ -171,23 +171,20 @@ news_event = {#부산함락
 	id = kor_news.5
 	title = kor_news.5.t
 	desc = kor_news.5.desc
-	picture = GFX_news_event_kor_seoul_fall_prk
+	picture = GFX_부산함락
 	
 	major = yes
 	
 	fire_only_once = yes
 	
 	trigger = {
-		809 = { is_controlled_by = MKR }
+		809 = { is_controlled_by = PRK }
 		809 = { is_owned_by = ROK }
-		NOT = { has_global_flag = fall_of_busan_MKR }
+		NOT = { has_global_flag = fall_of_busan_PRK }
 	}
 	
 	immediate = {
-		set_global_flag = fall_of_busan_MKR
-        MKR = {
-		    set_country_flag = fall_of_busan_MKR_1
-        }  	
+		set_global_flag = fall_of_busan_PRK	
 	}
 	
 	mean_time_to_happen = {

@@ -23,6 +23,7 @@ if = {
 		DDH_1 = 1
 		DDH_2 = 1
 		DDG_1 = 1
+		FF_2 = 1
 		SS_2 = 1
 		SS_3 = 1
 		SS_4 = 1
@@ -175,7 +176,7 @@ set_technology = {
 }
 
 add_ideas = {
-   KOR_uncompromized_country_idea
+   KOR_modern_millitary
 }
 
 set_convoys = 5

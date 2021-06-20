@@ -131,9 +131,12 @@ country_event = {
 		        }
             }	
 			PRK = {
-				country_event = {
-					id = korea.2
-					days = 1
+				if = { 
+					limit = { is_ai = yes }
+					country_event = {
+						id = korea.2
+						days = 1
+					}
 				}
 			}	
 			KR1 = {
@@ -802,27 +805,25 @@ country_event = { #낙동강 방어선
 		}	
 	}
 }
+}
+
 country_event = { #항복
-	id = korea.18
-	title = korea.18.t
-	desc = korea.18.d
+	id = korea.19
+	title = korea.19.t
+	desc = korea.19.d
 	picture = GFX_korean_A_loser
 
 	fire_only_once = yes
+
+	is_triggered_only = yes
 	
-	trigger = {
-		tag = MKR
-		has_war_with = ROK
-		surrender_progress < 0.7
-		NOT = { has_war_with = PRK }
-	}
 	
 	option = {
-		name = korea.18.a
-		ROK = {
+		name = korea.19.a
+		JAP = {
 			annex_country = {
-				target = MKR
-				transfer_troops = no
+				target = JDF
+				transfer_troops = yes
 			}
 		}	
     }	
