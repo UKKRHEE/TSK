@@ -210,7 +210,7 @@ focus_tree = {
 			country_event = { id = mkorea.51 }
 			hidden_effect = { 
 			JDF = {
-			country_event = { id = jsdf.3 }
+			country_event = { hours = 24 id = jsdf.3 }
 			}
 		}
 		}
@@ -270,7 +270,7 @@ focus_tree = {
 		y = 6
 
 	}
-	focus = { #일본 해방전쟁
+	focus = { #일본에 최후통첩
 		id = an_ultimatum_to_Japan
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -324,7 +324,7 @@ focus_tree = {
 			focus = test_China
 		}
 		completion_reward = {
-			country_event = { id = rok.14 }
+			country_event = { id = rok.13 }
 		}
 		x = 11
 		y = 6
@@ -337,6 +337,20 @@ focus_tree = {
 		prerequisite = {
 			focus = demand_from_jang
 		}
+		completion_reward = {
+			every_other_country = {
+				limit = {
+					OR = {
+						tag = GXC
+						tag = YUN
+						tag = SHX
+						tag = XSM
+						tag = SIK
+					}
+				}
+				country_event = { id = rok.20 }
+			}
+		}
 		x = 12
 		y = 7
 
@@ -347,11 +361,15 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = theorem_of_warlords
+			focus = bury_sb_in_a_warlord
+		}
+		prerequisite = {
+			focus = an_ultimatum_to_Japan
 		}
 		mutually_exclusive = {
 			focus = Allied_accession
 		}
-		x = 12
+		x = 9
 		y = 8
 
 	}
@@ -445,9 +463,18 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = theorem_of_warlords
+			focus = bury_sb_in_a_warlord
+		}
+		prerequisite = {
+			focus = an_ultimatum_to_Japan
 		}
 		mutually_exclusive = {
 			focus = East_Asian_Union
+		}
+		completion_reward = {
+			ENG = {
+				country_event = { id = rok.24 }
+			}
 		}
 		x = 15
 		y = 8
@@ -459,6 +486,12 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = Allied_accession
+		}
+		completion_reward = {
+			effect_tooltip = {
+				ROK = { add_opinion_modifier = { target = GER modifier = enemy_germany } }
+				GER = { add_opinion_modifier = { target = ROK modifier = enemy_germany } }
+			}
 		}
 		x = 18
 		y = 9
@@ -515,6 +548,9 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_germans_attack
 		}
+		completion_reward = {
+			add_ideas = rok_national_attack
+		}
 		x = 18
 		y = 10
 
@@ -526,6 +562,11 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_national_attack
 		}
+		completion_reward = {
+			USA = {
+				country_event = { id = rok.27 }
+			}
+		}
 		x = 17
 		y = 11
 
@@ -536,6 +577,11 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_national_attack
+		}
+		completion_reward = {
+			ENG = {
+				country_event = { id = rok.27 }
+			}
 		}
 		x = 19
 		y = 11
@@ -551,11 +597,17 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_plan_black
 		}
+		completion_reward = {
+			declare_war_on = {
+				type = puppet_wargoal_focus
+				target = SPR
+			}
+		}
 		x = 17
 		y = 12
 
 	}
-	focus = { #남아메리카를 보호
+	focus = { #북방의 적
 		id = ROK_south_american_fascism_attack
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -564,6 +616,12 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = ROK_plan_black
+		}
+		completion_reward = {
+			declare_war_on = {
+				type = puppet_wargoal_focus
+				target = SOV
+			}
 		}
 		x = 19
 		y = 12
@@ -639,6 +697,9 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = ROK_social_many
+		}
+		completion_reward = {
+				country_event = { id = rok.33 }
 		}
 		x = 18
 		y = 14
@@ -1177,18 +1238,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Peace_in_EA
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = bury_sb_in_a_warlord
-			focus = an_ultimatum_to_Japan
-		}
-		x = 7
-		y = 8
-
-	}
-	focus = {
 		id = bury_sb_in_a_warlord
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -1232,7 +1281,6 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = East_Asian_Union
-			focus = Peace_in_EA
 		}
 		x = 9
 		y = 9
@@ -1452,7 +1500,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = ROK_high_sky's_korean
+		id = ROK_high_skys_korean
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {

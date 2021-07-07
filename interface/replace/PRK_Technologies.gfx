@@ -375,7 +375,7 @@ spriteTypes = {
  ################################################################################
 	SpriteType = {
 		name = "GFX_PRK_m_1970_jet_CAS_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/PRK_1970_CAS.dds"
+		texturefile = "gfx/interface/technologies/planes/PRK_1970_CAS.png"
 	}
 	SpriteType = {
 		name = "GFX_PRK_m_1980_jet_CAS_equipment_medium"
@@ -388,6 +388,19 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_PRK_m_2010_jet_CAS_equipment_medium"
 		texturefile = "gfx/interface/technologies/planes/PRK_2010_CAS.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRK_ballistic_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/PRK_탄도미사일1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_ballistic_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/PRK_탄도미사일2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_ballistic_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/PRK_탄도미사일3.png"
 	}
 	
     SpriteType = {
@@ -414,8 +427,24 @@ spriteTypes = {
 		name = "GFX_KPA_ship_hull_modern_submarine_6_medium"
 		texturefile = "gfx/interface/technologies/navy/PRK_sub_6.png"
 	}
+ 
+    SpriteType = {
+		name = "GFX_KPA_ship_hull_PCC_1_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_ship_hull_PCC_1.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ship_hull_FF_1_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_ship_hull_FF_1.png"
+	}
 	
-	
+    SpriteType = {
+		name = "GFX_KPA_pcc_1_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_ship_hull_PCC_1.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ff_1_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_ship_hull_FF_1.png"
+	}
     SpriteType = {
 		name = "GFX_KPA_ss_1_medium"
 		texturefile = "gfx/interface/technologies/navy/PRK_sub_1.png"

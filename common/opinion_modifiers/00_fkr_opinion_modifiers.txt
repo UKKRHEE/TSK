@@ -43,3 +43,8 @@ opinion_modifiers = {
 opinion_modifiers = {
 	FKR_red_america = { value = 500 }
 }
+
+
+opinion_modifiers = {
+	enemy_germany = { value = -200 }
+}

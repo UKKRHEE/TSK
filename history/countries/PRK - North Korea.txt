@@ -24,6 +24,8 @@ add_ideas = {
 add_ideas = {
    KOR_food_1
    KOR_juche
+   
+   service_by_requirement
 }
 
 set_stability = 0.2

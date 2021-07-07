@@ -107,6 +107,10 @@
  PRK_ballistic_missile_equipment_2:0 "화성-6"
  PRK_ballistic_missile_equipment_3:0 "SCUD-ER"
  
+ KPA_ballistic_missile_equipment_1:0 "화성-5"
+ KPA_ballistic_missile_equipment_2:0 "화성-6"
+ KPA_ballistic_missile_equipment_3:0 "SCUD-ER"
+ 
  modern_motorized_equipment:0 "현대 중형트럭"
  modern_amphibious_mechanized_equipment:0 "현대 상륙장갑차"
  light_vehicle_equipment:0 "군용 경차량"
@@ -887,11 +891,11 @@
  MKR_m_2000_attack_helicopter_equipment:0 "AH-1Z 바이퍼"
  MKR_m_2010_attack_helicopter_equipment:0 "AH-64E 아파치 가디언"
  
- PRK_m_1970_attack_helicopter_equipment:0 "Mi-8 건쉽"
+ PRK_m_1970_attack_helicopter_equipment:0 "Mi-24A"
  PRK_m_1980_attack_helicopter_equipment:0 "Mi-24D 하인드"
  PRK_m_1990_attack_helicopter_equipment:0 "Mi-35 하인드"
  
- KPA_m_1970_attack_helicopter_equipment:0 "Mi-8 건쉽"
+ KPA_m_1970_attack_helicopter_equipment:0 "Mi-24A"
  KPA_m_1980_attack_helicopter_equipment:0 "Mi-24D 하인드"
  KPA_m_1990_attack_helicopter_equipment:0 "Mi-35 하인드"
  

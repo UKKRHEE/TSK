@@ -169,6 +169,8 @@ set_technology = {
 add_ideas = {
     KOR_modern_millitary
 	kor_law_of_korean_5
+	
+	extensive_conscription
 }
 
  

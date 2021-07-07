@@ -130,7 +130,7 @@ focus_tree = {
 				}
 				effect_tooltip = {
 				PRK = { add_opinion_modifier = { target = ROOT modifier = PRK_south } }
-				ROOT = { add_opinion_modifier = { target = MKR modifier = PRK_south } }
+				ROOT = { add_opinion_modifier = { target = PRK modifier = PRK_south } }
 				}
 			}
 		}

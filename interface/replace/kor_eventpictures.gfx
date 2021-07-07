@@ -282,4 +282,13 @@ spriteTypes = {
 		name = "GFX_부산함락"
 		texturefile = "gfx/event_pictures/부산함락.png"
 	}
+	
+	spriteType = {
+		name = "GFX_UN"
+		texturefile = "gfx/event_pictures/UN.png"
+	}
+	spriteType = {
+		name = "GFX_UN_1"
+		texturefile = "gfx/event_pictures/UN_1.png"
+	}
 }

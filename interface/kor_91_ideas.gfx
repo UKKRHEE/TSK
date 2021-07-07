@@ -340,4 +340,13 @@ spriteTypes = {
 		name = "GFX_idea_rok_chun"
 		texturefile = "gfx/interface/ideas/전두환감옥.png"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_rok_UN_PMNS"
+		texturefile = "gfx/interface/ideas/상임이사국.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rok_UN"
+		texturefile = "gfx/interface/ideas/UN멤버.dds"
+	}
 }

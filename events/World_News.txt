@@ -1017,3 +1017,65 @@ news_event = {
         trigger = { TAG = ROK }
     }
 }
+
+
+# 독일의 위협
+news_event = {
+    id = kor_news.27
+    title = kor_news.27.t
+    desc = kor_news.27.desc
+    picture = bb
+    
+    major = yes
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = kor_news.27.a
+        trigger = {
+            NOT = {
+                TAG = JAP
+                TAG = PRK
+                TAG = ROK
+            }
+        }
+    }
+    option = {
+        name = kor_news.27.b
+        trigger = { TAG = JAP }
+    }
+    option = {
+        name = kor_news.27.c
+        trigger = { TAG = PRK }
+    }
+    option = {
+        name = kor_news.27.d
+        trigger = { TAG = ROK }
+    }
+}
+
+
+#국제연합설립
+news_event = {
+    id = kor_news.28
+    title = kor_news.28.t
+    desc = kor_news.28.desc
+    picture = GFX_UN
+    
+    major = yes
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = kor_news.28.a
+        trigger = {
+            NOT = {
+                TAG = ROK
+            }
+        }
+    }
+    option = {
+        name = kor_news.28.b
+        trigger = { TAG = ROK }
+    }
+}
