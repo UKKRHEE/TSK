@@ -62,7 +62,7 @@ focus_tree = {
 	}
 	focus = { #새 국가보안법
 		id = new_national_security_law
-		icon = GFX_goal_unknown
+		icon = GFX_국가보안법
 		cost = 10.00
 		prerequisite = {
 			focus = President_Kim_Koo
@@ -76,7 +76,7 @@ focus_tree = {
 	}
 	focus = { #복지정책 도입
 		id = welfare_policy
-		icon = GFX_goal_unknown
+		icon = GFX_복지정책
 		cost = 10.00
 		prerequisite = {
 			focus = President_Kim_Koo
@@ -90,7 +90,7 @@ focus_tree = {
 	}
 	focus = { #노조와 협상
 		id = contact_with_NK
-		icon = GFX_goal_unknown
+		icon = GFX_노조협상
 		cost = 10.00
 		prerequisite = {
 			focus = President_Kim_Koo
@@ -104,7 +104,7 @@ focus_tree = {
 	}
 	focus = { #자유국가
 		id = libration
-		icon = GFX_goal_unknown
+		icon = GFX_자유국가
 		cost = 10.00
 		prerequisite = {
 			focus = President_Kim_Koo
@@ -118,7 +118,7 @@ focus_tree = {
 	}
 	focus = { #국민 단결
 		id = ROK_lian_dai
-		icon = GFX_goal_unknown
+		icon = GFX_국민단결
 		cost = 10.00
 		prerequisite = {
 			focus = libration
@@ -375,7 +375,7 @@ focus_tree = {
 	}
 	focus = { #하나회 관련자 처벌
 		id = Punishment_of_those_involved
-		icon = GFX_goal_unknown
+		icon = GFX_하나회관련자처벌
 		cost = 10.00
 		prerequisite = {
 			focus = President_Kim_Young_sam
@@ -414,7 +414,7 @@ focus_tree = {
 	}
 	focus = { #금융실명제
 		id = real_name_financial
-		icon = GFX_goal_unknown
+		icon = GFX_금융실명제
 		cost = 10.00
 		prerequisite = {
 			focus = President_Kim_Young_sam
