@@ -931,3 +931,159 @@ country_event = { #UN 초대
 		add_ideas = rok_UN
 	}
 }
+
+country_event = { #대아시아 연방
+	id = rok.36
+	title = rok.36.t
+	desc = rok.36.desc
+	picture = GFX_UN_1
+ 
+	is_triggered_only = yes
+	
+	option = {
+		name = rok.36.a
+		FROM = { 
+			annex_country = { 
+				target = PREV 
+				transfer_troops = yes 
+			} 
+		}
+	}
+	
+	option = {
+		name = rok.36.b
+		FROM = { 
+			create_wargoal = { 
+				target = PREV 
+				expire = 0
+				type = annex_everything
+			} 
+		}
+	}
+}
+country_event = { #영국과 거래
+	id = rok.37
+	title = rok.37.t
+	desc = rok.37.desc
+	picture = GFX_UN_1
+ 
+	is_triggered_only = yes
+	
+	option = {
+		name = rok.37.a
+		release_puppet = MAL
+		release_puppet = AST
+		release_puppet = RAJ
+		ENG = {
+			add_research_slot = 1
+			set_technology = {
+				m_1960_infantry_eq = 1
+				m_1970_infantry_eq = 1
+				m_1950_modern_tank = 1	
+			}
+		}
+		ROK = {
+			transfer_state = 659
+			transfer_state = 658
+			transfer_state = 765
+			transfer_state = 656
+			transfer_state = 422
+			transfer_state = 281
+			transfer_state = 710
+			transfer_state = 712
+		}	
+
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = rok.37.b
+		ROK = { 
+			create_wargoal = { 
+				target = ENG 
+				expire = 0
+				type = annex_everything
+			} 
+			create_wargoal = { 
+				target = MAL 
+				expire = 0
+				type = annex_everything
+			} 
+			create_wargoal = { 
+				target = AST 
+				expire = 0
+				type = annex_everything
+			} 
+			create_wargoal = { 
+				target = RAJ
+				expire = 0
+				type = annex_everything
+			} 
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = { #대아시아 연방
+	id = rok.38
+	title = rok.38.t
+	desc = rok.38.desc
+	picture = GFX_UN_1
+ 
+	is_triggered_only = yes
+	
+	option = {
+		name = rok.38.a
+		release_puppet = INS
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = rok.38.b
+		ROK = { 
+			create_wargoal = { 
+				target = INS 
+				expire = 0
+				type = annex_everything
+			} 
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = { #대아시아 연방
+	id = rok.39
+	title = rok.39.t
+	desc = rok.39.desc
+	picture = GFX_UN_1
+ 
+	is_triggered_only = yes
+	
+	option = {
+		name = rok.39.a
+		release_puppet = PHI
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = rok.39.b
+		ROK = { 
+			create_wargoal = { 
+				target = PHI
+				expire = 0
+				type = annex_everything
+			} 
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

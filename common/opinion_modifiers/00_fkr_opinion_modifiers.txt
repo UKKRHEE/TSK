@@ -31,6 +31,9 @@ opinion_modifiers = {
 	KOR_give_communist = {
 		value = 20
 	}
+	asian_nationalism = {
+		value = 60
+	}
 }
 
 opinion_modifiers = {

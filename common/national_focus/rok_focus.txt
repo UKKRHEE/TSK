@@ -237,7 +237,7 @@ focus_tree = {
 	}
 	focus = { #국공내전 개입
 		id = intervention_in_the_civil_war
-		icon = GFX_goal_unknown
+		icon = chinese_nationalism
 		cost = 10.00
 		prerequisite = {
 			focus = Contact_with_China
@@ -258,7 +258,7 @@ focus_tree = {
 	}
 	focus = { #자위대와의 협상
 		id = war_of_liberation
-		icon = GFX_war_of_liberation
+		icon = japanese_imperialism
 		cost = 10.00
 		prerequisite = {
 			focus = test_Japan
@@ -272,13 +272,19 @@ focus_tree = {
 	}
 	focus = { #일본에 최후통첩
 		id = an_ultimatum_to_Japan
-		icon = GFX_goal_unknown
+		icon = war_against_japan
 		cost = 10.00
 		prerequisite = {
 			focus = war_of_liberation
 		}
 		x = 9
 		y = 7
+		completion_reward = {
+			create_wargoal = {
+					type = annex_everything
+					target = JAP
+			}
+		}
 
 	}
 	focus = { #검열 철폐
@@ -357,7 +363,7 @@ focus_tree = {
 	}
 	focus = { #동아시아 연합
 		id = East_Asian_Union
-		icon = GFX_goal_unknown
+		icon = war_in_asia
 		cost = 10.00
 		prerequisite = {
 			focus = theorem_of_warlords
@@ -371,6 +377,12 @@ focus_tree = {
 		}
 		x = 9
 		y = 8
+		completion_reward = {
+			set_rule = {
+				can_create_factions = yes
+			}
+			create_faction = "동아시아 연합"
+		}
 
 	}
 	focus = { #하나회 관련자 처벌
@@ -389,7 +401,7 @@ focus_tree = {
 	}
 	focus = { #역사 바로알기 정책
 		id = history_correctly
-		icon = GFX_goal_unknown
+		icon = anti_fascist_diplomacy
 		cost = 10.00
 		prerequisite = {
 			focus = Punishment_of_those_involved
@@ -403,13 +415,18 @@ focus_tree = {
 	}
 	focus = { #일본의 만행 알리기
 		id = ROK_good_japan_is_dead_japan
-		icon = GFX_goal_unknown
+		icon = GFX_MKR_non_aggression_treaty_with_Japan
 		cost = 10.00
 		prerequisite = {
 			focus = history_correctly
 		}
 		x = 13
 		y = 5
+		completion_reward = {
+				ROK = { add_opinion_modifier = { target = JAP modifier = enemy_germany } }
+				JAP = { add_opinion_modifier = { target = ROK modifier = enemy_germany } }
+			
+		}
 
 	}
 	focus = { #금융실명제
@@ -428,7 +445,7 @@ focus_tree = {
 	}
 	focus = { #교육에 투자
 		id = investment_in_education
-		icon = GFX_goal_unknown
+		icon = position_armies
 		cost = 10.00
 		prerequisite = {
 			focus = Punishment_of_those_involved
@@ -442,7 +459,7 @@ focus_tree = {
 	}
 	focus = { #노조탄압
 		id = 노조탄압
-		icon = GFX_goal_unknown
+		icon = dangerous_laws
 		cost = 10.00
 		prerequisite = {
 			focus = investment_in_education
@@ -459,7 +476,7 @@ focus_tree = {
 	}
 	focus = { #연합국 가입
 		id = Allied_accession
-		icon = GFX_goal_unknown
+		icon = british_nationalism
 		cost = 10.00
 		prerequisite = {
 			focus = theorem_of_warlords
@@ -482,7 +499,7 @@ focus_tree = {
 	}
 	focus = { #독일의 위협 홍보
 		id = ROK_germans_attack
-		icon = GFX_goal_unknown
+		icon = german_nationalism
 		cost = 10.00
 		prerequisite = {
 			focus = Allied_accession
@@ -1239,7 +1256,7 @@ focus_tree = {
 	}
 	focus = {
 		id = bury_sb_in_a_warlord
-		icon = GFX_goal_unknown
+		icon = chinese_rival_government
 		cost = 10.00
 		prerequisite = {
 			focus = meet_chang
@@ -1277,13 +1294,26 @@ focus_tree = {
 	}
 	focus = {
 		id = Asian_nationalism
-		icon = GFX_goal_unknown
+		icon = asia
 		cost = 10.00
 		prerequisite = {
 			focus = East_Asian_Union
 		}
 		x = 9
 		y = 9
+		completion_reward = {
+			
+			every_other_country = {
+				limit = {
+					NOT = {	tag = ROK }
+					NOT = { has_war_with = ROK }
+					capital_scope = {
+						is_on_continent = asia
+					}
+				}
+				ROOT = { add_opinion_modifier = { target = ROK modifier = asian_nationalism } }
+			}
+		}	
 
 	}
 	focus = {
@@ -1295,6 +1325,13 @@ focus_tree = {
 		}
 		x = 8
 		y = 10
+		completion_reward = {
+			ENG = {
+				country_event = {
+					id = ROK.37
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -1306,6 +1343,13 @@ focus_tree = {
 		}
 		x = 10
 		y = 10
+		completion_reward = {
+			USA = {
+				country_event = {
+					id = ROK.39
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -1364,6 +1408,13 @@ focus_tree = {
 		}
 		x = 9
 		y = 11
+		completion_reward = {
+			HOL = {
+				country_event = {
+					id = ROK.38
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -1422,6 +1473,9 @@ focus_tree = {
 		}
 		x = 3
 		y = 11
+		completion_reward = {
+			add_ideas = ROK_anti_discrimination
+		}
 
 	}
 	focus = {
@@ -1442,6 +1496,21 @@ focus_tree = {
 		}
 		x = 8
 		y = 15
+		completion_reward = {
+			
+			every_other_country = {
+				limit = {
+					NOT = {	tag = ROK }
+					NOT = { has_war_with = ROK }
+					capital_scope = {
+						is_on_continent = asia
+					}
+				}
+				country_event = {
+					id = rok.36
+				}	
+			}
+		}
 
 	}
 	focus = {
