@@ -2,6 +2,7 @@
 division_template = {
 	name = "주한미군"
 	priority = 2
+	is_locked = yes
 	
 	regiments = {
 		modern_mbt = { x = 0 y = 0 }

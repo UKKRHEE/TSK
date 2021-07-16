@@ -49,6 +49,47 @@ ideas = {
 	} 
 	
 	country = {
+		KOR_us_doller = { #차관
+
+			picture = idea_KOR_economic_collapse_1
+
+        	allowed = {
+				original_tag = ROK
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				consumer_goods_factor = -0.4
+				production_factory_efficiency_gain_factor = 0.2 #생산효율성성장%
+				line_change_production_efficiency_factor = 0.2 #생산효율성유지%
+				production_factory_start_efficiency_factor = 0.2 #기본생산효율%
+				production_speed_buildings_factor = 0.3 #건설속도%
+			}
+		}
+		KOR_usf_div = { #외국인반란
+
+			picture = idea_KOR_economic_collapse_1
+
+        	allowed = {
+				original_tag = ROK
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				stability_factor = -0.4
+				consumer_goods_factor = 0.3
+			}
+		}
 		ROK_anti_discrimination law = {
 			
 			allowed = {
@@ -388,7 +429,7 @@ ideas = {
         	removal_cost = -1
 
 	   		modifier = { 
-				army_speed_factor	= -0.1
+				army_speed_factor	= 0.1
 			}
 		}
 		

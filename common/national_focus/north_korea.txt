@@ -1664,7 +1664,7 @@ focus_tree = {
 	}
 	focus = { #적화통일 선언 (남한내 남한핵심주 모두제거,국민정신 '적화통일'획득
 		id = prk_Declaration_of_Communistic_Unification
-		icon = 조선인민군
+		icon = GFX_적화통일
 		cost = 10.00
 		prerequisite = {
 			focus = prk_Securing_Seoul

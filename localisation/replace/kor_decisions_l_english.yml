@@ -99,11 +99,19 @@
  KOR_army_spylevel_no_effects:0 "§G현재 북한의 간첩들은 거의없는것으로 예상됩니다§!"
  KOR_army_spylevel_few_effects:0 "§O북한의 간첩이 군대내부에 조금침투해있으며 적극대응을 추천드립니다§!"
  KOR_army_spylevel_mid_effects:0 "§O북한의 간첩이 많이 침투해있으며 강력대응을 추천드립니다§!"
- KOR_army_spylevel_many_effects:0 "§R기무사령부에서 보고드립니다. 완벽하게 북한의 간첩들을 처리하였으며 어떠한 조치도 필요 없습니다.§!"
+ KOR_army_spylevel_many_effects:0 "§R기무사령부에서 보고드립니다. 완벽하게 북한의 간첩들을 처리하였으며 어떠한 조치도 필요하지않습니다.§!"
  
  develop_sead: "전자전 무장 개발"
  make_sead: "전자전 무장 생산"
  sead_mission: "전자전 임무 실행 / 현재 보유중인 전자전 무장 : [?Root.sead_arm]"
+ 
+ jsdf_contact: "자위대와 접촉합니다 / §G이것은 우리의 영향력을 늘려줄것입니다.§!"
+ 
+ 
+ civil_mkr_win:"군사정부가 한국내전에서 승리하다"
+ civil_rok_win:"대한민국이 한국내전에서 승리하다"
+ 
+ Alien:"미지의 세력과 접촉함"
  
  army_xp:0 "£army_experience_dec  §H75§!"
  army_xp_blocked:0 "£army_experience_dec  §H75§!"

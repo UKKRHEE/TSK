@@ -36,7 +36,7 @@ focus_tree = {
 		x = 29
 		y = 7
 		completion_reward = {
-			country_event = { id = rok.2 }
+			country_event = { id = rok.3 }
 			custom_effect_tooltip = remove_mkr
 			hidden_effect = {
 				set_country_flag = Erasing_Residuals
@@ -237,7 +237,7 @@ focus_tree = {
 	}
 	focus = { #국공내전 개입
 		id = intervention_in_the_civil_war
-		icon = chinese_nationalism
+		icon = GFX_국공내전개입
 		cost = 10.00
 		prerequisite = {
 			focus = Contact_with_China
@@ -258,7 +258,7 @@ focus_tree = {
 	}
 	focus = { #자위대와의 협상
 		id = war_of_liberation
-		icon = japanese_imperialism
+		icon = GFX_자위대와협상
 		cost = 10.00
 		prerequisite = {
 			focus = test_Japan
@@ -401,7 +401,7 @@ focus_tree = {
 	}
 	focus = { #역사 바로알기 정책
 		id = history_correctly
-		icon = anti_fascist_diplomacy
+		icon = GFX_역사바로알기
 		cost = 10.00
 		prerequisite = {
 			focus = Punishment_of_those_involved
@@ -415,7 +415,7 @@ focus_tree = {
 	}
 	focus = { #일본의 만행 알리기
 		id = ROK_good_japan_is_dead_japan
-		icon = GFX_MKR_non_aggression_treaty_with_Japan
+		icon = GFX_일본의만행알리기
 		cost = 10.00
 		prerequisite = {
 			focus = history_correctly
@@ -423,9 +423,8 @@ focus_tree = {
 		x = 13
 		y = 5
 		completion_reward = {
-				ROK = { add_opinion_modifier = { target = JAP modifier = enemy_germany } }
-				JAP = { add_opinion_modifier = { target = ROK modifier = enemy_germany } }
-			
+			custom_effect_tooltip = jsdf_contact
+			country_event = { id = rok.40 }
 		}
 
 	}
@@ -445,7 +444,7 @@ focus_tree = {
 	}
 	focus = { #교육에 투자
 		id = investment_in_education
-		icon = position_armies
+		icon = GFX_교육에투자
 		cost = 10.00
 		prerequisite = {
 			focus = Punishment_of_those_involved
@@ -459,7 +458,7 @@ focus_tree = {
 	}
 	focus = { #노조탄압
 		id = 노조탄압
-		icon = dangerous_laws
+		icon = GFX_노조탄압
 		cost = 10.00
 		prerequisite = {
 			focus = investment_in_education
@@ -521,6 +520,9 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_germans_attack
 		}
+		completion_reward = {
+			news_event = { hours = 6 id = kor_news.27 }
+		}
 		x = 15
 		y = 10
 
@@ -532,16 +534,24 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_auschibitz
 		}
+		completion_reward = {
+			USA = {
+				country_event = { id = rok.41 }
+			}
+		}
 		x = 14
 		y = 11
 
 	}
-	focus = { #진주만은 없다
+	focus = { #주한미군 문제
 		id = ROK_hawwai_defence
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_with_usa
+		}
+		completion_reward = {
+			country_event = { id = rok.43 }
 		}
 		x = 14
 		y = 12
@@ -704,7 +714,7 @@ focus_tree = {
 	}
 	focus = { #한국이 주도하는 UN
 		id = ROK_koreas_United_nation
-		icon = GFX_goal_unknown
+		icon = GFX_UN설립
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_earth_liberty's_defencer
@@ -1541,6 +1551,9 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_koreas_United_nation
+		}
+		available = {
+			has_global_flag = Alien
 		}
 		x = 18
 		y = 15

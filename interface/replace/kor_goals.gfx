@@ -205,7 +205,7 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-	name = "GFX_focus_generic_japanese_imperial_glory"
-	texturefile = "gfx/interface/goals/focus_generic_japanese_imperial_glory.dds"			
+	name = "GFX_적화통일"
+	texturefile = "gfx/interface/goals/적화통일.png"			
 	}	
 }
