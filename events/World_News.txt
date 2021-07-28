@@ -12,7 +12,7 @@ news_event = {
 	id = kor_news.1
 	title = kor_news.1.t
 	desc = kor_news.1.d
-	picture = GFX_news_event_001
+	picture = GFX_군사반란
 	
 	major = yes
 	
@@ -143,6 +143,12 @@ news_event = {
 	
 	is_triggered_only = yes
 	
+	immediate = {
+		hidden_effect = {
+			sound_effect = prk_attack
+		}
+	}
+	
 	option = {
 		name = kor_news.4.a
 		trigger = {
@@ -179,8 +185,8 @@ news_event = {#부산함락
 	
 	trigger = {
 		809 = { is_controlled_by = PRK }
-		809 = { is_owned_by = ROK }
 		NOT = { has_global_flag = fall_of_busan_PRK }
+		has_global_flag = kor_civ
 	}
 	
 	immediate = {

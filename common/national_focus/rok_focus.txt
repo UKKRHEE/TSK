@@ -4,10 +4,6 @@ focus_tree = {
 	default = no
 	country = {
 		factor = 0
-		modifier = {
-			add = 10
-			tag = KR1
-		}
 	}
 	focus = { #14대 대선
 		id = presidential_election

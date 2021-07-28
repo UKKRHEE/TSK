@@ -60,6 +60,9 @@ country_event = { # 내전끝
 		add_ideas = mkr_irregularities_barracks
 		add_ideas = avoidance_military_service
 		set_country_flag = kor_hanahoe_1
+		hidden_effect = { 
+			news_event = { hours = 6 id = kor_news.23 }
+		}
     }	
 	
 }
