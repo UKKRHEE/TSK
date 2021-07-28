@@ -130,7 +130,7 @@ country_event = {
 					days = 2
 		        }
             }	
-			PRK = {
+			korea = {
 				if = { 
 					limit = { is_ai = yes }
 					country_event = {
@@ -267,7 +267,7 @@ country_event = {
 								days = 5
 							}			
 						}	
-						PRK = {
+						korea = {
 							country_event = {
 								id = korea.2
 								days = 1
@@ -431,7 +431,7 @@ country_event = { #북한군 남침?
 	option = {
 		name = korea.2.a
 		ai_chance = { factor = 70 }
-		PRK = {
+		korea = {
             declare_war_on = {
 				target = MKR
 				type = take_core_state
@@ -440,8 +440,8 @@ country_event = { #북한군 남침?
 				target = ROK
 				type = take_core_state
 			}
-			unlock_decision_category_tooltip = PRK_2nd_war
-			set_country_flag = PRK_war1
+			unlock_decision_category_tooltip = korea_2nd_war
+			set_country_flag = korea_war1
 			news_event = { days = 2 id = kor_news.4 }
         }
     }	
@@ -702,9 +702,9 @@ country_event = { #서울해방
 	fire_only_once = yes
 	
 	trigger = {
-		807 = { is_owned_by = PRK }
+		807 = { is_owned_by = korea }
 		807 = { is_controlled_by = ROK }
-		ROK = { has_war_with = PRK }
+		ROK = { has_war_with = korea }
 		NOT = { has_global_flag = return_seoul_ROK }
 		has_global_flag = fall_of_seoul
 	}
@@ -748,7 +748,7 @@ country_event = { #항복
 	
 	option = {
 		name = korea.16.a
-		PRK = {
+		korea = {
 			set_state_owner  = 525
 			set_state_owner  = 810
 			set_state_owner  = 807
@@ -771,7 +771,7 @@ country_event = { #낙동강 방어선
 	
 	trigger = {
 		tag = ROK
-		has_war_with = PRK
+		has_war_with = korea
 		surrender_progress < 0.4
 	}
 	
@@ -807,7 +807,7 @@ country_event = { #낙동강 방어선
 }
 }
 
-country_event = { #항복
+country_event = { #일본-자위대 합병
 	id = korea.19
 	title = korea.19.t
 	desc = korea.19.d
@@ -828,3 +828,24 @@ country_event = { #항복
 		}	
     }	
 }
+
+country_event = { #하나회반란
+	id = korea.21
+	title = korea.21.t
+	desc = korea.21.d
+	picture = GFX_two_peo_pic
+
+	is_triggered_only = yes
+	
+	option = {#좋군
+		name = korea.21.a	
+			start_civil_war = {
+				ruling_party = democratic
+				ideology = neutrality
+				size = 0.3
+				
+			}
+		}
+
+}
+

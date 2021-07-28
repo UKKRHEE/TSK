@@ -2,6 +2,7 @@
 division_template = {
 	name = "주한미군"
 	priority = 2
+	is_locked = yes
 	
 	regiments = {
 		modern_mbt = { x = 0 y = 0 }
@@ -45,7 +46,7 @@ units = {
         force_equipment_variants = { modern_motorized_equipment = { owner = "USF" } }
         force_equipment_variants = { light_vehicle_equipment_2 = { owner = "USF" } }
         force_equipment_variants = { m_1990_IFV_equipment = { owner = "USF" } }
-        force_equipment_variants = { USF_support_infantry_equipment_2 = { owner = "USF" } }
+        force_equipment_variants = { support_infantry_equipment_2 = { owner = "USF" } }
         force_equipment_variants = { m_1990_mlrs_equipment = { owner = "USF" } }
         force_equipment_variants = { modern_artillery_equipment_2 = { owner = "USF" } }
 	}

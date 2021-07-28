@@ -813,7 +813,7 @@ country_event = { #주한미군병사들이 본국에가길원하다
 
 	option = { #그래.
 		name = mkorea.44.a
-		KOR = {
+		MKR = {
 			annex_country = { target = USF transfer_troops = no }
 		}
 		USF = {

@@ -1261,6 +1261,16 @@ country_event = {
 				expire = 0
 			}
 		}
+		if = { 
+			limit = {
+				country_exists = KR1
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = KR1
+				expire = 0
+			}
+		}
 	}
 }
 

@@ -57,9 +57,11 @@ country_event = { # 내전끝
 		add_ideas = rok_Divided_politics
 		add_ideas = rok_strike
 		add_ideas = kor_law_of_korean_5
+		set_country_flag = kor_hanahoe_1
     }	
 	
-}country_event = { # 긴급보안법
+}
+country_event = { # 긴급보안법
 	id = rok_civ.1
 	title = rok_civ.1.t
 	desc = rok_civ.1.d
@@ -540,7 +542,7 @@ country_event = { #중국이 우리의 요구를 거부하다!!
 }
 
 
-country_event = { #중국이 우리의 도움을 요청하다
+country_event = { #중국이 우리의 도움을 요청하다( 북한)
 	id = rok.17
 	title = rok.17.t
 	desc = rok.17.d
@@ -562,7 +564,7 @@ country_event = { #중국이 우리의 도움을 요청하다
     }	
 }
 
-country_event = { #중국이 우리의 도움을 요청하다
+country_event = { #중국이 우리의 도움을 요청하다 ( 소련)
 	id = rok.18
 	title = rok.18.t
 	desc = rok.18.d
@@ -603,13 +605,14 @@ country_event = { #국공합작결성
 				transfer_troops = yes
 			}
 		}
+		news_event = { hours = 6 id = kor_news.29 }
     }	
 }
 
 country_event = { #군벌 예속화
 	id = rok.20
 	title = rok.20.t
-	desc = rok.20.desc
+	desc = rok.20.d
 	picture = GFX_report_event_chinese_officers
 
 	is_triggered_only = yes
@@ -642,7 +645,7 @@ country_event = { #군벌 예속화
 country_event = {
 	id = rok.21
 	title = rok.21.t
-	desc = rok.21.desc
+	desc = rok.21.d
 	picture = GFX_report_event_chinese_japanese_handshake
 
 	is_triggered_only = yes
@@ -657,7 +660,7 @@ country_event = {
 country_event = {
 	id = rok.23
 	title = rok.23.t
-	desc = rok.23.desc
+	desc = rok.23.d
 	picture = GFX_report_event_chinese_soldiers_01
 
 	is_triggered_only = yes
@@ -677,7 +680,7 @@ country_event = {
 country_event = { #한국이 연합국가입을 요청하다
 	id = rok.24
 	title = rok.24.t
-	desc = rok.24.desc
+	desc = rok.24.d
 	picture = GFX_report_event_chinese_japanese_handshake
 
 	is_triggered_only = yes
@@ -703,7 +706,7 @@ country_event = { #한국이 연합국가입을 요청하다
 country_event = { #영국이 우리의 요청을 수락하다
 	id = rok.25
 	title = rok.25.t
-	desc = rok.25.desc
+	desc = rok.25.d
 	picture = GFX_report_event_chinese_soldiers_01
 
 	is_triggered_only = yes
@@ -719,7 +722,7 @@ country_event = { #영국이 우리의 요청을 수락하다
 country_event = { #영국이 거부하다!!
 	id = rok.26
 	title = rok.26.t
-	desc = rok.26.desc
+	desc = rok.26.d
 	picture = GFX_report_event_chinese_soldiers_01
 
 	is_triggered_only = yes
@@ -732,7 +735,7 @@ country_event = { #영국이 거부하다!!
 country_event = { #미국에 협조를요청 (베네수엘라침공)
 	id = rok.27
 	title = rok.27.t
-	desc = rok.27.desc
+	desc = rok.27.d
 	picture = GFX_report_event_chinese_soldiers_01
 
 	is_triggered_only = yes
@@ -755,7 +758,7 @@ country_event = { #미국에 협조를요청 (베네수엘라침공)
 country_event = { #미국이 수락하다
 	id = rok.28
 	title = rok.28.t
-	desc = rok.28.desc
+	desc = rok.28.d
 	picture = GFX_report_event_chinese_soldiers_01
 
 	is_triggered_only = yes
@@ -781,7 +784,7 @@ country_event = { #미국이 수락하다
 country_event = { #미국이 거부하다!!
 	id = rok.29
 	title = rok.29.t
-	desc = rok.29.desc
+	desc = rok.29.d
 	picture = GFX_report_event_chinese_soldiers_01
 
 	is_triggered_only = yes
@@ -795,7 +798,7 @@ country_event = { #미국이 거부하다!!
 country_event = { #영국에 협조를요청
 	id = rok.30
 	title = rok.30.t
-	desc = rok.30.desc
+	desc = rok.30.d
 	picture = GFX_report_event_chinese_soldiers_01
 
 	is_triggered_only = yes
@@ -818,7 +821,7 @@ country_event = { #영국에 협조를요청
 country_event = { #영국이 수락하다
 	id = rok.31
 	title = rok.31.t
-	desc = rok.31.desc
+	desc = rok.31.d
 	picture = GFX_report_event_chinese_soldiers_01
 
 	is_triggered_only = yes
@@ -844,7 +847,7 @@ country_event = { #영국이 수락하다
 country_event = { #미국이 거부하다!!
 	id = rok.32
 	title = rok.32.t
-	desc = rok.32.desc
+	desc = rok.32.d
 	picture = GFX_report_event_chinese_soldiers_01
 
 	is_triggered_only = yes
@@ -858,7 +861,7 @@ country_event = { #미국이 거부하다!!
 country_event = { #국제연합 설립
 	id = rok.33
 	title = rok.33.t
-	desc = rok.33.desc
+	desc = rok.33.d
 	picture = GFX_UN_1
 
 	is_triggered_only = yes
@@ -906,7 +909,7 @@ country_event = { #국제연합 설립
 country_event = { #상임이사국 초대
 	id = rok.34
 	title = rok.34.t
-	desc = rok.34.desc
+	desc = rok.34.d
 	picture = GFX_UN_1
 
 	is_triggered_only = yes
@@ -921,7 +924,7 @@ country_event = { #상임이사국 초대
 country_event = { #UN 초대
 	id = rok.35
 	title = rok.35.t
-	desc = rok.35.desc
+	desc = rok.35.d
 	picture = GFX_UN_1
 
 	is_triggered_only = yes
@@ -935,7 +938,7 @@ country_event = { #UN 초대
 country_event = { #대아시아 연방
 	id = rok.36
 	title = rok.36.t
-	desc = rok.36.desc
+	desc = rok.36.d
 	picture = GFX_UN_1
  
 	is_triggered_only = yes
@@ -964,7 +967,7 @@ country_event = { #대아시아 연방
 country_event = { #영국과 거래
 	id = rok.37
 	title = rok.37.t
-	desc = rok.37.desc
+	desc = rok.37.d
 	picture = GFX_UN_1
  
 	is_triggered_only = yes
@@ -1030,7 +1033,7 @@ country_event = { #영국과 거래
 country_event = { #대아시아 연방
 	id = rok.38
 	title = rok.38.t
-	desc = rok.38.desc
+	desc = rok.38.d
 	picture = GFX_UN_1
  
 	is_triggered_only = yes
@@ -1060,7 +1063,7 @@ country_event = { #대아시아 연방
 country_event = { #대아시아 연방
 	id = rok.39
 	title = rok.39.t
-	desc = rok.39.desc
+	desc = rok.39.d
 	picture = GFX_UN_1
  
 	is_triggered_only = yes
@@ -1086,4 +1089,214 @@ country_event = { #대아시아 연방
 			factor = 0
 		}
 	}
+}
+country_event = { #자위대장교와 접촉
+	id = rok.40
+	title = rok.40.t
+	desc = rok.40.d
+	picture = GFX_자위대
+ 
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = rok.40.a
+	}
+	
+}
+country_event = { #대한민국의 연합국 가입제안
+	id = rok.41
+	title = rok.41.t
+	desc = rok.41.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = rok.41.a
+		ROK = {
+			country_event = { id = rok.42 }
+		}
+	}
+}
+
+country_event = { #우리의 제안을 수락한 미합중국
+	id = rok.42
+	title = rok.42.t
+	desc = rok.42.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = rok.42.a
+		ENG = {
+		add_to_faction = USA
+		}
+	}
+}
+
+country_event = { #주한미군 협상 재개 
+	id = rok.43
+	title = rok.43.t
+	desc = rok.43.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #병사만 반환하는쪽으로 간다 
+		name = rok.43.a
+		USA = {
+			country_event = { id = rok.44 }
+		}
+	}
+	
+	option = { #병사와 장비 둘다 반환한다 
+		name = rok.43.b
+		USA = {
+			country_event = { id = rok.48 }
+		}
+	}
+}
+
+country_event = { #한국이 병사의반환을 제안하다
+	id = rok.44
+	title = rok.44.t
+	desc = rok.44.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #좋다. 
+		name = rok.44.a
+		ROK = {
+			country_event = { hours = 6 id = rok.47 }
+		}
+	}
+	
+	option = { #결렬이다!
+		name = rok.44.a
+		ROK = {
+			country_event = { hours = 6 id = rok.45 }
+		}
+	}
+}
+
+
+country_event = { #미국이 우리의 제안을 거부하다!!
+	id = rok.45
+	title = rok.45.t
+	desc = rok.45.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #이런. 
+		name = rok.45.a
+		ROK = {
+			country_event = { hours = 24 id = rok.46 }
+		}
+	}
+}
+
+
+country_event = { #국내 외국인들의 반란!
+	id = rok.46
+	title = rok.46.t
+	desc = rok.46.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #이런.....
+		name = rok.46.a
+		add_timed_idea = {
+			idea = KOR_usf_div
+			days = 360
+		}
+	}
+}
+
+country_event = { #미국이 우리의 제안을 수락하다.
+	id = rok.47
+	title = rok.47.t
+	desc = rok.47.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #잘됐군. 
+		name = rok.47.a
+		USA = {
+		add_manpower = 30000
+		}
+	}
+}
+
+
+country_event = { #한국이 우리의 요청을 받아들이다.
+	id = rok.48
+	title = rok.48.t
+	desc = rok.48.d
+	picture = GFX_report_event_japan_europe_pact	#debug
+
+	is_triggered_only = yes
+
+	option = { #그래.
+		name = rok.48.a
+		ROK = {
+			annex_country = { target = USF transfer_troops = no }
+		}
+		USF = {
+		remove_state_core = 823
+		}
+		USA = {
+		country_event = { id = rok.49 days = 1 }
+			hidden_effect = { set_technology = { m_1990_infantry_eq = 1 } }
+			hidden_effect = { set_technology = { m_1990_modern_tank = 1 } }
+			hidden_effect = { set_technology = { m_1990_motorized_rocket_unit = 1 } }
+			hidden_effect = { set_technology = { m_1990_IFV = 1 } }
+			hidden_effect = { set_technology = { m_1990_mechanized_equipment = 1 } }
+			hidden_effect = { set_technology = { modern_war_artillery_2 = 1 } }
+			hidden_effect = { set_technology = { m_1985_sup_infantry_eq = 1 } }
+			hidden_effect = { set_technology = { m_1990_spaa = 1 } }
+			hidden_effect = { set_technology = { m_1990_sp = 1 } }
+			hidden_effect = { set_technology = { m_1990_sp = 1 } }
+			
+			hidden_effect = { set_technology = { m_1980_manpad = 1 } }
+			hidden_effect = { set_technology = { m_1990_atgm = 1 } }
+			hidden_effect = { set_technology = { heavy_anti_air = 1 } }
+			hidden_effect = { set_technology = { aa_missile = 1 } }
+			hidden_effect = { set_technology = { m_1990_jet_CAS = 1 } }
+			hidden_effect = { set_technology = { m_1990_jet_fighter = 1 } }
+			
+			hidden_effect = { set_technology = { light_vehicle_equipment_0 = 1 } }
+			hidden_effect = { set_technology = { light_vehicle_equipment_1 = 1 } }
+			hidden_effect = { set_technology = { light_vehicle_equipment_2 = 1 } }
+			hidden_effect = { set_technology = { light_mun_equipment = 1 } }
+			hidden_effect = { set_technology = { heavy_mun_equipment = 1 } }
+			hidden_effect = { set_technology = { engineer_equipment = 1 } }
+			hidden_effect = { set_technology = { modern_moto = 1 } }
+		}
+
+	}
+}
+
+country_event = { #주한미군병사들이 본국에도착하다
+	id = rok.49
+	title = rok.49.t
+	desc = rok.49.d
+	picture = GFX_report_event_japan_europe_pact	#debug
+
+	is_triggered_only = yes
+
+	option = { #그래.
+		name = rok.49.a
+		USA = {
+			add_manpower = 30000
+			load_oob = USF_home
+		}
+	}
+
 }

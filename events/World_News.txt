@@ -999,7 +999,7 @@ news_event = {
         trigger = {
             NOT = {
                 TAG = JAP
-                TAG = PRK
+                TAG = CHI
                 TAG = ROK
             }
         }
@@ -1010,7 +1010,7 @@ news_event = {
     }
     option = {
         name = kor_news.26.c
-        trigger = { TAG = PRK }
+        trigger = { TAG = CHI }
     }
     option = {
         name = kor_news.26.d
@@ -1076,6 +1076,42 @@ news_event = {
     }
     option = {
         name = kor_news.28.b
+        trigger = { TAG = ROK }
+    }
+}
+
+
+# 중한전쟁
+news_event = {
+    id = kor_news.29
+    title = kor_news.29.t
+    desc = kor_news.29.desc
+    picture = bb
+    
+    major = yes
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = kor_news.29.a
+        trigger = {
+            NOT = {
+                TAG = JAP
+                TAG = CHI
+                TAG = ROK
+            }
+        }
+    }
+    option = {
+        name = kor_news.29.b
+        trigger = { TAG = JAP }
+    }
+    option = {
+        name = kor_news.29.c
+        trigger = { TAG = CHI }
+    }
+    option = {
+        name = kor_news.29.d
         trigger = { TAG = ROK }
     }
 }

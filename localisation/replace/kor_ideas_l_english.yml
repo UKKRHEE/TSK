@@ -34,6 +34,9 @@
  mkr_press_censorship:0 "언론검열"
  mkr_mitigate_censorship:0 "언론검열완화"
  
+ unaccustomed_to_modern_warfare:0 "현대전에 익숙하지 않음"
+ unaccustomed_to_modern_warfare_desc:0 "이장군은 과거의 전술,전략에 익숙합니다. 이들이가진 능력치는 뛰어나지만,현대시대의 우리의 부대를 지휘하는데는 어려움이 있을것입니다 §R전술 재교육을통해 제거가 가능합니다.§!"
+ 
  mkr_combat_police:0 "전투경찰"
  mkr_combat_police_desc:0 "전투경찰대는 본래 대간첩작전의 수행을 목적으로 창설된 조직이지만, 민주화운동기를 거치면서 주로 시위진압부대를 상징하는 경찰조직으로 국내외에 인식되어 왔습니다."
  mkr_war_against_crime:0 "범죄와의 전쟁"

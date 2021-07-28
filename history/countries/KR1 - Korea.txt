@@ -201,14 +201,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Rho Tae whoo"
-	desc = ""
-	picture = "Rho_Tae_Whoo.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
+	    name = "Seo Wan soo"
+	    desc = ""
+	    picture = "gfx/leaders/ROK/서완수.png"
+	    expire = "1965.1.1"
+	    ideology = despotism
+	    traits = {
+		
+	}	
 }
 
 create_corps_commander = {
