@@ -7003,6 +7003,10 @@ spriteTypes = {
 		name = "two_state_solution"
 		texturefile = "gfx/interface/goals/israel/two_state_solution.dds"
 	}
+	SpriteType = { 
+		name = "goal_ISR_jew_state"
+		texturefile = "gfx/interface/goals/israel/goal_ISR_jew_state.dds"
+	}
 	####
 	SpriteType = {
 		name = "focus_Lee_Myung_bak"

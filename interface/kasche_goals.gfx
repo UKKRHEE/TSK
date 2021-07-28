@@ -4,6 +4,42 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/K_asche/1936_world.png"
 	}
 	SpriteType = {
+		name = "korea_and_america"
+		texturefile = "gfx/interface/goals/한미.png"
+	}
+	SpriteType = {
+		name = "복지정책"
+		texturefile = "gfx/interface/goals/복지정책.png" 
+	} 
+	SpriteType = {
+		name = "금융실명제"
+		texturefile = "gfx/interface/goals/금융실명제.png" 
+	} 
+	SpriteType = {
+		name = "높하한"
+		texturefile = "gfx/interface/goals/높하한.png" 
+	} 
+	SpriteType = { 
+		name = "방산업체"
+		texturefile = "gfx/interface/goals/방산업체.dds"
+	} 
+	SpriteType = { 
+		name = "goal_KOR_strong_hand"
+		texturefile = "gfx/interface/goals/goal_KOR_strong_hand.dds"
+	} 
+	SpriteType = { 
+		name = "goal_Korean_Miracle" 
+		texturefile = "gfx/interface/goals/goal_Korean_Miracle.dds"
+	} 
+	SpriteType = { 
+		name = "나가토"
+		texturefile = "gfx/interface/goals/나가토.png"
+	} 
+	SpriteType = {
+		name = "focus_kaist"
+		texturefile = "gfx/interface/goals/focus_kaist.dds"
+	} 
+	SpriteType = {
 		name = "GFX_KOR_intel"
 		texturefile = "gfx/interface/goals/K_asche/KOR_intel.png"
 	}
@@ -12,7 +48,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/K_asche/KOR_press_control.png"
 	}
 	SpriteType = {
-		name = "GFX_KOR_martial_law"
+		name = "GFX_KOR_martial_law" 
 		texturefile = "gfx/interface/goals/K_asche/KOR_martial_law.png"
 	}
 	SpriteType = {
