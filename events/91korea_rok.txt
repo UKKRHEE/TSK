@@ -3,7 +3,7 @@ add_namespace = rok_civ
 country_event = { # 14대 대선
 	id = rok.1
 	title = rok.1.t
-	desc = rok.1.d
+	desc = rok.1.d 
 	picture = GFX_two_peo_pic
 
 	is_triggered_only = yes

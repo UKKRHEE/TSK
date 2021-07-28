@@ -1,6 +1,6 @@
 add_namespace = korea_war
 #목표서울
-country_event = {
+country_event = { 
 	id = korea_war.1
 	title = korea_war.1.t
 	desc = korea_war.1.d
