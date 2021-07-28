@@ -49,6 +49,111 @@ ideas = {
 	} 
 	
 	country = {
+		avoidance_military_service = { #병역기피
+
+			picture = future_ideas
+
+        	allowed = {
+				original_tag = ROK
+				original_tag = MKR
+				original_tag = KR1
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				recruitable_population_factor = -0.05
+				conscription_factor = -0.03
+			}
+		}
+		mkr_irregularities_barracks = { #병영내 부조리
+
+			picture = future_ideas
+
+        	allowed = {
+				original_tag = ROK
+				original_tag = MKR
+				original_tag = KR1
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				army_org_regain	= -0.10
+				army_morale = -0.15
+				army_attack_factor = -0.1
+				army_org_factor = -0.1
+			}
+		}
+		KOR_damunhwa = {
+		
+        	allowed = {
+				original_tag = ROK
+				original_tag = MKR
+				original_tag = KR1
+    		}
+			
+			default = yes
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = kor_danilminjok
+			
+			modifier = {
+				war_support_factor = 0.2
+				non_core_manpower = 0.1
+			}
+		}
+		KOR_damunhwa_1 = {
+		
+        	allowed = {
+				original_tag = ROK
+				original_tag = MKR
+				original_tag = KR1
+    		}
+			
+			default = yes
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = kor_danilminjok
+			
+			modifier = {
+				war_support_factor = 0.2
+				non_core_manpower = 0.1
+				research_speed_factor = 0.03
+			}
+		}
+		KOR_Internationalism = { #국제주의
+
+			picture = idea_KOR_economic_collapse_1
+
+        	allowed = {
+				original_tag = ROK
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				monthly_population = 0.05
+			}
+		}
 		KOR_us_doller = { #차관
 
 			picture = idea_KOR_economic_collapse_1

@@ -1030,7 +1030,8 @@ equipments = {
 		air_ground_attack = 60
 	
 		naval_strike_attack = 5
-		naval_strike_targetting = 15		
+		naval_strike_targetting = 15
+		build_cost_ic = 250		
 	}
 
 	#F-4D,A-5
@@ -1128,7 +1129,7 @@ equipments = {
 
 		naval_strike_attack = 1
 		naval_strike_targetting = 10
-
+		build_cost_ic = 300
 	}
 	
 	m_1980_jet_fighter_equipment = { #F-4 팬텀,MIG-23ML

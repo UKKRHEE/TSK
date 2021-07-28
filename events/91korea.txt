@@ -848,4 +848,37 @@ country_event = { #하나회반란
 		}
 
 }
+country_event = { #한국이 우리의 요청을 받아들이다.
+	id = korea.22
+	title = korea.22.t
+	desc = korea.22.d
+	picture = GFX_report_event_japan_europe_pact	#debug
 
+	is_triggered_only = yes
+
+	option = { #그래.
+		name = korea.22.a
+		GER = {
+			hidden_effect = { set_technology = { RD_infantry_equipment = 1 } }
+			hidden_effect = { set_technology = { RD_support_infantry_equipment = 1 } }
+			hidden_effect = { set_technology = { RD_heavy_anti_air_eq = 1 } }
+			hidden_effect = { set_technology = { RD_aa_missile = 1 } }
+			hidden_effect = { set_technology = { RD_m_1980_mbt = 1 } }
+			
+			hidden_effect = { set_technology = { RD_m_1980_spaa_equipment = 1 } }
+			hidden_effect = { set_technology = { RD_m_1980_sp_equipment = 1 } }
+			hidden_effect = { set_technology = { RD_m_1980_IFV_equipment = 1 } }
+			hidden_effect = { set_technology = { RD_m_1980_APC_equipment = 1 } }
+			hidden_effect = { set_technology = { RD_m_1970_jet_multirole_equipment = 1 } }
+			hidden_effect = { set_technology = { RD_m_1990_jet_fighter_equipment = 1 } }
+			
+			hidden_effect = { set_technology = { light_vehicle_equipment_0 = 1 } }
+			hidden_effect = { set_technology = { light_vehicle_equipment_1 = 1 } }
+			hidden_effect = { set_technology = { light_mun_equipment = 1 } }
+			hidden_effect = { set_technology = { heavy_mun_equipment = 1 } }
+			hidden_effect = { set_technology = { engineer_equipment = 1 } }
+			hidden_effect = { set_technology = { modern_moto = 1 } }
+		}
+
+	}
+}

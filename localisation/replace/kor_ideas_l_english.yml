@@ -78,9 +78,8 @@
  rok_Welfare_Policy:0 "복지정책"
  rok_Welfare_Policy_desc:0 ""
  
- rok_Divided_politics:0 "분열된정계"
- rok_Divided_politics_desc:0 ""
- 
+ avoidance_military_service:0 "병역기피"
+ avoidance_military_service_desc:0 "병역기피는 징병제국가에서 흔히 일어나는 일로 군 입대 자체를 거부하고,기피하는 현상을 뜻합니다."
  
  rok_chun:0 "구속된 전두환"
  

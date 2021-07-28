@@ -2584,4 +2584,161 @@ technologies = {
 
 		start_year = 1936
 	}
+	
+###############################################################################
+###############역설계 장비
+
+	RD_infantry_equipment = { 
+
+		enable_equipments = { 
+			RD_infantry_equipment_4
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+		
+	RD_support_infantry_equipment = { 
+
+		enable_equipments = { 
+			RD_support_infantry_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+		
+	RD_heavy_anti_air_eq = { 
+
+		enable_equipments = { 
+			RD_heavy_anti_air_eq
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+		
+	RD_aa_missile = { #경차량2 (험비)
+
+		enable_equipments = { 
+			RD_aa_missile
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	RD_m_1980_mbt = { 
+
+		enable_equipments = { 
+			RD_m_1980_mbt
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+
+	RD_m_1980_spaa_equipment = { #경탄약
+
+		enable_equipments = { 
+			RD_m_1980_spaa_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	RD_m_1980_sp_equipment = { #중탄약
+
+		enable_equipments = { 
+			RD_m_1980_sp_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	RD_m_1980_IFV_equipment = { 
+
+		enable_equipments = { 
+			RD_m_1980_IFV_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+
+	RD_m_1980_APC_equipment = { #경탄약
+
+		enable_equipments = { 
+			RD_m_1980_APC_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	RD_m_1970_jet_multirole_equipment = { #중탄약
+
+		enable_equipments = { 
+			RD_m_1970_jet_multirole_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	RD_m_1990_jet_fighter_equipment = { #중탄약
+
+		enable_equipments = { 
+			RD_m_1990_jet_fighter_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 }

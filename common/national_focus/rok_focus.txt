@@ -6,7 +6,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = TSK
+			tag = KR1
 		}
 	}
 	focus = { #14대 대선
@@ -564,6 +564,11 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_hawwai_defence
 		}
+		completion_reward = {
+			ENG = {
+			country_event = { id = rok.50 }
+			}
+		}
 		x = 15
 		y = 13
 
@@ -584,7 +589,7 @@ focus_tree = {
 	}
 	focus = { #작전명 초록
 		id = ROK_plan_green
-		icon = GFX_focus_attack_italy
+		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_national_attack
@@ -600,7 +605,7 @@ focus_tree = {
 	}
 	focus = { #작전명 검정
 		id = ROK_plan_black
-		icon = GFX_focus_attack_germany
+		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_national_attack
@@ -677,7 +682,9 @@ focus_tree = {
 		}
 		x = 21
 		y = 10
-
+		completion_reward = {
+			add_stability = 0.05
+		}
 	}
 	focus = { #살기좋은 우리나라로 이민오세요
 		id = ROK_happy_korea
@@ -685,6 +692,9 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_bokji_of_20th_end
+		}
+		completion_reward = {
+			add_ideas = KOR_Internationalism
 		}
 		x = 22
 		y = 11
@@ -697,16 +707,25 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_happy_korea
 		}
+		completion_reward = {
+			add_ideas = KOR_damunhwa
+		}
 		x = 22
 		y = 12
 
 	}
-	focus = { #범 태평양-인도양 패권 확보
+	focus = { #
 		id = ROK_social_many
 		icon = social_democracy
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_many_culture
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = KOR_damunhwa
+				add_idea = KOR_damunhwa_1
+			}
 		}
 		x = 21
 		y = 13
@@ -745,7 +764,7 @@ focus_tree = {
 	}
 	focus = { #금모으기운동
 		id = gold_collecting_movement
-		icon = gold_standard
+		icon = GFX_gold_move_gfx
 		cost = 10.00
 		prerequisite = {
 			focus = ask_for_a_loan
@@ -847,7 +866,7 @@ focus_tree = {
 	}
 	focus = { #실업자 복지정책
 		id = unemployment_welfare_policy
-		icon = 복지정책 
+		icon = 복지정책
 		cost = 10.00
 		prerequisite = {
 			focus = economis_cris
@@ -1027,14 +1046,14 @@ focus_tree = {
 	}
 	focus = {
 		id = defence_industry
-		icon = 방산업체 
+		icon = 방산업체
 		cost = 10.00
 		prerequisite = {
 			focus = Industrial_Complex_Development
 		}
 		x = 33
 		y = 5
- 
+
 	}
 	focus = {
 		id = ROK_plan_indo-taepyungyang
@@ -1369,6 +1388,11 @@ focus_tree = {
 		prerequisite = {
 			focus = deal_with_UK
 		}
+		completion_reward = {
+			ROK = {
+			add_to_faction = AST
+			}
+		}
 		x = 5
 		y = 11
 
@@ -1380,6 +1404,11 @@ focus_tree = {
 		prerequisite = {
 			focus = deal_with_US
 		}
+		completion_reward = {
+			ROK = {
+			add_to_faction = PHI
+			}
+		}
 		x = 11
 		y = 11
 
@@ -1390,6 +1419,11 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = deal_with_UK
+		}
+		completion_reward = {
+			ROK = {
+			add_to_faction = MAL
+			}
 		}
 		x = 7
 		y = 11
@@ -1404,6 +1438,13 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = Malay_Invitation
+		}
+		completion_reward = {
+			ROK = {
+				country_event = {
+					id = rok.51
+				}
+			}
 		}
 		x = 8
 		y = 12
@@ -1434,6 +1475,9 @@ focus_tree = {
 		prerequisite = {
 			focus = siam_press
 		}
+		completion_reward = {
+			add_to_faction = RAJ
+		}
 		x = 7
 		y = 13
 
@@ -1444,6 +1488,9 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = siam_press
+		}
+		completion_reward = {
+			add_to_faction = NZL
 		}
 		x = 9
 		y = 13
@@ -1459,6 +1506,12 @@ focus_tree = {
 		prerequisite = {
 			focus = Invitation_to_India
 		}
+		completion_reward = {
+			declare_war_on = {
+				target = GER
+				type = annex_everything
+			}
+		}
 		x = 8
 		y = 14
 
@@ -1469,6 +1522,12 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = Asian_nationalism
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = GER
+				type = annex_everything
+			}
 		}
 		x = 3
 		y = 10

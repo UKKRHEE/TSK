@@ -12,13 +12,13 @@ state={
 		add_core_of = KR1
 		add_core_of = PRK
 		buildings = {
-			infrastructure = 6 
-			arms_factory = 2
+			infrastructure = 7 
+			arms_factory = 8
 			industrial_complex = 3
 			dockyard = 5
 			air_base = 4
-			steel_mill = 1
-			fuel_silo = 3
+			steel_mill = 2
+			synthetic_refinery = 3
 			4056 = {
 				naval_base = 8
 			}
