@@ -4,6 +4,10 @@ focus_tree = {
 	default = no
 	country = {
 		factor = 0
+		modifier = {
+			add = 10
+			tag = TSK
+		}
 	}
 	focus = { #14대 대선
 		id = presidential_election
@@ -601,7 +605,10 @@ focus_tree = {
 	}
 	focus = { #작전명 검정
 		id = ROK_plan_black
-		icon = GFX_goal_unknown
+
+
+		icon = GFX_focus_generic_attack_portugal
+
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_national_attack
