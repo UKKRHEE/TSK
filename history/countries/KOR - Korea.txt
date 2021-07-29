@@ -13,7 +13,7 @@ if = {
 	}
 	set_naval_oob = "KOR_1936_naval_mtg"
 }
-1939.1.1 = {
+1938.1.1 = {
 		
 	complete_national_focus = KOR_MB_timeslip
 	complete_national_focus = KOR_MB_not_allied

@@ -8,6 +8,9 @@ tags={
 	"Military"
 	"Technologies"
 }
+dependencies={
+	"ZombiePush"
+}
 picture="thumbnail.png"
 replace_path="common/state_category"
 replace_path="common/terrain"
