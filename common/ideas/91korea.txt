@@ -49,6 +49,26 @@ ideas = {
 	} 
 	
 	country = {
+		weak_anti_sub = { #취약한 대잠방어
+
+			picture = weak_anti_sub
+
+        	allowed = {
+				original_tag = ROK
+				original_tag = MKR
+				original_tag = KR1
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				naval_detection	= -0.5
+			}
+		}
 		avoidance_military_service = { #병역기피
 
 			picture = future_ideas

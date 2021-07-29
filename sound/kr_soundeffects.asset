@@ -4,7 +4,7 @@ soundeffect = {
 	sounds = {
 		sound = kor_772
 	}
-	volume = 0.8
+	volume = 0.7
 }
 
 soundeffect = {
@@ -12,5 +12,5 @@ soundeffect = {
 	sounds = {
 		sound = prk_attack
 	}
-	volume = 0.8
+	volume = 0.7
 }

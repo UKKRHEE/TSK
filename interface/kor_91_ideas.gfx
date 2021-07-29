@@ -349,4 +349,8 @@ spriteTypes = {
 		name = "GFX_idea_rok_UN"
 		texturefile = "gfx/interface/ideas/UN멤버.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_weak_anti_sub"
+		texturefile = "gfx/interface/ideas/취약한대잠방어.png"
+	}
 }
