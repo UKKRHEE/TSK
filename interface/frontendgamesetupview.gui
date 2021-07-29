@@ -63,8 +63,10 @@ guiTypes = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
 			orientation = "CENTER"
-			position = { x = -20 y = -25 }
-			scale = 0.55
+			centerPosition = yes
+			#MODDEDv
+			#scale = 0.55
+			#MODDED^
 		}
 	}
 
@@ -99,8 +101,6 @@ guiTypes = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
 			orientation = "CENTER"
-			position = { x = -15 y = -25 }
-			scale = 0.55
 		}
 		
 		iconType = {
@@ -957,10 +957,14 @@ guiTypes = {
 		
 		gridboxtype = {
 			name = "spirit_grid_over_defined"
-			position = { x = 250 y = 20 }
+			#MODDEDv
+			position = { x = 250 y = 30 }		
+			#MODDED^
 			size = { width = 300 height = 70 }
-			slotsize = { width = 33 height = 32 }
-			max_slots = { x = 6 y = 2 }
+			#MODDEDv
+			slotsize = { width = 60 height = 68 }
+			max_slots = { x = 3 y = 1 }		
+			#MODDED^
 			format = "UPPER_LEFT"
 		}
 			

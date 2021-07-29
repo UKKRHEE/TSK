@@ -13,6 +13,20 @@ if = {
 	}
 	set_naval_oob = "KOR_1936_naval_mtg"
 }
+1939.1.1 = {
+		
+	complete_national_focus = KOR_MB_timeslip
+	complete_national_focus = KOR_MB_not_allied
+	complete_national_focus = KOR_MB_none-political
+	complete_national_focus = KOR_MB_the_last_republic
+	complete_national_focus = KOR_MB_northen_fight
+	complete_national_focus = KOR_MB_2nd_war
+	complete_national_focus = KOR_MB_4
+	complete_national_focus = KOR_MB_3
+	complete_national_focus = KOR_MB_2
+	complete_national_focus = KOR_MB_northen_nuke
+	complete_national_focus = KOR_MB_12
+}	
 
 add_ideas = {
 	#laws

@@ -24,6 +24,11 @@ state={
 			controller = KPA
 			add_claim_by = KOR
 		}
+		1936.8.15 = {
+			owner = KOR
+			add_core_of = KOR
+			remove_core_of = KPA
+		}
 	}
 
 	provinces={
