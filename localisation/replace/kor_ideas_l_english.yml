@@ -1,5 +1,8 @@
 ﻿l_english:
  ### KOR - idea
+ mkr_play:0 "§G군사정부로 플레이하여 반란군을 진압합니다.§!" 
+ rok_play:0 "§G대한민국으로 플레이하여 독재정을 타도합니다.§!" 
+ 
  mkr_nationwide_demonstration:0 "전국적인 대규모시위"
  mkr_nationwide_demonstration_desc:0 "현재 전국적으로 대도시를 중심으로 데모와 시위가 빈번히 일어나는 상황입니다."
  mkr_nationwide_demonstration_2:0 "전국적인 중규모시위"
@@ -30,7 +33,7 @@
  mkr_unorthodox_goverment_1:0 "군사정부"
  mkr_unorthodox_goverment_1_desc:0 "우리의 시대가 다시왔습니다. 국회는 제힘을쓰지못하였고,권력은 모두 우리에게로 집중되었습니다."
  mkr_curfew:0 "통행금지령"
- mkr_curfew_desc:0 "밤에 허락받지 않은 사람들이 돌아다니지 못하게 하는 제도입니다. 밤에 치안이 좋지 못한 곳은 항상있습니다. 이에 따라 범죄율을 강제로 낮추고자 시행하였던 규범입니다. 다른목적이 있는지는 모르곘습니다."
+ mkr_curfew_desc:0 "밤에 허락받지 않은 사람들이 돌아다니지 못하게 하는 제도입니다. 밤에 치안이 좋지 못한 곳은 항상있습니다. 이에 따라 범죄율을 강제로 낮추고자 시행하였던 규범입니다."
  mkr_press_censorship:0 "언론검열"
  mkr_mitigate_censorship:0 "언론검열완화"
  
@@ -78,9 +81,8 @@
  rok_Welfare_Policy:0 "복지정책"
  rok_Welfare_Policy_desc:0 ""
  
- rok_Divided_politics:0 "분열된정계"
- rok_Divided_politics_desc:0 ""
- 
+ avoidance_military_service:0 "병역기피"
+ avoidance_military_service_desc:0 "병역기피는 징병제국가에서 흔히 일어나는 일로 군 입대 자체를 거부하고,기피하는 현상을 뜻합니다."
  
  rok_chun:0 "구속된 전두환"
  

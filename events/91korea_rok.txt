@@ -53,11 +53,16 @@ country_event = { # 내전끝
 	option = { #알겠네
 		name = rok.2.a
 		add_ideas = rok_remnants_of_the_military
+		add_ideas = mkr_irregularities_barracks
 		add_ideas = KOR_economic_collapse_1
-		add_ideas = rok_Divided_politics
 		add_ideas = rok_strike
 		add_ideas = kor_law_of_korean_5
+		add_ideas = mkr_irregularities_barracks
+		add_ideas = avoidance_military_service
 		set_country_flag = kor_hanahoe_1
+		hidden_effect = { 
+			news_event = { hours = 6 id = kor_news.23 }
+		}
     }	
 	
 }
@@ -975,27 +980,27 @@ country_event = { #영국과 거래
 	option = {
 		name = rok.37.a
 		release_puppet = MAL
-		release_puppet = AST
-		release_puppet = RAJ
+
 		ENG = {
 			add_research_slot = 1
-			set_technology = {
-				m_1960_infantry_eq = 1
-				m_1970_infantry_eq = 1
-				m_1950_modern_tank = 1	
+			create_production_license = {
+				target = ENG 
+				equipment = {
+					type = m_1960_modern_tank
+				}
+				cost_factor = 0
+			}
+			create_production_license = {
+				target = ENG 
+				equipment = {
+					type = m_1970_infantry_eq
+				}
+				cost_factor = 0
 			}
 		}
 		ROK = {
-			transfer_state = 659
-			transfer_state = 658
-			transfer_state = 765
-			transfer_state = 656
-			transfer_state = 422
-			transfer_state = 281
-			transfer_state = 710
-			transfer_state = 712
-		}	
-
+		add_to_faction = MAL
+		}
 		ai_chance = {
 			factor = 100
 		}
@@ -1009,28 +1014,13 @@ country_event = { #영국과 거래
 				expire = 0
 				type = annex_everything
 			} 
-			create_wargoal = { 
-				target = MAL 
-				expire = 0
-				type = annex_everything
-			} 
-			create_wargoal = { 
-				target = AST 
-				expire = 0
-				type = annex_everything
-			} 
-			create_wargoal = { 
-				target = RAJ
-				expire = 0
-				type = annex_everything
-			} 
 		}
 		ai_chance = {
 			factor = 0
 		}
 	}
 }
-country_event = { #대아시아 연방
+country_event = { #인도네시아의 해방 
 	id = rok.38
 	title = rok.38.t
 	desc = rok.38.d
@@ -1043,6 +1033,9 @@ country_event = { #대아시아 연방
 		release_puppet = INS
 		ai_chance = {
 			factor = 100
+		}
+		ROK = {
+		add_to_faction = INS
 		}
 	}
 	
@@ -1060,7 +1053,7 @@ country_event = { #대아시아 연방
 		}
 	}
 }
-country_event = { #대아시아 연방
+country_event = { #미국과의 거래
 	id = rok.39
 	title = rok.39.t
 	desc = rok.39.d
@@ -1297,6 +1290,144 @@ country_event = { #주한미군병사들이 본국에도착하다
 			add_manpower = 30000
 			load_oob = USF_home
 		}
+	}
+
+}
+country_event = { #인도양과 말레이
+	id = rok.50
+	title = rok.50.t
+	desc = rok.50.d
+	picture = GFX_report_event_japan_europe_pact	#debug
+
+	is_triggered_only = yes
+
+	option = { #그래.
+		name = rok.50.a
+		ROK = {
+			puppet = MAL
+			set_state_owner = 422
+			create_production_license = {
+				target = ENG 
+				equipment = {
+					type = m_1980_mbt
+				}
+				cost_factor = 0
+			}
+			create_production_license = {
+				target = ENG 
+				equipment = {
+					type = m_1980_sp_equipment
+				}
+				cost_factor = 0
+			}
+			create_production_license = {
+				target = ENG 
+				equipment = {
+					type = m_1980_spaa_equipment
+				}
+				cost_factor = 0
+			}
+			create_production_license = {
+				target = ENG 
+				equipment = {
+					type = infantry_equipment_7
+				}
+				cost_factor = 0
+			}
+			create_production_license = {
+				target = ENG 
+				equipment = {
+					type = support_infantry_equipment_2
+				}
+				cost_factor = 0
+			}
+			create_production_license = {
+				target = ENG 
+				equipment = {
+					type = m_1980_APC_equipment
+				}
+				cost_factor = 0
+			}
+		}
+	}
+		
+}
+
+country_event = { #시암압박
+	id = rok.51
+	title = rok.51.t
+	desc = rok.51.d
+	picture = GFX_report_event_japan_europe_pact	#debug
+
+	is_triggered_only = yes
+
+	option = { #최후통첩을 보내라!
+		name = rok.51.a
+		
+	}
+
+}
+
+country_event = { #최후통첩
+	id = rok.52
+	title = rok.52.t
+	desc = rok.52.d
+	picture = GFX_report_event_japan_europe_pact	#debug
+
+	is_triggered_only = yes
+
+	option = { #우리는 굴복할수밖에없다 
+		name = rok.52.a
+		ROK = {
+		puppet = SIA
+		}
+		ai_chance = {
+			factor = 100
+		}
+		ROK = {
+			country_event = { hours = 6 id = rok.54 }
+		}
+	}
+
+	option = { #굴복할까보냐!
+		name = rok.52.b
+		ROK = {
+			country_event = { hours = 6 id = rok.53 }
+		}
+	}
+}
+
+country_event = { #최후통첩을 거부한 시암
+	id = rok.53
+	title = rok.53.t
+	desc = rok.53.d
+	picture = GFX_report_event_japan_europe_pact	#debug
+
+	is_triggered_only = yes
+
+	option = { #우리는 그들을 박살낼것이다
+		name = rok.53.a
+		ROK = {
+			create_wargoal = { 
+				target = SIA 
+				expire = 0
+				type = annex_everything
+			} 
+		}
+	}
+
+}
+
+country_event = { #최후통첩을 수락한 시암
+	id = rok.54
+	title = rok.54.t
+	desc = rok.54.d
+	picture = GFX_report_event_japan_europe_pact	#debug
+
+	is_triggered_only = yes
+
+	option = { #좋군
+		name = rok.54.a
 	}
 
 }

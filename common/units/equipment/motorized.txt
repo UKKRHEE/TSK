@@ -42,7 +42,7 @@ equipments = {
 		year = 1942
 
 		archetype = motorized_equipment
-		parent = motorized_equipment
+		parent = motorized_equipment_1
 		priority = 40
 		visual_level = 2
 		

@@ -94,6 +94,16 @@ spriteTypes = {
 		name = "GFX_목표서울"
 		texturefile = "gfx/event_pictures/목표서울.png"
 	}
+	
+	spriteType = {
+		name = "GFX_내전승리_뉴스"
+		texturefile = "gfx/event_pictures/내전끝.png"
+	}
+	
+	spriteType = {
+		name = "GFX_군사반란"
+		texturefile = "gfx/event_pictures/계엄군_내전.png"
+	}
 
 	spriteType = {
 		name = "GFX_목표부산"

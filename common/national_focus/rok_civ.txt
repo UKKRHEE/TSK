@@ -194,6 +194,7 @@ focus_tree = {
 		completion_reward = {
 			load_focus_tree = rok_focus
 			set_global_flag = civil_rok_win
+			country_event = { id = rok.2 }
 		}
 		available = {
 			is_puppet = no

@@ -12,8 +12,9 @@ country_event = {
 	
 	option = {
 		name = korea.1.a	#민주
-		ai_chance = { factor = 0 }
-		add_political_power = 20
+		custom_effect_tooltip = rok_play
+		hidden_effect = {
+		set_global_flag = kor_civ
 			name = korea.1.a		
 			ROK = { change_tag_from = KR1 }
 			delete_unit_template_and_units = {
@@ -97,7 +98,6 @@ country_event = {
 					
                 }
 			}	
-		hidden_effect = { #
 			ROK = {
 				set_fuel_ratio = 0.8
 				load_oob = ROK_civil
@@ -130,7 +130,7 @@ country_event = {
 					days = 2
 		        }
             }	
-			korea = {
+			PRK = {
 				if = { 
 					limit = { is_ai = yes }
 					country_event = {
@@ -152,7 +152,9 @@ country_event = {
 	}
 	option = {
 		name = korea.1.b	
-		add_political_power = 20
+		custom_effect_tooltip = mkr_play
+		hidden_effect = {
+		set_global_flag = kor_civ
 		MKR = { change_tag_from = KR1 }		
 			delete_unit_template_and_units = {
 				division_template = "향토방위사단" 
@@ -235,7 +237,6 @@ country_event = {
 	                    }
                 	}
 				}	
-				hidden_effect = {
 						ROK = {
 							set_fuel_ratio = 0.8
 							load_oob = ROK_civil
@@ -267,10 +268,13 @@ country_event = {
 								days = 5
 							}			
 						}	
-						korea = {
-							country_event = {
-								id = korea.2
-								days = 1
+						PRK = {
+							if = { 
+								limit = { is_ai = yes }
+								country_event = {
+									id = korea.2
+									days = 1
+								}
 							}
 						}	
 						KR1 = {
@@ -431,7 +435,7 @@ country_event = { #북한군 남침?
 	option = {
 		name = korea.2.a
 		ai_chance = { factor = 70 }
-		korea = {
+		PRK = {
             declare_war_on = {
 				target = MKR
 				type = take_core_state
@@ -702,9 +706,9 @@ country_event = { #서울해방
 	fire_only_once = yes
 	
 	trigger = {
-		807 = { is_owned_by = korea }
+		807 = { is_owned_by = PRK }
 		807 = { is_controlled_by = ROK }
-		ROK = { has_war_with = korea }
+		ROK = { has_war_with = PRK }
 		NOT = { has_global_flag = return_seoul_ROK }
 		has_global_flag = fall_of_seoul
 	}
@@ -748,7 +752,7 @@ country_event = { #항복
 	
 	option = {
 		name = korea.16.a
-		korea = {
+		PRK = {
 			set_state_owner  = 525
 			set_state_owner  = 810
 			set_state_owner  = 807
@@ -771,7 +775,7 @@ country_event = { #낙동강 방어선
 	
 	trigger = {
 		tag = ROK
-		has_war_with = korea
+		has_war_with = PRK
 		surrender_progress < 0.4
 	}
 	
@@ -804,7 +808,6 @@ country_event = { #낙동강 방어선
 			}		
 		}	
 	}
-}
 }
 
 country_event = { #일본-자위대 합병
@@ -848,4 +851,37 @@ country_event = { #하나회반란
 		}
 
 }
+country_event = { #독일군 타임슬립
+	id = korea.22
+	title = korea.22.t
+	desc = korea.22.d
+	picture = GFX_report_event_japan_europe_pact	#debug
 
+	is_triggered_only = yes
+
+	option = { #그래.
+		name = korea.22.a
+		GER = {
+			hidden_effect = { set_technology = { RD_infantry_equipment = 1 } }
+			hidden_effect = { set_technology = { RD_support_infantry_equipment = 1 } }
+			hidden_effect = { set_technology = { RD_heavy_anti_air_eq = 1 } }
+			hidden_effect = { set_technology = { RD_aa_missile = 1 } }
+			hidden_effect = { set_technology = { RD_m_1980_mbt = 1 } }
+			
+			hidden_effect = { set_technology = { RD_m_1980_spaa_equipment = 1 } }
+			hidden_effect = { set_technology = { RD_m_1980_sp_equipment = 1 } }
+			hidden_effect = { set_technology = { RD_m_1980_IFV_equipment = 1 } }
+			hidden_effect = { set_technology = { RD_m_1980_APC_equipment = 1 } }
+			hidden_effect = { set_technology = { RD_m_1970_jet_multirole_equipment = 1 } }
+			hidden_effect = { set_technology = { RD_m_1990_jet_fighter_equipment = 1 } }
+			
+			hidden_effect = { set_technology = { light_vehicle_equipment_0 = 1 } }
+			hidden_effect = { set_technology = { light_vehicle_equipment_1 = 1 } }
+			hidden_effect = { set_technology = { light_mun_equipment = 1 } }
+			hidden_effect = { set_technology = { heavy_mun_equipment = 1 } }
+			hidden_effect = { set_technology = { engineer_equipment = 1 } }
+			hidden_effect = { set_technology = { modern_moto = 1 } }
+		}
+
+	}
+}

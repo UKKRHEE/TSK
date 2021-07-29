@@ -173,6 +173,7 @@
  PRK_modern_motorized_equipment:0 "URAL-4320"
  USF_modern_motorized_equipment:0 "HEMTT"
  JDF_modern_motorized_equipment:0 "이스즈 73식"
+ GER_modern_motorized_equipment:0 "MAN KATI"
  
  engineer_equipment:0 "공병장비"
  engineer_equipment_0:0 "공병장비"
@@ -231,6 +232,8 @@
  KPA_support_infantry_equipment_1:0 "73식 경기관총 & RPG-7"
  KPA_support_infantry_equipment_2:0 "PKM & 7호발사관"
  KPA_support_infantry_equipment_3:0 "PKM & 7호발사관-II"
+ 
+ GER_RD_support_infantry_equipment:0 "MG3 & 판저파우스트 3"
  
  infantry_equipment_4:0 "1960년대 보병장비"
  infantry_equipment_5:0 "1970년대 보병장비"
@@ -293,7 +296,9 @@
  KPA_infantry_equipment_7:0 "88식 보총"
  KPA_infantry_equipment_8:0 "0식 보총"
  KPA_infantry_equipment_9:0 "AK-12MK"
-
+ 
+ GER_RD_infantry_equipment:0 "마우저 G3"
+ 
  m_1950_mbt:0 "1950년대 주력전차"
  m_1960_mbt:0 "1960년대 주력전차"
  m_1970_mbt:0 "1970년대 주력전차"
@@ -365,6 +370,24 @@
  KPA_m_2010_mbt:0 "T-90A"
  
  RU1_m_2000_mbt:0 "T-80U"
+ 
+ GER_RD_m_1980_mbt:0 "헨셸 레오파르트 2A4"
+ GER_RD_m_1980_spaa_equipment:0 "플락판저 게파르트"
+ GER_RD_m_1980_sp_equipment:0 "M109G"
+ GER_RD_m_1980_IFV_equipment:0 "마르더 1"
+ GER_RD_m_1980_APC_equipment:0 "TPZ FUCHS"
+ GER_RD_m_1970_jet_multirole_equipment:0 "메서슈미트 F-4F 팬텀"
+ GER_RD_m_1990_jet_fighter_equipment:0 "메서슈미트 MIG-29A"
+ 
+ RD_m_1980_mbt:0 "역설계된 현대식 전차"
+ RD_m_1980_spaa_equipment:0 "역설계된 현대식 대공자주포"
+ RD_m_1980_sp_equipment:0 "역설계된 현대식 자주포"
+ RD_m_1980_IFV_equipment:0 "역설계된 보병전투차"
+ RD_m_1980_APC_equipment:0 "역설계된 수송장갑차"
+ RD_m_1970_jet_multirole_equipment:0 "역설계된 멀티롤전투기"
+ RD_m_1990_jet_fighter_equipment:0 "역설계된 제공전투기"
+ RD_support_infantry_equipment:0 "역설계된 지원화기"
+ RD_infantry_equipment:0 "역설계된 돌격소총"
  
  m_1970_APC_equipment:0 "1970년대 APC"
  m_1980_APC_equipment:0 "1980년대 APC"

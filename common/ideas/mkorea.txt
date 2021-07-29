@@ -391,27 +391,6 @@ ideas = {
 			}
 		}
 		
-		mkr_irregularities_barracks = { #병영내 부조리
-
-			picture = future_ideas
-
-        	allowed = {
-				always = no
-    		}
-
-			allowed_civil_war = {
-	    		always = yes
-    		}
-
-        	removal_cost = -1
-
-	   		modifier = { 
-				army_org_regain	= -0.10
-				army_morale = -0.15
-				land_night_attack = -0.15
-			}
-		}
-		
 		mkr_eradicating_communism = { #북진멸공
 
 			picture = future_ideas

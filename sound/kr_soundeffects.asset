@@ -4,5 +4,13 @@ soundeffect = {
 	sounds = {
 		sound = kor_772
 	}
-	volume = 0.5
+	volume = 0.8
+}
+
+soundeffect = {
+	name = prk_attack
+	sounds = {
+		sound = prk_attack
+	}
+	volume = 0.8
 }

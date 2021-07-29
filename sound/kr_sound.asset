@@ -4,3 +4,9 @@ sound =
 	name = "kor_772"
 	file = "kor_772.wav"
 }
+
+sound =
+{
+	name = "prk_attack"
+	file = "prk_attack.wav"
+}
