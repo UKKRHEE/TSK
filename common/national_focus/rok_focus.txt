@@ -557,6 +557,18 @@ focus_tree = {
 		id = ROK_germans_attack
 		icon = german_nationalism
 		cost = 10.00
+		available = {
+			GER = {
+				is_puppet = no
+				exists = yes
+			}
+		}
+		bypass = {
+			GER = {
+				is_puppet = YES
+				exists = NO
+			}
+		}
 		prerequisite = {
 			focus = Allied_accession
 		}
@@ -606,6 +618,16 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_with_usa
+		}
+		available = {
+			USF = {
+				exists = yes
+			}
+		}
+		bypass = {
+			USF = {
+				exists = no
+			}
 		}
 		completion_reward = {
 			country_event = { id = rok.43 }
@@ -1450,6 +1472,16 @@ focus_tree = {
 		prerequisite = {
 			focus = Asian_nationalism
 		}
+		available = {
+			ENG = {
+				exists = yes
+			}
+		}
+		bypass = {
+			ENG = {
+				exists = no
+			}
+		}
 		x = 8
 		y = 10
 		completion_reward = {
@@ -1467,6 +1499,16 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = Asian_nationalism
+		}
+		available = {
+			USA = {
+				exists = yes
+			}
+		}
+		bypass = {
+			USA = {
+				exists = no
+			}
 		}
 		x = 10
 		y = 10
@@ -1610,7 +1652,12 @@ focus_tree = {
 		x = 9
 		y = 11
 		completion_reward = {
-			HOL = {
+			every_country = {
+				limit = {
+					OR = {
+						is_puppet_of  = HOL
+					}
+				}
 				country_event = {
 					id = ROK.38
 				}
@@ -1670,6 +1717,8 @@ focus_tree = {
 		id = the_fall_of_imperialism
 		icon = peace
 		cost = 10.00
+		x = 8
+		y = 14
 		prerequisite = {
 			focus = Invitation_to_New_Zealand
 		}
@@ -1677,14 +1726,21 @@ focus_tree = {
 			focus = Invitation_to_India
 		}
 		completion_reward = {
-			declare_war_on = {
-				target = GER
-				type = annex_everything
+			every_country = {
+				limit = {
+					OR = {
+						has_government = fascism
+					}
+				}
+				ROOT = {
+					create_wargoal = {
+						target = PREV
+						type = puppet_wargoal_focus
+						expire = 0
+					}
+				}
 			}
 		}
-		x = 8
-		y = 14
-
 	}
 	focus = {
 		id = ROK_co-aisan_allied
