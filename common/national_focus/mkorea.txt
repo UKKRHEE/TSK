@@ -60,7 +60,6 @@ focus_tree = {
 		set_country_flag = leader_chun
 		add_popularity = { ideology = neutrality popularity = 0.6 }
 		set_politics = { ruling_party = neutrality elections_allowed = no }
-			effect_tooltip = {
 				create_country_leader = {
 					name = "Chun Doo Hwan"
 					picture = "Chun_Doo_Hwan.dds"
@@ -69,7 +68,6 @@ focus_tree = {
 					traits = {
 					dictator	
 					}
-				}
 			}
 		}
 		x = 6
