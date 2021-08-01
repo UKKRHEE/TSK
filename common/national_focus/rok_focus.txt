@@ -206,6 +206,18 @@ focus_tree = {
 		prerequisite = {
 			focus = Central_Office_Demolition
 		}
+		available = {
+			JAP = {
+				is_puppet = no
+				exists = yes
+			}
+		}
+		bypass = {
+			JAP = {
+				is_puppet = YES
+				exists = NO
+			}
+		}
 		completion_reward = {
 			country_event = { id = mkorea.51 }
 			hidden_effect = { 
@@ -239,6 +251,26 @@ focus_tree = {
 		id = intervention_in_the_civil_war
 		icon = GFX_국공내전개입
 		cost = 10.00
+		available = {
+			PRC = {
+				exists = yes
+			}
+			NOT = {
+				is_puppet_of = CHI
+			}
+			CHI = {
+				is_puppet = NO
+			}
+		}
+		bypass = {
+			PRC = {
+				exists = NO
+				is_puppet_of = CHI
+			}
+			CHI = {
+				is_puppet = YES
+			}
+		}
 		prerequisite = {
 			focus = Contact_with_China
 		}
@@ -263,6 +295,18 @@ focus_tree = {
 		prerequisite = {
 			focus = test_Japan
 		}
+		available = {
+			MJP = {
+				is_puppet = no
+				exists = yes
+			}
+		}
+		bypass = {
+			MJP = {
+				is_puppet = YES
+				exists = NO
+			}
+		}
 		completion_reward = {
 			country_event = { id = rok.7 }
 		}
@@ -276,6 +320,18 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = war_of_liberation
+		}
+		available = {
+			JAP = {
+				is_puppet = no
+				exists = yes
+			}
+		}
+		bypass = {
+			JAP = {
+				is_puppet = YES
+				exists = NO
+			}
 		}
 		x = 9
 		y = 7
@@ -464,6 +520,7 @@ focus_tree = {
 			focus = investment_in_education
 		}
 		completion_reward = {
+			add_stability = -0.1
 			swap_ideas = {
 				remove_idea = rok_strike
 				add_idea = rok_strike_2
@@ -1293,6 +1350,44 @@ focus_tree = {
 		prerequisite = {
 			focus = meet_chang
 		}
+		available = {
+			OR = {
+				GXC = {
+					exists = yes
+				}
+				YUN = {
+					exists = yes
+				}
+				XSM = {
+					exists = yes
+				}
+				SHX = {
+					exists = yes
+				}
+				SIK = {
+					exists = yes
+				}
+			}
+		}
+		bypass = {
+			and = {
+				GXC = {
+					exists = no
+				}
+				YUN = {
+					exists = no
+				}
+				XSM = {
+					exists = no
+				}
+				SHX = {
+					exists = no
+				}
+				SIK = {
+					exists = no
+				}
+			}
+		}
 		prerequisite = {
 			focus = intervention_in_the_civil_war
 		}
@@ -1391,6 +1486,16 @@ focus_tree = {
 		prerequisite = {
 			focus = deal_with_UK
 		}
+		available = {
+			AST = {
+				exists = yes
+			}
+		}
+		bypass = {
+			AST = {
+				exists = no
+			}
+		}
 		completion_reward = {
 			ROK = {
 			add_to_faction = AST
@@ -1404,6 +1509,16 @@ focus_tree = {
 		id = Invitation_to_the_Philippines
 		icon = align_to_philippines
 		cost = 10.00
+		available = {
+			PHI = {
+				exists = yes
+			}
+		}
+		bypass = {
+			PHI = {
+				exists = no
+			}
+		}
 		prerequisite = {
 			focus = deal_with_US
 		}
@@ -1422,6 +1537,16 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = deal_with_UK
+		}
+		available = {
+			MAL = {
+				exists = yes
+			}
+		}
+		bypass = {
+			MAL = {
+				exists = no
+			}
 		}
 		completion_reward = {
 			ROK = {
@@ -1442,6 +1567,16 @@ focus_tree = {
 		prerequisite = {
 			focus = Malay_Invitation
 		}
+		available = {
+			SIA = {
+				exists = yes
+			}
+		}
+		bypass = {
+			SIA = {
+				exists = no
+			}
+		}
 		completion_reward = {
 			ROK = {
 				country_event = {
@@ -1460,6 +1595,18 @@ focus_tree = {
 		prerequisite = {
 			focus = deal_with_US
 		}
+		available = {
+			INS = {
+				exists = yes
+				is_puppet = yes
+			}
+		}
+		bypass = {
+			INS = {
+				exists = no
+				is_puppet = NO
+			}
+		}
 		x = 9
 		y = 11
 		completion_reward = {
@@ -1475,6 +1622,16 @@ focus_tree = {
 		id = Invitation_to_India
 		icon = align_to_india
 		cost = 10.00
+		available = {
+			RAJ = {
+				exists = yes
+			}
+		}
+		bypass = {
+			RAJ = {
+				exists = no
+			}
+		}
 		prerequisite = {
 			focus = siam_press
 		}
@@ -1489,6 +1646,16 @@ focus_tree = {
 		id = Invitation_to_New_Zealand
 		icon = attack_new_zealand
 		cost = 10.00
+		available = {
+			NZL = {
+				exists = yes
+			}
+		}
+		bypass = {
+			NZL = {
+				exists = no
+			}
+		}
 		prerequisite = {
 			focus = siam_press
 		}
