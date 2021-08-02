@@ -75,6 +75,10 @@
  
  ### ROK
  
+ KAIST_ideas:0 "한국 과학 기술원"
+ 
+ rok_emergency_bank_subsidy:0 "은행을 사수하라!"
+
  rok_remnants_of_the_military:0 "군부의잔재"
  rok_remnants_of_the_military_desc:0 "내전에도 불구하고, 하나회의 잔재는 군대 곳곳에 남아있습니다. 이들을 완전뿌리뽑지않는이상 우리군대의 약점으로 작용할것입니다. §R시간내에 군부의잔재를 소탕하지못하면,남은 하나회세력이 음모를 꾸밀것입니다!!§!"
  
@@ -83,6 +87,11 @@
  
  rok_Welfare_Policy:0 "복지정책"
  rok_Welfare_Policy_desc:0 ""
+
+ social_development:0 "사회 개발 자금"
+
+ ROK_han_river:0 "한강의 기적"
+ market_economy_stabile:0 "안정화된 시장 경제"
  
  avoidance_military_service:0 "병역기피"
  avoidance_military_service_desc:0 "병역기피는 징병제국가에서 흔히 일어나는 일로 군 입대 자체를 거부하고,기피하는 현상을 뜻합니다."

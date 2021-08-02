@@ -44,6 +44,46 @@ ideas = {
 				stability_weekly = -0.05
 			}
 		}
+		ROK_han_river = { #한강의 기적
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = korean_money
+	   		modifier = { 
+				stability_factor = 0.2
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.25
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.15
+			}
+			
+		}
+		KAIST_ideas = { #한강의 기적
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = SOV_scientist_defect
+	   		modifier = { 
+				research_speed_factor = 0.25
+			}
+			
+		}
 		rok_National_Security_Act = { #국가보안법
 
 			picture = generic_democratic_drift_bonus
@@ -65,6 +105,82 @@ ideas = {
 				encryption = 1
 				max_command_power = 20
 			}
+		}
+		gold_collecting_movement = { #사회 개발 자금
+			allowed = {
+				always = no
+				original_tag = ROK
+	 		    original_tag = PRK
+	 		    original_tag = KR1
+	 		    original_tag = MKR
+			}
+
+			removal_cost = -1
+
+			picture = SPR_seize_the_gold_reserves
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+
+		}
+		social_development = { #사회 개발 자금
+			allowed = {
+				always = no
+				original_tag = ROK
+	 		    original_tag = PRK
+	 		    original_tag = KR1
+	 		    original_tag = MKR
+			}
+
+			removal_cost = -1
+
+			picture = SPR_seize_the_gold_reserves
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.15
+			}
+
+		}
+		Establishing_a_debt_repayment_plan = { #안정화된 시장 경제
+			allowed = {
+				always = no
+				original_tag = ROK
+	 		    original_tag = PRK
+	 		    original_tag = KR1
+	 		    original_tag = MKR
+			}
+
+			removal_cost = -1
+
+			picture = SPR_seize_the_gold_reserves
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05s
+			}
+
+		}
+		market_economy_stabile = { #안정화된 시장 경제
+			allowed = {
+				always = no
+				original_tag = ROK
+	 		    original_tag = PRK
+	 		    original_tag = KR1
+	 		    original_tag = MKR
+			}
+
+			removal_cost = -1
+
+			picture = SPR_seize_the_gold_reserves
+			
+			modifier = {
+				consumer_goods_factor = -0.03
+				production_speed_buildings_factor = 0.10
+				industrial_capacity_factory = 0.10
+			}
+
 		}
 		rok_Welfare_Policy = { #복지정책
 
@@ -291,6 +407,7 @@ ideas = {
 			}
 		}
 		
+		
 		rok_volunteer = { #의용병파견
 
 			picture = generic_democratic_drift_bonus
@@ -396,6 +513,23 @@ ideas = {
 
 			modifier = {
 				political_power_gain = 0.5
+			}
+		}
+	}
+	country = {
+		rok_emergency_bank_subsidy = { #은행을 사수하라!
+
+			picture = generic_democratic_drift_bonus
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.1
 			}
 		}
 	}

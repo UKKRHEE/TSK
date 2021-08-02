@@ -842,7 +842,24 @@ focus_tree = {
 		}
 		x = 23
 		y = 1
-
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = { #금모으기운동
 		id = gold_collecting_movement
@@ -853,7 +870,12 @@ focus_tree = {
 		}
 		x = 23
 		y = 2
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = gold_collecting_movement
+				days = 180
+			}
+		}
 	}
 	focus = { #육군 재편성
 		id = ROK_army_reform
@@ -955,7 +977,18 @@ focus_tree = {
 		}
 		x = 28
 		y = 1
-
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = { #은행 붕괴방지
 		id = emergency_bank_subsidy
@@ -969,7 +1002,26 @@ focus_tree = {
 		}
 		x = 27
 		y = 2
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = rok_emergency_bank_subsidy
+				days = 180
+			}
+			random_owned_state = {
+				add_building_construction = {
+				type = industrial_complex
+					level = -1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+				type = industrial_complex
+					level = -1
+					instant_build = yes
+				}	
+			}
+		}
 	}
 	focus = { #물가 안정화
 		id = price_stabilization
@@ -983,7 +1035,17 @@ focus_tree = {
 		}
 		x = 25
 		y = 3
-
+		completion_reward = {
+			add_stability = 0.1
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = { #경제 안정화
 		id = economic_stabilization
@@ -994,7 +1056,9 @@ focus_tree = {
 		}
 		x = 25
 		y = 4
-
+		completion_reward = {
+			KOR_economic_collapse_level_down = yes
+		}
 	}
 	focus = { #6차 경제개발5개년 계획
 		id = six_five_year_flan
@@ -1005,7 +1069,25 @@ focus_tree = {
 		}
 		x = 33
 		y = 1
-
+		completion_reward = {
+			KOR_economic_collapse_level_down = yes
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = { #사회 개발 확대
 		id = expansion_of_social_development
@@ -1016,7 +1098,31 @@ focus_tree = {
 		}
 		x = 30
 		y = 2
-
+		completion_reward = {
+			add_ideas = social_development
+			add_stability = 0.05
+			random_owned_state = {
+				add_building_construction = {
+				type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+				type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+				type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = { #지역개발
 		id = regional_development
@@ -1027,7 +1133,32 @@ focus_tree = {
 		}
 		x = 29
 		y = 3
-
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = { #시장경제 질서 확립
 		id = establishment_of_market_economy
@@ -1038,7 +1169,28 @@ focus_tree = {
 		}
 		x = 29
 		y = 4
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = social_development
+				add_idea = market_economy_stabile
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = { #인프라개발
 		id = Infrastructure_Development
@@ -1049,7 +1201,44 @@ focus_tree = {
 		}
 		x = 33
 		y = 2
-
+		completion_reward = {
+			add_stability = 0.1
+			random_owned_state = {
+				add_building_construction = {
+				type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+				type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+				type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+				type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+				type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = { #공단확장
 		id = Industrial_Complex_Expansion
@@ -1060,7 +1249,40 @@ focus_tree = {
 		}
 		x = 31
 		y = 3
-
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = { #산업단지 개발
 		id = Industrial_Complex_Development
@@ -1071,7 +1293,32 @@ focus_tree = {
 		}
 		x = 33
 		y = 3
-
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = Establishing_a_debt_repayment_plan
@@ -1085,7 +1332,13 @@ focus_tree = {
 		}
 		x = 31
 		y = 4
-
+		completion_reward  = {
+			add_stability = 0.05
+			add_timed_idea = {
+				idea = Establishing_a_debt_repayment_plan
+				days = 80
+			}
+		}
 	}
 	focus = {
 		id = fair_competition
@@ -1099,7 +1352,9 @@ focus_tree = {
 		}
 		x = 30
 		y = 5
-
+		completion_reward = {
+			KOR_economic_collapse_level_down = yes
+		}
 	}
 	focus = {
 		id = KAIST
@@ -1113,7 +1368,9 @@ focus_tree = {
 		}
 		x = 28
 		y = 6
-
+		completion_reward = {
+			add_ideas = KAIST_ideas
+		}
 	}
 	focus = {
 		id = ROK_navy_reform
@@ -1135,7 +1392,24 @@ focus_tree = {
 		}
 		x = 33
 		y = 5
-
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = ROK_plan_indo-taepyungyang
@@ -1160,7 +1434,40 @@ focus_tree = {
 		}
 		x = 35
 		y = 3
-
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = liquidation_of_insolvent_enterprises
@@ -1171,7 +1478,32 @@ focus_tree = {
 		}
 		x = 35
 		y = 4
-
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = -1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = -1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = -1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = small_business_policy
@@ -1185,7 +1517,24 @@ focus_tree = {
 		}
 		x = 37
 		y = 3
-
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = ROK_airforce_reform
@@ -1332,7 +1681,9 @@ focus_tree = {
 		}
 		x = 41
 		y = 5
-
+		completion_reward = {
+			KOR_economic_collapse_level_down = yes
+		}
 	}
 	focus = {
 		id = ROK_the_miracle_of_han_river
@@ -1349,7 +1700,10 @@ focus_tree = {
 		}
 		x = 36
 		y = 7
-
+		completion_reward = {
+			KOR_economic_collapse_level_down = yes
+			add_ideas = ROK_han_river
+		}
 	}
 	focus = {
 		id = meet_chang
