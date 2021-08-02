@@ -112,7 +112,10 @@ PER_UNIFIED = {
 	color = rgb { 255 215 0 }
 	color_ui = rgb { 255 215 0 }
 }
-
+KOR_EAU = {
+	color = rgb { 75  114  242 }
+	color_ui = rgb { 75  114  242 }
+}
 BYZ_UNIFIED = {
 	color = rgb { 143 12 125 }
 	color_ui = rgb { 143 12 125 }
