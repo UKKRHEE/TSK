@@ -6,7 +6,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = TSK
+			tag = JEJ 
 		}
 	}
 	focus = { #14대 대선
@@ -16,7 +16,7 @@ focus_tree = {
 		x = 9
 		y = 0
 		completion_reward = {
-			country_event = { id = rok.1 }
+			country_event = { id = rok.1 } 
 		}
 	}
 	focus = { #경제위기

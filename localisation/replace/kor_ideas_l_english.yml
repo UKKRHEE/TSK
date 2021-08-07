@@ -108,10 +108,30 @@
  chung_geun_mo:0 "정 근모"
  choi_ghak:0 "최 각규"
  kim_koo:0 "김 구"
- kim_dae_jung:0 "김 대중"
+ kim_dae_jung:0 "김 대중" 
  chu_kyung:0 "추 경석"
  lee_sung:0 "이 성호"
  choi_hyung:0 "최 형우"
+ 
+ mkr_chung_won_sik:0 "정 원식"
+ mkr_lee_young_man:0 "이 용만"
+ mkr_chung_geun_mo:0 "정 근모"
+ mkr_choi_ghak:0 "최 각규"
+ mkr_kim_koo:0 "김 구"
+ mkr_kim_dae_jung:0 "김 대중" 
+ mkr_chu_kyung:0 "추 경석"
+ mkr_lee_sung:0 "이 성호"
+ mkr_choi_hyung:0 "최 형우"
+ 
+ rok_chung_won_sik:0 "정 원식"
+ rok_lee_young_man:0 "이 용만"
+ rok_chung_geun_mo:0 "정 근모"
+ rok_choi_ghak:0 "최 각규"
+ rok_kim_koo:0 "김 구"
+ rok_kim_dae_jung:0 "김 대중" 
+ rok_chu_kyung:0 "추 경석"
+ rok_lee_sung:0 "이 성호"
+ rok_choi_hyung:0 "최 형우"
  
  
  cho_nam_pung:0 "조 남풍"
@@ -144,7 +164,70 @@
  lee_soo:0 "이 수용"
  chang_jung:0 "장 정길"
  kim_sungho:0 "김 성호" 
+ #######
+ mkr_cho_nam_pung:0 "조 남풍"
+ mkr_kim_dong_shin:0 "김 동신"
+ mkr_choi_sae_chang:0 "최 세창"
+ mkr_seo_dong:0 "서 동열"
+ mkr_lee_yang_ho_1:0 "이 양호"
+ mkr_lee_nam_shin:0 "이 남신"
  
+ 
+ mkr_kim_jing_yung:0 "김 진영"
+ mkr_kim_dong_jin:0 "김 동진"
+ mkr_lee_jin_sam:0 "이 진삼"
+ mkr_do_il_kyu:0 "도 일규"
+ 
+ mkr_cho_geun_hae:0 "조 근해"
+ mkr_kim_hong_rae:0 "김 홍래"
+ mkr_han_chu:0 "한 주석"
+ 
+ mkr_an_byung_tae:0 "안 병태"
+ mkr_you_sam:0 "유 삼남"
+ 
+ mkr_lee_jun:0 "이 준"
+ mkr_un_yong_nam:0 "윤 용남"
+ mkr_lee_jong_gu:0 "이 종구"
+ mkr_goo_chang_hoe:0 "구 창회"
+ mkr_lee_yang_ho:0 "이 양호"
+ mkr_lee_gwang:0 "이 광학"
+ mkr_chung_yong:0 "정 용후"
+ mkr_lee_soo:0 "이 수용"
+ mkr_chang_jung:0 "장 정길"
+ mkr_kim_sungho:0 "김 성호" 
+ ########## 
+ #######
+ rok_cho_nam_pung:0 "조 남풍"
+ rok_kim_dong_shin:0 "김 동신"
+ rok_choi_sae_chang:0 "최 세창"
+ rok_seo_dong:0 "서 동열"
+ rok_lee_yang_ho_1:0 "이 양호"
+ rok_lee_nam_shin:0 "이 남신"
+ 
+ 
+ rok_kim_jing_yung:0 "김 진영"
+ rok_kim_dong_jin:0 "김 동진"
+ rok_lee_jin_sam:0 "이 진삼"
+ rok_do_il_kyu:0 "도 일규"
+ 
+ rok_cho_geun_hae:0 "조 근해"
+ rok_kim_hong_rae:0 "김 홍래"
+ rok_han_chu:0 "한 주석"
+ 
+ rok_an_byung_tae:0 "안 병태"
+ rok_you_sam:0 "유 삼남"
+ 
+ rok_lee_jun:0 "이 준"
+ rok_un_yong_nam:0 "윤 용남"
+ rok_lee_jong_gu:0 "이 종구"
+ rok_goo_chang_hoe:0 "구 창회"
+ rok_lee_yang_ho:0 "이 양호"
+ rok_lee_gwang:0 "이 광학"
+ rok_chung_yong:0 "정 용후"
+ lee_soo:0 "이 수용"
+ rok_chang_jung:0 "장 정길"
+ rok_kim_sungho:0 "김 성호" 
+ ##########
  doosanDST:0 "두산DST"
  samsungtec:0 "삼성테크원"
  hyundai_rottem:0 "현대로템"
@@ -168,7 +251,31 @@
  dasan:0 "다산기공"
  daewoo_car:0 "대우자동차"
  hyundai_car:0 "현대자동차"
+ ######
+ rok_doosanDST:0 "두산DST"
+ rok_samsungtec:0 "삼성테크원"
+ rok_hyundai_rottem:0 "현대로템"
  
+ rok_daewoo_ship:0 "대우조선해양"
+ rok_hanjin_ship:0 "한진해운"
+ rok_hyundai_ship:0 "현대중공업"
+ 
+ rok_kai:0 "KAI"
+ rok_asiana:0 "금호아시아나"
+ rok_korean_air:0 "대한항공"
+ rok_hwanhwa:0 "한화"
+ 
+ rok_gs:0 "호남정유"
+ rok_lg:0 "LGEI"
+ rok_sk:0 "SK"
+ rok_samsung:0 "삼성전자"
+ rok_doosan:0 "두산"
+ 
+ rok_st:0 "S&T"
+ rok_dasan:0 "다산기공"
+ rok_daewoo_car:0 "대우자동차"
+ rok_hyundai_car:0 "현대자동차"
+ #####
  kim_young_nam:0 "김 영남"
  choe_yung:0 "최 영림"
  lee_byung:0 "리 병철"
