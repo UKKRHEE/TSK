@@ -26,6 +26,7 @@ TSK_annex_marine = {
 		OR = {
 				original_tag = ROK
 				original_tag = MKR
+				original_tag = PRK
 		}
 	}
 }

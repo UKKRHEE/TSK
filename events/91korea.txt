@@ -438,11 +438,11 @@ country_event = { #북한군 남침?
 		PRK = {
             declare_war_on = {
 				target = MKR
-				type = take_core_state
+				type = annex_everything
 			}
             declare_war_on = {
 				target = ROK
-				type = take_core_state
+				type = annex_everything
 			}
 			unlock_decision_category_tooltip = korea_2nd_war
 			set_country_flag = korea_war1

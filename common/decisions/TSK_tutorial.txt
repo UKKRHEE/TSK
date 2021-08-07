@@ -52,6 +52,7 @@ TSK_annex_marine = {
 
 		available = {
 			OR = {
+				original_tag = PRK
 				original_tag = ROK
 				original_tag = MKR
 			}
@@ -67,6 +68,7 @@ TSK_annex_marine = {
 
 		visible = {
 			OR = {
+				original_tag = PRK
 				original_tag = ROK
 				original_tag = MKR
 			}
@@ -77,19 +79,41 @@ TSK_annex_marine = {
 			807 = { is_controlled_by = ROOT }
 			809 = { is_controlled_by = ROOT }
 		}		
+		ai_will_do = {
+			factor = 1
+		}
 	
 		
 		is_good = yes
 		
 		complete_effect = { 
-			annex_country = {
-				target = JEJ
-				transfer_toops = yes
-			}
-			JEJ = {
-				remove_state_core = 821
-				remove_state_core = 813
-			}
+			if = {
+				limit = {
+					OR = {
+						original_tag = ROK
+						original_tag = MKR
+					}
+				}
+				annex_country = {
+					target = JEJ
+					transfer_toops = yes
+				}
+				JEJ = {
+					remove_state_core = 821
+					remove_state_core = 813
+				}
+			}		
+			if = {
+				limit = {
+					original_tag = PRK
+				}
+				transfer_state = 821
+				transfer_state = 813
+				JEJ = {
+					remove_state_core = 821
+					remove_state_core = 813
+				}
+			}			
 		}
 	}
 }
