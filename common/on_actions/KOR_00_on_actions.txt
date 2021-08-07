@@ -80,10 +80,10 @@ on_actions = {
 				}
 				MKR = {
 					news_event = { days = 0 id = kor_news.30 }
-					set_country_flag = fall_of_busan_MKR_1
+					set_global_flag = fall_of_busan_MKR_1
 				}
 			}	
-			if = { #부산(내전)
+			if = { #부산(북괴)
 				limit = {
 					809 = { is_controlled_by = MKR }
 					809 = { is_owned_by = PRK }
@@ -92,7 +92,7 @@ on_actions = {
 					tag = MKR
 				}
 				MKR = {
-					set_country_flag = fall_of_busan_MKR_1
+					set_global_flag = fall_of_busan_MKR_1
 				}
 			}	
 		}	
