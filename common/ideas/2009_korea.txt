@@ -22,15 +22,19 @@ ideas = {
 					build_cost_ic = -0.45 
 					instant = yes
 				}
+			}	
+			equipment_bonus = {
 				support_infantry_equipment = {
-					build_cost_ic = -0.2 
+					build_cost_ic = -0.2
 					instant = yes
 				}
+			}	
+			equipment_bonus = {
 				engineer_equipment = {
 					build_cost_ic = -0.2 
 					instant = yes
 				}
-			}
+			}	
 			}
 			KOR_modern_airforce = { #미래 국군 = (왜넣음? 공군은 딱히 더 건들필요 없는데?) #북괴새끼들에게 09년 공군이 갈갈되어서 넣은거다. 09년 뽕맛 전용이니 지우지 말자
 				picture = generic_production_bonus
