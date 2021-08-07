@@ -346,7 +346,7 @@ focus_tree = {
 		y = 6
 
 	}
-	focus = { #정통 사회주의 (정치력 +150)
+	focus = { #정통 사회주의 (정치력 +150) 
 		id = prk_orthodox_socialism
 		icon = 정통사회주의
 		cost = 10.00
