@@ -1983,7 +1983,7 @@ focus_tree = {
 		x = 46
 		y = 12
 		completion_reward = {
-			remove_ideas = lee_myung_bak_pre
+			#remove_ideas = lee_myung_bak_pre
 			set_party_name = {
 				ideology = neutrality
 				long_name = "이원 내각"
@@ -2269,11 +2269,12 @@ focus_tree = {
 				remove_ideas = JAP_hirohito
 				set_cosmetic_tag = JAP_republic
 				create_country_leader = {
-					name = "Cho Yung Kil"
+					name = "General Government of Japan"
 					ideology = nazism
-					picture = "gfx/leaders/KOR/Gen_Cho_Yung-kil.dds"
+					portrait_path = "gfx/leaders/KOR/Portrait_KOR_military_junta.png"
 					traits = {
-					
+						KOR_general_government_of_japan
+						dictator
 					}
 				}
 			}
@@ -2480,11 +2481,42 @@ focus_tree = {
 		x = 51
 		y = 12
 		available = {
-			KOR = {
-				JAP = {
-					is_puppet = yes
+			JAP = {
+				is_puppet_of = KOR
+				has_country_leader = {
+					name = "General Government of Japan"
+					ruling_only = yes
 				}
-			}	
+			}
+			if = {
+				limit = {
+				
+					has_idea = hell_joseon
+				}
+				NOT = {
+					has_idea = hell_joseon
+				}
+			}
+			if = {
+				limit = {
+				
+					has_idea = KOR_economic_collapse_3
+				}
+				NOT = {
+					has_idea = KOR_economic_collapse_3
+				}
+			}
+			if = {
+				limit = {
+				
+					has_idea = FKR_back_down_military
+				}
+				NOT = {
+					has_idea = FKR_back_down_military
+				}
+			}
+			has_idea = KOR_future_ideas
+			
 		}
 		bypass = {
 			JAP = { exists = no }
@@ -3629,6 +3661,7 @@ focus_tree = {
 			    id = KOR_MB.19
 			}
 			remove_ideas = kor_law_of_korean_5
+			remove_ideas = lee_myung_bak_pre
 		}
 
 	}

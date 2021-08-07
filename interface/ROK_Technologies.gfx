@@ -3,6 +3,65 @@ spriteTypes = {
  ######경차량
  ################################################################################
  
+	spriteType = { # "convoy"
+		name = "GFX_navalcombat_ship_icon_convoy_2"
+		texturefile = "gfx/interface/navalcombat/ships/convoy.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_archetype_convoy_2_medium"
+		texturefile = "gfx/interface/archetypes/archetype_convoy.dds"
+	}	
+	SpriteType = {
+		name = "GFX_convoy_2_medium"
+		texturefile = "gfx/interface/technologies/convoy.dds"
+	}	
+	SpriteType = {
+		name = "GFX_convoy_2_sailing_medium"
+		texturefile = "gfx/interface/technologies/convoy_sailing.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_convoy_2_sailing_ti_medium"
+		texturefile = "gfx/interface/technologies/convoy_sailing.dds"
+	}
+	SpriteType = {
+		name = "GFX_convoy_2_sailing_bs_medium"
+		texturefile = "gfx/interface/technologies/convoy_sailing.dds"
+	}	
+	SpriteType = {
+		name = "GFX_convoy_2_escorts_medium"
+		texturefile = "gfx/interface/technologies/convoy_escorts.dds"
+	}	
+	SpriteType = {
+		name = "GFX_convoy_2_escorts_bs_medium"
+		texturefile = "gfx/interface/technologies/convoy_escorts.dds"
+	}
+	SpriteType = {
+		name = "GFX_integrated_convoy_2_defence_medium"
+		texturefile = "gfx/interface/technologies/integrated_convoy_defence.dds"
+	}	
+	SpriteType = {
+		name = "GFX_integrated_convoy_2_defence_bs_medium"
+		texturefile = "gfx/interface/technologies/integrated_convoy_defence.dds"
+	}
+	SpriteType = {
+		name = "GFX_convoy_2_interdiction_medium"
+		texturefile = "gfx/interface/technologies/convoy_interdiction.dds"
+	}		
+	SpriteType = {
+		name = "GFX_convoy_2_interdiction_bs_medium"
+		texturefile = "gfx/interface/technologies/convoy_interdiction.dds"
+	}
+	SpriteType = {
+		name = "GFX_convoy_2_interdiction_ti_medium"
+		texturefile = "gfx/interface/technologies/convoy_interdiction.dds"
+	}
+	SpriteType = {
+		name = "GFX_archetype_2_convoy_medium"
+		texturefile = "gfx/interface/archetypes/archetype_convoy.dds"
+	}	
+	
 	SpriteType = {
 		name = "GFX_ROK_light_vehicle_equipment_0_medium"
 		texturefile = "gfx/interface/technologies/kor_경차량0.png"

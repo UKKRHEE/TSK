@@ -778,7 +778,7 @@ KOR_plan_china_dec = {
 				transfer_state = 599
 				transfer_state = 594
 				transfer_state = 591
-				set_cosmetic_tag = GXC_republic
+				set_cosmetic_tag = GXC_republic_of_south
 			}
 			TIB = {
 				transfer_state = 601
@@ -834,7 +834,7 @@ KOR_plan_china_dec = {
 
 		complete_effect = {
 			CHI = {
-				set_cosmetic_tag = TAI_republic
+				set_cosmetic_tag = TAI_taiwan
 				transfer_state = 524
 			}
 			every_state = {
@@ -873,24 +873,19 @@ KOR_plan_china_dec = {
 		}
 		complete_effect = {
 			GXC = {
-				
-				set_cosmetic_tag = GXC_republic
+				set_cosmetic_tag = GXC_republic_of_south
 			}
 			MAN = {
-				
-				set_cosmetic_tag = MAN_republic
+				set_cosmetic_tag = MAN_republic_of_china
 			}
 			MEN = {
-				
 				set_cosmetic_tag = MEN_republic
 			}
 			SHX = {
-				
-				set_cosmetic_tag = SHX_republic
+				set_cosmetic_tag = SHX_republic_of_north
 			}
 			CHI = {
-				
-				set_cosmetic_tag = TAI_republic
+				set_cosmetic_tag = TAI_taiwan 
 			}
 		}
 	}

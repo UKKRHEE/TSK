@@ -8,19 +8,19 @@ ideas = {
 			}
 			equipment_bonus = {
 				infantry_equipment = {
-					build_cost_ic = -0.45 
+					build_cost_ic = -0.5 
 					instant = yes
 				}
 			}	
 			equipment_bonus = {
 				support_infantry_equipment = {
-					build_cost_ic = -0.2
+					build_cost_ic = -0.35
 					instant = yes
 				}
 			}	
 			equipment_bonus = {
 				engineer_equipment = {
-					build_cost_ic = -0.2 
+					build_cost_ic = -0.3 
 					instant = yes
 				}
 			}	
@@ -152,31 +152,31 @@ ideas = {
 			}	
 			equipment_bonus = {
 				modern_tank_equipment = {
-					build_cost_ic = -0.3 
+					build_cost_ic = -0.35 
 					instant = yes
 				}
 			}	
 			equipment_bonus = {
 				modern_tank_artillery_equipment = {
-					build_cost_ic = -0.3 
+					build_cost_ic = -0.35 
 					instant = yes
 				}
 			}	
 			equipment_bonus = {
 				modern_tank_aa_equipment = {
-					build_cost_ic = -0.3 
+					build_cost_ic = -0.35 
 					instant = yes
 				}
 			}	
 			equipment_bonus = {
 				light_tank_equipment = {
-					build_cost_ic = -0.3 
+					build_cost_ic = -0.5 
 					instant = yes
 				}
 			}	
 			equipment_bonus = {
 				medium_tank_equipment = {
-					build_cost_ic = -0.3 
+					build_cost_ic = -0.35 
 					instant = yes
 				}
 			}	
@@ -1566,8 +1566,8 @@ ideas = {
 
 			picture = generic_spy_coup
 			
-			modifier = {
-				consumer_goods_factor = -0.05
+			traits = {
+				KOR_lee_myungbak_trait
 			}
 		}
 	    pre_503 = {
@@ -1672,8 +1672,8 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-				has_completed_focus = KOR_MB_minju_won
-				has_completed_focus = KOR_MB_timeslip
+				has_completed_focus = KOR_MB_roh_advisor
+				
 			}
 			cost = 100
 			traits = { KOR_roh_trait }
@@ -1686,7 +1686,7 @@ ideas = {
 			}
 			available = {
 				has_completed_focus = KOR_MB_minju_won
-				has_completed_focus = KOR_MB_timeslip
+				
 			}
 			cost = 100
 			traits = { KOR_moon_trait }
@@ -1699,7 +1699,7 @@ ideas = {
 			}
 			available = {
 				has_completed_focus = KOR_MB_consorvatism_won
-				has_completed_focus = KOR_MB_timeslip
+				
 			}
 			cost = 100
 			traits = { KOR_hong_trait }
@@ -1716,7 +1716,7 @@ ideas = {
 					has_country_flag = KOR_MB_han_was_failed
 				}
 				has_completed_focus = KOR_MB_middle_won
-				has_completed_focus = KOR_MB_timeslip
+				
 			}
 			on_add = {
 				country_event = {
@@ -1734,7 +1734,7 @@ ideas = {
 			}
 			available = {
 				has_completed_focus = KOR_MB_middle_won
-				has_completed_focus = KOR_MB_timeslip
+				
 			}
 			cost = 100
 			traits = { KOR_yi_trait }
@@ -1750,7 +1750,7 @@ ideas = {
 				    has_completed_focus = KOR_MB_5
 				    has_completed_focus = KOR_MB_politic_election
 				}	
-				has_completed_focus = KOR_MB_timeslip
+				
 			}
 			cost = 100
 			traits = { KOR_samsung_trait }
@@ -1763,7 +1763,7 @@ ideas = {
 			}
 			available = {
 				has_completed_focus = KOR_MB_politic_election
-				has_completed_focus = KOR_MB_timeslip
+				
 			}
 			cost = 100
 			traits = { KOR_son_trait }
@@ -1776,7 +1776,7 @@ ideas = {
 			}
 			available = {
 				has_completed_focus = KOR_MB_consorvatism_won
-				has_completed_focus = KOR_MB_timeslip
+				
 			}
 			cost = 100
 			traits = { KOR_hoi_trait }
@@ -1792,7 +1792,7 @@ ideas = {
 				    has_completed_focus = KOR_MB_5
 				    has_completed_focus = KOR_MB_politic_election
 				}	
-				has_completed_focus = KOR_MB_timeslip
+				
 			}
 			cost = 100
 			traits = { KOR_ahn_trait }
@@ -1805,7 +1805,7 @@ ideas = {
 			}
 			available = {
 				has_completed_focus = KOR_MB_minju_won
-				has_completed_focus = KOR_MB_timeslip
+				
 			}
 			cost = 100
 			traits = { social_reformer }
@@ -1823,7 +1823,7 @@ ideas = {
 			}
 			available = {
 				has_completed_focus = KOR_MB_politic_election
-				has_completed_focus = KOR_MB_timeslip
+				
 			}
 			available = {
 				has_intelligence_agency = yes

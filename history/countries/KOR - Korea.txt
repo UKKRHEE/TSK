@@ -389,39 +389,39 @@ create_field_marshal = {
 }
 
 
-	create_corps_commander = {
+	create_field_marshal = {
 		name = "Han Min-goo"
-		picture = "generals/Han_Min_Goo.dds"
+		picture = "HMK.dds"
 		id = 33000
-		skill = 2
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
 	}
 	create_corps_commander = {
 		name = "Jeong Seung-jo"
-		picture = "generals/Jeong_Seung_Jo.dds"
+		picture = "Jeong_Seung_Jo.png"
 		id = 33001
-		skill = 1
-		attack_skill = 1
-		defense_skill = 1
-		planning_skill = 1
-		logistics_skill = 1
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
 	}
 	create_corps_commander = {
 		name = "Kim Kwan-jin"
-		picture = "generals/Kim_Kwan_Jin.dds"
+		picture = "Kim_Kwan_Jin.png"
 		id = 33002
-		skill = 1
-		attack_skill = 1
-		defense_skill = 1
-		planning_skill = 1
-		logistics_skill = 1
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
 	}
 	create_corps_commander = {
 		name = "Lee Sang-hoon"
-		picture = "generals/Lee_Sang_Hoon.dds"
+		picture = "Lee_Sang_Hoon.png"
 		id = 33003
 		skill = 1
 		attack_skill = 1
@@ -431,7 +431,7 @@ create_field_marshal = {
 	}
 	create_corps_commander = {
 		name = "Lee Soon-jin"
-		picture = "generals/Lee_Soon_Jin.dds"
+		picture = "Lee_Soon_Jin.png"
 		id = 33004
 		skill = 1
 		attack_skill = 1
@@ -442,7 +442,7 @@ create_field_marshal = {
 
 	create_corps_commander = {
 		name = "Kim Yong-woo"
-		picture = "gen_Kim_Yong_Woo.dds"
+		picture = "gen_Kim_Yong_Woo.png"
 		traits = { }
 		id = 33005
 		skill = 3
@@ -450,17 +450,6 @@ create_field_marshal = {
 		defense_skill = 3
 		planning_skill = 3
 		logistics_skill = 3
-	}
-	create_corps_commander = {
-		name = "Lee Sun-jin"
-		picture = "gen_Lee_Sun_Jin.dds"
-		traits = {  }
-		id = 33006
-		skill = 2
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
 	}
 	create_navy_leader = {
 		name = "Um Hyun-Seong"

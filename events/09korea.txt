@@ -200,7 +200,7 @@ country_event = {
 			name = "국가재건최고회의"
 		}
 		create_country_leader = {
-			name = "Han Min Koo"
+			name = "Han Min-goo"
 			desc = ""
 			picture = "gfx/leaders/KOR/HMK.dds"
 			expire = "1965.1.1"
@@ -210,7 +210,7 @@ country_event = {
 			}
 		}		
 		create_country_leader = {
-			name = "Han Min Koo"
+			name = "Han Min-goo"
 			desc = ""
 			picture = "gfx/leaders/KOR/HMK.dds"
 			expire = "1965.1.1"
@@ -220,6 +220,7 @@ country_event = {
 			}
 		}		
 		set_cosmetic_tag = KOR_park
+		
 	}
 	option = {
 		name = KOR_MB.7.b
@@ -231,6 +232,7 @@ country_event = {
 			days = 3
 		}
 		add_stability = 0.05
+		remove_unit_leader = 33000
 	}
 }
 country_event = {

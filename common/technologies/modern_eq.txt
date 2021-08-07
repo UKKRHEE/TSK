@@ -1,5 +1,19 @@
 technologies = {
 
+	mtg_transport_2 = { 
+
+		enable_equipments = { 
+			conovy_1
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+
 	modern_moto = { 
 
 		enable_equipments = { 

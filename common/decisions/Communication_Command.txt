@@ -6,7 +6,7 @@ Communication_Command = {
 
 		allowed = {
 			OR = {
-			original_tag = KOR
+			original_tag = KR1
 			original_tag = ROK
 			original_tag = MKR
 			original_tag = JDF
@@ -60,7 +60,7 @@ Communication_Command = {
 
 		allowed = {
 			OR = {
-			original_tag = KOR
+			original_tag = KR1
 			original_tag = ROK
 			original_tag = MKR
 			original_tag = JDF
@@ -119,6 +119,9 @@ Communication_Command = {
 
 		visible = {
 			has_country_flag = sead_arm
+			PRK = {
+				exists = yes
+			}
 		}		
 		fire_only_once = no
 		

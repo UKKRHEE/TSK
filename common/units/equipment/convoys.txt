@@ -54,4 +54,25 @@ equipments = {
 		active = yes
 		priority = 10
 	}
+	convoy_2 = {
+		year = 2000
+		parent = convoy_1
+		archetype = convoy
+		type = { 
+			convoy
+		}
+		lg_armor_piercing = 2
+		armor_value = 0
+		reliability = 1
+		surface_visibility = 10
+		torpedo_attack = 1
+		lg_attack = 0.5
+		naval_speed = 20
+		build_cost_ic = 80
+		max_strength = 120
+		max_organisation = 60
+		anti_air_attack = 0.5
+		active = yes
+		priority = 10
+	}
 }
