@@ -1,22 +1,11 @@
 ideas = {
 	hidden_ideas = {
-			KOR_09_modern_millitary = { #미래 국군
+			KOR_modern_eqp_ic = {
+				
 			picture = generic_production_bonus
 			allowed = {
 				always = no
 			}
-
-			removal_cost = -1
-			
-			
-			modifier = {
-				land_reinforce_rate = 0.2
-				attrition = -0.8
-				land_night_attack = 0.85
-				army_org_factor = 0.3
-				army_org_regain	= 0.3
-				supply_consumption_factor = -0.6
-				}
 			equipment_bonus = {
 				infantry_equipment = {
 					build_cost_ic = -0.45 
@@ -35,6 +24,24 @@ ideas = {
 					instant = yes
 				}
 			}	
+			}
+			KOR_09_modern_millitary = { #미래 국군
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			
+			modifier = {
+				land_reinforce_rate = 0.2
+				attrition = -0.8
+				land_night_attack = 0.85
+				army_org_factor = 0.3
+				army_org_regain	= 0.3
+				supply_consumption_factor = -0.6
+				}
 			}
 			KOR_modern_airforce = { #미래 국군 = (왜넣음? 공군은 딱히 더 건들필요 없는데?) #북괴새끼들에게 09년 공군이 갈갈되어서 넣은거다. 09년 뽕맛 전용이니 지우지 말자
 				picture = generic_production_bonus
