@@ -79,7 +79,7 @@
  
  rok_emergency_bank_subsidy:0 "은행을 사수하라!"
 
- rok_remnants_of_the_military:0 "군부의잔재"
+ rok_remnants_of_the_military:0 "군부의 잔재"
  rok_remnants_of_the_military_desc:0 "내전에도 불구하고, 하나회의 잔재는 군대 곳곳에 남아있습니다. 이들을 완전뿌리뽑지않는이상 우리군대의 약점으로 작용할것입니다. §R시간내에 군부의잔재를 소탕하지못하면,남은 하나회세력이 음모를 꾸밀것입니다!!§!"
  
  rok_National_Security_Act:0 "국가보안법"
@@ -100,7 +100,7 @@
  
  rok_roh:0 "구속된 노태우"
  
- rok_UN_PMNS:0 "UN안전보장이사회 상임이사국"
+ rok_UN_PMNS:0 "국제연합 안전보장이사회 상임이사국"
  rok_UN:0 "국제연합 가입국" 
  ### KOR - Human
  chung_won_sik:0 "정 원식"
@@ -231,3 +231,18 @@
  prk_jap_propaganda:0 "일본에 공산주의 선전"
  Securing_Seoul:0 "서울 확보"
  bypass_Seoul:0 "서울 우회"
+ 
+ #ROK 
+ rok_Invest_in_Education:0 "교육에 투자"
+ rok_Divided_politics:0 "분열된 정계"
+ rok_Political_Integration:0 "정계통합"
+ rok_Political_Integration:0 "김영삼 계파 지원"
+ rok_strike:0 "노조 파업"
+ rok_strike_1:0 "노조와의 협상"
+ rok_strike_2:0 "노조 탄압"
+ rok_freedom:0 "자유와 평등"
+ rok_national_unity:0 "국민 단결"
+ rok_financial_system:0 "금융실명제"
+ rok_volunteer:0 "의용병 파견"
+ prk_volunteer:0 "의용병 파견"
+ rok_national_attack:0 "전체주의 분쇄"
