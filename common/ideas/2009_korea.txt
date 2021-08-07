@@ -24,6 +24,162 @@ ideas = {
 					instant = yes
 				}
 			}	
+			equipment_bonus = {
+				Vertical_maneuvering_equipment = {
+					build_cost_ic = -0.2 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				amphibious_mechanized_equipment = {
+					build_cost_ic = -0.2 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				anti_air_equipment = {
+					build_cost_ic = -0.2 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				anti_tank_equipment = {
+					build_cost_ic = -0.2 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				armored_car_equipment = {
+					build_cost_ic = -0.2 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				ballistic_missile_equipment = {
+					build_cost_ic = -0.2 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				convoy = {
+					build_cost_ic = -0.5 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				util_helicopter_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				IFV_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				manpad_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				mechanized_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				anti_air_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}		
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				jet_multirole_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				transport_plane_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				IFV_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				jet_fighter_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				CAS_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				support_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				amphibious_tank_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				modern_tank_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				modern_tank_artillery_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				modern_tank_aa_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				light_tank_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
+			equipment_bonus = {
+				medium_tank_equipment = {
+					build_cost_ic = -0.3 
+					instant = yes
+				}
+			}	
 			}
 			KOR_09_modern_millitary = { #미래 국군
 			picture = generic_production_bonus
