@@ -3,7 +3,7 @@ technologies = {
 	mtg_transport_2 = { 
 
 		enable_equipments = { 
-			conovy_1
+			convoy_2
 		}
 
 		research_cost = 1
