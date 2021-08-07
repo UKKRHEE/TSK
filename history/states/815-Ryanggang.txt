@@ -12,6 +12,12 @@ state={
 			air_base = 1
 			fuel_silo = 3
 		}
+		victory_points = {
+			11775 5 
+		}
+		victory_points = {
+			11878 3 
+		}
 
 		1936.1.3 = {
 			remove_core_of = KR1

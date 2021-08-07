@@ -14,6 +14,12 @@ state={
 		victory_points = {
 			898 10 
 		}
+		victory_points = {
+			6944 5 
+		}
+		victory_points = {
+			959 5 
+		}
 		add_core_of = KR1
 		add_core_of = PRK
 

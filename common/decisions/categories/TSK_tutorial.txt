@@ -16,3 +16,16 @@ TSK_tutorial_decision = {
 		}
 	}
 }
+TSK_annex_marine = {
+
+	picture = GFX_decision_tut
+
+	icon = GFX_decision_category_infiltration
+	
+	allowed = {
+		OR = {
+				original_tag = ROK
+				original_tag = MKR
+		}
+	}
+}

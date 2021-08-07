@@ -12,7 +12,16 @@ state={
 			air_base = 1
 		}
 		victory_points = {
-			13249 10 
+			13249 25 
+		}
+		victory_points = {
+			7175 5 
+		}
+		victory_points = {
+			7204 5 
+		}
+		victory_points = {
+			1100 3 
 		}
 		add_core_of = KR1
 		add_core_of = PRK

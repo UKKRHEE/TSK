@@ -19,3 +19,22 @@
  mkr_victory_in_the_civil_war:0 "내전에서의 승리"
  
  sub_mod_kasche:0 "`아나키 서브모드`§H가 필요합니다.§!"
+
+
+ ROK_security_law:0 "긴급 보안법"
+ ROK_national_support:0 "국민지지확보"
+ ROK_independence_fighters:0 "독립운동가들의 귀국"
+ ROK_mobilization_order:0 "예비군 동원령"
+ ROK_Independent_Army_Officers:0 "독립군 장교단"
+ ROK_supply_of_goods:0 "물자보급"
+ ROK_victory_of_the_people:0 "국민의 승리"
+ ROK_Attack_Instructions:0 "공격지침 하달"
+ 
+ ROK_offencive:0 "필사의 각오"
+ 
+ rok_focus:0 "대한민국 민주정부 국가중점"
+ 
+ 91_annex_mkr:0 "[MKR.GetName]에게서 승리를 거둠"
+ 91_control_mkr:0 "[MKR.GetName]에게서 승리를 거둠"
+ 91_annex_prk:0 "[PRK.GetName]에게서 승리를 거둠"
+ 91_annex_mkr_and_prk:0 "[PRK.GetName]과 [MKR.GetName]에게서 승리를 거둠"

@@ -44,3 +44,52 @@ TSK_tutorial_decision = {
 		}
 	}
 }
+TSK_annex_marine = {
+
+	KR1_annex_marine_decision = { #튜토리얼
+
+		icon = generic_civil_support
+
+		available = {
+			OR = {
+				original_tag = ROK
+				original_tag = MKR
+			}
+			has_war = no
+			809 = { is_owned_by = ROOT }
+			807 = { is_owned_by = ROOT }
+			807 = { is_controlled_by = ROOT }
+			809 = { is_controlled_by = ROOT }
+		}
+		
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+			OR = {
+				original_tag = ROK
+				original_tag = MKR
+			}
+			has_war = no
+			
+			809 = { is_owned_by = ROOT }
+			807 = { is_owned_by = ROOT }
+			807 = { is_controlled_by = ROOT }
+			809 = { is_controlled_by = ROOT }
+		}		
+	
+		
+		is_good = yes
+		
+		complete_effect = { 
+			annex_country = {
+				target = JEJ
+				transfer_toops = yes
+			}
+			JEJ = {
+				remove_state_core = 821
+				remove_state_core = 813
+			}
+		}
+	}
+}

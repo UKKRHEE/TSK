@@ -11,7 +11,7 @@ state={
 			fuel_silo = 3
 		}
 		victory_points = {
-			11835 10 
+			11835 20 
 		}
 		add_core_of = PRK
 		add_core_of = KR1

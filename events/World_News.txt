@@ -1122,3 +1122,38 @@ news_event = {
         trigger = { TAG = ROK }
     }
 }
+#부산 함락(군사정부)
+news_event = {
+    id = kor_news.30
+    title = kor_news.30.t
+    desc = kor_news.30.desc
+    picture = GFX_부산함락
+    
+    major = yes
+    
+    is_triggered_only = yes
+	fire_only_once = yes
+    
+    option = {
+        name = kor_news.30.a
+        trigger = {
+            NOT = {
+                TAG = PRK
+                TAG = MKR
+                TAG = ROK
+            }
+        }
+    }
+    option = {
+        name = kor_news.30.b
+        trigger = { TAG = PRK }
+    }
+    option = {
+        name = kor_news.30.c
+        trigger = { TAG = ROK }
+    }
+    option = {
+        name = kor_news.30.d
+        trigger = { TAG = MKR }
+    }
+}

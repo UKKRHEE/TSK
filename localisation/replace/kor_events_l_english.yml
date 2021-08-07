@@ -574,4 +574,8 @@
  rok_civ.6.d:0 ""
  rok_civ.6.a:0 "우리 찬란한 조국을 위해!"
  
- remove_mkr:0 "§G군사정부의 잔재들이 제거될것입니다§!"
+ remove_mkr:0 "§G군사정부의 잔재들이 제거될 것입니다§!"
+ fall_of_busan_MKR_1:0 "§Y내전이 끝났다§!" 
+ fall_of_busan_PRK:0 "§Y부산이 북한의 손에 떨어졌다§!" 
+ return_seoul_ROK:0 "§Y북한의 손에 떨어진 서울을 수복하였다§!" 
+ fall_of_seoul:0 "§Y서울이 함락되었다§!" 

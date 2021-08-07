@@ -70,6 +70,31 @@ on_actions = {
 					news_event = { days = 0 id = kor_news.5 }
 				}
 			}	
+			if = { #부산(내전)
+				limit = {
+					809 = { is_controlled_by = MKR }
+					809 = { is_owned_by = ROK }
+					NOT = { has_global_flag = fall_of_busan_MKR_1 }
+					has_global_flag = kor_civ
+					tag = MKR
+				}
+				MKR = {
+					news_event = { days = 0 id = kor_news.30 }
+					set_country_flag = fall_of_busan_MKR_1
+				}
+			}	
+			if = { #부산(내전)
+				limit = {
+					809 = { is_controlled_by = MKR }
+					809 = { is_owned_by = PRK }
+					NOT = { has_global_flag = fall_of_busan_MKR_1 }
+					has_global_flag = kor_civ
+					tag = MKR
+				}
+				MKR = {
+					set_country_flag = fall_of_busan_MKR_1
+				}
+			}	
 		}	
 }
 

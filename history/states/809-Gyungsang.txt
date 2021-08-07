@@ -25,16 +25,25 @@ state={
 		}
 		
 		victory_points = {
-			4056 25 
+			4056 30 
 		}
 		victory_points = {
-			13250 10 
+			13250 25 
 		}
 		victory_points = {
-			13251 10 
+			13251 20 
 		}
 		victory_points = {
 			7121 10 
+		}
+		victory_points = {
+			4103 5 
+		}
+		victory_points = {
+			12060 5 
+		}
+		victory_points = {
+			1054 3 
 		}
 		1936.1.2 = {
 			remove_core_of = PRK
