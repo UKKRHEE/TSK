@@ -80,7 +80,6 @@ on_actions = {
 				}
 				MKR = {
 					news_event = { days = 0 id = kor_news.30 }
-					set_global_flag = fall_of_busan_MKR_1
 				}
 			}	
 			if = { #부산(북괴)
