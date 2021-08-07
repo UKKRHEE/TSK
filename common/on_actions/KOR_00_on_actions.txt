@@ -31,5 +31,45 @@ on_actions = {
             }
         }
     }
+	on_state_control_changed = { #
+	    effect = {
+			if = { #서울 함락
+				limit = {
+					tag = PRK
+					807 = { is_owned_by = MKR }
+					MKR = { has_war_with = PRK }
+					807 = { is_controlled_by = PRK }
+					NOT = { has_global_flag = fall_of_seoul }
+				}
+				PRK = {
+					news_event = { days = 0 id = kor_news.2 }
+				}
+			}
+			if = { #서울 수복
+				limit = {
+					tag = ROK
+					807 = { is_owned_by = PRK }
+					807 = { is_controlled_by = ROK }
+					ROK = { has_war_with = PRK }
+					NOT = { has_global_flag = return_seoul_ROK }
+					has_global_flag = fall_of_seoul
+				}
+				ROK = {
+					country_event = { days = 0 id = kor_news.14 }
+				}
+			}	
+			if = { #부산
+				limit = {
+					809 = { is_controlled_by = PRK }
+					809 = { is_owned_by = ROK }
+					NOT = { has_global_flag = fall_of_busan_PRK }
+					has_global_flag = kor_civ
+					tag = ROK
+				}
+				PRK = {
+					news_event = { days = 0 id = kor_news.5 }
+				}
+			}	
+		}	
 }
 

@@ -123,7 +123,9 @@ country_event = { #평화 : 부산점령실패시
 	
 	option = { #전쟁이전으로 되돌리자
 		name = korea_war.13.a
-		ai_chance = { factor = 70 }
+		ai_chance = { 
+			base = 80 
+		}
 		ROK = {
 			country_event = {
             id = korea_war.14
@@ -134,7 +136,13 @@ country_event = { #평화 : 부산점령실패시
 	
 	option = { #이길수있다!
 		name = korea_war.13.a
-		ai_chance = { factor = 30 }
+		ai_chance = { base = 20 }
+		ROK = {
+			country_event = {
+				id = korea_war.17
+				days = 1
+			}	
+		}
 	}
 }
 
@@ -223,4 +231,109 @@ country_event = {
 		name = korea_war.16.b
 		ai_chance = { factor = 10 }
 	}	
+}
+country_event = {
+	id = korea_war.17 #정전협상 민주한국
+	title = korea_war.17.t
+	desc = korea_war.17.d
+	picture = GFX_정전협상노태우
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #휴전요청하자
+		name = korea_war.17.a
+		ai_chance = { factor = 90 }
+		PRK = {
+			country_event = {
+				id = korea_war.18
+				days = 1
+			}
+		}
+	}
+	option = { #북진!
+		name = korea_war.17.b
+		ai_chance = { factor = 10 }
+	}
+}
+country_event = {
+	id = korea_war.18 #정전협상 민주한국 - 북괴 수락 or 거절
+	title = korea_war.18.t
+	desc = korea_war.18.d
+	picture = GFX_정전협상노태우
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #동의
+		name = korea_war.18.a
+		ai_chance = { factor = 60 }
+		ROK = {
+		white_peace = PRK
+		}
+	}
+	option = { #거절!
+		name = korea_war.18.b
+		ai_chance = { factor = 40 }
+	}
+}
+country_event = {
+	id = korea_war.19 #항복 - 부산점령
+	title = korea_war.19.t
+	desc = korea_war.19.d
+	picture = GFX_정전협상노태우
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #동의
+		name = korea_war.19.a
+		ai_chance = { factor = 60 }
+		PRK = {
+			white_peace = ROK
+			transfer_state = 809
+			transfer_state = 817
+			transfer_state = 808
+			transfer_state = 813
+			transfer_state = 821
+			JDF = {
+				country_event = {
+					id = korea_war.20
+					days = 2
+				}
+			}
+		}
+		if = {
+			limit = {
+				ROK = {
+					is_ai = no
+				}
+			}
+			PRK = { change_tag_from = ROK }
+		}
+	}
+}
+country_event = {
+	id = korea_war.20 #JDF의 ROK해군
+	title = korea_war.20.t
+	desc = korea_war.20.d
+	picture = GFX_정전협상노태우
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #어...어?
+		name = korea_war.20.a
+		ai_chance = { factor = 100 }
+		if = {
+			limit = {
+				has_dlc = "Man the Guns"
+			}
+			load_oob = KR1_1936_naval_mtg
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_dlc = "Man the Guns"	
+				}
+			}
+			load_oob = KR1_1936_naval
+		}
+	}
 }

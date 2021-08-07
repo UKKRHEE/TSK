@@ -6,7 +6,7 @@ focus_tree = {
 			add = 10
 			tag = ROK
 		}
-	}
+	} 
 	
 	default = no
 	focus =  { #긴급보안법
