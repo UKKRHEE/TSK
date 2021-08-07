@@ -884,6 +884,7 @@ country_event = { #정보
 			}
 			KOR = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_modern_eqp_ic_2
 			}
 			KPA = {
 			add_ideas = KOR_ammo
@@ -940,6 +941,7 @@ country_event = {
 			}
 			KOR = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_modern_eqp_ic_2
 			}
 			KPA = {
 			add_ideas = KOR_ammo
@@ -995,6 +997,7 @@ country_event = { #kkshunp
 			}
 			KOR = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_modern_eqp_ic_2
 			}
 			KPA = {
 			add_ideas = KOR_ammo
@@ -1049,6 +1052,7 @@ country_event = { #도움준사람들
 			}
 			KOR = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_modern_eqp_ic_2
 			}
 			KPA = {
 			add_ideas = KOR_ammo
@@ -1106,6 +1110,7 @@ country_event = { #모드정보 - 육군
 			}
 			KOR = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_modern_eqp_ic_2
 			}
 			KPA = {
 			add_ideas = KOR_ammo
@@ -1162,6 +1167,7 @@ country_event = { #모드정보 - 기타등등
 			}
 			KOR = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_modern_eqp_ic_2
 			}
 			KPA = {
 			add_ideas = KOR_ammo

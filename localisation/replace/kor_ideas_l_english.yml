@@ -169,12 +169,6 @@
  daewoo_car:0 "대우자동차"
  hyundai_car:0 "현대자동차"
  
- ### PRK
- KOR_food_1:0 "식량난 위기"
- KOR_food_1_desc:0 "아직까지는 문제가없어보이지만. 점점 대두되고있습니다. 굷주리는 인민들에게 배급해줄 식량을 늘리지 않으면 대재앙이 일어날것은 분명합니다. 우리는 이를막아야만합니다."
- KOR_juche:0 "주체사상"
- KOR_juche_desc:0 "'김일성-김정일주의'라고도 불리는 주체사상은 조선민주주의 인민공화국의 통치이념입니다. 1인 독재 권력을 정당화하고 김씨조선 체제를 유지하는 사상으로 사실상 사회주의와는 거리가먼 이념입니다."
- 
  kim_young_nam:0 "김 영남"
  choe_yung:0 "최 영림"
  lee_byung:0 "리 병철"
@@ -206,4 +200,23 @@
  nine_dasan:0 "다산기공"
  kia_car:0 "기아모터스"
  nine_hyundai_car:0 "현대자동차"
+ ### PRK
  
+ strong_and_powerful_nation:0 "강성대국"
+ agricultural:0 "농업현장 투입"
+ re_education_camp:0 "재교육 운동"
+ expansion_camps:0 "노동수용소 동원"
+ supervision:0 "관리감독 강화"
+ propaganda_camp:0 "선전물 배포"
+ KOR_worker:0 "노동 장려운동"
+ KOR_Ryugyong_Hotel:0 "류경 호텔"
+ KOR_combat_ind:0 "전투 공업"
+ KOR_combat_food:0 "전투 농업"
+ ### PRK
+ KOR_food_1:0 "식량난 위기"
+ KOR_food_1_desc:0 "아직까지는 문제가 없어보이지만. 점점 대두되고 있습니다. 굶주리는 인민들에게 배급해줄 식량을 늘리지 않으면 대재앙이 일어날 것은 분명합니다. 우리는 이를 막아야만 합니다."
+ KOR_juche:0 "주체사상"
+ KOR_juche_desc:0 "'김일성-김정일주의'라고도 불리는 주체사상은 조선민주주의인민공화국의 통치이념입니다. 1인 독재 권력을 정당화하고 김씨조선 체제를 유지하는 사상으로 사실상 사회주의와는 거리가 먼 이념입니다."
+ KOR_food_2:0 "식량난 위기"
+ KOR_food_3:0 "식량난 위기"
+ KOR_food_4:0 "고난의 행군"

@@ -94,6 +94,9 @@ focus_tree = {
 		prerequisite = {
 			focus = prk_The_Future_of_Joseon
 		}
+		mutually_exclusive = {
+			focus = prk_orthodox_socialism
+		}
 		available = {
 			is_puppet = no
 			has_war = no

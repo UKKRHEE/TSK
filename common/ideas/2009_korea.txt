@@ -1,6 +1,6 @@
 ideas = {
 	hidden_ideas = {
-			KOR_modern_eqp_ic = {
+			KOR_modern_eqp_ic_2 = {
 				
 			picture = generic_production_bonus
 			allowed = {
