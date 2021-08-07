@@ -58,9 +58,7 @@ equipments = {
 		year = 2000
 		parent = convoy_1
 		archetype = convoy
-		type = { 
-			convoy
-		}
+		
 		lg_armor_piercing = 2
 		armor_value = 0
 		reliability = 1
@@ -72,7 +70,6 @@ equipments = {
 		max_strength = 120
 		max_organisation = 60
 		anti_air_attack = 0.5
-		active = yes
 		priority = 10
 	}
 }
