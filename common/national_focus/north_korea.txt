@@ -481,7 +481,42 @@ focus_tree = {
 		}
 		x = 28
 		y = 8
-
+		completion_reward = {
+			custom_effect_tooltip = NEW_PRK_tt
+			set_cosmetic_tag = NEW_PRK
+			hidden_effect = {
+				add_ideas = {
+					coup_threat
+					unstable_state
+				} 
+				set_politics = {
+					ruling_party = democratic
+        			elections_allowed = no
+        			last_election = "1935.12.17"
+        			election_frequency = 48
+				}
+				set_popularities = {
+        			democratic = 50
+        			neutrality = 0
+        			fascism = 0
+        			communism = 50
+				}
+				set_party_name = { 
+            		ideology = democratic
+            		long_name = "조선 사민당" 
+            		name = "조선 사민당"  
+        		}
+				create_country_leader = {
+					name = "Yeo Un Hyeong"
+					desc = ""
+					picture = "Yeo_Un_Hyeong.png"
+					expire = "1965.1.1"
+					ideology = socialism
+					traits = {
+					}
+				}
+			}
+		}
 	}
 	focus = { #좌우합작운동 ('좌우 합작운동'디시전활성화)
 		id = prk_left_right_joint_movement
@@ -492,7 +527,55 @@ focus_tree = {
 		}
 		x = 28
 		y = 9
-
+		completion_reward = {
+			unlock_decision_category_tooltip = left_right_joint_movement_decision_category
+			if = {
+				limit = {
+					has_idea = unstable_state
+				}
+				swap_ideas = {
+					add_idea = Great_purge
+					remove_idea = unstable_state
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge
+				}
+				swap_ideas = {
+					add_idea = Great_purge_1
+					remove_idea = Great_purge
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge_1
+				}
+				swap_ideas = {
+					add_idea = Great_purge_2
+					remove_idea = Great_purge_1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge_2
+				}
+				swap_ideas = {
+					add_idea = Great_purge_3
+					remove_idea = Great_purge_2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge_3
+				}
+				remove_ideas = Great_purge_3
+			}
+			add_timed_idea = {
+				idea = left_right_joint_movement
+				days = 90
+			}
+		}
 	}
 	focus = { #군부내 고위지휘관 설득 ('군부내 불만' 국민정신대체)
 		id = prk_Persuasion_of_the_High_Command_Officer
@@ -501,10 +584,74 @@ focus_tree = {
 		prerequisite = {
 			focus = prk_left_right_joint_movement
 		}
+		available = {
+			hidden_trigger = {
+				has_country_flag = left_right_joint_movement_decision_3_flag
+			}
+		}
 		x = 26
 		y = 10
 		completion_reward = {
-		
+			custom_effect_tooltip = coup_threat_tt
+			custom_effect_tooltip = Great_purge_tt
+			army_experience = 25
+			if = {
+				limit = {
+					has_idea = unstable_state
+				}
+				swap_ideas = {
+					add_idea = Great_purge
+					remove_idea = unstable_state
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge
+				}
+				swap_ideas = {
+					add_idea = Great_purge_1
+					remove_idea = Great_purge
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge_1
+				}
+				swap_ideas = {
+					add_idea = Great_purge_2
+					remove_idea = Great_purge_1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge_2
+				}
+				swap_ideas = {
+					add_idea = Great_purge_3
+					remove_idea = Great_purge_2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge_3
+				}
+				remove_ideas = Great_purge_3
+			}
+			if = {
+				limit = {
+					has_idea = coup_threat
+				}
+				swap_ideas = {
+					add_idea = coup_threat_1
+					remove_idea = coup_threat
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = coup_threat_1
+				}
+				remove_ideas = coup_threat_1
+			}
 		}
 
 	}
@@ -515,10 +662,73 @@ focus_tree = {
 		prerequisite = {
 			focus = prk_left_right_joint_movement
 		}
+		available = {
+			hidden_trigger = {
+				has_country_flag = left_right_joint_movement_decision_3_flag
+			}
+		}
 		x = 28
 		y = 10
 		completion_reward = {
-		
+			custom_effect_tooltip = coup_threat_tt
+			custom_effect_tooltip = Great_purge_tt
+			if = {
+				limit = {
+					has_idea = unstable_state
+				}
+				swap_ideas = {
+					add_idea = Great_purge
+					remove_idea = unstable_state
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge
+				}
+				swap_ideas = {
+					add_idea = Great_purge_1
+					remove_idea = Great_purge
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge_1
+				}
+				swap_ideas = {
+					add_idea = Great_purge_2
+					remove_idea = Great_purge_1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge_2
+				}
+				swap_ideas = {
+					add_idea = Great_purge_3
+					remove_idea = Great_purge_2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge_3
+				}
+				remove_ideas = Great_purge_3
+			}
+			if = {
+				limit = {
+					has_idea = coup_threat
+				}
+				swap_ideas = {
+					add_idea = coup_threat_1
+					remove_idea = coup_threat
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = coup_threat_1
+				}
+				remove_ideas = coup_threat_1
+			}
 		}
 
 	}
@@ -529,10 +739,62 @@ focus_tree = {
 		prerequisite = {
 			focus = prk_left_right_joint_movement
 		}
+		available = {
+			hidden_trigger = {
+				has_country_flag = left_right_joint_movement_decision_3_flag
+			}
+		}
 		x = 30
 		y = 10
 		completion_reward = {
-		
+			custom_effect_tooltip = Great_purge_tt
+			if = {
+				limit = {
+					has_idea = unstable_state
+				}
+				swap_ideas = {
+					add_idea = Great_purge
+					remove_idea = unstable_state
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge
+				}
+				swap_ideas = {
+					add_idea = Great_purge_1
+					remove_idea = Great_purge
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge_1
+				}
+				swap_ideas = {
+					add_idea = Great_purge_2
+					remove_idea = Great_purge_1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge_2
+				}
+				swap_ideas = {
+					add_idea = Great_purge_3
+					remove_idea = Great_purge_2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge_3
+				}
+				remove_ideas = Great_purge_3
+			}
+			add_stability = 0.1
+			add_popularity = {
+    			ideology = communism
+    			popularity = -0.5
+			}
 		}
 
 	}
@@ -553,6 +815,49 @@ focus_tree = {
 		y = 11
 		completion_reward = {
 			add_stability = 0.1
+			custom_effect_tooltip = Great_purge_tt_1
+			if = {
+				limit = {
+					has_idea = unstable_state
+				}
+				swap_ideas = {
+					add_idea = Great_purge
+					remove_idea = unstable_state
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge
+				}
+				swap_ideas = {
+					add_idea = Great_purge_1
+					remove_idea = Great_purge
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge_1
+				}
+				swap_ideas = {
+					add_idea = Great_purge_2
+					remove_idea = Great_purge_1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge_2
+				}
+				swap_ideas = {
+					add_idea = Great_purge_3
+					remove_idea = Great_purge_2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = Great_purge_3
+				}
+				remove_ideas = Great_purge_3
+			}
 		}
 
 	}

@@ -1,0 +1,212 @@
+ideas = {
+	country = {
+			
+		unstable_state = {
+			
+			allowed = {
+				original_tag = PRK
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_purge
+			
+			research_bonus = {
+				land_doctrine = -0.10
+				naval_doctrine = -0.10
+				air_doctrine = -0.10
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.20
+				army_org_factor = -0.5
+				send_volunteer_factor = -0.7
+				industrial_capacity_factory = -0.3
+				training_time_factor = 0.6
+				production_speed_buildings_factor = -0.3
+			}
+			
+		}
+	}	
+	country = {
+			
+		Great_purge = {
+			
+			allowed = {
+				original_tag = PRK
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_purge
+			
+			modifier = {
+				consumer_goods_factor = 0.3
+				army_org_factor = -0.4
+				send_volunteer_factor = -0.6
+				industrial_capacity_factory = -0.2
+				training_time_factor = 0.5
+				production_speed_buildings_factor = -0.2
+			}
+			
+		}
+	}	
+	country = {
+			
+		Great_purge_1 = {
+			
+			allowed = {
+				original_tag = PRK
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_purge
+			
+			modifier = {
+				consumer_goods_factor = 0.2
+				army_org_factor = -0.3
+				send_volunteer_factor = -0.5
+				industrial_capacity_factory = -0.1
+				training_time_factor = 0.4
+				production_speed_buildings_factor = -0.1
+			}
+			
+		}
+	}
+	country = {
+			
+		Great_purge_2 = {
+			
+			allowed = {
+				original_tag = PRK
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_purge
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				army_org_factor = -0.2
+				send_volunteer_factor = -0.4
+				training_time_factor = 0.3
+			}
+			
+		}
+	}
+	country = {
+			
+		Great_purge_3 = {
+			
+			allowed = {
+				original_tag = PRK
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_purge
+			
+			modifier = {
+				army_org_factor = -0.1
+				send_volunteer_factor = -0.2
+				training_time_factor = 0.15
+			}
+			
+		}
+	}
+	country = {
+			
+		left_right_joint_movement = {
+			
+			allowed = {
+				original_tag = PRK
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = can_wartime_prices_and_trade_board
+			
+			modifier = {
+				communism_drift = -0.01
+				democratic_drift = 0.01
+			}
+			
+		}
+	}
+	country = {
+			
+		coup_threat = {
+			
+			allowed = {
+				original_tag = PRK
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = tfv_can_conscription_crisis
+			
+			modifier = {
+				stability_factor = -0.25
+			}
+			
+		}
+	}
+	country = {
+			
+		coup_threat_1 = {
+			
+			allowed = {
+				original_tag = PRK
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = tfv_can_conscription_crisis
+			
+			modifier = {
+				stability_factor = -0.15
+			}
+			
+		}
+	}

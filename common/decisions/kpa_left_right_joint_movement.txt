@@ -1,0 +1,116 @@
+@MAN_HUNT_BANDITS_EQUIPMENT_COST_TRIGGER = 499
+@MAN_HUNT_BANDITS_EQUIPMENT_COST_EFFECT = -500
+
+left_right_joint_movement_decision_category = {
+
+	left_right_joint_movement_decision_1 = {
+
+		icon = generic_civil_support
+		
+		cost = 50
+        fire_only_once = yes
+
+		visible = {
+			has_completed_focus = prk_left_right_joint_movement
+		}		
+
+		is_good = yes
+		
+		modifier = {
+			communism_drift = -0.01
+			democratic_drift = 0.01
+		}
+		days_remove = 50
+		complete_effect = { 
+			add_stability = -0.05
+		}
+		remove_effect = {
+			set_country_flag = left_right_joint_movement_decision_1_flag
+		} 
+	}
+	left_right_joint_movement_decision_2 = {
+
+		icon = generic_civil_support
+
+		available = {
+			has_country_flag = left_right_joint_movement_decision_1_flag
+		}
+		
+		cost = 50
+        fire_only_once = yes
+
+		visible = {
+			has_completed_focus = prk_left_right_joint_movement
+		}		
+
+		is_good = yes
+		
+		modifier = {
+			communism_drift = -0.01
+			democratic_drift = 0.01
+		}
+		days_remove = 50
+		complete_effect = { 
+			add_stability = -0.05
+		}
+		remove_effect = {
+			clr_country_flag = left_right_joint_movement_decision_1_flag
+			set_country_flag = left_right_joint_movement_decision_2_flag
+		} 
+	}
+	left_right_joint_movement_decision_3 = {
+
+		icon = generic_civil_support
+
+		available = {
+			has_country_flag = left_right_joint_movement_decision_2_flag
+		}
+		
+		cost = 50
+        fire_only_once = yes
+
+		visible = {
+			has_completed_focus = prk_left_right_joint_movement
+		}		
+
+		is_good = yes
+		
+		modifier = {
+			communism_drift = 0.01
+			democratic_drift = 0.01
+		}
+		days_remove = 50
+		complete_effect = { 
+			add_stability = 0.05
+			
+		}
+		remove_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = PRK
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+						level = 2
+						instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = PRK
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+						level = 2
+						instant_build = yes
+				}
+			}
+			hidden_effect = {
+				set_country_flag = left_right_joint_movement_decision_3_flag
+			}
+			clr_country_flag = left_right_joint_movement_decision_2_flag
+		} 
+	}
+}
