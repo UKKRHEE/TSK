@@ -429,11 +429,11 @@ PRK_2nd_war = { #초반 2차한국전쟁
 		icon = generic_operation
 	
 		available = {
-		    has_country_flag = PRK_war1
+		    has_country_flag = korea_war1
 		}
 		
 		visible = {
-			has_country_flag = PRK_war1
+			has_country_flag = korea_war1
 		}
 	
 		fire_only_once = yes
@@ -466,13 +466,14 @@ PRK_2nd_war = { #초반 2차한국전쟁
 			PRK = {
 				controls_state = 807
 			}
+			
 		}
 		
 		days_mission_timeout = 30
 		fire_only_once = yes
 
 		visible = {
-		    always = no
+			has_idea = PRK_war1
 		}
 	
 		fire_only_once = yes
