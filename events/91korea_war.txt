@@ -350,6 +350,7 @@ country_event = {
 	option = { #동의
 		name = korea_war.21.a
 		ai_chance = { base = 100 }
+		set_country_flag = fall_of_busan_MKR_1
 		MKR = {
 			white_peace = ROK
 			transfer_state = 809
