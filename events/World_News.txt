@@ -1136,7 +1136,7 @@ news_event = {
 	immediate = {
 		set_global_flag = fall_of_busan_MKR_1
 		hidden_effect = {
-			MKR = {
+			ROK = {
 				country_event = {
 					id = korea_war.21
 					days = 0
@@ -1194,7 +1194,6 @@ news_event = {
             NOT = {
                 TAG = PRK
                 TAG = MKR
-                TAG = ROK
             }
         }
     }
@@ -1204,10 +1203,6 @@ news_event = {
     }
     option = {
         name = kor_news.31.c
-        trigger = { TAG = ROK }
-    }
-    option = {
-        name = kor_news.31.d
         trigger = { TAG = MKR }
     }
 }
