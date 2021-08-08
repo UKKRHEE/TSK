@@ -56,7 +56,34 @@ TSK_annex_marine = {
 				original_tag = ROK
 				original_tag = MKR
 			}
-			has_war = no
+			if = {
+				limit = {
+					original_tag = ROK
+				}
+				NOT = {
+					has_war_with = PRK
+					has_war_with = MKR
+				}
+			}
+			if = {
+				limit = {
+					original_tag = MKR
+				}
+				NOT = {
+					has_war_with = PRK
+					has_war_with = ROK
+				}
+			}
+			
+			if = {
+				limit = {
+					original_tag = PRK
+				}
+				NOT = {
+					has_war_with = MKR
+					has_war_with = ROK
+				}
+			}
 			809 = { is_owned_by = ROOT }
 			807 = { is_owned_by = ROOT }
 			807 = { is_controlled_by = ROOT }
@@ -72,7 +99,34 @@ TSK_annex_marine = {
 				original_tag = ROK
 				original_tag = MKR
 			}
-			has_war = no
+			if = {
+				limit = {
+					original_tag = ROK
+				}
+				NOT = {
+					has_war_with = PRK
+					has_war_with = MKR
+				}
+			}
+			if = {
+				limit = {
+					original_tag = MKR
+				}
+				NOT = {
+					has_war_with = PRK
+					has_war_with = ROK
+				}
+			}
+			
+			if = {
+				limit = {
+					original_tag = PRK
+				}
+				NOT = {
+					has_war_with = MKR
+					has_war_with = ROK
+				}
+			}
 			
 			809 = { is_owned_by = ROOT }
 			807 = { is_owned_by = ROOT }
@@ -98,6 +152,20 @@ TSK_annex_marine = {
 					target = JEJ
 					transfer_toops = yes
 				}
+				if = {
+					limit = {
+						has_dlc = "Man the Guns"
+					}
+				load_oob = KR1_1936_naval_mtg
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_dlc = "Man the Guns"
+						}
+					}
+				load_oob = KR1_1936_naval
+				}
 				JEJ = {
 					remove_state_core = 821
 					remove_state_core = 813
@@ -112,6 +180,12 @@ TSK_annex_marine = {
 				JEJ = {
 					remove_state_core = 821
 					remove_state_core = 813
+				}
+				JDF = {
+					country_event = {
+						id = korea_war.20
+						days = 2
+					}
 				}
 			}			
 		}

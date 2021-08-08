@@ -1136,10 +1136,11 @@ news_event = {
 	immediate = {
 		set_global_flag = fall_of_busan_MKR_1
 		hidden_effect = {
-			ROK = {
-				#country_event = {
-				#	
-				#}
+			MKR = {
+				country_event = {
+					id = korea_war.21
+					days = 0
+				}
 			}
 		}
 	}				
@@ -1164,6 +1165,49 @@ news_event = {
     }
     option = {
         name = kor_news.30.d
+        trigger = { TAG = MKR }
+    }
+}
+#부산 함락(북괴)
+news_event = {
+    id = kor_news.31
+    title = kor_news.31.t
+    desc = kor_news.31.desc
+    picture = GFX_부산함락
+    
+    major = yes
+    
+    is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		set_global_flag = fall_of_busan_MKR_1
+		hidden_effect = {
+			PRK = {
+				whitepeace = MKR
+			}
+		}
+	}				
+    
+    option = {
+        name = kor_news.31.a
+        trigger = {
+            NOT = {
+                TAG = PRK
+                TAG = MKR
+                TAG = ROK
+            }
+        }
+    }
+    option = {
+        name = kor_news.31.b
+        trigger = { TAG = PRK }
+    }
+    option = {
+        name = kor_news.31.c
+        trigger = { TAG = ROK }
+    }
+    option = {
+        name = kor_news.31.d
         trigger = { TAG = MKR }
     }
 }

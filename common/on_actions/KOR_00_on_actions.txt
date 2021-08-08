@@ -63,6 +63,7 @@ on_actions = {
 					809 = { is_controlled_by = PRK }
 					809 = { is_owned_by = ROK }
 					NOT = { has_global_flag = fall_of_busan_PRK }
+					has_war_with = ROK
 					has_global_flag = kor_civ
 					tag = PRK
 				}
@@ -75,6 +76,7 @@ on_actions = {
 					809 = { is_controlled_by = MKR }
 					809 = { is_owned_by = ROK }
 					NOT = { has_global_flag = fall_of_busan_MKR_1 }
+					has_war_with = ROK
 					has_global_flag = kor_civ
 					tag = MKR
 				}
@@ -87,11 +89,19 @@ on_actions = {
 					809 = { is_controlled_by = MKR }
 					809 = { is_owned_by = PRK }
 					NOT = { has_global_flag = fall_of_busan_MKR_1 }
+					has_war_with = PRK
+					ROK = {
+						exists = no
+					}
+					has_global_flag = fall_of_busan_PRK
 					has_global_flag = kor_civ
 					tag = MKR
 				}
 				MKR = {
-					set_global_flag = fall_of_busan_MKR_1
+					news_event = {
+						days = 0
+						id = kor_news.31
+					}
 				}
 			}	
 		}	
