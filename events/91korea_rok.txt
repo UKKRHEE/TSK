@@ -1432,3 +1432,119 @@ country_event = { #최후통첩을 수락한 시암
 	}
 
 }
+
+country_event = { #한국이 차관을 요청하다
+	id = rok.55
+	title = rok.55.t
+	desc = rok.55.d
+	picture = GFX_two_peo_pic
+
+	is_triggered_only = yes
+	
+	option = { #수락한다
+		name = rok.55.a
+		ai_chance = {
+			factor = 60
+		}
+		KR1 = {
+			country_event = { hours = 6 id = rok.56 }
+		}
+		add_timed_idea = {
+			idea = loan_pay
+			days = 180
+		}
+    }	
+	
+	option = { #거부한다
+		name = rok.55.b
+		ai_chance = {
+			factor = 40
+		}
+		KR1 = {
+			country_event = { hours = 6 id = rok.57 }
+		}
+    }	
+}
+
+
+country_event = { #차관을 제공한 
+	id = rok.56
+	title = rok.56.t
+	desc = rok.56.d
+	picture = GFX_two_peo_pic
+
+	is_triggered_only = yes
+	
+	option = { #훌륭하군
+		name = rok.56.a
+		KOR_imf_level_up = yes
+    }	
+}
+
+country_event = { #차관 제공을 거부한
+	id = rok.57
+	title = rok.57.t
+	desc = rok.57.d
+	picture = GFX_two_peo_pic
+
+	is_triggered_only = yes
+	
+	option = { #이런.
+		name = rok.57.a
+
+    }	
+}
+
+
+country_event = { #부채를 상환하다
+	id = rok.57
+	title = rok.57.t
+	desc = rok.57.d
+	picture = GFX_two_peo_pic
+
+	trigger = {
+		tag = ROK
+		if = {
+			limit = { 
+				NOT = {
+				has_idea = loan_1 
+				}
+				has_country_flag = lend_loan
+				has_country_flag = loan_1
+			}
+		}
+		else_if = {
+			limit = { 
+				NOT = {
+				has_idea = loan_2
+				}
+				has_country_flag = lend_loan
+				has_country_flag = loan_2
+			}
+		}
+		else_if = {
+			limit = { 
+				NOT = {
+				has_idea = loan_3
+				}
+				has_country_flag = lend_loan
+				has_country_flag = loan_3
+			}
+		}
+		else_if = {
+			limit = { 
+				NOT = {
+				has_idea = loan_4
+				}
+				has_country_flag = lend_loan
+				has_country_flag = loan_4
+			}
+		}
+	}
+
+	
+	option = { #이런.
+		name = rok.57.a
+
+    }	
+}

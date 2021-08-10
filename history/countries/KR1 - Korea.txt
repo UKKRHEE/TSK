@@ -104,11 +104,9 @@ set_technology = {
 	
 	m_1970_spaa = 1
 	m_1980_spaa = 1
-	m_1990_spaa = 1
 	
 	m_1970_sp = 1	
 	m_1980_sp = 1
-	m_1990_sp = 1
 	
 	m_1980_motorized_rocket_unit = 1
 	
@@ -169,6 +167,7 @@ set_technology = {
 add_ideas = {
     KOR_modern_millitary
 	kor_law_of_korean_5
+	weak_anti_sub
 	
 	extensive_conscription
 }

@@ -1,5 +1,118 @@
 ideas = {
+	country = {
+		economy_close = { #경제 폐쇄
 
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05 #생산효율성한도%
+				production_factory_start_efficiency_factor = 0.05 #기본생산효율%
+			}
+		}
+		rok_loan_1 = { #차관
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05 #생산효율성한도%
+				production_factory_start_efficiency_factor = 0.05 #기본생산효율%
+			}
+		}
+		loan_1 = { #차관 1 
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1 #생산효율성한도%
+				production_factory_start_efficiency_factor = 0.1 #기본생산효율%
+				production_speed_buildings_factor = 0.1 #건설속도%
+				consumer_goods_factor = -0.03
+			}
+		}
+		loan_2 = { #차관 2
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15 #생산효율성한도%
+				production_factory_start_efficiency_factor = 0.15 #기본생산효율%
+				production_speed_buildings_factor = 0.15 #건설속도%
+				consumer_goods_factor = -0.06
+			}
+		}
+		loan_3 = { #차관 3
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.2 #생산효율성한도%
+				production_factory_start_efficiency_factor = 0.2 #기본생산효율%
+				production_speed_buildings_factor = 0.15 #건설속도%
+				consumer_goods_factor = -0.1
+			}
+		}
+		loan_4 = { #차관 4
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.2 #생산효율성한도%
+				production_factory_start_efficiency_factor = 0.2 #기본생산효율%
+				production_speed_buildings_factor = 0.2 #건설속도%
+				consumer_goods_factor = -0.15
+			}
+		}
+		loan_pay = { #차관 제공
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.2
+			}
+		}
+	}
 	economy = { 
 		law = yes
 		use_list_view = yes

@@ -343,6 +343,19 @@
  rok.54.d:0 ""
  rok.54.a:0 "훌륭하군."
  
+ rok.55.t:0 "차관을 요청한 대한민국"
+ rok.55.d:0 ""
+ rok.55.a:0 "그들을 돕도록 하지."
+ rok.55.b:0 "우리와는 관련없는 일이다."
+ 
+ rok.56.t:0 "우리에게 차관을 제공한 [From.GetNameDefCap]"
+ rok.56.d:0 ""
+ rok.56.a:0 "훌륭하군"
+ 
+ rok.57.t:0 "차관제공을 거부한 [From.GetNameDefCap]"
+ rok.57.d:0 ""
+ rok.57.a:0 "제길."
+ 
  mkorea.51.t:0 "동해교전"
  mkorea.51.d:0 "."
  mkorea.51.a:0 ""

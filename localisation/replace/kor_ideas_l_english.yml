@@ -340,6 +340,13 @@
  bypass_Seoul:0 "서울 우회"
  
  #ROK 
+ 
+ KOR_imf_level_up_tt:0 "차관대여의 보너스를 얻습니다. §G많은국가들이 차관을 빌려줄수록 보너스는 더욱 커질것입니다§!"
+ rok_loan_1:0 "대여한 차관"
+ loan_1:0 "차관레벨 1"
+ loan_2:0 "차관레벨 1"
+ loan_3:0 "차관레벨 1"
+ loan_4:0 "차관레벨 1"
  rok_Invest_in_Education:0 "교육에 투자"
  rok_Divided_politics:0 "분열된 정계"
  rok_Political_Integration:0 "정계통합"

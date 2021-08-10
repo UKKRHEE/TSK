@@ -6,7 +6,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = TSK 
+			tag = KR1
 		}
 	}
 	focus = { #14대 대선
@@ -16,17 +16,17 @@ focus_tree = {
 		x = 9
 		y = 0
 		completion_reward = {
-			country_event = { id = rok.1 } 
+			country_event = { id = rok.1 }
 		}
 	}
 	focus = { #경제위기
 		id = economis_cris
 		icon = GFX_tax_increase2
-		cost = 10.00
+		cost = 10
 		x = 27
 		y = 0
 		completion_reward = {
-			country_event = { id = rok.3 }
+			country_event = { id = rok.4 }
 		}
 	}
 	focus = { #하나회 잔당 소거
@@ -844,21 +844,22 @@ focus_tree = {
 		x = 23
 		y = 1
 		completion_reward = {
-			random_owned_state = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-				type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
+			set_country_flag = lend_loan
+			add_timed_idea = {
+				idea = rok_loan_1
+				days = 365
 			}
-			random_owned_state = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-				type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
+			USA = {
+				country_event = { id = rok.55 }
+			}
+			ENG = {
+				country_event = { days = 1 id = rok.55 }
+			}
+			FRA = {
+				country_event = { days = 2 id = rok.55 }
+			}
+			SOV = {
+				country_event = { days = 3 id = rok.55 }
 			}
 		}
 	}
