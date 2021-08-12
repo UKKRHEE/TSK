@@ -152,6 +152,35 @@ on_actions = {
 				}	
 			}
 		}
-	}		
+	}
+	on_daily = { 
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						original_tag = ROK
+					}
+					OR = {
+						has_idea = economy_open_bonus
+						has_idea = economy_open_bonus_minor
+					}
+					has_war_with = ROK
+				}	
+				if = {
+					limit = {
+						has_idea = economy_open_bonus
+					}
+					remove_ideas = economy_open_bonus
+				}
+				if = {
+					limit = {
+						has_idea = economy_open_bonus_minor
+					}
+					remove_ideas = economy_open_bonus_minor
+				}
+				
+			}
+		}
+	}	
 }	
 
