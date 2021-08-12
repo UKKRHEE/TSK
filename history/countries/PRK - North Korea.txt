@@ -201,6 +201,7 @@ set_variable = { PRK_army_spylevel = 0 }
 set_variable = { PRK_civ_spylevel = 0 }
 
 add_ideas = KOR_modern_millitary
+add_ideas = closed_economy
 
 set_convoys = 50
 

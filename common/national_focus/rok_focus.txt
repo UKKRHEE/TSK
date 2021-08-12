@@ -879,6 +879,28 @@ focus_tree = {
 			}
 		}
 	}
+	focus = { #불곰 사업
+		id = bear_business
+		icon = GFX_불곰
+		cost = 10.00
+		prerequisite = {
+			focus = gold_collecting_movement
+		}
+		available = { 
+			SOV =  { 
+			has_country_flag = bear_business_1
+			}
+			has_country_flag = economic_collapse_end
+		}
+		completion_reward = {
+			country_event = { id = rok.58 }
+		}
+		x = 21
+		y = 3
+		completion_reward = {
+		
+		}
+	}
 	focus = { #육군 재편성
 		id = ROK_army_reform
 		icon = ROKA
@@ -918,6 +940,9 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = economis_cris
+		}
+		completion_reward = {
+			KOR_economic_collapse_level_down = yes
 		}
 		x = 26
 		y = 1
@@ -1038,14 +1063,9 @@ focus_tree = {
 		x = 25
 		y = 3
 		completion_reward = {
-			add_stability = 0.1
-			random_owned_state = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-				type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
+			swap_ideas = {
+				remove_idea = hyper_inflation
+				add_idea = CHI_hyper_inflation_2
 			}
 		}
 	}
@@ -1059,6 +1079,10 @@ focus_tree = {
 		x = 25
 		y = 4
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = CHI_hyper_inflation_2
+				add_idea = CHI_hyper_inflation_none
+			}
 			KOR_economic_collapse_level_down = yes
 		}
 	}
@@ -1072,7 +1096,6 @@ focus_tree = {
 		x = 33
 		y = 1
 		completion_reward = {
-			KOR_economic_collapse_level_down = yes
 			random_owned_state = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -1102,25 +1125,24 @@ focus_tree = {
 		y = 2
 		completion_reward = {
 			add_ideas = social_development
-			add_stability = 0.05
 			random_owned_state = {
 				add_building_construction = {
 				type = infrastructure
-					level = 3
+					level = 1
 					instant_build = yes
 				}
 			}
 			random_owned_state = {
 				add_building_construction = {
 				type = infrastructure
-					level = 3
+					level = 1
 					instant_build = yes
 				}
 			}
 			random_owned_state = {
 				add_building_construction = {
 				type = infrastructure
-					level = 3
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -1136,6 +1158,12 @@ focus_tree = {
 		x = 29
 		y = 3
 		completion_reward = {
+			810 = {
+			set_state_category = large_town
+			}
+			808 = {
+			set_state_category = large_city
+			}
 			random_owned_state = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -1296,6 +1324,7 @@ focus_tree = {
 		x = 33
 		y = 3
 		completion_reward = {
+		KOR_economic_collapse_level_down = yes
 			random_owned_state = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -1437,37 +1466,9 @@ focus_tree = {
 		x = 35
 		y = 3
 		completion_reward = {
-			random_owned_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-				type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			random_owned_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-				type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			random_owned_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-				type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			random_owned_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-				type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
+			swap_ideas = {
+				remove_idea = chaebol
+				add_idea = chaebol_1
 			}
 		}
 	}
@@ -1481,6 +1482,7 @@ focus_tree = {
 		x = 35
 		y = 4
 		completion_reward = {
+			KOR_economic_collapse_level_down = yes
 			random_owned_state = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -1520,21 +1522,9 @@ focus_tree = {
 		x = 37
 		y = 3
 		completion_reward = {
-			random_owned_state = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-			random_owned_state = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
+			swap_ideas = {
+				remove_idea = chaebol
+				add_idea = chaebol_2
 			}
 		}
 	}
@@ -1569,6 +1559,11 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = No_export_allowed
+		}
+		completion_reward = {
+			add_ideas = free_trade
+			add_ideas = economy_open
+			country_event = { id = rok.62 }
 		}
 		x = 39
 		y = 2
@@ -1616,6 +1611,12 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = economic_opening
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = economy_close
+				add_idea = economy_close_1
+			}
 		}
 		x = 43
 		y = 2
@@ -1684,7 +1685,6 @@ focus_tree = {
 		x = 41
 		y = 5
 		completion_reward = {
-			KOR_economic_collapse_level_down = yes
 		}
 	}
 	focus = {
@@ -1703,7 +1703,6 @@ focus_tree = {
 		x = 36
 		y = 7
 		completion_reward = {
-			KOR_economic_collapse_level_down = yes
 			add_ideas = ROK_han_river
 		}
 	}

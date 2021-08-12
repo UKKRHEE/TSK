@@ -208,4 +208,9 @@ spriteTypes = {
 	name = "GFX_적화통일"
 	texturefile = "gfx/interface/goals/적화통일.png"			
 	}	
+	
+	SpriteType = {
+	name = "GFX_불곰"
+	texturefile = "gfx/interface/goals/불곰.png"			
+	}	
 }

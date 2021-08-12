@@ -1,5 +1,133 @@
 ideas = {
 	country = {
+		hyper_inflation = {
+
+			picture = chi_hyper_inflation5
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.25
+			}
+		}	
+		chaebol = { #재벌
+		
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05 #생산효율성한도%
+				production_factory_start_efficiency_factor = -0.05 #기본생산효율%
+				research_speed_factor = 0.1
+				stability_factor = -0.1
+				production_speed_buildings_factor = 0.15
+				political_power_gain = 0.25
+				consumer_goods_factor = 0.03
+				political_advisor_cost_factor = 0.2
+			}
+		}
+		chaebol_1 = { #재벌강화
+		
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.1 #생산효율성한도%
+				production_factory_start_efficiency_factor = -0.1 #기본생산효율%
+				research_speed_factor = 0.15
+				stability_factor = -0.15
+				production_speed_buildings_factor = 0.2
+				political_power_gain = 0.3
+				consumer_goods_factor = 0.05
+				political_advisor_cost_factor = 0.3
+			}
+		}
+		chaebol_2 = { #재벌에 도전
+		
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = -0.2
+				production_speed_buildings_factor = -0.1
+				political_advisor_cost_factor = 0.3
+				political_power_gain = -0.2
+			}
+		}
+		economy_open_bonus_minor = { #마이너 국가 보너스
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+				NOT = { 
+				has_war_with = KR1
+				}
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.1
+				stability_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		economy_open_bonus = { #메이저국가 보너스
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+				NOT = { 
+				has_war_with = KR1
+				}
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.6
+				stability_factor = 0.1
+				consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.5 
+				production_factory_start_efficiency_factor = 0.5
+				industrial_capacity_factory = 0.5
+			}
+		}
+		economy_open = { #경제 개방
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
 		economy_close = { #경제 폐쇄
 
 			picture = generic_production_bonus
@@ -11,8 +139,31 @@ ideas = {
         	removal_cost = -1
 			
 			modifier = {
-				production_factory_max_efficiency_factor = 0.05 #생산효율성한도%
-				production_factory_start_efficiency_factor = 0.05 #기본생산효율%
+				production_factory_max_efficiency_factor = -0.3 #생산효율성한도%
+				production_factory_start_efficiency_factor = -0.3 #기본생산효율%
+				research_speed_factor = -0.3
+				stability_factor = -0.2
+				consumer_goods_factor = 0.05
+				monthly_population = -0.05
+			}
+		}
+		economy_close_1 = { #경제 폐쇄 강화
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.4 #생산효율성한도%
+				production_factory_start_efficiency_factor = -0.4 #기본생산효율%
+				research_speed_factor = -0.4
+				stability_factor = -0.3
+				consumer_goods_factor = 0.1
+				monthly_population = -0.1
 			}
 		}
 		rok_loan_1 = { #차관
@@ -44,7 +195,7 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.1 #생산효율성한도%
 				production_factory_start_efficiency_factor = 0.1 #기본생산효율%
 				production_speed_buildings_factor = 0.1 #건설속도%
-				consumer_goods_factor = -0.03
+				consumer_goods_factor = -0.05
 			}
 		}
 		loan_2 = { #차관 2
@@ -61,7 +212,7 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.15 #생산효율성한도%
 				production_factory_start_efficiency_factor = 0.15 #기본생산효율%
 				production_speed_buildings_factor = 0.15 #건설속도%
-				consumer_goods_factor = -0.06
+				consumer_goods_factor = -0.1
 			}
 		}
 		loan_3 = { #차관 3
@@ -78,7 +229,7 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.2 #생산효율성한도%
 				production_factory_start_efficiency_factor = 0.2 #기본생산효율%
 				production_speed_buildings_factor = 0.15 #건설속도%
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = -0.15
 			}
 		}
 		loan_4 = { #차관 4
@@ -95,7 +246,7 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.2 #생산효율성한도%
 				production_factory_start_efficiency_factor = 0.2 #기본생산효율%
 				production_speed_buildings_factor = 0.2 #건설속도%
-				consumer_goods_factor = -0.15
+				consumer_goods_factor = -0.2
 			}
 		}
 		loan_pay = { #차관 제공
@@ -109,7 +260,37 @@ ideas = {
         	removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.2
+				consumer_goods_factor = 0.02
+			}
+		}
+		repayment_loan = { #차관상환
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.3
+				industrial_capacity_factory = -0.4 #공장생산량
+			}
+		}
+		repayment_loan_1 = { #차관상환_1
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.05 #공장생산량
 			}
 		}
 	}
@@ -873,6 +1054,28 @@ ideas = {
 					has_large_ally_not_pick_closed_economy = yes
 				}
    			}
+		}
+		
+		korea_closed_economy = {
+			
+			allowed = {
+			    original_tag = KOR
+			}
+			available = {
+			    original_tag = KOR
+			}
+			ai_will_do = {
+   				factor = 1
+   			}
+			picture = kor_korean_economic_crisist
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0
+			}
+			
+			cancel_if_invalid = no
 		}
 	}
 }

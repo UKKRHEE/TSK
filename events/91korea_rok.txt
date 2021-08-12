@@ -52,6 +52,9 @@ country_event = { # 내전끝
 	
 	option = { #알겠네
 		name = rok.2.a
+		add_ideas = chaebol
+		add_ideas = economy_close
+		
 		add_ideas = weak_anti_sub
 		add_ideas = rok_remnants_of_the_military
 		add_ideas = mkr_irregularities_barracks
@@ -1446,13 +1449,31 @@ country_event = { #한국이 차관을 요청하다
 		ai_chance = {
 			factor = 60
 		}
-		KR1 = {
+		ROK = {
 			country_event = { hours = 6 id = rok.56 }
 		}
 		add_timed_idea = {
 			idea = loan_pay
 			days = 180
 		}
+		if = {	
+			limit = { 
+			original_tag = SOV
+			}
+			ai_chance = {
+				factor = 70
+			}
+			set_country_flag = bear_business_1
+		}
+		if = {	
+			limit = { 
+			original_tag = USA
+			}
+			ai_chance = {
+				factor = 15
+			}
+		}
+		
     }	
 	
 	option = { #거부한다
@@ -1460,7 +1481,23 @@ country_event = { #한국이 차관을 요청하다
 		ai_chance = {
 			factor = 40
 		}
-		KR1 = {
+		if = {	
+			limit = { 
+			original_tag = USA
+			}
+			ai_chance = {
+				factor = 85
+			}
+		}
+		if = {	
+			limit = { 
+			original_tag = SOV
+			}
+			ai_chance = {
+				factor = 30
+			}
+		}
+		ROK = {
 			country_event = { hours = 6 id = rok.57 }
 		}
     }	
@@ -1540,11 +1577,182 @@ country_event = { #부채를 상환하다
 				has_country_flag = loan_4
 			}
 		}
+		has_country_flag = economic_collapse_end
 	}
 
-	
 	option = { #이런.
 		name = rok.57.a
+		add_timed_idea = {
+			idea = repayment_loan
+			days = 500
+		}
+    }	
+}
 
+country_event = { #불곰사업
+	id = rok.58
+	title = rok.58.t
+	desc = rok.58.d
+	picture = GFX_T80u
+	
+	is_triggered_only = yes
+
+	option = { #사업을 제안한다.
+		name = rok.58.a
+		SOV = {
+			country_event = { hours = 6 id = rok.59 }
+		}
+    }	
+
+	option = { #사업을 철회한다.
+		name = rok.58.b
+    }	
+}
+
+country_event = { #불곰사업
+	id = rok.59
+	title = rok.59.t
+	desc = rok.59.d
+	picture = GFX_T80u
+	
+	is_triggered_only = yes
+
+	option = { #훌륭한 제안이군!
+		name = rok.59.a
+		ROK = {
+			country_event = { hours = 6 id = rok.60 }
+		}
+    }	
+
+	option = { #아니, 우리는 돈으로 돌려받는다
+		name = rok.59.b
+		ROK = {
+			country_event = { hours = 6 id = rok.61 }
+		}
+    }	
+}
+
+country_event = { #우리의 제안을 수락한 소비에트 연방
+	id = rok.60
+	title = rok.60.t
+	desc = rok.60.d
+	picture = GFX_T80u
+	
+	is_triggered_only = yes
+
+	option = { #훌륭하군
+		name = rok.60.a
+		SOV = { 
+			load_oob = SOV_bear 
+			add_equipment_to_stockpile = {
+				type = light_mun_equipment
+				amount = 5000
+				producer = ROK
+			}
+			add_equipment_to_stockpile = {
+				type = heavy_mun_equipment
+				amount = 2000
+				producer = ROK
+			}
+		}
+		swap_ideas = {
+			remove_idea = repayment_loan
+			add_idea = repayment_loan_1
+		}
+    }	
+}
+
+country_event = { #불곰사업을 거부한 소비에트 연방
+	id = rok.61
+	title = rok.61.t
+	desc = rok.61.d
+	picture = GFX_T80u
+	
+	is_triggered_only = yes
+
+	option = { #제길
+		name = rok.61.a
+    }	
+}
+
+country_event = { #한국의 경제개방
+	id = rok.62
+	title = rok.62.t
+	desc = rok.62.d
+	picture = GFX_UN_1
+
+	is_triggered_only = yes
+	
+	option = {
+		name = rok.62.a
+		every_country = {
+			limit = {
+				NOT = {
+					original_tag = ROK
+					original_tag = MKR
+					original_tag = KR1
+					original_tag = ITA
+					original_tag = GER
+					original_tag = USA
+					original_tag = ENG
+					original_tag = FRA
+					original_tag = CHI
+					original_tag = JAP
+					original_tag = SOV
+				}
+			}
+			country_event = { id = rok.64 }
+		}
+		ITA = {
+			country_event = { id = rok.63 }
+		}
+		GER = {
+			country_event = { id = rok.63 }
+		}
+		USA = {
+			country_event = { id = rok.63 }
+		}
+		ENG = {
+			country_event = { id = rok.63 }
+		}
+		FRA = {
+			country_event = { id = rok.63 }
+		}
+		CHI = {
+			country_event = { id = rok.63 }
+		}
+		JAP = {
+			country_event = { id = rok.63 }
+		}
+		SOV = {
+			country_event = { id = rok.63 }
+		}
+	}
+}
+
+country_event = { #한국의 경제개방 보너스
+	id = rok.63
+	title = rok.63.t
+	desc = rok.63.d
+	picture = GFX_T80u
+	
+	is_triggered_only = yes
+
+	option = { #좋군
+		name = rok.63.a
+		add_ideas = economy_open_bonus
+    }	
+}
+country_event = { #한국의 경제개방 보너스
+	id = rok.64
+	title = rok.64.t
+	desc = rok.64.d
+	picture = GFX_T80u
+	
+	is_triggered_only = yes
+
+	option = { #좋군
+		name = rok.64.a
+		add_ideas = economy_open_bonus_minor
     }	
 }

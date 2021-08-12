@@ -353,4 +353,8 @@ spriteTypes = {
 		name = "GFX_idea_weak_anti_sub"
 		texturefile = "gfx/interface/ideas/취약한대잠방어.png"
 	}
+	spriteType = {
+		name = "GFX_idea_chaebol"
+		texturefile = "gfx/interface/ideas/재벌.png"
+	}
 }

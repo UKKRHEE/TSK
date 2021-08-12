@@ -596,7 +596,7 @@ ideas = {
 				line_change_production_efficiency_factor = -0.3 #생산효율성유지%
 				production_factory_start_efficiency_factor = -0.3 #기본생산효율%
 				production_speed_buildings_factor = -0.7 #건설속도%
-				industry_repair_factor = 0.1 #공장수리속도%
+				industrial_capacity_factory = -0.5 #공장생산량
 			}
 		}
 		
@@ -623,7 +623,7 @@ ideas = {
 				line_change_production_efficiency_factor = -0.2 #생산효율성유지%
 				production_factory_start_efficiency_factor = -0.2 #기본생산효율%
 				production_speed_buildings_factor = -0.55 #건설속도%
-				industry_repair_factor = 0.1 #공장수리속도%
+				industrial_capacity_factory = -0.4 #공장생산량
 			}
 		}
 		
@@ -650,7 +650,7 @@ ideas = {
 				line_change_production_efficiency_factor = -0.15 #생산효율성유지%
 				production_factory_start_efficiency_factor = -0.15 #기본생산효율%
 				production_speed_buildings_factor = -0.4 #건설속도%
-				industry_repair_factor = 0.1 #공장수리속도%
+				industrial_capacity_factory = -0.3 #공장생산량
 			}
 		}
 		
@@ -677,7 +677,7 @@ ideas = {
 				line_change_production_efficiency_factor = -0.1 #생산효율성유지%
 				production_factory_start_efficiency_factor = -0.1 #기본생산효율%
 				production_speed_buildings_factor = -0.25 #건설속도%
-				industry_repair_factor = 0.1 #공장수리속도%
+				industrial_capacity_factory = -0.2 #공장생산량
 			}
 		}
 		
@@ -704,7 +704,7 @@ ideas = {
 				line_change_production_efficiency_factor = -0.1 #생산효율성유지%
 				production_factory_start_efficiency_factor = -0.1 #기본생산효율%
 				production_speed_buildings_factor = -0.1 #건설속도%
-				industry_repair_factor = 0.1 #공장수리속도%
+				industrial_capacity_factory = -0.1 #공장생산량
 			}
 		}
 		
