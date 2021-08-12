@@ -66,7 +66,7 @@ focus_tree = {
 					expire = "1965.1.1"
 					ideology = despotism
 					traits = {
-					dictator	
+					trait_MKR_chun_doo_hwan
 					}
 			}
 		}
@@ -153,6 +153,7 @@ focus_tree = {
 					expire = "1965.1.1"
 					ideology = conservatism
 					traits = {
+					trait_MKR_roh_tae_woo
 					}
 				}
 			}

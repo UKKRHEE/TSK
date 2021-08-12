@@ -230,13 +230,13 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kim il sung"
+	name = "Kim Il-Sung"
 	desc = ""
 	picture = "gfx/leaders/PRK/Kim_il_sung.dds"
 	expire = "1965.1.1"
 	ideology = jucheism
 	traits = {
-		#
+		trait_PRK_kim_ilsung
 	}
 }
 

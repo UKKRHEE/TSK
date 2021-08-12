@@ -68,4 +68,18 @@ spriteTypes = {
 		name = "GFX_report_event_pro_park"
 		texturefile = "gfx/event_pictures/report_event/specific_countries/korea/pro_park.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_ilsung_dead"
+		texturefile = "gfx/event_pictures/GFX_ilsung_dead_PRK.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ilsung_KOR"
+		texturefile = "gfx/event_pictures/GFX_ilsung_dead.png"
+	}
+	spriteType = {
+		name = "GFX_jongil_dea"
+		texturefile = "gfx/event_pictures/GFX_jongil_dea.png"
+	}
 }

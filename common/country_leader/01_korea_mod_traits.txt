@@ -127,5 +127,49 @@ leader_traits = {
 			factor = 4
 		}
 	}
+	trait_PRK_kim_ilsung = {
+		sprite = 12
+		stability_factor = 0.1
+		war_support_factor = 0.1
+		political_power_gain = 0.2
+	}
+	trait_PRK_kim_jungil = {
+		sprite = 12
+		stability_factor = 0.05
+		political_power_gain = 0.15
+	}
+	trait_PRK_kim_jungun = {
+		sprite = 12
+		stability_factor = 0.025
+		political_power_gain = 0.1
+	}
+	trait_MKR_roh_tae_woo = {
+		sprite = 12
+		stability_factor = 0.05
+		political_power_factor = 0.1
+	}
+	trait_MKR_chun_doo_hwan = {
+		sprite = 12
+		stability_factor = -0.05
+		war_support_factor = 0.1
+		political_power_factor = 0.3
+	}
+	trait_ROK_kim_dae_jung = {
+		sprite = 12
+		stability_factor = 0.05
+		war_support_factor = 0.05
+		democratic_drift = 0.1
+		surrender_limit = 0.1
+	}
+	trait_ROK_kim_yong_sam = {
+		sprite = 12
+		stability_factor = 0.1
+		democratic_drift = 0.1
+	}
+	trait_ROK_kim_koo = {
+		sprite = 12
+		stability_factor = 0.15
+		war_support_factor = 0.5
+	}
 
 }

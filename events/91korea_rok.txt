@@ -20,6 +20,7 @@ country_event = { # 14대 대선
 			expire = "1965.1.1"
 			ideology = conservatism
 			traits = {	
+				trait_ROK_kim_yong_sam
 			}
 		}
 			complete_national_focus = President_Kim_Young_sam	
@@ -35,6 +36,7 @@ country_event = { # 14대 대선
 			expire = "1965.1.1"
 			ideology = conservatism
 			traits = {	
+				trait_ROK_kim_koo
 			}
 		}
 	}

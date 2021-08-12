@@ -1360,7 +1360,7 @@ country_event = { #수도이전
 	option = {
 		name = PRK.32.c
 		set_country_flag = communism_uniform
-		hidden_effect = {
+		hidden_effect = { 
 			MKR = {
 				remove_state_core = 525
 				remove_state_core = 810
@@ -1604,6 +1604,100 @@ country_event = { #류경호텔
 		add_ideas = KOR_Ryugyong_Hotel
 		hidden_effect = {
 		news_event = { id = kor_news.22 }
+		}
+	}
+}
+country_event = { #일성이 사망
+	id = PRK.43
+	title = PRK.43.t
+	desc = PRK.43.desc
+	picture = GFX_ilsung_dead
+	fire_only_once = yes
+	trigger = {
+		has_country_leader = {
+			name = "Kim Il-Sung"
+			ruling_only = yes
+		}	
+		date > 1939.7.8
+	}
+	
+	option = {#좋군
+		name = PRK.43.a	
+		
+		create_country_leader = {
+			name = "Kim Jong-Il"
+			desc = ""
+			picture = "gfx/leaders/PRK/김정일.dds"
+			expire = "1965.1.1"
+			ideology = jucheism
+			traits = {
+				trait_PRK_kim_jungil
+			}
+		}
+		if = {
+			limit = {
+				KR1 = {
+					exists = yes
+				}
+			}	
+			KR1 = {
+				country_event = {
+					id = korea.23
+				}
+			}
+		}
+		if = {
+			limit = {
+				ROK = {
+					exists = yes
+				}
+			}	
+			ROK = {
+				country_event = {
+					id = korea.23
+				}
+			}
+		}
+		if = {
+			limit = {
+				MKR = {
+					exists = yes
+				}
+			}	
+			MKR = {
+				country_event = {
+					id = korea.24
+				}
+			}
+		}
+	}
+}
+country_event = { #정일 사망 (이스터에그)
+	id = PRK.44
+	title = PRK.44.t
+	desc = PRK.44.desc
+	picture = GFX_jongil_dea
+	fire_only_once = yes
+	trigger = {
+		has_country_leader = {
+			name = "Kim Jong-Il"
+			ruling_only = yes
+		}	
+		date > 1956.12.17
+	}
+	
+	option = {#좋군
+		name = PRK.43.a	
+		
+		create_country_leader = {
+			name = "Kim Jong-Un"
+			desc = ""
+			picture = "gfx/leaders/KPA/KJU.dds"
+			expire = "1965.1.1"
+			ideology = jucheism
+			traits = {
+				trait_PRK_kim_jungun
+			}
 		}
 	}
 }
