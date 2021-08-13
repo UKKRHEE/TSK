@@ -1135,6 +1135,9 @@ news_event = {
 	fire_only_once = yes
 	immediate = {
 		set_global_flag = fall_of_busan_MKR_1
+		MKR  = {
+			set_country_flag = fall_of_busan_MKR_1
+		}
 		hidden_effect = {
 			ROK = {
 				country_event = {
