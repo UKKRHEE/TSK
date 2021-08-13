@@ -4,7 +4,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = TSK
+			tag = MKR
 		}
 	}
 	default = no
@@ -13,7 +13,7 @@ focus_tree = {
 	focus = { #대한민국의 미래 (이벤트발생 '대한민국의 미래')
 		id = MKR_The_Future_of_Korea
 		icon = GFX_MKR_The_Future_of_Korea
-		cost = 10.00
+		cost = 1.5
 		x = 12
 		y = 0
 		completion_reward = {
@@ -23,7 +23,10 @@ focus_tree = {
 	focus = { #경제위기 (이벤트발생 '경제위기')
 		id = MKR_economic_crisis
 		icon = GFX_goal_economic_crisis
-		cost = 10.00
+		cost = 1.5
+		available = {
+			always = no
+		}
 		completion_reward = {
 			country_event = { id = mkorea.49 }
 		}
@@ -34,12 +37,13 @@ focus_tree = {
 	focus = { #내전에서의 회복 ('국가재건' 국민정신 300일동안 획득)
 		id = MKR_recovery_from_civil_war 
 		icon = GFX_goal_recovery_from_civil_war 
-		cost = 10.00
+		cost = 3.00
 		prerequisite = {
 			focus = MKR_The_Future_of_Korea
 		}
 		completion_reward = {
 			country_event = { id = mkorea.6 }
+			complete_national_focus = MKR_economic_crisis 
 		}
 		x = 12
 		y = 1
@@ -48,7 +52,7 @@ focus_tree = {
 	focus = { #질서강화 (전두환이 국가지도자로)
 		id = MKR_strengthening_order
 		icon = GFX_goal_chun
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = MKR_recovery_from_civil_war
 		}
@@ -77,7 +81,7 @@ focus_tree = {
 	focus = { #통금령실시
 		id = MKR_a_curfew_order
 		icon = GFX_MKR_a_curfew_order
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = MKR_strengthening_order
 		}
@@ -91,7 +95,7 @@ focus_tree = {
 	focus = { #언론검열정책
 		id = MKR_Press_censorship_policy
 		icon = GFX_KOR_press_control
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = MKR_strengthening_order
 		}
@@ -105,7 +109,7 @@ focus_tree = {
 	focus = { #시민운동 탄압
 		id = MKR_suppression_of_civil_movements
 		icon = GFX_MKR_suppression_of_civil_movements
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = MKR_strengthening_order
 		}
@@ -119,7 +123,7 @@ focus_tree = {
 	focus = { #국회 폐쇄
 		id = MKR_the_closure_of_the_NA
 		icon = GFX_goal_cap_na
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = MKR_strengthening_order
 		}
@@ -136,7 +140,7 @@ focus_tree = {
 	focus = { #유화책실시
 		id = MKR_implementation_of_appeasement_policy
 		icon = GFX_goal_Roh_tae_woo
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = MKR_recovery_from_civil_war
 		}
@@ -165,7 +169,7 @@ focus_tree = {
 	focus = { #인기있는 얼굴마담
 		id = MKR_Popular
 		icon = GFX_Popular_face_madam
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = MKR_implementation_of_appeasement_policy
 			focus = MKR_strengthening_order
@@ -177,7 +181,7 @@ focus_tree = {
 	focus = { #통일주체국민회의
 		id = MKR_NCUI
 		icon = GFX_goal_NCUI
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = MKR_strengthening_order
 			focus = MKR_implementation_of_appeasement_policy
@@ -192,7 +196,7 @@ focus_tree = {
 	focus = { #국군기무사령부
 		id = MKR_DCS
 		icon = GFX_goal_kimu
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = MKR_implementation_of_appeasement_policy
 			focus = MKR_strengthening_order
@@ -207,7 +211,7 @@ focus_tree = {
 	focus = { #북한과 접촉하다
 		id = MKR_contact_with_North_Korea
 		icon = GFX_HELLO_NK
-		cost = 10.00
+		cost = 2.00
 		prerequisite = {
 			focus = MKR_DCS
 		}
@@ -226,7 +230,7 @@ focus_tree = {
 	focus = { #동해 무력시위
 		id = MKR_East_Sea_show_of_force
 		icon = GFX_focus_jap_cast_the_die
-		cost = 10.00
+		cost = 3.00
 		prerequisite = {
 			focus = MKR_contact_with_North_Korea
 		}
@@ -240,7 +244,7 @@ focus_tree = {
 	focus = { #동아시아 긴장고조
 		id = MKR_East_Asia_Tension_Stiff
 		icon = GFX_focus_spr_crush_the_revolution
-		cost = 10.00
+		cost = 3.00
 		prerequisite = {
 			focus = MKR_contact_with_North_Korea
 		}			
@@ -580,7 +584,7 @@ focus_tree = {
 	focus = { #진보주의자 요구 수용
 		id = MKR_liberal_demand_acceptance
 		icon = GFX_focus_generic_diplomatic_treaty
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = MKR_implementation_of_appeasement_policy
 		}
@@ -624,7 +628,7 @@ focus_tree = {
 	focus = { #언론검열완화
 		id = MKR_mitigation_of_press_censorship
 		icon = GFX_focus_generic_treaty
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = MKR_implementation_of_appeasement_policy
 		}
