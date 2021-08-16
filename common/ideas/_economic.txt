@@ -788,6 +788,13 @@ ideas = {
 		free_trade = {
 
 			available = {
+				NOT = {
+					OR = {
+						original_tag = KR1
+						original_tag = MKR
+						original_tag = ROK
+					}	
+				}
 				if = {
 					limit = {
 						original_tag = SPR
@@ -845,6 +852,13 @@ ideas = {
 			
 			available = {
 
+				NOT = {
+					OR = {
+						original_tag = KR1
+						original_tag = MKR
+						original_tag = ROK
+					}	
+				}
 				if = {
 					limit = {
 						original_tag = CHI
@@ -903,6 +917,13 @@ ideas = {
 		
 		limited_exports = {
 			available = {
+				NOT = {
+					OR = {
+						original_tag = KR1
+						original_tag = MKR
+						original_tag = ROK
+					}	
+				}
 				OR = {
 					AND = {
 						has_government = democratic
@@ -989,6 +1010,13 @@ ideas = {
 			
 			
 			available = {
+				NOT = {
+					OR = {
+						original_tag = KR1
+						original_tag = MKR
+						original_tag = ROK
+					}	
+				}
 				has_war = yes
 				OR = { 
 					has_government = fascism
@@ -1059,10 +1087,18 @@ ideas = {
 		korea_closed_economy = {
 			
 			allowed = {
-			    original_tag = KOR
+				OR = {
+					original_tag = KR1
+					original_tag = MKR
+					original_tag = ROK
+				}	
 			}
 			available = {
-			    original_tag = KOR
+				OR = {
+					original_tag = KR1
+					original_tag = MKR
+					original_tag = ROK
+				}	
 			}
 			ai_will_do = {
    				factor = 1

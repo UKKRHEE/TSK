@@ -1,5 +1,16 @@
 ideas = {
 	hidden_ideas = {
+		KOR_the_cheat = {
+			allowed = {
+				original_tag = KOR
+			}	
+			modifier = {
+				production_factory_max_efficiency_factor = 3 #생산효율성한도%
+				production_factory_efficiency_gain_factor = 3 #생산효율성성장%
+				line_change_production_efficiency_factor = 3 #생산효율성유지%
+				production_factory_start_efficiency_factor = 3 #기본생산효율%
+			}
+		}
 			KOR_modern_eqp_ic_2 = {
 				
 			picture = generic_production_bonus

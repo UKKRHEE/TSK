@@ -1544,7 +1544,7 @@ focus_tree = {
 			remove_ideas = kor_law_of_korean_5
 			remove_ideas = KOR_north_south_problem
 			remove_unit_leader = 2008
-			
+			add_ideas = lee_myung_bak_pre
 		}
 
 	}
