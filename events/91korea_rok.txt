@@ -39,8 +39,8 @@ country_event = { # 14대 대선
 				trait_ROK_kim_koo
 			}
 		}
-	}
 		complete_national_focus = President_Kim_Koo	
+	}
 }
 country_event = { # 내전끝
 	id = rok.2

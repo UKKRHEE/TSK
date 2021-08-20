@@ -213,4 +213,9 @@ spriteTypes = {
 	name = "GFX_불곰"
 	texturefile = "gfx/interface/goals/불곰.png"			
 	}	
+	
+	SpriteType = {
+	name = "GFX_방위산업"
+	texturefile = "gfx/interface/goals/방위산업.png"			
+	}	
 }

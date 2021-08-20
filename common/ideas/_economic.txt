@@ -1,5 +1,25 @@
 ideas = {
 	country = {
+		mergers_and_acquisitions = { #외국기업 인수함병
+		
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1 #생산효율성한도%
+				production_factory_start_efficiency_factor = 0.1 #기본생산효율%
+				industrial_capacity_factory = 0.05 #공장생산량
+				consumer_goods_factor = 0.03
+			}
+			
+			research_bonus = {
+				electronics = 0.05
+				industry = 0.05
+			}
+		}
 		hyper_inflation = {
 
 			picture = chi_hyper_inflation5
@@ -91,7 +111,7 @@ ideas = {
 				consumer_goods_factor = -0.05
 			}
 		}
-		economy_open_bonus = { #메이저국가 보너스
+		economy_open_bonus_minor_1 = { #마이너 국가 보너스 감소1
 
 			picture = generic_production_bonus
 
@@ -105,12 +125,84 @@ ideas = {
         	removal_cost = -1
 			
 			modifier = {
-				research_speed_factor = 0.6
+				research_speed_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+		economy_open_bonus_minor_2 = { #마이너 국가 보너스 감소2
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+				NOT = { 
+				has_war_with = KR1
+				}
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.05
+				stability_factor = 0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		economy_open_bonus = { #메이저국가 보너스
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.8
 				stability_factor = 0.1
 				consumer_goods_factor = -0.05
 				production_factory_max_efficiency_factor = 0.5 
 				production_factory_start_efficiency_factor = 0.5
 				industrial_capacity_factory = 0.5
+			}
+		}
+		economy_open_bonus_1 = { #메이저국가 보너스 감소1
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.5
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.3 
+				production_factory_start_efficiency_factor = 0.3
+				industrial_capacity_factory = 0.3
+			}
+		}
+		economy_open_bonus_2 = { #메이저국가 보너스 감소2
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.4
+				stability_factor = 0.05
+				consumer_goods_factor = 0.05
+				production_factory_max_efficiency_factor = 0.3 
+				production_factory_start_efficiency_factor = 0.3
+				industrial_capacity_factory = 0.3
 			}
 		}
 		economy_open = { #경제 개방
@@ -145,6 +237,7 @@ ideas = {
 				stability_factor = -0.2
 				consumer_goods_factor = 0.05
 				monthly_population = -0.05
+				industrial_capacity_factory = -0.3
 			}
 		}
 		economy_close_1 = { #경제 폐쇄 강화
@@ -164,6 +257,62 @@ ideas = {
 				stability_factor = -0.3
 				consumer_goods_factor = 0.1
 				monthly_population = -0.1
+				industrial_capacity_factory = -0.4
+			}
+		}
+		Domestic_market = { #내수시장 활성화 
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1 #생산효율성한도%
+				production_factory_start_efficiency_factor = 0.1 #기본생산효율%
+				stability_factor = 0.1
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.1
+			}
+		}
+		make_korea_great_again = { #한국을 다시 위대하게
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.15
+				consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.1 #생산효율성한도%
+				production_factory_start_efficiency_factor = 0.1 #기본생산효율%
+				industrial_capacity_factory = 0.2
+			}
+		}
+		Allow_Limited_Imports = { #제한적 수입 허용
+
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+        	removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1 #생산효율성한도%
+				production_factory_start_efficiency_factor = 0.1 #기본생산효율%
+				consumer_goods_factor = 0.05
+				research_speed_factor = 0.2
+				monthly_population = 0.05
+				industrial_capacity_factory = 0.1
 			}
 		}
 		rok_loan_1 = { #차관

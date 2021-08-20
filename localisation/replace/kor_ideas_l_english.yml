@@ -74,6 +74,10 @@
  MKR_trade_goods:0 "무역품수출허가" 
  
  ### ROK
+ mergers_and_acquisitions:0 "국내 외국기업 인수합병"
+ 
+ korean_tech_none_law:0 "§G기술보호법을 제정하여 다른국가들이 받는 보너스를 조정합니다§!"
+ tex_boom:0 "§G다른국가들이 우리의 제품을 수입할때 더높은 관세를 부가합니다§!"
  
  KAIST_ideas:0 "한국 과학 기술원"
  
@@ -92,6 +96,11 @@
 
  ROK_han_river:0 "한강의 기적"
  market_economy_stabile:0 "안정화된 시장 경제"
+ 
+ Allow_Limited_Imports:0 "제한적 시장개방"
+ Domestic_market:0 "내수시장 장려"
+ 
+ make_korea_great_again:0 "한국을 다시 위대하게!"
  
  avoidance_military_service:0 "병역기피"
  avoidance_military_service_desc:0 "병역기피는 징병제국가에서 흔히 일어나는 일로 군 입대 자체를 거부하고,기피하는 현상을 뜻합니다."

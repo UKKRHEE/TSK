@@ -1,0 +1,16 @@
+
+entity = {
+	name = "63"
+	pdxmesh = "63_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "nab"
+	pdxmesh = "nab_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "kokkai"
+	pdxmesh = "kokkai_mesh"
+	scale = 1.0
+}

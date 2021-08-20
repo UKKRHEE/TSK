@@ -130,9 +130,9 @@ KOR_economic_collapse_level_up = {
 
 #Important to put LOWEST first
 KOR_economic_collapse_level_down = {
+	custom_effect_tooltip = KOR_economic_collapse_down
 	if = {
 		limit = { has_idea = KOR_economic_collapse_5 }
-		custom_effect_tooltip = KOR_economic_collapse_down
 		hidden_effect = { 
 		remove_ideas = KOR_economic_collapse_5
 		set_country_flag = economic_collapse_end
@@ -140,7 +140,6 @@ KOR_economic_collapse_level_down = {
 	}
 	if = {
 		limit = { has_idea = KOR_economic_collapse_4 }
-		custom_effect_tooltip = KOR_economic_collapse_down
 		hidden_effect = { 
 			swap_ideas = {
 				remove_idea = KOR_economic_collapse_4
@@ -150,7 +149,6 @@ KOR_economic_collapse_level_down = {
 	}
 	if = {
 		limit = { has_idea = KOR_economic_collapse_3 }
-		custom_effect_tooltip = KOR_economic_collapse_down
 		hidden_effect = { 
 		swap_ideas = {
 			remove_idea = KOR_economic_collapse_3
@@ -160,7 +158,6 @@ KOR_economic_collapse_level_down = {
 	}
 	if = {
 		limit = { has_idea = KOR_economic_collapse_2 }
-		custom_effect_tooltip = KOR_economic_collapse_down
 		hidden_effect = { 
 		swap_ideas = {
 			remove_idea = KOR_economic_collapse_2
@@ -170,7 +167,6 @@ KOR_economic_collapse_level_down = {
 	}
 	if = {
 		limit = { has_idea = KOR_economic_collapse_1 }
-		custom_effect_tooltip = KOR_economic_collapse_down
 		hidden_effect = { 
 		swap_ideas = {
 			remove_idea = KOR_economic_collapse_1

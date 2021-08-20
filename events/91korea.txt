@@ -976,3 +976,28 @@ country_event = { #정일이 운지
 
 	}
 }
+country_event = {
+	id = korea.25
+	title = korea.25.title
+	desc = korea.25.desc
+	picture = GFX_event_goldengatebridge
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { 
+		name = korea.25.a
+		hidden_effect = {
+		news_event = { hours = 6 id = kor_news.22 }
+		}
+		818 = {
+			add_building_construction = {
+				type = ryugyong_hotel
+				level = 1
+				instant_build = yes
+				province = 10065
+			}
+		}
+	}
+}

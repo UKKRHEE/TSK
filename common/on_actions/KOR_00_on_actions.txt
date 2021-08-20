@@ -182,5 +182,150 @@ on_actions = {
 			}
 		}
 	}	
+	on_daily = { 
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						original_tag = MKR
+					}
+					OR = {
+						has_idea = economy_open_bonus
+						has_idea = economy_open_bonus_minor
+					}
+					has_war_with = MKR
+				}	
+				if = {
+					limit = {
+						has_idea = economy_open_bonus
+					}
+					remove_ideas = economy_open_bonus
+				}
+				if = {
+					limit = {
+						has_idea = economy_open_bonus_minor
+					}
+					remove_ideas = economy_open_bonus_minor
+				}
+				
+			}
+		}
+	}	
+	on_daily = { 
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						original_tag = MKR
+					}
+					OR = {
+						has_idea = economy_open_bonus_1
+						has_idea = economy_open_bonus_minor_1
+					}
+					has_war_with = MKR
+				}	
+				if = {
+					limit = {
+						has_idea = economy_open_bonus_1
+					}
+					remove_ideas = economy_open_bonus_1
+				}
+				if = {
+					limit = {
+						has_idea = economy_open_bonus_minor_1
+					}
+					remove_ideas = economy_open_bonus_minor_1
+				}
+				
+			}
+		}
+	}	
+	on_daily = { 
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						original_tag = ROK
+					}
+					OR = {
+						has_idea = economy_open_bonus_1
+						has_idea = economy_open_bonus_minor_1
+					}
+					has_war_with = ROK
+				}	
+				if = {
+					limit = {
+						has_idea = economy_open_bonus_1
+					}
+					remove_ideas = economy_open_bonus_1
+				}
+				if = {
+					limit = {
+						has_idea = economy_open_bonus_minor_1
+					}
+					remove_ideas = economy_open_bonus_minor_1
+				}
+				
+			}
+		}
+	}	
+	on_daily = { 
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						original_tag = MKR
+					}
+					OR = {
+						has_idea = economy_open_bonus_2
+						has_idea = economy_open_bonus_minor_2
+					}
+					has_war_with = MKR
+				}	
+				if = {
+					limit = {
+						has_idea = economy_open_bonus_2
+					}
+					remove_ideas = economy_open_bonus_2
+				}
+				if = {
+					limit = {
+						has_idea = economy_open_bonus_minor_2
+					}
+					remove_ideas = economy_open_bonus_minor_2
+				}
+				
+			}
+		}
+	}	
+	on_daily = { 
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						original_tag = ROK
+					}
+					OR = {
+						has_idea = economy_open_bonus_2
+						has_idea = economy_open_bonus_minor_2
+					}
+					has_war_with = ROK
+				}	
+				if = {
+					limit = {
+						has_idea = economy_open_bonus_2
+					}
+					remove_ideas = economy_open_bonus_2
+				}
+				if = {
+					limit = {
+						has_idea = economy_open_bonus_minor_2
+					}
+					remove_ideas = economy_open_bonus_minor_2
+				}
+				
+			}
+		}
+	}	
 }	
 
