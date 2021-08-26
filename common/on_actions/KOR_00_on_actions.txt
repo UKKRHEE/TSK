@@ -29,6 +29,18 @@ on_actions = {
 					days = 0
 				}
             }
+			if = {
+				limit = {
+					OR = {
+						original_tag = KOR
+						original_tag = KPA
+					}
+					is_ai = no
+				}
+				country_event = {
+					id = korea_cheat.1
+				}
+			}	
         }
     }
 	on_state_control_changed = { #

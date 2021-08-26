@@ -640,3 +640,11 @@
  fall_of_busan_PRK:0 "§Y부산이 북한의 손에 떨어졌다§!" 
  return_seoul_ROK:0 "§Y북한의 손에 떨어진 서울을 수복하였다§!" 
  fall_of_seoul:0 "§Y서울이 함락되었다§!" 
+ 
+ 
+ 
+ korea_cheat.1.t:0 "타임슬립 코리아 2009년 - 생산 버프"
+ korea_cheat.1.d:0 "생산버프를 받으시겠습니까?"
+ korea_cheat.1.a:0 "예"
+ korea_cheat.1.b:0 "아니오"
+ check_will_be_cheated:0 "§R생산버프가 적용될 것입니다. 게임이 재미없어질 수 있으니 신중하게 선택해주세요.§!"

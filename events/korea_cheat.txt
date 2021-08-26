@@ -1,0 +1,22 @@
+add_namespace = korea_cheat
+#목표서울
+country_event = { 
+	id = korea_cheat.1
+	title = korea_cheat.1.t
+	desc = korea_cheat.1.d
+	picture = GFX_목표서울
+	
+	is_triggered_only = yes
+	
+
+	option = { 
+		name = korea_cheat.1.a
+		custom_effect_tooltip = check_will_be_cheated
+		hidden_effect = {
+			add_ideas = KOR_the_cheat
+		}
+	}
+	option = { 
+		name = korea_cheat.1.b
+	}
+}
