@@ -2,6 +2,15 @@
 
 oob = "1936"
 
+add_offsite_building = {
+	type = arms_factory
+	level = 3
+}
+
+add_offsite_building = {
+	type = industrial_complex
+	level = 22
+}
 # Starting tech
 set_technology = {
 	light_vehicle_equipment_0 = 1
