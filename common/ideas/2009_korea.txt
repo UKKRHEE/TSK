@@ -10,6 +10,9 @@ ideas = {
 				line_change_production_efficiency_factor = 3 #생산효율성유지%
 				production_factory_start_efficiency_factor = 5 #기본생산효율%
 				industrial_capacity_dockyard = 5
+				production_speed_buildings_factor = 0.5
+				research_speed_factor = 0.5
+				nuclear_production_factor = 2
 			}
 		}
 			KOR_modern_eqp_ic_2 = {
