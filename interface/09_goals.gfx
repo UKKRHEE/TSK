@@ -7,6 +7,11 @@ spriteTypes = {
 	}
 	####
 	SpriteType = {
+		name = "GFX_TSK_main_logo" 
+		texturefile = "gfx/TSK_main_logo.png"
+	}
+	####
+	SpriteType = {
 		name = "focus_Lee_Myung_bak"
 		texturefile = "gfx/interface/goals/focus_Lee_Myung_bak.dds"
 	}
