@@ -903,19 +903,7 @@ core_HWAN = {
 			JAP = { exists = no }
 			custom_trigger_tooltip = {
 				tooltip = form_country_japan_tt
-				controls_state = 537
-				controls_state = 536
-				controls_state = 555
-				controls_state = 533
-				controls_state = 534
 				controls_state = 282
-				controls_state = 535
-				controls_state = 532
-				controls_state = 531
-				controls_state = 529
-				controls_state = 530
-				controls_state = 528
-				controls_state = 526
 			}
 		}
 
@@ -927,7 +915,10 @@ core_HWAN = {
 		remove_effect = {
 			every_state = {
 				limit = {
-					is_core_of = JAP
+					OR = {
+						is_core_of = JAP
+						is_core_of = MJP
+					}	
 				}
 				add_core_of = KOR
 			}
