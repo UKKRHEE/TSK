@@ -209,7 +209,7 @@ KOR_CL_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 	
-	prefix = "IKN "
+	prefix = "ROKS "
 	fallback_name = "%번 경순양함"
 
 	unique = {
@@ -235,7 +235,7 @@ KOR_CA_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
 	
-	prefix = "IKN "
+	prefix = "ROKS "
 	fallback_name = "%번 중순양함"
 
 	unique = {
@@ -257,7 +257,7 @@ KOR_MINELAYERS_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
 	
-	prefix = "IKN "
+	prefix = "ROKS "
 	fallback_name = "%번 기뢰부설함"
 
 	unique = {
@@ -283,7 +283,7 @@ KOR_BB_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
 	
-	prefix = "IKN "
+	prefix = "ROKS "
 	fallback_name = "%번 전함"		
 
 	unique = {
@@ -302,7 +302,7 @@ KOR_BC_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
 	
-	prefix = "IKN "
+	prefix = "ROKS "
 	fallback_name = "%번 순양전함"		
 
 	unique = {
@@ -323,7 +323,7 @@ KOR_CV_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 	
-	prefix = "IKN "
+	prefix = "ROKS "
 	fallback_name = "%번 항공모함"	
 
 	unique = {
@@ -344,7 +344,7 @@ KOR_CVL_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 	
-	prefix = "IKN "
+	prefix = "ROKS "
 	fallback_name = "%번 경항공모함"	
 
 	unique = {
@@ -364,7 +364,7 @@ KOR_SS_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 	
-	prefix = "IKN "
+	prefix = "ROKS "
 	fallback_name = "잠-%번"
 	
 	ordered = {
