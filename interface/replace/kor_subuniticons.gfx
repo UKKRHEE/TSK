@@ -13,11 +13,11 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_modern_mechanized_icon_medium"		textureFile = "gfx/interface/counters/divisions_large/unit_modern_mechanized_icon.png" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_heavy_mechanized_icon_medium"		textureFile = "gfx/interface/counters/divisions_large/unit_heavy_mechanized_icon.png" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_modern_armed_rec_icon_medium"				textureFile = "gfx/interface/counters/divisions_large/unit_modern_armed_rec_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_modern_sp_art_brigade_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_modern_armor_artillery_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_sp_art_brigade_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_sp_art_icon.png" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_modern_sp_anti_air_brigade_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_modern_armor_antiair_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_modern_marine_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_marine_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_modern_amphibious_marine_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_amphibious_mechanized_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_modern_artillery_brigade_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_art_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_artillery_brigade_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_modern_art_icon.png" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_mot_roket_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_motorized_rocket_brigade_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_infantry_vec_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/infantry_vec.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_Engi_Bat_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_engineer_inf_icon.png" noOfFrames = 2 }

@@ -893,15 +893,19 @@ country_event = { #정보
 			}
 			KR1 = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			PRK = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			JDF = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			USF = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 		}
 	}
@@ -950,15 +954,19 @@ country_event = {
 			}
 			KR1 = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			PRK = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			JDF = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			USF = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 		}
 	}
@@ -1006,15 +1014,19 @@ country_event = { #kkshunp
 			}
 			KR1 = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			PRK = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			JDF = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			USF = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 		}
 	}
@@ -1061,15 +1073,19 @@ country_event = { #도움준사람들
 			}
 			KR1 = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			PRK = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			JDF = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			USF = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 		}
 	}
@@ -1119,15 +1135,19 @@ country_event = { #모드정보 - 육군
 			}
 			KR1 = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			PRK = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			JDF = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			USF = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 		}
 	}
@@ -1176,15 +1196,19 @@ country_event = { #모드정보 - 기타등등
 			}
 			KR1 = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			PRK = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			JDF = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 			USF = {
 			add_ideas = KOR_ammo
+			add_ideas = KOR_millitary
 			}
 		}
 	}

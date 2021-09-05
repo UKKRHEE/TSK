@@ -652,11 +652,10 @@ ideas = {
 		}
 		
 		rok_hyundai_rottem = { #현대 로템
-
-			picture = ROK_MAN
 			
 			allowed = {
 				original_tag = ROK
+				always = no
 			}
 			
 			research_bonus = {

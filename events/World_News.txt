@@ -952,7 +952,15 @@ news_event = {
 	immediate = {
 		hidden_effect = {
 			KR1 = {
-				country_event = { hours = 20 id = mkorea.52 }
+				country_event = { days = 5 id = mkorea.53 }
+				transfer_ship = {
+					prefer_name = "ROKS 천안"
+					type = modern_PCC
+					target = URG
+				}
+			}	
+			MKR = {
+				country_event = { days = 5 id = mkorea.53 }
 				transfer_ship = {
 					prefer_name = "ROKS 천안"
 					type = modern_PCC
@@ -960,7 +968,7 @@ news_event = {
 				}
 			}	
 			URG = {
-				country_event = { hours = 1 id = mkorea.53 }
+				country_event = { hours = 15 id = mkorea.54 }
 			}	
 		}
 	}
@@ -1183,12 +1191,7 @@ news_event = {
     is_triggered_only = yes
 	fire_only_once = yes
 	immediate = {
-		set_global_flag = fall_of_busan_MKR_1
-		hidden_effect = {
-			PRK = {
-				whitepeace = MKR
-			}
-		}
+		set_global_flag = fall_of_busan_PRK_1
 	}				
     
     option = {
@@ -1207,5 +1210,43 @@ news_event = {
     option = {
         name = kor_news.31.c
         trigger = { TAG = MKR }
+    }
+}
+#평양 함락
+news_event = {
+    id = kor_news.32
+    title = kor_news.32.t
+    desc = kor_news.32.desc
+    picture = GFX_부산함락
+    
+    major = yes
+    
+    is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		set_global_flag = fall_of_pyungyang
+	}				
+    
+    option = {
+        name = kor_news.32.a
+        trigger = {
+            NOT = {
+                TAG = PRK
+                TAG = MKR
+                TAG = ROK
+            }
+        }
+    }
+    option = {
+        name = kor_news.32.b
+        trigger = { TAG = PRK }
+    }
+    option = {
+        name = kor_news.32.c
+        trigger = { TAG = MKR }
+    }
+    option = {
+        name = kor_news.32.c
+        trigger = { TAG = ROK }
     }
 }

@@ -2,10 +2,6 @@ focus_tree = {
 	id = mkorea_focus_tree
 	country = {
 		factor = 0
-		modifier = {
-			add = 10
-			tag = TSK
-		}
 	}
 	default = no
 	continuous_focus_position = { x = 100 y = 1900 }
@@ -448,7 +444,7 @@ focus_tree = {
 		completion_reward = {
 		custom_effect_tooltip = mkr_naval
 			hidden_effect = {
-				country_event = { id = mkorea.25 }
+				country_event = { days = 3 id = mkorea.52 }
 			}
 		}
 		x = 10

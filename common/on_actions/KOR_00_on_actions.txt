@@ -186,20 +186,6 @@ on_actions = {
 		effect = {
 			if = {
 				limit = {
-					original_tag = KOR
-					is_ai = no
-					not = {
-						has_country_flag = is_cheated
-					}
-				}
-				country_event = {
-					id = korea_cheat.1
-					days = 0
-				}
-				set_country_flag = is_cheated
-			}	
-			if = {
-				limit = {
 					NOT = {
 						original_tag = MKR
 					}

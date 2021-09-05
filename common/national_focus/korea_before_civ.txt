@@ -2,6 +2,9 @@ focus_tree = {
 	id = korea_before_civ
 	country = {
 		factor = 0
+	}
+	country = {
+		factor = 0
 		modifier = {
 			add = 10
 			tag = KR1

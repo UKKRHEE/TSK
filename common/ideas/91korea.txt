@@ -46,9 +46,118 @@ ideas = {
 				}
 			}
 		}
+		KOR_millitary = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			
+			modifier = {
+				max_commander_army_group_size = -12
+				max_marshal_army_group_size = -1
+			}
+		}
 	} 
 	
 	country = {
+		F_4_mod = { #팬텀 전투폭격기
+
+			picture = weak_anti_sub
+
+        	allowed = {
+				original_tag = ROK
+				original_tag = MKR
+				original_tag = KR1
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+			equipment_bonus = {
+				m_1990_jet_multirole = {
+					build_cost_ic = -0.15 instant = yes
+					air_attack = 0.1 instant = yes
+					air_ground_attack = 0.2 instant = yes
+				}
+				m_1980_jet_multirole = {
+					build_cost_ic = -0.15 instant = yes
+					air_attack = 0.1 instant = yes
+					air_ground_attack = 0.2 instant = yes
+				}
+			}
+		}
+		sky_is_ours = { #하늘은 우리의 것이다
+
+			picture = weak_anti_sub
+
+        	allowed = {
+				original_tag = ROK
+				original_tag = MKR
+				original_tag = KR1
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+			
+	   		modifier = { 
+				air_superiority_bonus_in_combat = 0.1
+				air_agility_factor = 0.05
+				air_range = 0.1
+				air_night_penalty = -0.3
+			}
+		}
+		ace_pliot_rok = { #에이스 파일럿
+
+			picture = weak_anti_sub
+
+        	allowed = {
+				original_tag = ROK
+				original_tag = MKR
+				original_tag = KR1
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+			
+	   		modifier = { 
+			air_ace_generation_chance_factor = 0.1
+			}
+		}
+		more_escort_ship = { #추가 호위함
+
+			picture = weak_anti_sub
+
+        	allowed = {
+				original_tag = ROK
+				original_tag = MKR
+				original_tag = KR1
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+			equipment_bonus = {
+
+				ship_hull_PCC = {
+					build_cost_ic = -0.15 instant = yes
+				}
+			}
+		}
 		weak_anti_sub = { #취약한 대잠방어
 
 			picture = weak_anti_sub
@@ -86,8 +195,29 @@ ideas = {
         	removal_cost = -1
 
 	   		modifier = { 
-				recruitable_population_factor = -0.05
-				conscription_factor = -0.03
+				recruitable_population_factor = -0.15
+				conscription_factor = -0.1
+			}
+		}
+		avoidance_military_service_1 = { #약간의 병역기피
+
+			picture = future_ideas
+
+        	allowed = {
+				original_tag = ROK
+				original_tag = MKR
+				original_tag = KR1
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				recruitable_population_factor = -0.1
+				conscription_factor = -0.05
 			}
 		}
 		mkr_irregularities_barracks = { #병영내 부조리
@@ -109,8 +239,56 @@ ideas = {
 	   		modifier = { 
 				army_org_regain	= -0.10
 				army_morale = -0.15
+				army_attack_factor = -0.25
+				army_org_factor = -0.15
+			}
+		}
+		mkr_irregularities_barracks_1 = { #아직 남아있는 병역내 부조리
+
+			picture = future_ideas
+
+        	allowed = {
+				original_tag = ROK
+				original_tag = MKR
+				original_tag = KR1
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				army_org_regain	= -0.05
+				army_morale = -0.05
 				army_attack_factor = -0.1
-				army_org_factor = -0.1
+				army_org_factor = -0.05
+			}
+		}
+		mkr_Military_Academy = { #육군사관학교
+
+			picture = future_ideas
+
+        	allowed = {
+				original_tag = ROK
+				original_tag = MKR
+				original_tag = KR1
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				army_core_defence_factor = 0.05
+				army_leader_cost_factor = -0.1
+				army_leader_start_level = 2
+				max_command_power = 50
+				experience_gain_army_factor = 0.05
+				army_chief_cost_factor = -0.2
 			}
 		}
 		KOR_damunhwa = {

@@ -1,0 +1,56 @@
+
+entity = {
+	name = "63"
+	pdxmesh = "63_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "nab"
+	pdxmesh = "nab_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "kokkai"
+	pdxmesh = "kokkai_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "moscow_tower"
+	pdxmesh = "moscow_tower_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "st_basils_cathedral"
+	pdxmesh = "st_basils_cathedral_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "us_capitol"
+	pdxmesh = "us_capitol_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "empire_state_building"
+	pdxmesh = "empire_state_building_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "brandenburg_gate"
+	pdxmesh = "brandenburg_gate_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "reichstag"
+	pdxmesh = "reichstag_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "big_ben"
+	pdxmesh = "big_ben_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "eiffel"
+	pdxmesh = "eiffel_mesh"
+	scale = 1.0
+}

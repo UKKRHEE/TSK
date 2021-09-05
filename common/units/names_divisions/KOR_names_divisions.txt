@@ -33,7 +33,7 @@
 
 KOR_INF_01 = 
 {
-	name = "보병 사단"
+	name = "Infantry Divisions"
 
 	for_countries = { KOR MKR ROK KR1 }
 
@@ -172,7 +172,7 @@ KOR_INF_01 =
 
 KOR_MOT_01 = 
 {
-	name = "기동 사단"
+	name = "Motorised Divisions"
 
 	for_countries = { KOR MKR ROK KR1 }
 
@@ -311,7 +311,7 @@ KOR_MOT_01 =
 
 KOR_ARM_01 = 
 {
-	name = "기갑 사단"
+	name = "Armored Divisions"
 
 	for_countries = { KOR MKR ROK KR1 }
 
@@ -357,7 +357,7 @@ KOR_ARM_01 =
 
 KOR_MEC_01 = 
 {
-	name = "기계화보병 사단"
+	name = "Mechanized Divisions"
 
 	for_countries = { KOR MKR ROK KR1 }
 
@@ -436,7 +436,7 @@ KOR_MEC_01 =
 
 KOR_MAR_01 = 
 {
-	name = "해병 사단"
+	name = "Marine Divisions"
 
 	for_countries = { KOR MKR ROK KR1 }
 
@@ -469,7 +469,7 @@ KOR_MAR_01 =
 
 KOR_PAR_01 = 
 {
-	name = "공수 사단"
+	name = "Paratrooper Divisions"
 
 	for_countries = { KOR MKR ROK KR1 }
 
@@ -502,7 +502,7 @@ KOR_PAR_01 =
 
 KOR_PAR_02 = 
 {
-	name = "공수 사단"
+	name = "Paratrooper Divisions"
 
 	for_countries = { KOR MKR ROK KR1 }
 
@@ -518,17 +518,17 @@ KOR_PAR_02 =
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
-	{ 
-		1 = { "%dst 공수 사단" }
-		2 = { "%dnd 공수 사단" }
-		3 = { "%drd 공수 사단" }
-		4 = { "%dth 공수 사단" }
-		5 = { "%dth 공수 사단" }
-		6 = { "%dth 공수 사단" }
-		7 = { "%dth 공수 사단" }
-		8 = { "%dth 공수 사단" }
-		9 = { "%dth 공수 사단" }
-		10 = { "%dth 공수 사단" }
+	{
+		1 = { "%dst Airborne Division" }
+		2 = { "%dnd Airborne Division" }
+		3 = { "%drd Airborne Division" }
+		4 = { "%dth Airborne Division" }
+		5 = { "%dth Airborne Division" }
+		6 = { "%dth Airborne Division" }
+		7 = { "%dth Airborne Division" }
+		8 = { "%dth Airborne Division" }
+		9 = { "%dth Airborne Division" }
+		10 = { "%dth Airborne Division" }
 
 	}
 }

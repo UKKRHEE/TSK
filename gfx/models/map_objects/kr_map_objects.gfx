@@ -1,0 +1,90 @@
+objectTypes = {
+	pdxmesh = {
+		name = "63_mesh"
+		file = "gfx/models/map_objects/63/63_s.mesh"
+		meshsettings = {
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "nab_mesh"
+		file = "gfx/models/map_objects/nab/nab.mesh"
+		meshsettings = {
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "moscow_tower_mesh"
+		file = "gfx/models/map_objects/moscow_tower/moscow_tower.mesh"
+		meshsettings = {
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "st_basils_cathedral_mesh"
+		file = "gfx/models/map_objects/st_basils_cathedral/st_basils_cathedral.mesh"
+		meshsettings = {
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "kokkai_mesh"
+		file = "gfx/models/map_objects/kokkai/kokkai.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = PdxMeshAdvanced
+		}
+	}
+	pdxmesh = {
+		name = "us_capitol_mesh"
+		file = "gfx/models/map_objects/us_capitol/us_capitol.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = PdxMeshAdvanced
+		}
+	}
+	pdxmesh = {
+		name = "empire_state_building_mesh"
+		file = "gfx/models/map_objects/empire_state_building/empire_state_building.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = PdxMeshAdvanced
+		}
+	}
+	pdxmesh = {
+		name = "brandenburg_gate_mesh"
+		file = "gfx/models/map_objects/brandenburg_gate/brandenburg_gate.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = PdxMeshAdvanced
+		}
+	}
+	pdxmesh = {
+		name = "reichstag_mesh"
+		file = "gfx/models/map_objects/reichstag/reichstag.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = PdxMeshAdvanced
+		}
+	}
+	pdxmesh = {
+		name = "big_ben_mesh"
+		file = "gfx/models/map_objects/big_ben/big_ben.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = PdxMeshAdvanced
+		}
+	}
+	pdxmesh = {
+		name = "eiffel_mesh"
+		file = "gfx/models/map_objects/eiffel/eiffel.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = PdxMeshAdvanced
+		}
+	}
+}

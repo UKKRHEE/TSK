@@ -285,6 +285,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/천안함1.png"
 	}
 	spriteType = {
+		name = "GFX_폭침"
+		texturefile = "gfx/event_pictures/폭침.png"
+	}
+	spriteType = {
 		name = "GFX_전두환_노태우"
 		texturefile = "gfx/event_pictures/땅크와태우.png"
 	}
@@ -292,6 +296,11 @@ spriteTypes = {
 		name = "GFX_부산함락"
 		texturefile = "gfx/event_pictures/부산함락.png"
 	}
+	spriteType = {
+		name = "GFX_훈련"
+		texturefile = "gfx/event_pictures/훈련.png"
+	}
+	
 	
 	spriteType = {
 		name = "GFX_UN"

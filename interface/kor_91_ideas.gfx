@@ -249,7 +249,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_juche"
-		texturefile = "gfx/interface/ideas/주체사상.dds"
+		texturefile = "gfx/interface/ideas/주체사상.png"
 	}
 
 	### 09KOR - Company

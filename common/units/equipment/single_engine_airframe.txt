@@ -1127,8 +1127,6 @@ equipments = {
 		air_attack = 100
 		air_defence = 50
 
-		naval_strike_attack = 1
-		naval_strike_targetting = 10
 		build_cost_ic = 300
 	}
 	
@@ -1151,12 +1149,35 @@ equipments = {
 			#oil = 1
 			aluminium = 3
 			rubber = 1
+		}		
+	}
+	
+	cv_m_1980_jet_fighter_equipment = { #F-4 팬텀,MIG-23ML
+		year = 1936
+
+		archetype = jet_fighter_equipment
+		parent = m_1970_jet_fighter_equipment
+		priority = 10
+		carrier_capable = yes
+		
+		air_range = 2100
+		maximum_speed = 2000
+		air_agility = 160
+		air_attack = 130
+		air_defence = 65
+		
+				
+		build_cost_ic = 380
+		resources = {
+			#oil = 1
+			aluminium = 3
+			rubber = 1
 		}
 
 		naval_strike_attack = 2
 		naval_strike_targetting = 10		
 	}
-
+	
 	m_1990_jet_fighter_equipment = { #F-16C 피스 브리지,SU-27
 		year = 1936
 
@@ -1177,8 +1198,6 @@ equipments = {
 			rubber = 1
 		}
 
-		naval_strike_attack = 4
-		naval_strike_targetting = 10
 	}
 
 	m_2000_jet_fighter_equipment = { #KF-16C,SU-27S
@@ -1201,8 +1220,6 @@ equipments = {
 			rubber = 1
 		}
 
-		naval_strike_attack = 6
-		naval_strike_targetting = 10
 	}
 }
 

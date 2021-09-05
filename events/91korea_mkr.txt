@@ -946,11 +946,29 @@ country_event = { #독도교전!
 		}
 	}
 }
-
 country_event = { #천안함
 	id = mkorea.52
 	title = mkorea.52.t
 	desc = mkorea.52.d
+	picture = GFX_폭침
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = mkorea.52.a
+		hidden_effect = {
+			news_event = { days = 1 id = kor_news.25 }
+			set_country_flag = roks_772
+		}
+    }	
+}
+
+country_event = { #천안함
+	id = mkorea.53
+	title = mkorea.53.t
+	desc = mkorea.53.d
 	picture = GFX_천안함1
 
 	is_triggered_only = yes
@@ -964,15 +982,15 @@ country_event = { #천안함
 	}
 	
 	option = {
-		name = mkorea.52.a
+		name = mkorea.53.a
     }	
 }
 
 
 country_event = { #천안함1
-	id = mkorea.53
-	title = mkorea.53.t
-	desc = mkorea.53.d
+	id = mkorea.54
+	title = mkorea.54.t
+	desc = mkorea.54.d
 	picture = GFX_천안함1
 	
 	hidden = yes
@@ -982,10 +1000,14 @@ country_event = { #천안함1
 	fire_only_once = yes
 	
 	option = {
-		name = mkorea.53.a
+		name = mkorea.54.a
+		destroy_ships = {
+			type = ship_hull_PCC 
+			count = all
+		}
 		destroy_ships = {
 			type = modern_PCC 
-			count = 1
+			count = all
 		}
     }	
 }

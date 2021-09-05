@@ -18,7 +18,7 @@ equipments = {
 		interface_category = interface_category_land
 		
 		#Misc Abilities
-		reliability = 0.1
+		reliability = 0.01
 
 		#Space taken in convoy
 		lend_lease_cost = 1

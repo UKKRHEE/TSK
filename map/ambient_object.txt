@@ -43,6 +43,126 @@ type={
 		}
 	}
 }
+type={
+	type="moscow_tower"
+	use_animation=no
+	scale=0.25
+	always_visible=yes
+	object={
+		name="moscow_tower_entity"
+		position={
+			3387 11.5 1640
+		}
+		rotation={
+			0.000 30.000 0.000 
+		}
+	}
+}
+type={
+	type="st_basils_cathedral"
+	use_animation=no
+	scale=0.2
+	always_visible=yes
+	object={
+		name="st_basils_cathedral_entity"
+		position={
+			3393 11 1642
+		}
+		rotation={
+			0.000 60.000 0.000 
+		}
+	}
+}
+type={
+	type="us_capitol"
+	use_animation=no
+	scale=0.15
+	always_visible=yes
+	object={
+		name="us_capitol_entity"
+		position={
+			1604 10 1523
+		}
+		rotation={
+			0.000 60.000 0.000 
+		}
+	}
+}
+type={
+	type="empire_state_building"
+	use_animation=no
+	scale=0.15
+	always_visible=yes
+	object={
+		name="empire_state_building_entity"
+		position={
+			1652 10 1555
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="brandenburg_gate"
+	use_animation=no
+	scale=0.15
+	always_visible=yes
+	object={
+		name="brandenburg_gate_entity"
+		position={
+			3012 10.2 1571
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+}
+type={
+	type="reichstag"
+	use_animation=no
+	scale=0.2
+	always_visible=yes
+	object={
+		name="reichstag_entity"
+		position={
+			3007 10.2 1569
+		}
+		rotation={
+			0.000 90.000 0.000 
+		}
+	}
+}
+type={
+	type="big_ben"
+	use_animation=no
+	scale=0.2
+	always_visible=yes
+	object={
+		name="big_ben_entity"
+		position={
+			2791 10.6 1561
+		}
+		rotation={
+			0.000 -90.000 0.000 
+		}
+	}
+}
+type={
+	type="eiffel"
+	use_animation=no
+	scale=0.25
+	always_visible=yes
+	object={
+		name="eiffel_entity"
+		position={
+			2839 10.6 1497
+		}
+		rotation={
+			0.000 -90.000 0.000 
+		}
+	}
+}
 #######################################
 
 type={

@@ -2,13 +2,7 @@ focus_tree = {
 	id = rok_focus
 	continuous_focus_position = { x = 100 y = 2200 }
 	default = no
-	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = TSK
-		}
-	}
+
 	focus = { #14대 대선
 		id = presidential_election
 		icon = GFX_presidential_election
@@ -897,9 +891,6 @@ focus_tree = {
 		}
 		x = 21
 		y = 3
-		completion_reward = {
-		
-		}
 	}
 	focus = { #육군 재편성
 		id = ROK_army_reform
@@ -910,6 +901,9 @@ focus_tree = {
 		}
 		x = 28
 		y = 10
+		completion_reward = {
+			army_experience = 25
+		}
 
 	}
 	focus = { #장비 양산화
@@ -919,30 +913,313 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_army_reform
 		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_4
+				amount = 8000
+			}
+			add_equipment_to_stockpile = {
+				type = support_infantry_equipment_0
+				amount = 2000
+			}
+		}
 		x = 26
 		y = 11
 
 	}
 	focus = { #새로운 전차
 		id = ROK_new_tank
-		icon = K1A1
+		icon = GFX_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_equipment_reuse
 		}
-		x = 27
+		completion_reward = {
+			add_ideas = rok_hyundai_rottem
+		}
+		x = 28
 		y = 12
 
 	}
-	focus = { #현대식 교리 재편
+	focus = { #K1A1 시제품
+		id = ROK_k1a1_prototype
+		icon = K1A1
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_new_tank
+		}
+		completion_reward = {
+			set_technology = {
+				m_2000_modern_tank = 1
+			}
+		}
+		x = 28
+		y = 13
+
+	}
+	focus = { #K-9자주포
+		id = ROK_K9
+		icon = GFX_K9
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_k1a1_prototype
+		}
+		completion_reward = {
+			set_technology = {
+				m_1990_sp = 1
+			}
+		}
+		x = 29
+		y = 14
+
+	}
+	focus = { #자주대공포 '비호'
+		id = ROK_biho
+		icon = GFX_biho
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_k1a1_prototype
+		}
+		completion_reward = {
+			set_technology = {
+				m_2000_spaa = 1
+			}
+		}
+		x = 27
+		y = 14
+
+	}
+	focus = { #워게임 실시
+		id = ROK_wargame
+		icon = army_reform
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_equipment_reuse
+		}
+		x = 26
+		y = 12
+
+	}
+	focus = { #합동참모본부 개편 
+		id = ROK_Joint_Chiefs_of_Staff
+		icon = army_reform
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_wargame
+		}
+		x = 26
+		y = 13
+
+	}
+	focus = { #교리 통합
+		id = ROK_doctrine_annex
+		icon = army_reform
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_biho
+		}
+		prerequisite = {
+			focus = ROK_K9
+		}
+		prerequisite = {
+			focus = ROK_apc_mob
+			focus = ROK_ifv_mob
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = op_dest_bonus
+				bonus = 0.2
+				uses = 1
+				category = land_doctrine
+			}
+		}
+		x = 26
+		y = 15
+
+	}
+	focus = { #전차 앞으로!
+		id = ROK_panzer_vor
+		icon = army_reform
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_doctrine_annex
+		}
+		mutually_exclusive = {
+			focus = ROK_Perfect_plan
+		}
+		mutually_exclusive = {
+			focus = ROK_deep_battle
+		}
+		mutually_exclusive = {
+			focus = ROK_arty_focus
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = op_dest_bonus
+				bonus = 0.5
+				uses = 4
+				category = cat_mobile_warfare
+			}
+		}
+		x = 23
+		y = 16
+
+	}
+	focus = { #화력지원이 필요하십니까?
+		id = ROK_arty_focus
+		icon = army_reform
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_doctrine_annex
+		}
+		mutually_exclusive = {
+			focus = ROK_Perfect_plan
+		}
+		mutually_exclusive = {
+			focus = ROK_deep_battle
+		}
+		mutually_exclusive = {
+			focus = ROK_panzer_vor
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = op_dest_bonus
+				bonus = 0.5
+				uses = 4
+				category = cat_superior_firepower
+			}
+		}
+		x = 25
+		y = 16
+
+	}
+	focus = { #완벽한 계획주의
+		id = ROK_Perfect_plan
+		icon = army_reform
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_doctrine_annex
+		}
+		mutually_exclusive = {
+			focus = ROK_arty_focus
+		}
+		mutually_exclusive = {
+			focus = ROK_deep_battle
+		}
+		mutually_exclusive = {
+			focus = ROK_panzer_vor
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = op_dest_bonus
+				bonus = 0.5
+				uses = 4
+				category = cat_grand_battle_plan
+			}
+		}
+		x = 27
+		y = 16
+
+	}
+	focus = { #종심작전 
+		id = ROK_deep_battle
+		icon = army_reform
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_doctrine_annex
+		}
+		mutually_exclusive = {
+			focus = ROK_arty_focus
+		}
+		mutually_exclusive = {
+			focus = ROK_Perfect_plan
+		}
+		mutually_exclusive = {
+			focus = ROK_panzer_vor
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = op_dest_bonus
+				bonus = 0.5
+				uses = 4
+				category = cat_mass_assault
+			}
+		}
+		x = 29
+		y = 16
+
+	}
+	focus = { #보병 장비 개선
 		id = ROK_gospel_reform
 		icon = army_reform
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_equipment_reuse
 		}
-		x = 25
+		completion_reward = {
+			set_technology = {
+				m_2000_infantry_eq = 1
+			}
+		}
+		x = 24
 		y = 12
+
+	}
+	focus = { #지원화기 개량
+		id = ROK_suppoet_eq_mob
+		icon = army_reform
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_gospel_reform
+		}
+		completion_reward = {
+			set_technology = {
+				m_1995_sup_infantry_eq = 1
+			}
+		}
+		x = 24
+		y = 13
+
+	}
+	focus = { #APC 개량
+		id = ROK_apc_mob
+		icon = GFX_k2001
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_suppoet_eq_mob
+		}
+		mutually_exclusive = {
+			focus = ROK_ifv_mob
+		}
+		completion_reward = {
+			set_technology = {
+				m_2000_mechanized_equipment = 1
+			}
+		}
+		x = 23
+		y = 14
+
+	}
+	focus = { #IFV 주력
+		id = ROK_ifv_mob
+		icon = GFX_KIFV
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_suppoet_eq_mob
+		}
+		mutually_exclusive = {
+			focus = ROK_apc_mob
+		}
+		completion_reward = {
+			set_technology = {
+				m_1980_IFV = 1
+			}
+			set_technology = {
+				m_1990_IFV = 1
+			}
+		}
+		x = 25
+		y = 14
 
 	}
 	focus = { #긴급 기업보조금 승인
@@ -959,40 +1236,107 @@ focus_tree = {
 		y = 1
 
 	}
-	focus = { #새로운 장교들
+	focus = { #국방개혁
 		id = ROK_new_general
 		icon = general_staff
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_army_reform
 		}
-		x = 30
+		x = 31
 		y = 11
-
+		completion_reward = {
+			army_experience = 50
+		}
 	}
-	focus = { #개호주 계획
+	focus = { #군인대우 개선
 		id = ROK_the_plan_of_tiger
-		icon = K1A1
+		icon = GFX_육군사관학교
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_new_general
 		}
-		x = 29
+		completion_reward = {
+			add_ideas = mkr_Military_Academy
+		}
+		x = 30
 		y = 12
 
 	}
-	focus = { #독립군 장성 고용
+	focus = { #새로운 장교들
 		id = ROK_independence_army
 		icon = GFX_Independent_Army_Corps
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_new_general
 		}
-		x = 31
+		completion_reward = {
+			create_corps_commander = {
+				name = "Kim Chang-su"
+				picture = "김장수.dds"
+				traits = { ROKA }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Jo Yeong-gil"
+				picture = "조영길.dds"
+				traits = { ROKA }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Jo Seong-tae"
+				picture = "조성태.dds"
+				traits = { ROKA }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Kim Pan-gyu"
+				picture = "김판규.dds"
+				traits = { ROKA }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Hong Sun-ho"
+				picture = "홍순호.dds"
+				traits = { ROKA }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Jeong Yeong-mu"
+				picture = "정영무.dds"
+				traits = { ROK_sf }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+		}
+		x = 32
 		y = 12
 
 	}
-	focus = { #한국군의 대원수는...
+	focus = { #병역비리 조사
 		id = ROK_the_father_of_rok_army
 		icon = 태극기
 		cost = 10.00
@@ -1002,8 +1346,31 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_independence_army
 		}
-		x = 28
+		completion_reward = {
+			swap_ideas = {
+				add_idea = avoidance_military_service_1
+				remove_idea = avoidance_military_service
+			}
+		}
+		x = 31
 		y = 13
+
+	}
+	focus = { #병역문화 개선
+		id = ROK_Military_culture
+		icon = 태극기
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_the_father_of_rok_army
+		}
+		completion_reward = {
+			swap_ideas = {
+				add_idea = mkr_irregularities_barracks_1
+				remove_idea = mkr_irregularities_barracks
+			}
+		}
+		x = 31
+		y = 14
 
 	}
 	focus = { #실업자 복지정책
@@ -1393,6 +1760,9 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_military_reform
 		}
+		completion_reward = {
+			navy_experience = 25
+		}
 		x = 36
 		y = 10
 
@@ -1431,6 +1801,16 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = ROK_navy_reform
+		}
+		completion_reward = {
+			813 = {
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					instant_build = yes
+					province = 1177
+				}
+			}
 		}
 		x = 38
 		y = 11
@@ -1518,6 +1898,9 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_military_reform
 		}
+		completion_reward = {
+			air_experience = 25
+		}
 		x = 44
 		y = 10
 
@@ -1529,7 +1912,10 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_airforce_reform
 		}
-		x = 46
+		completion_reward = {
+			add_ideas = ace_pliot_rok
+		}
+		x = 47
 		y = 11
 
 	}
@@ -1622,10 +2008,29 @@ focus_tree = {
 		icon = modern_fighter
 		cost = 10.00
 		prerequisite = {
-			focus = ROK_f15_pilot
+			focus = ROK_airforce_plan
 		}
-		x = 41
+		completion_reward = {
+			add_tech_bonus = {
+				name = op_dest_bonus
+				bonus = 1
+				uses = 4
+				category = air_doctrine
+			}
+		}
+		x = 42
 		y = 12
+
+	}
+	focus = { #스트라이크 패키지
+		id = ROK_strike_pakage
+		icon = modern_fighter
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_koreas_new_eqp
+		}
+		x = 42
+		y = 13
 
 	}
 	focus = {
@@ -2262,7 +2667,10 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_airforce_reform
 		}
-		x = 42
+		completion_reward = {
+			add_ideas = sky_is_ours
+		}
+		x = 44
 		y = 11
 
 	}
@@ -2273,11 +2681,487 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_navy_reform
 		}
+		completion_reward = {
+			navy_experience = 25
+		}
 		x = 34
 		y = 11
 
 	}
-	focus = {
+	focus = { #천안함의 교훈
+		id = ROK_Cheonan
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_navy_reform
+		}
+		available = {
+			has_country_flag = roks_772
+		}
+		completion_reward = {
+			remove_ideas = weak_anti_sub
+			set_technology = {
+				ship_modern_sonar_2 = 1
+			}
+		}
+		x = 36
+		y = 11
+
+	}
+	focus = { #신형 대함미사일
+		id = ROK_new_mis
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_myth_of_navy
+		}
+		completion_reward = {
+			set_technology = {
+				ship_missile_luncher_3 = 1
+			}
+		}
+		x = 34
+		y = 12
+
+	}
+	focus = { #해군 레이더 개선
+		id = ROK_radar_mod
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_new_mis
+		}
+		completion_reward = {
+			set_technology = {
+				ship_modern_radar_2 = 1
+			}
+		}
+		x = 35
+		y = 13
+
+	}
+	focus = { #신형 127mm 함포 
+		id = ROK_new_127_gun
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_new_mis
+		}
+		completion_reward = {
+			set_technology = {
+				modern_light_battery_2 = 1
+			}
+		}
+		x = 33
+		y = 13
+
+	}
+	focus = { #대공미사일 중점
+		id = ROK_aa_mis
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_myth_of_navy
+		}
+		completion_reward = {
+			set_technology = {
+				ship_aa_missile_luncher_1 = 1
+			}
+		}
+		x = 37
+		y = 12
+
+	}
+	focus = { #CIWS
+		id = ROK_ciws
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_aa_mis
+		}
+		completion_reward = {
+			set_technology = {
+				ship_ciws_2 = 1
+			}
+		}
+		x = 37
+		y = 13
+
+	}
+	focus = { #광개토 대왕급 
+		id = ROK_Gwanggaeto_the_great
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_new_127_gun
+		}
+		prerequisite = {
+			focus = ROK_radar_mod
+		}
+		prerequisite = {
+			focus = ROK_ciws
+		}
+		completion_reward = {
+				if = {
+					limit = {
+						not = { has_tech = ship_hull_super_heavy }
+					}
+					set_technology = {
+						m_1970DDH = 1
+					}
+				}
+				create_equipment_variant = {
+					name = "광개토대왕급"
+					type = ship_hull_modern_DDH_1
+					name_group = ROK_DDH_HISTORICAL
+					parent_version = 0
+					modules = {
+						fixed_ship_battery_slot = modern_ship_light_battery_2
+						fixed_ship_anti_air_slot = ship_ciws_2
+						fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
+						fixed_ship_radar_slot = ship_modern_radar_2
+						fixed_ship_sts_slot = ship_missile_luncher_2
+						fixed_ship_engine_slot = cruiser_ship_engine_modern_1
+						fixed_ship_armor_slot = ship_armor_cruiser_modern_1
+						front_1_custom_slot = ship_aa_missile_luncher_1
+						mid_1_custom_slot = ship_missile_luncher_2
+						mid_2_custom_slot = ship_ciws_2
+						rear_1_custom_slot = ship_torpedo_modern_1
+						rear_2_custom_slot = ship_hel_modern
+					}
+				}
+				custom_effect_tooltip = ROK_Gwanggaeto_the_great
+				hidden_effect = {
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_modern_DDH_1
+							creator = "KR1" 
+							version_name = "광개토대왕급"
+						}
+						name = "ROKS 광개토대왕" 
+						requested_factories = 1
+						progress = 0.65
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_modern_DDH_1
+							creator = "KR1" 
+							version_name = "광개토대왕급"
+						}
+						name = "ROKS 을지문덕" 
+						requested_factories = 1
+						progress = 0.4
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_modern_DDH_1
+							creator = "KR1	" 
+							version_name = "광개토대왕급"
+						}
+						name = "ROKS 양만춘" 
+						requested_factories = 1
+						progress = 0.2
+						amount = 1
+					}
+				}
+		}
+		x = 35
+		y = 14
+
+	}
+	focus = { #장보고급 잠수함
+		id = ROK_jangbogo_class
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_radar_mod
+		}
+		completion_reward = {
+			create_equipment_variant = {
+				name = "장보고급"
+				type = ship_hull_modern_submarine_3
+				parent_version = 0
+				modules = {
+					fixed_ship_torpedo_slot = ship_torpedo_sub_modern_1
+					fixed_ship_engine_slot = sub_ship_engine_modern_1
+					fixed_ship_sonar_slot = ship_sonar_modern_1
+					front_1_custom_slot = ship_torpedo_sub_modern_1
+					mid_1_custom_slot = ship_sub_snorkel_modern
+					rear_1_custom_slot = ship_sts_sub_1
+				}
+			}
+		}
+		x = 37
+		y = 14
+
+	}
+	focus = { #자위대와의 협력
+		id = ROK_jsdf
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_Gwanggaeto_the_great
+		}
+		completion_reward = {
+			country_event = {
+				id = rok.65
+			}	
+		}
+		x = 35
+		y = 15
+
+	}
+	focus = { #공고급 구축함
+		id = ROK_kongo_class
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_jsdf
+		}
+		completion_reward = {
+		custom_effect_tooltip = ROK_kongo
+				hidden_effect = {
+					JDF = {
+						create_production_license = {
+							target = KR1
+							equipment = {
+								type = ship_hull_modern_DDG_1
+								creator = "JDF" 
+								version_name = "공고급"
+							}
+							cost_factor = 0
+						}
+					}
+				}
+		}
+		x = 34
+		y = 16
+
+	}
+	focus = { #아사기리급 구축함
+		id = ROK_asagiri_class
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_jsdf
+		}
+		completion_reward = {
+		custom_effect_tooltip = ROK_kongo
+				hidden_effect = {
+					JDF = {
+						create_production_license = {
+							target = KR1
+							equipment = {
+								type = ship_hull_modern_DDH_2
+								creator = "JDF"
+								version_name = "아사기리급"
+							}
+							cost_factor = 0
+						}
+					}
+				}
+		}
+		x = 36
+		y = 16
+
+	}
+	focus = { #새로운 해군예산 할당
+		id = ROK_new_dockyard
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_plan_indo-taepyungyang
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					dockyard > 0
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					dockyard > 0
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		x = 39
+		y = 12
+
+	}
+	focus = { #작전교리 재구성
+		id = ROK_new_navy_doctline
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_new_dockyard
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = op_dest_bonus
+				bonus = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+		}
+		x = 39
+		y = 13
+
+	}
+	focus = { #항공모함 우선주의 
+		id = ROK_carrier_focus
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_new_navy_doctline
+		}
+		mutually_exclusive = {
+			focus = ROK_destroyer_focus
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = USA_carrier_primacy
+				bonus = 1.0
+				uses = 1
+				category = cat_base_strike
+			}
+		}
+		x = 39
+		y = 14
+
+	}
+	focus = { #전투함대 우월성
+		id = ROK_destroyer_focus
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_new_navy_doctline
+		}
+		mutually_exclusive = {
+			focus = ROK_carrier_focus
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = USA_carrier_primacy
+				bonus = 1.5
+				uses = 3
+				category = bb_tech
+			}
+			add_tech_bonus = {
+				name = USA_carrier_primacy
+				bonus = 1
+				uses = 1
+				category = shbb_tech
+			}
+			add_tech_bonus = {
+				name = USA_carrier_primacy
+				bonus = 1
+				uses = 3
+				category = cl_tech
+			}
+		}
+		x = 41
+		y = 14
+
+	}
+	focus = { #함재기 개발계획
+		id = ROK_carrier_jet
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_carrier_focus
+		}
+		completion_reward = {
+		}
+		completion_reward = {
+			set_technology = {
+				cv_m_1980_jet_multirole_equipment = 1
+			}
+			set_technology = {
+				cv_m_1980_jet_fighter_equipment = 1
+			}
+		}
+		x = 39
+		y = 15
+
+	}
+	focus = { #김영삼급 항공모함
+		id = ROK_kim_carrier
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_carrier_jet
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = USA_carrier_primacy
+				bonus = 1.5
+				uses = 3
+				category = cv_tech
+			}
+		}
+		x = 39
+		y = 16
+
+	}
+	focus = { #교리 재구성
+		id = ROK_doctrine_focus_1
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_destroyer_focus
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = USA_carrier_primacy
+				bonus = 1.5
+				uses = 4
+				category = cat_fleet_in_being
+			}
+		}
+		x = 41
+		y = 15
+
+	}
+	focus = { #추가적인 호위함들
+		id = ROK_new_pcc
+		icon = navy3
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_doctrine_focus_1
+		}
+		completion_reward = {
+			add_ideas = more_escort_ship
+			
+		}
+		x = 41
+		y = 16
+
+	}
+	focus = { #제공기 개량
 		id = ROK_high_skys_korean
 		icon = 높하한
 		cost = 10.00
@@ -2287,8 +3171,50 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_new_air_general
 		}
-		x = 42
+		completion_reward = {
+			set_technology = {
+			m_2000_jet_fighter = 1
+			}
+		}
+		x = 45
 		y = 13
+
+	}
+	focus = { #팬텀 전투폭격기
+		id = ROK_f_4
+		icon = 높하한
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_high_skys_korean
+		}
+		mutually_exclusive = {
+			focus = ROK_jsdf_f_15
+		}
+		completion_reward = {
+			add_ideas = F_4_mod
+			
+		}
+		x = 46
+		y = 14
+
+	}
+	focus = { #자위대 F-15 분석
+		id = ROK_jsdf_f_15
+		icon = 높하한
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_high_skys_korean
+		}
+		mutually_exclusive = {
+			focus = ROK_f_4
+		}
+		completion_reward = {
+			set_technology = {
+			m_2000_jet_multirole = 1
+			}
+		}
+		x = 44
+		y = 14
 
 	}
 	focus = {
@@ -2298,7 +3224,10 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_airforce_plan
 		}
-		x = 41
+		completion_reward = {
+			air_experience = 100
+		}
+		x = 44
 		y = 12
 
 	}
@@ -2309,7 +3238,29 @@ focus_tree = {
 		prerequisite = {
 			focus = ROK_airforce_plan
 		}
-		x = 43
+		completion_reward = {
+			create_corps_commander = {
+				name = "Park Jun-taek"
+				picture = "박준택.dds"
+				traits = { air_force }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Jo Geun-hae"
+				picture = "조근해.dds"
+				traits = { air_force }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+		}
+		x = 46
 		y = 12
 
 	}

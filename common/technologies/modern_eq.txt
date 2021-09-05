@@ -2569,6 +2569,33 @@ technologies = {
 			always = no
 		}
 	}
+	
+	cv_m_1980_jet_multirole_equipment = { #함재 멀티롤
+
+		enable_equipments = { 
+			cv_m_1980_jet_multirole_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	cv_m_1980_jet_fighter_equipment = { #함재 전투기
+
+		enable_equipments = { 
+			cv_m_1980_jet_fighter_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 ####################################################################
 #########산업
 

@@ -9,13 +9,13 @@ if = {
 		not = { has_dlc = "Man the Guns" }
 	}
 
-	set_naval_oob = "PRK_1936_naval"
+	set_naval_oob = "KPA_naval"
 }
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	set_naval_oob = "PRK_1936_naval_mtg"
+	set_naval_oob = "KPA_naval_mtg"
 }
 
 if = {
@@ -479,7 +479,6 @@ create_country_leader = {
 		logistics_skill = 2
 	}
 }
-
 
 if = {
 	limit = { has_dlc = "Man the Guns" }

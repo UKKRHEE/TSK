@@ -90,7 +90,33 @@ equipments = {
 		naval_strike_attack = 2
 		naval_strike_targetting = 10		
 	}
+	
+	cv_m_1980_jet_multirole_equipment = {
+		year = 1936
 
+		archetype = jet_multirole_equipment
+		priority = 10
+		carrier_capable = yes
+		
+		air_range = 2100
+		maximum_speed = 2000
+		air_agility = 170
+		air_attack = 110
+		air_defence = 60
+		air_ground_attack = 60
+		
+				
+		build_cost_ic = 400
+		resources = {
+			#oil = 1
+			aluminium = 3
+			rubber = 1
+		}
+
+		naval_strike_attack = 45
+		naval_strike_targetting = 20
+	}
+	
 	#F-4E 피스 페산트,MIG-29S
 	m_1990_jet_multirole_equipment = {
 		year = 1936
@@ -112,9 +138,6 @@ equipments = {
 			aluminium = 3
 			rubber = 1
 		}
-
-		naval_strike_attack = 4
-		naval_strike_targetting = 10
 	}
 
 	#F-15K 슬램이글,MIG-33

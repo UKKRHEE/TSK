@@ -76,6 +76,7 @@ leader_traits = {
 			}
 		}
 		modifier = {
+			max_commander_army_size = -16
 			air_interception_attack_factor = 0.05
 			air_air_superiority_attack_factor = 0.05
 			air_close_air_support_attack_factor = 0.05
@@ -89,7 +90,7 @@ leader_traits = {
 		}
 	}
 	
-	army = { 
+	ROKA = { 
 		type = all
 		trait_type = personality_trait
 		gain_xp = {
@@ -103,10 +104,55 @@ leader_traits = {
 			}
 		}
 		modifier = {
-			army_armor_attack_factor = 0.05
-			motorized_attack_factor = 0.05
-			army_armor_speed_factor = 0.05
-			mechanized_attack_factor = 0.05
+			max_commander_army_size = -14
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	ROK_marine = { 
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			FROM = {
+				tag = KOR
+				tag = ROK
+				tag = MKR
+			}
+		}
+		modifier = {
+			max_commander_army_size = -18
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	ROK_sf = { 
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			FROM = {
+				tag = KOR
+				tag = ROK
+				tag = MKR
+			}
+		}
+		modifier = {
+			max_commander_army_size = -20
 		}
 		
 		ai_will_do = {

@@ -93,12 +93,61 @@ Communication_Command = {
 		remove_effect = {
 			add_to_variable = {
 				var = sead_arm
-				value = 25
+				value = 10
 			}
 		}
 	}
 	
 	sead_mission = { #전자전기
+
+		icon = generic_civil_support
+
+		available = {
+			has_war_with = KPA
+			always = yes
+			has_country_flag = sead_arm
+			check_variable = {
+				var = sead_arm
+				value = 49
+				compare = greater_than
+			}
+		}
+		
+		cost = 100
+		days_remove = 10
+		days_re_enable = 100
+
+		visible = {
+			has_country_flag = sead_arm
+			PRK = {
+				exists = yes
+			}
+		}		
+		fire_only_once = no
+		
+		is_good = no
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -20
+			}
+			KPA = { 
+			add_ideas = sead
+			}
+			add_to_variable = {
+				var = sead_arm
+				value = -50
+			}
+		}
+		
+		remove_effect = { 
+			KPA = { 
+			remove_ideas = sead
+			}
+		}
+	}
+	
+	sead_mission = { #육/공합동작전
 
 		icon = generic_civil_support
 
