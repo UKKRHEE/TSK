@@ -9,6 +9,10 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_TSK_main_logo"
+		texturefile = "gfx/interface/TSK_logo_game.png"
+	}
+	spriteType = {
 		name = "GFX_frontend_game_logo"
 		texturefile = "gfx/interface/logo_game.dds"
 	}

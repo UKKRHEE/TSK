@@ -493,7 +493,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 120 y = 15 }
 			textureFile = ""
-			font = "hoi_20b"
+			font = "aldrich_20_outline"
 			borderSize = {x = 0 y = 0}
 			text = "FE_SELECT_SCENARIO"
 			maxWidth = 340
@@ -521,6 +521,24 @@ guiTypes = {
 				format = "UPPER_LEFT"
 			}
 		}
+		instantTextBoxType = {
+			name ="TSK_year_larbel_1991"
+			position = { x = -15 y = 50 }
+			textureFile = ""
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "1991년"
+			format = right
+		}
+		instantTextBoxType = {
+			name ="TSK_year_larbel_2009"
+			position = { x = 250 y = 50 }
+			textureFile = ""
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "2009년"
+			format = right
+		}
 		
 		instantTextBoxType = {
 			name = "history_title"
@@ -535,7 +553,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "bookmark_title"
-			position = { x = 25 y = 305 }
+			position = { x = 25 y = 310 }
 			font = "hoi4_typewriter22"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 340
@@ -545,7 +563,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "bookmark_desc"
-			position = { x = 25 y = 330 }
+			position = { x = 25 y = 340 }
 			font = "hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 540
@@ -558,7 +576,7 @@ guiTypes = {
 			position = { x = 30 y = -57 }
 			quadTextureSprite ="GFX_button_221x34"	
 			buttonText = "BACK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "aldrich_20_outline"
 			Orientation = "LOWER_LEFT"
 			clicksound = click_close
 			oversound = ui_menu_over
@@ -570,7 +588,7 @@ guiTypes = {
 			position = { x = -252 y = -57 }
 			quadTextureSprite ="GFX_button_221x34"
 			buttonText = "FE_SELECT_SCENARIO"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "aldrich_20_outline"
 			Orientation = "LOWER_RIGHT"
 			clicksound = click_ok
 			oversound = ui_menu_over
