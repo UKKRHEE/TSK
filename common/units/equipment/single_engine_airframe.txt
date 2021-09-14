@@ -1026,12 +1026,11 @@ equipments = {
 		maximum_speed = 700
 		air_agility = 60
 		air_attack = 20
-		air_defence = 180
+		air_defence = 30
 		air_ground_attack = 60
 	
 		naval_strike_attack = 5
-		naval_strike_targetting = 15
-		build_cost_ic = 250		
+		naval_strike_targetting = 15		
 	}
 
 	#F-4D,A-5
@@ -1046,7 +1045,7 @@ equipments = {
 		maximum_speed = 1800
 		air_agility = 80
 		air_attack = 30
-		air_defence = 200
+		air_defence = 50
 		air_ground_attack = 70
 		
 		build_cost_ic = 270
@@ -1072,7 +1071,7 @@ equipments = {
 		maximum_speed = 2000
 		air_agility = 120
 		air_attack = 45
-		air_defence = 225
+		air_defence = 60
 		air_ground_attack = 100
 		
 		build_cost_ic = 320
@@ -1098,7 +1097,7 @@ equipments = {
 		maximum_speed = 2000
 		air_agility = 130
 		air_attack = 50
-		air_defence = 250
+		air_defence = 75
 		air_ground_attack = 110
 		
 		build_cost_ic = 350
@@ -1123,11 +1122,13 @@ equipments = {
 		
 		air_range = 2500
 		maximum_speed = 1400
-		air_agility = 145
+		air_agility = 100
 		air_attack = 100
 		air_defence = 50
 
-		build_cost_ic = 300
+		naval_strike_attack = 1
+		naval_strike_targetting = 10
+
 	}
 	
 	m_1980_jet_fighter_equipment = { #F-4 팬텀,MIG-23ML
@@ -1139,7 +1140,7 @@ equipments = {
 		
 		air_range = 2100
 		maximum_speed = 2000
-		air_agility = 160
+		air_agility = 135
 		air_attack = 130
 		air_defence = 65
 		
@@ -1149,35 +1150,12 @@ equipments = {
 			#oil = 1
 			aluminium = 3
 			rubber = 1
-		}		
-	}
-	
-	cv_m_1980_jet_fighter_equipment = { #F-4 팬텀,MIG-23ML
-		year = 1936
-
-		archetype = jet_fighter_equipment
-		parent = m_1970_jet_fighter_equipment
-		priority = 10
-		carrier_capable = yes
-		
-		air_range = 2100
-		maximum_speed = 2000
-		air_agility = 160
-		air_attack = 130
-		air_defence = 65
-		
-				
-		build_cost_ic = 380
-		resources = {
-			#oil = 1
-			aluminium = 3
-			rubber = 1
 		}
 
 		naval_strike_attack = 2
 		naval_strike_targetting = 10		
 	}
-	
+
 	m_1990_jet_fighter_equipment = { #F-16C 피스 브리지,SU-27
 		year = 1936
 
@@ -1187,7 +1165,7 @@ equipments = {
 
 		air_range = 2500
 		maximum_speed = 2200
-		air_agility = 170
+		air_agility = 150
 		air_attack = 160
 		air_defence = 75		
 				
@@ -1198,6 +1176,8 @@ equipments = {
 			rubber = 1
 		}
 
+		naval_strike_attack = 4
+		naval_strike_targetting = 10
 	}
 
 	m_2000_jet_fighter_equipment = { #KF-16C,SU-27S
@@ -1220,6 +1200,8 @@ equipments = {
 			rubber = 1
 		}
 
+		naval_strike_attack = 6
+		naval_strike_targetting = 10
 	}
 }
 

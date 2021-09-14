@@ -278,16 +278,6 @@ equipment_modules = {
 			anti_air_attack = 30
 			build_cost_ic = 300
 		}
-		modifier = {
-			naval_defense_factor = 0.5
-			naval_hit_chance = 0.5
-			naval_strike_targetting_factor = 0.5
-		}
-		multiply_stats = {
-			naval_defense_factor = 0.5
-			naval_hit_chance = 0.5
-			naval_strike_targetting_factor = 0.5
-		}
 	}
 
 	ship_ciws_2 = {
@@ -766,8 +756,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			lg_attack = 15
-			hg_attack = 20
+			lg_attack = 30
+			hg_attack = 45
 			build_cost_ic = 4000
 		}
 		add_average_stats = {

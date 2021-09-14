@@ -241,7 +241,7 @@ equipments = {
 		soft_attack = 9
 		hard_attack = 7.5
 		ap_attack = 100
-		air_attack = 25
+		air_attack = 50
 		
 		build_cost_ic = 28
 		
@@ -504,7 +504,7 @@ equipments = {
 		armor_value = 90
 
 		#Offensive Abilities
-		soft_attack = 83
+		soft_attack = 85
 		hard_attack = 4
 		air_attack = 0
 		
@@ -534,7 +534,7 @@ equipments = {
 		armor_value = 90
 
 		#Offensive Abilities
-		soft_attack = 86
+		soft_attack = 90
 		hard_attack = 5
 		air_attack = 0
 		
@@ -564,7 +564,7 @@ equipments = {
 		armor_value = 110
 
 		#Offensive Abilities
-		soft_attack = 89
+		soft_attack = 95
 		hard_attack = 5
 		air_attack = 0
 		
@@ -595,9 +595,9 @@ equipments = {
 		armor_value = 130
 
 		#Offensive Abilities
-		soft_attack = 94
+		soft_attack = 100
 		hard_attack = 5
-		ap_attack = 5
+		ap_attack = 15
 		air_attack = 0
 		
 		build_cost_ic = 55
@@ -627,9 +627,9 @@ equipments = {
 		armor_value = 150
 
 		#Offensive Abilities
-		soft_attack = 97
+		soft_attack = 120
 		hard_attack = 5
-		ap_attack = 5
+		ap_attack = 15
 		air_attack = 0
 		
 		build_cost_ic = 59
@@ -661,8 +661,8 @@ equipments = {
 		#Offensive Abilities
 		soft_attack = 9
 		hard_attack = 7.5
-		ap_attack = 5
-		air_attack = 28
+		ap_attack = 20
+		air_attack = 60
 		
 		build_cost_ic = 40
 		resources = {
@@ -692,8 +692,8 @@ equipments = {
 		#Offensive Abilities
 		soft_attack = 15
 		hard_attack = 7.5
-		ap_attack = 5
-		air_attack = 31
+		ap_attack = 20
+		air_attack = 80
 		
 		build_cost_ic = 43
 		resources = {
@@ -723,8 +723,8 @@ equipments = {
 		#Offensive Abilities
 		soft_attack = 20
 		hard_attack = 7.5
-		ap_attack = 5
-		air_attack = 34
+		ap_attack = 20
+		air_attack = 110
 		
 		build_cost_ic = 46
 		resources = {
@@ -754,8 +754,8 @@ equipments = {
 		#Offensive Abilities
 		soft_attack = 23
 		hard_attack = 7.5
-		ap_attack = 5
-		air_attack = 37
+		ap_attack = 20
+		air_attack = 140
 		
 		build_cost_ic = 50
 		resources = {
@@ -786,7 +786,7 @@ equipments = {
 		soft_attack = 25
 		hard_attack = 10
 		ap_attack = 20
-		air_attack = 40
+		air_attack = 160
 		
 		build_cost_ic = 53
 		resources = {

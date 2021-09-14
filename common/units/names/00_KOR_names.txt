@@ -59,7 +59,7 @@
 	CAS_equipment = {
 		prefix = ""
 		generic = {
-			"근접지원항공기 항공단"
+			"근접기 항공단"
 		}
 		generic_pattern = AIR_WING_NAME_KOR_GENERIC
 		unique = {}
@@ -68,7 +68,7 @@
 	cv_fighter_equipment = {
 		prefix = ""
 		generic = {
-			"항공모함전투기 항공단"
+			"항모전투기 항공단"
 		}
 		generic_pattern = AIR_WING_NAME_KOR_GENERIC
 		unique = {}
@@ -77,7 +77,7 @@
 	cv_CAS_equipment = {
 		prefix = ""
 		generic = {
-			"항공모함근접지원항공기 항공단"
+			"항모근접기 항공단"
 		}
 		generic_pattern = AIR_WING_NAME_KOR_GENERIC
 		unique = {}
@@ -85,7 +85,7 @@
 	cv_nav_bomber_equipment = {
 		prefix = ""
 		generic = {
-			"항공모함 뇌격기 항공단"
+			"항모뇌격기 항공단"
 		}
 		generic_pattern = AIR_WING_NAME_KOR_GENERIC
 		unique = {}
