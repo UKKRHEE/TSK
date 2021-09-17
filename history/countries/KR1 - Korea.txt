@@ -1,6 +1,7 @@
 ﻿capital = 807 #South Korea - Seoul or Busan
 
 oob = "KR1_1936"
+set_research_slots = 4
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
@@ -14,6 +15,16 @@ if = {
 	}
 	set_naval_oob = "KR1_1936_naval_mtg"
 }
+add_offsite_building = {
+	type = arms_factory
+	level = 10
+}
+
+add_offsite_building = {
+	type = industrial_complex
+	level = 45
+}
+
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

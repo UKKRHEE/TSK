@@ -1,6 +1,20 @@
 ﻿capital = 807 #South Korea - Seoul or Busan
 oob = "KOR_1936"
 set_research_slots = 4
+add_offsite_building = {
+	type = arms_factory
+	level = 15
+}
+
+add_offsite_building = {
+	type = industrial_complex
+	level = 51
+}
+
+add_offsite_building = {
+	type = dockyard
+	level = 15
+}
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
