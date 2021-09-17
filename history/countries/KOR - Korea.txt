@@ -192,6 +192,9 @@ set_technology = {
 	m_1990_spaa = 1
 	m_2000_spaa = 1
 	
+	m_1970_cv_jet_fighter_equipment = 1
+	m_1990_cv_jet_fighter_equipment = 1
+	
 	m_1970_sp = 1	
 	m_1980_sp = 1
 	m_1990_sp = 1

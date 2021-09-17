@@ -115,7 +115,15 @@ focus_tree = {
 									amount = 30
 								}
 							}
-						}
+							if = {
+								limit = {
+									has_idea = KOR_the_cheat
+								}
+								army_experience = 5000
+								navy_experience = 5000
+								air_experience = 5000
+							}
+							}
 				}
 			ai_will_do = {
 					factor = 10

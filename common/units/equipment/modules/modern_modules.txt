@@ -278,6 +278,16 @@ equipment_modules = {
 			anti_air_attack = 30
 			build_cost_ic = 300
 		}
+		modifier = {
+			naval_defense_factor = 0.5
+			naval_hit_chance = 0.5
+			naval_strike_targetting_factor = 0.5
+		}
+		multiply_stats = {
+			naval_defense_factor = 0.5
+			naval_hit_chance = 0.5
+			naval_strike_targetting_factor = 0.5
+		}
 	}
 
 	ship_ciws_2 = {

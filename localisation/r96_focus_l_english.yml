@@ -164,3 +164,9 @@
  KOR_its_last_politic:0 "좌우 합작 추진"
  KOR_up_people:0 "깨어나라, 시민들이어!"
  
+ korea_cheat.1.t:0 "타임슬립 코리아 2009년 - 생산 버프"
+ korea_cheat.1.d:0 "생산버프를 받으시겠습니까?"
+ korea_cheat.1.a:0 "예"
+ korea_cheat.1.b:0 "아니오"
+ check_will_be_cheated:0 "§R생산버프가 적용될 것입니다. 게임이 재미없어질 수 있으니 신중하게 선택해주세요.§!"
+ KOR_the_cheat:0 "더미데이터 - 치트"
