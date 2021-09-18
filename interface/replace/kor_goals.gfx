@@ -241,4 +241,8 @@ spriteTypes = {
 	name = "GFX_k2001"
 	texturefile = "gfx/interface/goals/k2001.png"			
 	}	
+	SpriteType = {
+	name = "GFX_ven"
+	texturefile = "gfx/interface/goals/ven.png"			
+	}	
 }

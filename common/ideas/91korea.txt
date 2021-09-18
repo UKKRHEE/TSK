@@ -63,6 +63,51 @@ ideas = {
 	} 
 	
 	country = {
+		freedom_rok = { #자유의 날개
+
+			picture = weak_anti_sub
+
+        	allowed = {
+				original_tag = ROK
+				original_tag = MKR
+				original_tag = KR1
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				democratic_drift = 0.1
+				political_power_gain = 0.1
+				stability_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		CEPEA = { #동아시아 경제 파트너쉽
+
+			picture = weak_anti_sub
+
+        	allowed = {
+				original_tag = ROK
+				original_tag = MKR
+				original_tag = KR1
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+
+	   		modifier = { 
+				trade_cost_for_target_factor = -0.5
+				faction_trade_opinion_factor = 0.5
+				opinion_gain_monthly = 0.3
+			}
+		}
 		F_4_mod = { #팬텀 전투폭격기
 
 			picture = weak_anti_sub
@@ -916,6 +961,23 @@ ideas = {
 				
 			}
 
+		}
+		
+		mkr_ai = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_acquire_tanks
+
+			targeted_modifier = {
+				tag = PRK
+				attack_bonus_against = -0.05
+				defense_bonus_against = -0.05
+
+			}
 		}
 		
 		PRK_war2 = {

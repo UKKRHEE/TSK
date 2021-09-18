@@ -300,7 +300,10 @@ spriteTypes = {
 		name = "GFX_훈련"
 		texturefile = "gfx/event_pictures/훈련.png"
 	}
-	
+	spriteType = {
+		name = "GFX_대잠헬기"
+		texturefile = "gfx/event_pictures/대잠헬기.png"
+	}
 	
 	spriteType = {
 		name = "GFX_UN"

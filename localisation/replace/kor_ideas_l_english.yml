@@ -109,6 +109,9 @@
  Allow_Limited_Imports:0 "제한적 시장개방"
  Domestic_market:0 "내수시장 장려"
  
+ CEPEA:0 "동아시아 경제 파트너쉽"
+ freedom_rok:0 "자유의 날개"
+ 
  make_korea_great_again:0 "한국을 다시 위대하게!"
  
  avoidance_military_service:0 "병역기피"
@@ -126,6 +129,13 @@
  
  rok_UN_PMNS:0 "국제연합 안전보장이사회 상임이사국"
  rok_UN:0 "국제연합 가입국" 
+ 
+ ### PRK 
+ 
+  
+ PRK_war1:0 "완전한 기습공격"
+ PRK_war2:0 "완전한 기습공격"
+ 
  ### KOR - Human
  chung_won_sik:0 "정 원식"
  lee_young_man:0 "이 용만"

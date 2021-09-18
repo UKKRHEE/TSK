@@ -15,7 +15,7 @@ Hana_hoe_residual = {
 			has_country_flag = removal_of_censorship
 		}
 
-		days_mission_timeout = 150
+		days_mission_timeout = 250
 
 		activation = {
 			has_country_flag = kor_hanahoe_1
