@@ -85,16 +85,27 @@ bookmarks = {
 			history = "PRK_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
+			   KOR_food_1
+			   KOR_juche
+			   PRK_losed_fight
 			}	
 			focuses = {
+				prk_collect_intel
+				prk_Chollima_Movement
+				prk_Social_democracy
 			}			
 		}
 		"KR1"={
 			history = "KR1_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
+				kor_law_of_korean_5
+				weak_anti_sub
 			}
 			focuses = {
+				KOR_world_1936
+				KOR_martial_law
+				KOR_suppression_order
 			}	
 		}
 		"GER"={

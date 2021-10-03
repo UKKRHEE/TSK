@@ -152,6 +152,8 @@ TSK_annex_marine = {
 					target = JEJ
 					transfer_toops = yes
 				}
+				add_state_core = 821
+				add_state_core = 813
 				if = {
 					limit = {
 						has_dlc = "Man the Guns"

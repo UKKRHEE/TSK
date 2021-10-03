@@ -225,6 +225,16 @@ country_event = {
 		ROK = {
 		white_peace = PRK
 		}
+		if = {
+			PRK = {
+				controls_state = 809
+				controls_state = 817
+				controls_state = 808
+			}
+			transfer_state = 808
+			transfer_state = 817
+			transfer_state = 809
+		}
 	}	
 	
 	option = { #헛소리!
