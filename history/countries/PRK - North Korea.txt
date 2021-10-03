@@ -34,7 +34,7 @@ add_ideas = {
 add_ideas = {
    KOR_food_1
    KOR_juche
-   
+   PRK_losed_fight
    service_by_requirement
 }
 

@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = ROK
+			tag = TSK
 		}
 	}
 	continuous_focus_position = { x = 100 y = 3000 }
@@ -17,6 +17,7 @@ focus_tree = {
 		y = 0
 		completion_reward = {
 			country_event = { id = rok.1 }
+			set_cosmetic_tag = KR1
 		}
 	}
 	focus = { #경제위기
