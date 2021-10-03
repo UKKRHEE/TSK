@@ -180,6 +180,31 @@ on_actions = {
 						exists = no
 					}
 				}
+				MKR = {
+					set_country_flag = fall_of_busan_MKR_1
+				}
+			}
+			if = {
+				limit = {
+					original_tag = MKR 
+					has_idea = ROK_bombing
+					NOT = {
+						has_war_with = ROK
+						has_war_with = PRK
+					}
+				}
+				remove_ideas = ROK_bombing
+			}
+			if = {
+				limit = {
+					original_tag = MKR 
+					has_idea = KOR_cornered	
+					NOT = {
+						has_war_with = ROK
+						has_war_with = PRK
+					}
+				}
+				remove_ideas = KOR_cornered
 			}
 			if = {
 				limit = {
