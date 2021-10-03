@@ -2,7 +2,10 @@ focus_tree = {
 	id = korea_before_civ
 	country = {
 		factor = 0
-		tag = KR1
+		modifier = {
+			add = 10
+			tag = KR1
+		}
 	}
 	default = no
 	focus = { #1936년의 세계

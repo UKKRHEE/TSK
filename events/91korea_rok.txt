@@ -56,7 +56,6 @@ country_event = { # 내전끝
 		name = rok.2.a
 		add_ideas = chaebol
 		add_ideas = economy_close
-		
 		add_ideas = weak_anti_sub
 		add_ideas = rok_remnants_of_the_military
 		add_ideas = mkr_irregularities_barracks

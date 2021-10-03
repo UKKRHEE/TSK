@@ -8,11 +8,16 @@ Hana_hoe_residual = {
 		icon = generic_civil_support
 
 		available = {
-			has_country_flag = Erasing_Residuals
-			has_country_flag = military_reform
-			has_country_flag = NIS_Weakening
-			has_country_flag = libration
-			has_country_flag = removal_of_censorship
+			has_country_flag = Erasing_Residuals #잔재 숙청
+			has_country_flag = NIS_Weakening #안기부 약화
+			has_country_flag = libration #자유, 평등
+			has_country_flag = removal_of_censorship #검열 철폐
+			if = {	
+				limit = {
+					has_completed_focus = President_Kim_Young_sam
+				}
+				has_country_flag = military_reform #숙청
+			}
 		}
 
 		days_mission_timeout = 250

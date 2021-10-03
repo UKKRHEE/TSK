@@ -1,13 +1,14 @@
 focus_tree = {
 	id = rok_focus
-	continuous_focus_position = { x = 100 y = 2200 }
 	default = no
 	country = {
 		factor = 0
 		modifier = {
 			add = 10
+			tag = ROK
 		}
 	}
+	continuous_focus_position = { x = 100 y = 3000 }
 	focus = { #14대 대선
 		id = presidential_election
 		icon = GFX_presidential_election
@@ -24,6 +25,9 @@ focus_tree = {
 		cost = 5
 		x = 27
 		y = 0
+		available = {
+			has_completed_focus = presidential_election
+		}
 		completion_reward = {
 			country_event = { id = rok.4 }
 		}
@@ -34,6 +38,9 @@ focus_tree = {
 		cost = 5.00
 		x = 31
 		y = 9
+		available = {
+			has_completed_focus = presidential_election
+		}
 		completion_reward = {
 			country_event = { id = rok.3 }
 			custom_effect_tooltip = remove_mkr
@@ -62,7 +69,7 @@ focus_tree = {
 	focus = { #새 국가보안법
 		id = new_national_security_law
 		icon = GFX_국가보안법
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = President_Kim_Koo
 		}
@@ -76,7 +83,7 @@ focus_tree = {
 	focus = { #복지정책 도입
 		id = welfare_policy
 		icon = GFX_복지정책
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = President_Kim_Koo
 		}
@@ -90,7 +97,7 @@ focus_tree = {
 	focus = { #노조와 협상
 		id = contact_with_NK
 		icon = GFX_노조협상
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = President_Kim_Koo
 		}
@@ -104,7 +111,7 @@ focus_tree = {
 	focus = { #자유국가
 		id = libration
 		icon = GFX_자유국가
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = President_Kim_Koo
 		}
@@ -118,7 +125,7 @@ focus_tree = {
 	focus = { #국민 단결
 		id = ROK_lian_dai
 		icon = GFX_국민단결
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = libration
 		}
@@ -185,7 +192,7 @@ focus_tree = {
 	focus = { #조선총독부 철거
 		id = Central_Office_Demolition
 		icon = GFX_Central_Office_Demolition
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = freedom_equality
 			focus = enactment_of_law
@@ -290,7 +297,7 @@ focus_tree = {
 	focus = { #자위대와의 협상
 		id = war_of_liberation
 		icon = GFX_자위대와협상
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = test_Japan
 		}
@@ -345,7 +352,7 @@ focus_tree = {
 	focus = { #검열 철폐
 		id = elimination_of_censorship
 		icon = GFX_elimination_of_censorship
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = President_Kim_Young_sam
 			focus = President_Kim_Koo
@@ -394,7 +401,7 @@ focus_tree = {
 	focus = { #군벌을 정리하다
 		id = theorem_of_warlords
 		icon = GFX_theorem_of_warlords
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = demand_from_jang
 		}
@@ -419,7 +426,7 @@ focus_tree = {
 	focus = { #동아시아 연합
 		id = East_Asian_Union
 		icon = war_in_asia
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = theorem_of_warlords
 			focus = bury_sb_in_a_warlord
@@ -450,6 +457,15 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = { id = rok.9 }
+			if = {
+				limit = {
+					has_completed_focus = President_Kim_Young_sam
+				}
+			custom_effect_tooltip = remove_mkr
+			}
+			hidden_effect = {
+				set_country_flag = military_reform
+			}
 		}
 		x = 14
 		y = 3
@@ -941,7 +957,7 @@ focus_tree = {
 	focus = { #새로운 전차
 		id = ROK_new_tank
 		icon = GFX_unknown
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_equipment_reuse
 		}
@@ -955,7 +971,7 @@ focus_tree = {
 	focus = { #K1A1 시제품
 		id = ROK_k1a1_prototype
 		icon = K1A1
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_new_tank
 		}
@@ -971,7 +987,7 @@ focus_tree = {
 	focus = { #K-9자주포
 		id = ROK_K9
 		icon = GFX_K9
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_k1a1_prototype
 		}
@@ -987,7 +1003,7 @@ focus_tree = {
 	focus = { #자주대공포 '비호'
 		id = ROK_biho
 		icon = GFX_biho
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_k1a1_prototype
 		}
@@ -1003,7 +1019,7 @@ focus_tree = {
 	focus = { #워게임 실시
 		id = ROK_wargame
 		icon = army_reform
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_equipment_reuse
 		}
@@ -1014,7 +1030,7 @@ focus_tree = {
 	focus = { #합동참모본부 개편 
 		id = ROK_Joint_Chiefs_of_Staff
 		icon = army_reform
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_wargame
 		}
@@ -1025,7 +1041,7 @@ focus_tree = {
 	focus = { #교리 통합
 		id = ROK_doctrine_annex
 		icon = army_reform
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_biho
 		}
@@ -1051,7 +1067,7 @@ focus_tree = {
 	focus = { #전차 앞으로!
 		id = ROK_panzer_vor
 		icon = army_reform
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_doctrine_annex
 		}
@@ -1079,7 +1095,7 @@ focus_tree = {
 	focus = { #화력지원이 필요하십니까?
 		id = ROK_arty_focus
 		icon = army_reform
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_doctrine_annex
 		}
@@ -1107,7 +1123,7 @@ focus_tree = {
 	focus = { #완벽한 계획주의
 		id = ROK_Perfect_plan
 		icon = army_reform
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_doctrine_annex
 		}
@@ -1135,7 +1151,7 @@ focus_tree = {
 	focus = { #종심작전 
 		id = ROK_deep_battle
 		icon = army_reform
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_doctrine_annex
 		}
@@ -1163,7 +1179,7 @@ focus_tree = {
 	focus = { #보병 장비 개선
 		id = ROK_gospel_reform
 		icon = army_reform
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_equipment_reuse
 		}
@@ -1179,7 +1195,7 @@ focus_tree = {
 	focus = { #지원화기 개량
 		id = ROK_suppoet_eq_mob
 		icon = army_reform
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_gospel_reform
 		}
@@ -1195,7 +1211,7 @@ focus_tree = {
 	focus = { #APC 개량
 		id = ROK_apc_mob
 		icon = GFX_k2001
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_suppoet_eq_mob
 		}
@@ -1214,7 +1230,7 @@ focus_tree = {
 	focus = { #IFV 주력
 		id = ROK_ifv_mob
 		icon = GFX_KIFV
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_suppoet_eq_mob
 		}
@@ -1350,7 +1366,7 @@ focus_tree = {
 	focus = { #병역비리 조사
 		id = ROK_the_father_of_rok_army
 		icon = 태극기
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_the_plan_of_tiger
 		}
@@ -1370,7 +1386,7 @@ focus_tree = {
 	focus = { #병역문화 개선
 		id = ROK_Military_culture
 		icon = 태극기
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = ROK_the_father_of_rok_army
 		}
@@ -1478,7 +1494,7 @@ focus_tree = {
 	focus = { #6차 경제개발5개년 계획
 		id = six_five_year_flan
 		icon = five_year_plan
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = economis_cris
 		}
@@ -1540,7 +1556,7 @@ focus_tree = {
 	focus = { #지역개발
 		id = regional_development
 		icon = central_planned_economy3
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = expansion_of_social_development
 		}
@@ -1634,7 +1650,7 @@ focus_tree = {
 	focus = { #공단확장
 		id = Industrial_Complex_Expansion
 		icon = anarchist_economy
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = Infrastructure_Development
 		}
@@ -2195,7 +2211,7 @@ focus_tree = {
 	focus = {
 		id = bury_sb_in_a_warlord
 		icon = chinese_rival_government
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = meet_chang
 		}
@@ -2431,7 +2447,7 @@ focus_tree = {
 	focus = {
 		id = siam_press
 		icon = align_to_thailand
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = Liberation_of_Indonesia
 		}

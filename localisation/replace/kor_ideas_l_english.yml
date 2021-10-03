@@ -65,6 +65,9 @@
  mkr_haebyung_1:0 "해병대강화"
  mkr_new_facism:0 "신제국주의"
  
+ PRK_losed_fight:0 "이념전쟁에서의 패배"
+ PRK_losed_fight_desc:0 "1988년 서울 올림픽을 마지막으로, 우리의 공산주의가 남조선의 자본주의에 패배하였다는 것을 전 세계에 알렸습니다." 
+ 
 
  mkr_military_training:0 "군사훈련"
  a_colonial_war:0 "식민지확보전쟁"

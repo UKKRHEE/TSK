@@ -1,6 +1,33 @@
 ideas = {
 
 	country = {
+		PRK_losed_fight = { #이념전쟁에서의 패배
+
+			picture = generic_victors_of_ww1
+
+        	allowed = { 
+				original_tag = PRK
+    		}
+
+			allowed_civil_war = {
+	    		always = yes
+    		}
+
+        	removal_cost = -1
+	   		targeted_modifier = {
+				tag = MKR
+				justify_war_goal_time = 1
+				generate_wargoal_tension = 1
+			}
+	   		targeted_modifier = {
+				tag = ROK
+				justify_war_goal_time = 1
+				generate_wargoal_tension = 1
+			}
+			modifier = {
+				stability_factor = -0.05
+			}
+		}	
 		strong_and_powerful_nation = { #강성대국
 
 			picture = raj_risk_of_famine
