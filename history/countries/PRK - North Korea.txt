@@ -25,17 +25,12 @@ if = {
 	set_naval_oob = "PRK_1936_naval_mtg"
 }
 add_ideas = {
-	#laws
+    KOR_food_1
+    KOR_juche
+    PRK_losed_fight
 	tot_economic_mobilisation
 	service_by_requirement
 	closed_economy
-}
-
-add_ideas = {
-   KOR_food_1
-   KOR_juche
-   PRK_losed_fight
-   service_by_requirement
 }
 
 set_stability = 0.2

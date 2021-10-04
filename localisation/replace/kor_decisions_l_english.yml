@@ -132,6 +132,11 @@
  PRK_stage_1:0 "서울 공격"
  PRK_stage_2:0 "부산 공격"
  
+ kyunggi_Underground_Tunnel:0 "경기도 땅굴강화"
+ Gangwon_Underground_Tunnel:0 "강원도 땅굴강화"
+ PRK_provocations_against_the_south:0 "대남한 군사도발"
+ prk_coop_lvl_up:0 "§G쿠데타를위한 준비과정을 완료합니다§!"
+ 
  PRK_food_cris_cat:0 "식량난 위기"
  PRK_food_cris_cat_desc:0 "모든 수단과 방법을 동원하였어도, 결국 식량난이 닥쳐오고 있습니다. 사회주의의 가장 중요한 부분 중 하나인 배급제가 철폐되면, 인민들의 삶의 질이 나락으로 쳐박힐 것입니다.\n\n그 전에 우리는 이 문제를 어떻게든 해결해야 합니다."
  food_cris_lvl_up:0 "식량위기 강화"

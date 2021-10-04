@@ -438,7 +438,7 @@ ideas = {
 				consumer_goods_factor = 0.3
 			}
 		}
-		ROK_anti_discrimination law = {
+		ROK_anti_discrimination = {
 			
 			allowed = {
 				always = yes
@@ -451,10 +451,24 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.1 
-				political_power_gain = -0.25
 			}
 		}
-		
+		ROK_democracy_best = {
+			
+			allowed = {
+				always = yes
+				original_tag = ROK
+				original_tag = KR1
+	 		    original_tag = PRK
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.05 
+				democratic_acceptance = 0.1
+			}
+		}
 		KOR_cornered = { #궁지에 몰린 여우
 			picture = generic_production_bonus
 			allowed = {

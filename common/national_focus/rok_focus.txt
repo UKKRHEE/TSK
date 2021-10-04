@@ -5,7 +5,6 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = TSK
 		}
 	}
 	continuous_focus_position = { x = 100 y = 3000 }
@@ -2651,6 +2650,12 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = ROK_eastern_nope
+		}
+		completion_reward = {
+			every_country = {
+				limit = {  is_in_faction_with = ROK }
+				add_ideas = ROK_democracy_best
+			}
 		}
 		x = 4
 		y = 13
