@@ -1218,7 +1218,6 @@ country_event = {
 				on_lose = PRK_prov.7
 				on_cancel = japan_border_conflict.4
 			}
-				
 			defender = {
 				state = 810
 				num_provinces = 4
@@ -1234,11 +1233,10 @@ country_event = {
 	id = PRK.31
 	title = PRK.31.t
 	desc = PRK.31.desc
-	picture = GFX_report_event_japanese_chinese_surrender
+	picture = GFX_천마호
 
 	is_triggered_only = yes
-	
-	# They have accepted.
+		
 	option = {
 		name = PRK.31.a
 		if = { 
@@ -1699,5 +1697,21 @@ country_event = { #정일 사망 (이스터에그)
 				trait_PRK_kim_jungun
 			}
 		}
+	}
+}
+
+country_event = { #북한의 간첩
+	id = PRK.45
+	title = PRK.45.t
+	desc = PRK.45.desc
+	picture = GFX_경찰
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	
+	option = {#좋군
+		name = PRK.45.a	
+		unlock_decision_category_tooltip = kor_spy
 	}
 }

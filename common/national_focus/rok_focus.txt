@@ -3,9 +3,6 @@ focus_tree = {
 	default = no
 	country = {
 		factor = 0
-		modifier = {
-			add = 10
-		}
 	}
 	continuous_focus_position = { x = 100 y = 3000 }
 	focus = { #14대 대선

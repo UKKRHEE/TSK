@@ -1125,36 +1125,7 @@ prk_warlike_preparations = { #전쟁준비
 
 
 prk_spy_sent = { 
-	
-	Political_power_transformation = {
 
-		icon = generic_political_rally
-
-		allowed = { 
-			original_tag = PRK
-		}
-
-		available = {
-		
-		}
-
-		fire_only_once = no
-
-		days_remove = 20
-		
-		cost = 20
-		
-		visible = {
-			always = yes
-		}
-
-		complete_effect = {
-		}
-
-		remove_effect = {
-			add_command_power = 10
-		}
-	}
 	civ_spy = {
 
 		icon = generic_political_rally
@@ -1195,7 +1166,7 @@ prk_spy_sent = {
 					country_event = Spy.2
 				}
 				10 = {
-				
+					country_event = Spy.9
 				}
 			}
 		}
@@ -1245,7 +1216,7 @@ prk_spy_sent = {
 					country_event = Spy.4
 				}
 				10 = {
-				
+					country_event = Spy.9
 				}
 			}
 		}
@@ -1300,7 +1271,7 @@ prk_spy_sent = {
 					country_event = Spy.2
 				}
 				25 = {
-				
+					country_event = Spy.9
 				}
 			}
 		}
@@ -1353,7 +1324,7 @@ prk_spy_sent = {
 					country_event = Spy.4
 				}
 				25 = {
-				
+					country_event = Spy.9
 				}
 			}
 		}
@@ -2053,7 +2024,7 @@ kor_spy = {
 					country_event = Spy.6
 				}
 				30 = {
-				
+					country_event = Spy.23
 				}
 			}
 		}
@@ -2104,7 +2075,7 @@ kor_spy = {
 					country_event = Spy.8
 				}
 				30 = {
-				
+					country_event = Spy.23
 				}
 			}
 		}

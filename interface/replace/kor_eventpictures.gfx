@@ -304,6 +304,14 @@ spriteTypes = {
 		name = "GFX_대잠헬기"
 		texturefile = "gfx/event_pictures/대잠헬기.png"
 	}
+	spriteType = {
+		name = "GFX_경찰"
+		texturefile = "gfx/event_pictures/경찰.png"
+	}
+	spriteType = {
+		name = "GFX_천마호"
+		texturefile = "gfx/event_pictures/천마.png"
+	}
 	
 	spriteType = {
 		name = "GFX_UN"

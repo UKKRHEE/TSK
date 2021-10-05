@@ -763,3 +763,24 @@ country_event = { #지령하달
 		set_country_flag = prk_Operation_commencement
 	}
 }
+
+
+#간첩색출 실패
+country_event = {
+	id = Spy.23
+	title = Spy.23.t
+	desc = Spy.23.d
+	picture = GFX_report_event_hitler_parade
+	
+	fire_only_once = no
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}	
+
+	option = { #우리는 모르는일이다!
+		name = Spy.23.a
+	}
+}
