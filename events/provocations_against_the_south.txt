@@ -10,7 +10,8 @@ country_event = { #성공적인 포격도발
 	
 	option = {
 		name = PRK_prov.1.a
-		army_experience = 5
+		army_experience = 10
+		add_political_power = 75
     }	
 }
 
@@ -24,7 +25,8 @@ country_event = { #성공적인 NLL침투
 	
 	option = {
 		name = PRK_prov.2.a
-		navy_experience = 5
+		navy_experience = 10
+		add_political_power = 25
     }	
 }
 
@@ -38,7 +40,8 @@ country_event = { #성공적인 항공기도발
 	
 	option = {
 		name = PRK_prov.3.a
-		air_experience = 5
+		air_experience = 10
+		add_political_power = 25
     }	
 }
 
@@ -54,6 +57,7 @@ country_event = { #포격도발에 반격당함!
 		name = PRK_prov.1.a
 		army_experience = -10
 		add_manpower = -100
+		add_political_power = -100
     }	
 }
 
@@ -69,6 +73,7 @@ country_event = { #NLL침투에 반격당함!
 		name = PRK_prov.5.a
 		navy_experience = -10
 		add_manpower = -50
+		add_political_power = -25
     }	
 }
 
@@ -83,6 +88,7 @@ country_event = { #항공기도발에 반격당함!
 	option = {
 		name = PRK_prov.6.a
 		air_experience = -10
+		add_political_power = -25
     }	
 }
 
@@ -98,6 +104,7 @@ country_event = { #북한의 도발에 성공적으로 대응함!
 		name = PRK_prov.7.a
 		add_political_power = 25
 		add_war_support = 0.02
+		add_stability = 0.05
     }	
 }
 
@@ -130,5 +137,20 @@ country_event = { #국지전에서 패배하다
 		add_political_power = 5
 		add_war_support = 0.05
 		army_experience = 5
+    }	
+}
+
+country_event = { #국지전에서 패배하다 (남한)
+	id = PRK_prov.10
+	title = PRK_prov.10.t
+	desc = PRK_prov.10.d
+	picture = GFX_two_peo_pic
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PRK_prov.10.a
+		add_political_power = -150
+		army_experience = 40
     }	
 }

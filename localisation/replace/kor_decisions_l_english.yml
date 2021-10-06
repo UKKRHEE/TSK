@@ -164,3 +164,10 @@
  PRK_food_cris_cat:0 "식량난 위기"
  PRK_food_cris_cat_desc:0 "모든 수단과 방법을 동원하였어도, 결국 식량난이 닥쳐오고 있습니다. 사회주의의 가장 중요한 부분 중 하나인 배급제가 철폐되면, 인민들의 삶의 질이 나락으로 쳐박힐 것입니다.\n\n그 전에 우리는 이 문제를 어떻게든 해결해야 합니다."
  food_cris_lvl_up:0 "식량위기 강화"
+ 
+ shelling_of_the_DMZ:0 "휴전선 포격도발"
+ NLL_infiltration:0 "NLL침투"
+ aircraft_provocation:0 "방공식별구역 도발"
+ shelling_of_the_DMZ_1:0 "휴전선 포격도발"
+ NLL_infiltration_1:0 "NLL침투"
+ aircraft_provocation_1:0 "방공식별구역 도발"
