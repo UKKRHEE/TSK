@@ -821,9 +821,9 @@ country_event = { #항복
 	option = {
 		name = korea.16.a
 		PRK = {
-			set_state_owner  = 525
-			set_state_owner  = 810
-			set_state_owner  = 807
+			transfer_state  = 525
+			transfer_state  = 810
+			transfer_state  = 807
 		}
 		ROK = { 
 			country_event = {

@@ -226,10 +226,12 @@ country_event = {
 		white_peace = PRK
 		}
 		if = {
+			limit = {
 			PRK = {
 				controls_state = 809
 				controls_state = 817
 				controls_state = 808
+			}
 			}
 			transfer_state = 808
 			transfer_state = 817
