@@ -25,6 +25,7 @@ add_offsite_building = {
 	level = 45
 }
 
+country_lock_all_division_template = yes
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
