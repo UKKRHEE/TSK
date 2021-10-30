@@ -171,5 +171,29 @@ leader_traits = {
 		stability_factor = 0.15
 		war_support_factor = 0.5
 	}
+	trait_PRK_kim_yong_nam = {
+		sprite = 12
+		political_power_factor = 0.1
+		production_speed_arms_factory_factor = 0.05
+		conscription_factor = 0.05
+	}
+	trait_PRK_kim_doo_bong = {
+		sprite = 12
+		war_support_weekly = 0.001
+		army_core_attack_factor = 0.05
+		
+	}
+	trait_PRK_choe_yung_lim = {
+		sprite = 12
+		stability_factor = 0.05
+		consumer_goods_factor = -0.05
+		production_speed_industrial_complex_factor = 0.05
+	}
+	trait_PRK_yeo_un_hyeong = {
+		sprite = 12
+		political_power_factor = 0.1
+		stability_factor = 0.1
+		trade_opinion_factor = 0.5
+	}
 
 }

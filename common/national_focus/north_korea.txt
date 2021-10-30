@@ -4,7 +4,10 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = PRK
+			OR = {
+				tag = PRK
+				tag = PR1
+			}
 		}
 	}
 	continuous_focus_position = { x = -40 y = 2300 }
@@ -359,19 +362,19 @@ focus_tree = {
 					hidden_effect = {
 						add_building_construction = {
 							type = bunker
-							level = 3
+							level = 1
 							province = 11958
 							instant_build = yes
 						}
 						add_building_construction = {
 							type = bunker
-							level = 3
+							level = 1
 							province = 4004
 							instant_build = yes
 						}
 						add_building_construction = {
 							type = bunker
-							level = 3
+							level = 1
 							province = 9981
 							instant_build = yes
 						}
@@ -382,10 +385,11 @@ focus_tree = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					
+					custom_effect_tooltip = prk_troop_strength_1
 					hidden_effect = {
 						add_building_construction = {
 							type = bunker
-							level = 3
+							level = 1
 							province = 12040
 							instant_build = yes
 						}
@@ -535,6 +539,9 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = prk_Marxism_Leninism
+		}
+		available = {
+			has_idea = yeo_un
 		}
 		x = 28
 		y = 8
@@ -927,6 +934,24 @@ focus_tree = {
 		}
 		x = 27
 		y = 12
+		completion_reward = {
+			custom_effect_tooltip = End_of_the_power
+			if = {
+				limit = {
+					has_idea = coup_threat
+				}
+				swap_ideas = {
+					add_idea = coup_threat_1
+					remove_idea = coup_threat
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = coup_threat_1
+				}
+				remove_ideas = coup_threat_1
+			}
+		}
 
 	} 
 	focus = { #제1차 사민당대회 (정치력 +100)
@@ -938,6 +963,9 @@ focus_tree = {
 		}
 		x = 29
 		y = 12
+		completion_reward = {
+			add_political_power = 100
+		}
 
 	}
 	focus = { #여운형동지를 추대 ('여운형'이 국가지도자가 됨)
@@ -952,6 +980,18 @@ focus_tree = {
 		}
 		x = 28
 		y = 13
+		completion_reward = {
+			
+				create_country_leader = {
+					name = "Yeo Un Hyeong"
+					desc = ""
+					picture = "Yeo_Un_Hyeong.png"
+					expire = "1965.1.1"
+					ideology = marxism
+					traits = {
+					}
+				}
+		}
 
 	}
 	focus = { #남조선과 접촉하다 (남한에 '북한이 접촉해오다' 이벤트발생)
@@ -963,6 +1003,44 @@ focus_tree = {
 		}
 		x = 28
 		y = 14
+		completion_reward = {
+			if = {
+				limit = {
+					MKR = {
+						exists = yes
+					}
+				}
+				MKR = {
+					country_event = {
+						id = korea.30
+					}
+				}
+			}
+			if = {
+				limit = {
+					ROK = {
+						exists = yes
+					}
+				}
+				ROK = {
+					country_event = {
+						id = korea.30
+					}
+				}
+			}
+			if = {
+				limit = {
+					KR1 = {
+						exists = yes
+					}
+				}
+				KR1 = {
+					country_event = {
+						id = korea.30
+					}
+				}
+			}
+		}	
 
 	}
 	focus = { #여운형의 방한 (남한에 '여운형의 방한' 이벤트발생 월드뉴스로 '새로운 길을걸어가는 한반도'뉴스발생)
@@ -974,6 +1052,49 @@ focus_tree = {
 		}
 		x = 28
 		y = 15
+		completion_reward = {
+			
+			if = {
+				limit = {
+					MKR = {
+						exists = yes
+					}
+				}
+				MKR = {
+					country_event = {
+						id = korea.31
+					}
+				}
+			}
+			if = {
+				limit = {
+					ROK = {
+						exists = yes
+					}
+				}
+				ROK = {
+					country_event = {
+						id = korea.31
+					}
+				}
+			}
+			if = {
+				limit = {
+					KR1 = {
+						exists = yes
+					}
+				}
+				KR1 = {
+					country_event = {
+						id = korea.31
+					}
+				}
+			}
+			news_event = {
+				id = kor_news.33
+				hours = 4
+			}
+		}
 
 	}
 	focus = { #전투농업 ('식량난' 국민정신 패널티감소)
@@ -988,6 +1109,41 @@ focus_tree = {
 		}
 		x = 30
 		y = 1
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = KOR_food_4
+				}
+				swap_ideas = {
+					add_idea = KOR_food_3
+					remove_idea = KOR_food_4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = KOR_food_3
+				}
+				swap_ideas = {
+					add_idea = KOR_food_2
+					remove_idea = KOR_food_3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = KOR_food_2
+				}
+				swap_ideas = {
+					add_idea = KOR_food_1
+					remove_idea = KOR_food_2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = KOR_food_1
+				}
+				remove_ideas = KOR_food_1
+			}
+		}	
 
 	}
 	focus = { #산지개발정책 (기반시설 +2)
@@ -1018,6 +1174,44 @@ focus_tree = {
 		
 		x = 30
 		y = 15
+		completion_reward = {
+			if = {
+				limit = {
+					KR1 = {
+						exists = yes
+					}
+				}
+				
+				add_opinion_modifier = {
+					target = KR1
+					modifier = PRK_south
+				}
+			}
+			if = {
+				limit = {
+					MKR = {
+						exists = yes
+					}
+				}
+				
+				add_opinion_modifier = {
+					target = MKR
+					modifier = PRK_south
+				}
+			}
+			if = {
+				limit = {
+					ROK = {
+						exists = yes
+					}
+				}
+				
+				add_opinion_modifier = {
+					target = ROK
+					modifier = PRK_south
+				}
+			}
+		}
 
 	}
 	focus = { #군사,경제적 협력조약 ('남-북 합동군사훈련' 디시전 활성화)
@@ -1045,6 +1239,42 @@ focus_tree = {
 		}
 		x = 29
 		y = 16
+		completion_reward = {
+				811 = {
+					custom_effect_tooltip = Remove_the_line
+					hidden_effect = {
+						remove_building = {
+							type = bunker
+							level = 8
+							province = 12040
+							instant_build = yes
+						}
+					}
+				}	
+				814 = {
+					custom_effect_tooltip = Remove_the_line
+					hidden_effect = {
+						remove_building = {
+							type = bunker
+							level = 8
+							province = 9981
+							instant_build = yes
+						}
+						remove_building = {
+							type = bunker
+							level = 8
+							province = 4004
+							instant_build = yes
+						}
+						remove_building = {
+							type = bunker
+							level = 8
+							province = 11958
+							instant_build = yes
+						}
+					}
+				}	
+		}
 	}
 	focus = { #신 농업정책 ('식량난' 패널티 감소)
 		id = prk_New_Agricultural_Policy
@@ -1060,6 +1290,42 @@ focus_tree = {
 		}
 		x = 31
 		y = 2
+		completion_reward = {
+			
+			if = {
+				limit = {
+					has_idea = KOR_food_4
+				}
+				swap_ideas = {
+					add_idea = KOR_food_3
+					remove_idea = KOR_food_4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = KOR_food_3
+				}
+				swap_ideas = {
+					add_idea = KOR_food_2
+					remove_idea = KOR_food_3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = KOR_food_2
+				}
+				swap_ideas = {
+					add_idea = KOR_food_1
+					remove_idea = KOR_food_2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = KOR_food_1
+				}
+				remove_ideas = KOR_food_1
+			}
+		}
 
 	}
 	focus = { #개성공업단지 (민공 +3)
@@ -2101,10 +2367,13 @@ focus_tree = {
 		}
 		x = 5
 		y = 8
+		completion_reward = {
+			
+		}	
 
 	}
 	focus = { #휴전선 병력 철수? (서울,경기,강원도 비무장지대화/북한은 강원도북쪽,황해도 비무장지대화)
-		id = prk_Withdrawal_from_the_border?
+		id = prk_Withdrawal_from_the_border
 		icon = align_to_south_korea
 		cost = 8.00
 		prerequisite = {
@@ -2112,6 +2381,9 @@ focus_tree = {
 		}
 		x = 3
 		y = 8
+		completion_reward = {
+			
+		}	
 
 	}
 	focus = { #한반도의 2국가 (효과미정)
@@ -2122,7 +2394,7 @@ focus_tree = {
 			focus = prk_a_promise_to_cease_hostilities
 		}
 		prerequisite = {
-			focus = prk_Withdrawal_from_the_border?
+			focus = prk_Withdrawal_from_the_border
 		}
 		x = 4
 		y = 9
@@ -2265,6 +2537,45 @@ focus_tree = {
 		}
 		x = 27
 		y = 16
+		completion_reward = {
+			custom_effect_tooltip = IF_LINE_ACCEPTE
+			if = {
+				limit = {
+					MKR = {
+						exists = yes
+					}
+				}
+				MKR = {
+					country_event = {
+						id = korea.32
+					}
+				}
+			}
+			if = {
+				limit = {
+					ROK = {
+						exists = yes
+					}
+				}
+				ROK = {
+					country_event = {
+						id = korea.32
+					}
+				}
+			}
+			if = {
+				limit = {
+					KR1 = {
+						exists = yes
+					}
+				}
+				KR1 = {
+					country_event = {
+						id = korea.32
+					}
+				}
+			}
+		}
 
 	}
 	focus = { #고려연방제 제안 (남한에 이벤트발생 '북한의 고려연방제 제안')
@@ -2279,6 +2590,44 @@ focus_tree = {
 		}
 		x = 28
 		y = 17
+		completion_reward = {
+			if = {
+				limit = {
+					MKR = {
+						exists = yes
+					}
+				}
+				MKR = {
+					country_event = {
+						id = korea.33
+					}
+				}
+			}
+			if = {
+				limit = {
+					ROK = {
+						exists = yes
+					}
+				}
+				ROK = {
+					country_event = {
+						id = korea.33
+					}
+				}
+			}
+			if = {
+				limit = {
+					KR1 = {
+						exists = yes
+					}
+				}
+				KR1 = {
+					country_event = {
+						id = korea.33
+					}
+				}
+			}
+		}
 
 	}
 	focus = { #새로운 질서 (정치력 +150)

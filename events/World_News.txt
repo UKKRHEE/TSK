@@ -1251,3 +1251,38 @@ news_event = {
         trigger = { TAG = ROK }
     }
 }
+news_event = {
+    id = kor_news.33
+    title = kor_news.33.t
+    desc = kor_news.33.desc
+    picture = GFX_부산함락
+    
+    major = yes
+    
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+    
+    option = {
+        name = kor_news.32.a
+        trigger = {
+            NOT = {
+                TAG = PRK
+                TAG = MKR
+                TAG = ROK
+            }
+        }
+    }
+    option = {
+        name = kor_news.32.b
+        trigger = { TAG = PRK }
+    }
+    option = {
+        name = kor_news.32.c
+        trigger = { TAG = MKR }
+    }
+    option = {
+        name = kor_news.32.c
+        trigger = { TAG = ROK }
+    }
+}

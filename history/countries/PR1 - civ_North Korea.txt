@@ -17,7 +17,13 @@ add_ideas = {
 set_stability = 0.2
 set_war_support = 0.4
 set_convoys = 150
-
+complete_national_focus = prk_collect_intel
+complete_national_focus = prk_the_return_of_independence_fighters
+complete_national_focus = prk_national_stability
+complete_national_focus = prk_The_Future_of_Joseon
+complete_national_focus = prk_Juche_Idea
+complete_national_focus = prk_Communistic_Unification
+complete_national_focus = prk_Chollima_Movement
 # Starting tech
 set_technology = {
 	mtg_transport = 1

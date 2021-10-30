@@ -691,3 +691,15 @@ TAI_republic = {
 	color = rgb { 18 7 116 }
 	color_ui = rgb { 18 7 116 }
 }
+PRK_GORYEO = {
+	color = rgb { 201 36 140 }
+	color_ui = rgb { 201 36 140 }
+}
+PRK_GORYEO_NORTH = {
+	color = rgb { 201 36 140 }
+	color_ui = rgb { 201 36 140 }
+}
+KOR_GORYEO_SOUTH = {
+	color = rgb { 201 36 140 }
+	color_ui = rgb { 201 36 140 }
+}

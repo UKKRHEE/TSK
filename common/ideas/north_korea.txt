@@ -494,7 +494,7 @@ ideas = {
 				original_tag = PRK
 			}
 			
-			traits = { }
+			traits = { trait_PRK_kim_yong_nam }
 		}
 		
 		choe_yung = { #최영림 (국가계획위원장)
@@ -504,7 +504,7 @@ ideas = {
 				original_tag = PRK
 			}
 			
-			traits = { }
+			traits = { trait_PRK_choe_yung_lim }
 
 			ai_will_do = {
 				factor = 0
@@ -517,7 +517,7 @@ ideas = {
 				original_tag = PRK
 			}
 
-			traits = { }
+			traits = { war_industrialist }
 
 			ai_will_do = {
 				factor = 0.5
@@ -531,7 +531,7 @@ ideas = {
 				original_tag = PRK
 			}
 			
-			traits = { }
+			traits = { trait_PRK_kim_doo_bong  }
 		}
 		
 		park_hun = { #박헌영
@@ -545,7 +545,7 @@ ideas = {
 				has_completed_focus = prk_Marxism_Leninism
 			}
 			
-			traits = { }
+			traits = { communist_revolutionary }
 			ai_will_do = {
 				factor = 2
 			}
@@ -562,7 +562,7 @@ ideas = {
 				has_completed_focus = prk_Marxism_Leninism
 			}
 			
-			traits = { }
+			traits = { silent_workhorse captain_of_industry }
 			ai_will_do = {
 				factor = 2
 			}
@@ -575,7 +575,7 @@ ideas = {
 				original_tag = PRK
 			}
 			
-			traits = { }
+			traits = { trait_PRK_yeo_un_hyeong smooth_talking_charmer }
 
 			ai_will_do = {
 				factor = 1

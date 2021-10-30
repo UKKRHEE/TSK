@@ -1101,3 +1101,139 @@ country_event = { #군정이 ai고 승리시 군대복구
 		load_oob = ROK_reverse
     }	
 }
+country_event = { #북한이 접촉해오다
+	id = korea.30
+	title = korea.30.t
+	desc = korea.30.d
+	picture = GFX_aa
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = korea.30.a
+		add_stability = 0.05
+		add_war_support = -0.01
+		PRK = {
+			add_stability = 0.05
+			add_war_support = -0.01
+		}
+    }	
+}
+country_event = { #북한이 접촉해오다
+	id = korea.31
+	title = korea.31.t
+	desc = korea.31.d
+	picture = GFX_aa
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = korea.31.a
+		add_stability = 0.05
+		add_war_support = -0.01
+		PRK = {
+			add_stability = 0.05
+			add_war_support = -0.01
+		}
+    }	
+}
+country_event = { #북한이 접촉해오다
+	id = korea.32
+	title = korea.32.t
+	desc = korea.32.d
+	picture = GFX_aa
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = korea.32.a
+		
+				525 = {
+					custom_effect_tooltip = Remove_the_line_KOR
+					hidden_effect = {
+						remove_building = {
+							type = bunker
+							level = 8
+							province = 13240
+							instant_build = yes
+						}
+						remove_building = {
+							type = bunker
+							level = 8
+							province = 13239
+							instant_build = yes
+						}
+					}
+				}	
+				810 = {
+					custom_effect_tooltip = Remove_the_line_KOR
+					hidden_effect = {
+						remove_building = {
+							type = bunker
+							level = 8
+							province = 1148
+							instant_build = yes
+						}
+						remove_building = {
+							type = bunker
+							level = 8
+							province = 13238
+							instant_build = yes
+						}
+					}
+				}	
+    }	
+}
+country_event = { #고려연방제
+	id = korea.33
+	title = korea.33.t
+	desc = korea.33.d
+	picture = GFX_aa
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = korea.33.a
+		ai_chance = {
+			factor = 50
+		}	
+		PRK = {
+			annex_country = {
+				target = ROOT
+				transfer_troops = yes
+			}
+			set_cosmetic_tag = PRK_GORYEO
+		}
+    }	
+	option = {
+		name = korea.33.c
+		ai_chance = {
+			factor = 45
+		}	
+		PRK = {
+			puppet = ROOT
+			set_cosmetic_tag = PRK_GORYEO_NORTH
+		}
+		set_cosmetic_tag = KOR_GORYEO_SOUTH
+    }	
+	option = {
+		ai_chance = {
+			factor = 5
+		}	
+		name = korea.33.b
+		PRK = {
+			create_wargoal = {
+				target = ROOT
+				type = annex_everything
+			}
+		} 
+    }	
+}

@@ -177,7 +177,7 @@
  #중점설명
  
  prk_collect_intel_desc:0 "정보수집"
- prk_Chollima_Movement_desc:0 "천리마운동 재개"
+ prk_Chollima_Movement_desc:0 ""천리마운동은 사회주의 건설의 총노선이다"\n\n시간여행의 혼란으로 중단된 천리마 운동을 보수주의를 타파하고 새로운 조선과 새로운 인민을 위해 다시 시작할 것입니다."
  prk_KPA_desc:0 "조선인민군"
  prk_the_return_of_independence_fighters_desc:0 "독립운동가들의 귀국"
  prk_national_stability_desc:0 "국가 안정"
@@ -195,7 +195,7 @@
  prk_troop_strength_desc:0 "휴전선 병력강화"
  prk_orthodox_socialism_desc:0 "정통 사회주의"
  prk_orthodox_independence_activists_desc:0 "정통파 독립운동가들"
- prk_Young_Officer_Recruitment_desc:0 "젋은 장교단 섭외"
+ prk_Young_Officer_Recruitment_desc:0 "젊은 장교단 섭외"
  prk_Purge_Evasion_desc:0 "숙청회피"
  prk_Pyongyang_Defense_Command_Appointment_desc:0 "평양방위사령부 섭외"
  prk_dice_throw_desc:0 "주사위 던지기"
