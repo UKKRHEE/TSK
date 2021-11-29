@@ -396,7 +396,7 @@ units = {
 }
 	
 air_wings = {
-	808 = { 
+	836 = { 
 		m_1970_jet_multirole_equipment = {
 			owner = "ROK" 
 			amount = 40
@@ -407,7 +407,7 @@ air_wings = {
 		}
 
 	}
-	809 = { 
+	837 = { 
 		m_1980_jet_multirole_equipment = {
 			owner = "ROK" 
 			amount = 40

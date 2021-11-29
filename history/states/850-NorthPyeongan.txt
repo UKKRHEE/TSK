@@ -1,33 +1,17 @@
 
 state={
-	id=814
-	name="강원북도"
+	id=850
+	name="평안북도"
 
 	history={
 		owner = PRK
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2
-			dockyard = 1
+			infrastructure = 6
 			air_base = 2
-			848 = {
-				naval_base = 3
-
-			}
-			9981 = {
-				bunker = 8
-			}
-			4004 = {
-				bunker = 8
-			}
-			11958 = {
-				bunker = 8
-			}
-
+			fuel_silo = 3
 		}
 		victory_points = {
-			4004 3  #평강
+			11835 20 
 		}
 		add_core_of = PRK
 		add_core_of = KR1
@@ -37,7 +21,7 @@ state={
 			remove_core_of = PRK
 			add_core_of = KPA
 			owner = KPA
-			controller  KPA
+			controller = KPA
 			add_claim_by = KOR
 		}
 		1936.8.15 = {
@@ -48,9 +32,9 @@ state={
 	}
 
 	provinces={
-		848 4004 9981 11958 
+		912 9795 9918 11835 11896 
 	}
-	manpower=851721
+	manpower=2728622
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=metropolis
 }

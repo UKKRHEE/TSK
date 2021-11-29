@@ -464,7 +464,7 @@ PRK_2nd_war = { #초반 2차한국전쟁
 		
 		available = {
 			PRK = {
-				controls_state = 807
+				controls_state = 835
 			}
 			
 		}
@@ -519,7 +519,7 @@ PRK_2nd_war = { #초반 2차한국전쟁
 		available = {
 		
 		PRK = {
-			controls_state = 809
+			controls_state = 837
 		}
 
 		}

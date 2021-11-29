@@ -209,8 +209,8 @@ focus_tree = {
 					}
 				}
 				controls_state = 525
-				controls_state = 807
-				controls_state = 810
+				controls_state = 835
+				controls_state = 838
 			}
 			else_if = {
 				limit = {
@@ -224,8 +224,8 @@ focus_tree = {
 				custom_trigger_tooltip = {
 					tooltip = 91_annex_mkr
 					controls_state = 525
-					controls_state = 807
-					controls_state = 810
+					controls_state = 835
+					controls_state = 838
 				}
 			}
 			else_if = {
@@ -239,17 +239,17 @@ focus_tree = {
 				custom_trigger_tooltip = {
 					tooltip = 91_annex_mkr_and_prk
 					controls_state = 525
-					controls_state = 807
-					controls_state = 810
-					controls_state = 811
-					controls_state = 814
+					controls_state = 835
+					controls_state = 838
+					controls_state = 839
+					controls_state = 842
 					controls_state = 527
-					controls_state = 818
-					controls_state = 812
-					controls_state = 815
-					controls_state = 822
-					controls_state = 816
-					controls_state = 820
+					controls_state = 846
+					controls_state = 840
+					controls_state = 843
+					controls_state = 850
+					controls_state = 844
+					controls_state = 848
 				}
 			}
 			else_if = {
@@ -262,17 +262,17 @@ focus_tree = {
 				custom_trigger_tooltip = {
 					tooltip = 91_annex_prk
 					controls_state = 525
-					controls_state = 807
-					controls_state = 810
-					controls_state = 811
-					controls_state = 814
+					controls_state = 835
+					controls_state = 838
+					controls_state = 839
+					controls_state = 842
 					controls_state = 527
-					controls_state = 818
-					controls_state = 812
-					controls_state = 815
-					controls_state = 822
-					controls_state = 816
-					controls_state = 820
+					controls_state = 846
+					controls_state = 840
+					controls_state = 843
+					controls_state = 850
+					controls_state = 844
+					controls_state = 848
 				}
 			}
 			else_if = {
@@ -289,8 +289,8 @@ focus_tree = {
 				custom_trigger_tooltip = {
 					tooltip = 91_control_mkr
 					controls_state = 525
-					controls_state = 807
-					controls_state = 810
+					controls_state = 835
+					controls_state = 838
 				}
 			}
 		}	

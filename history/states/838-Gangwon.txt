@@ -1,6 +1,6 @@
 
 state={
-	id=810
+	id=838
 	name="강원도"
 	resources={
 		steel=40.000

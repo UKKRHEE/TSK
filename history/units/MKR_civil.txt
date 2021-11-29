@@ -448,7 +448,7 @@ units = {
 }
 	
 air_wings = {
-	810 = { 
+	838 = { 
 		m_1970_jet_fighter_equipment = {
 			owner = "MKR" 
 			amount = 40

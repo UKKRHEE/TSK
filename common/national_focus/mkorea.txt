@@ -869,7 +869,7 @@ focus_tree = {
 						}
 					}
 				}
-				817 = {
+				845 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
 
@@ -965,7 +965,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = MKR_East_Coast_Highway
 			hidden_effect = {
-				810 = {
+				838 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
 						add_building_construction = {
@@ -975,7 +975,7 @@ focus_tree = {
 						}
 					}
 				}
-				809 = {
+				837 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
 
@@ -1218,7 +1218,7 @@ focus_tree = {
 			focus = MKR_Sixth_Economic_Development_Plan
 		}
 		completion_reward = {
-			809 = {
+			837 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {

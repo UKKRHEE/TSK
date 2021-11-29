@@ -710,7 +710,7 @@ units = {
 }
 
 air_wings = {
-	808 = { 
+	836 = { 
 		m_1970_jet_multirole_equipment = {
 			owner = "KR1" 
 			amount = 20
@@ -722,7 +722,7 @@ air_wings = {
 		}
 
 	}
-	810 = { 
+	838 = { 
 		m_1970_jet_fighter_equipment = {
 			owner = "KR1" 
 			amount = 20
@@ -754,7 +754,7 @@ air_wings = {
 			amount = 40
 		}
 	}
-	809 = { 
+	837 = { 
 		m_1980_jet_multirole_equipment = {
 			owner = "KR1" 
 			amount = 20
@@ -764,7 +764,7 @@ air_wings = {
 			amount = 20
 		}
 	}
-	817 = { 
+	845 = { 
 		m_1990_jet_multirole_equipment = {
 			owner = "KR1" 
 			amount = 30

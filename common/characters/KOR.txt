@@ -1,0 +1,17 @@
+characters={
+	KOR_kim_hui_sun={
+		name=KOR_kim_hui_sun
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/Portrait_KOR_kim_hui_sun.png"
+			}
+		}
+		country_leader={
+			desc = "KIM_HUI_SUN_DESC"
+			ideology=liberalism
+			traits={ the_democratist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}	

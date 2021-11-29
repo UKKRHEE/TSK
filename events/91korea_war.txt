@@ -165,13 +165,13 @@ country_event = { #받아들이다
 		ai_chance = { base = 100 }
 		ROK = {
 			    transfer_state = 525
-			    transfer_state = 807
-			    transfer_state = 810
-			    transfer_state = 817
+			    transfer_state = 835
+			    transfer_state = 838
+			    transfer_state = 845
 			    set_state_owner  = 525
-			    set_state_owner  = 807
-			    set_state_owner  = 810
-			    set_state_owner  = 817
+			    set_state_owner  = 835
+			    set_state_owner  = 838
+			    set_state_owner  = 845
 				set_country_flag = ROK_win_civ
 		}
 	}	
@@ -228,14 +228,14 @@ country_event = {
 		if = {
 			limit = {
 			PRK = {
-				controls_state = 809
-				controls_state = 817
-				controls_state = 808
+				controls_state = 837
+				controls_state = 845
+				controls_state = 836
 			}
 			}
-			transfer_state = 808
-			transfer_state = 817
-			transfer_state = 809
+			transfer_state = 836
+			transfer_state = 845
+			transfer_state = 837
 		}
 	}	
 	
@@ -280,8 +280,8 @@ country_event = {
 		ai_chance = { base = 60 }
 		ROK = {
 		white_peace = PRK
-		transfer_state = 810
-		transfer_state = 807
+		transfer_state = 838
+		transfer_state = 835
 		transfer_state = 525
 		}
 	}
@@ -303,9 +303,9 @@ country_event = {
 		ai_chance = { base = 60 }
 		PRK = {
 			white_peace = ROK
-			transfer_state = 809
-			transfer_state = 817
-			transfer_state = 808
+			transfer_state = 837
+			transfer_state = 845
+			transfer_state = 836
 			
 		}
 		if = {
@@ -365,9 +365,9 @@ country_event = {
 		set_country_flag = fall_of_busan_MKR_1
 		MKR = {
 			white_peace = ROK
-			transfer_state = 809
-			transfer_state = 808
-			transfer_state = 817
+			transfer_state = 837
+			transfer_state = 836
+			transfer_state = 845
 		}
 	}
 }

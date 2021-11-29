@@ -239,8 +239,8 @@ country_event = { #남한이 수락하다
 		name = PRK.9.a
 		random_other_country = {
 			limit = {
-				owns_state = 807
-				controls_state = 807 
+				owns_state = 835
+				controls_state = 835 
 			}
 			effect_tooltip = {
 			diplomatic_relation = { country = ROOT relation = non_aggression_pact }
@@ -384,31 +384,31 @@ country_event = { #김정일이 쿠데타를 눈치채다!!
 				}	
 				PRK = { 
 					delete_unit = { 
-						state = 811             
+						state = 839             
 					}
 					delete_unit = { 
-						state = 814             
+						state = 842             
 					}
 					delete_unit = { 
 						state = 527             
 					}
 					delete_unit = { 
-						state = 818             
+						state = 846             
 					}
 					delete_unit = { 
-						state = 812             
+						state = 840             
 					}
 					delete_unit = { 
-						state = 822             
+						state = 850             
 					}
 					delete_unit = { 
-						state = 816             
+						state = 844             
 					}	
 					delete_unit = { 
-						state = 815             
+						state = 843             
 					}
 					delete_unit = { 
-						state = 820             
+						state = 848             
 					}
 				}
 				remove_unit_leader = 9982 
@@ -426,25 +426,25 @@ country_event = { #김정일이 쿠데타를 눈치채다!!
 				
 			}	
 			PR1 = {
-			    transfer_state = 818
-			    transfer_state = 811
-			    transfer_state = 814
+			    transfer_state = 846
+			    transfer_state = 839
+			    transfer_state = 842
 			    transfer_state = 527
-				transfer_state = 822
-			    set_state_owner  = 818
-			    set_state_owner  = 811
-			    set_state_owner  = 814
+				transfer_state = 850
+			    set_state_owner  = 846
+			    set_state_owner  = 839
+			    set_state_owner  = 842
 				set_state_owner  = 527
-				set_state_owner  = 822
-			    add_state_core  = 818
-			    add_state_core  = 811
-			    add_state_core  = 814
+				set_state_owner  = 850
+			    add_state_core  = 846
+			    add_state_core  = 839
+			    add_state_core  = 842
 			    add_state_core  = 527
-			    add_state_core  = 822
-			    add_state_core  = 812
-			    add_state_core  = 816
-				add_state_core  = 815
-				add_state_core  = 820
+			    add_state_core  = 850
+			    add_state_core  = 840
+			    add_state_core  = 844
+				add_state_core  = 843
+				add_state_core  = 848
 			}	
 			hidden_effect = { #
 				PRK = {
@@ -1212,14 +1212,14 @@ country_event = {
 		start_border_war = {
 			change_state_after_war = no
 			attacker = {
-				state = 814
+				state = 842
 				num_provinces = 4
 				on_win = PRK_prov.8
 				on_lose = PRK_prov.9
 				on_cancel = japan_border_conflict.4
 			}
 			defender = {
-				state = 810
+				state = 838
 				num_provinces = 4
 				on_win = PRK_prov.8
 				on_lose = PRK_prov.10
@@ -1284,36 +1284,36 @@ country_event = { #수도이전
 	option = {
 		name = PRK.32.a
 		PRK = {
-			set_capital = 807
+			set_capital = 835
 		}
 		set_country_flag = communism_uniform
 		hidden_effect = {
 			MKR = {
 				remove_state_core = 525
-				remove_state_core = 810
-				remove_state_core = 817
-				remove_state_core = 807
-				remove_state_core = 809
-				remove_state_core = 808
-				remove_state_core = 813
+				remove_state_core = 838
+				remove_state_core = 845
+				remove_state_core = 835
+				remove_state_core = 837
+				remove_state_core = 836
+				remove_state_core = 841
 			}
 			ROK = {
 				remove_state_core = 525
-				remove_state_core = 810
-				remove_state_core = 817
-				remove_state_core = 807
-				remove_state_core = 809
-				remove_state_core = 808
-				remove_state_core = 813
+				remove_state_core = 838
+				remove_state_core = 845
+				remove_state_core = 835
+				remove_state_core = 837
+				remove_state_core = 836
+				remove_state_core = 841
 			}
 			KOR = {
 				remove_state_core = 525
-				remove_state_core = 810
-				remove_state_core = 817
-				remove_state_core = 807
-				remove_state_core = 809
-				remove_state_core = 808
-				remove_state_core = 813
+				remove_state_core = 838
+				remove_state_core = 845
+				remove_state_core = 835
+				remove_state_core = 837
+				remove_state_core = 836
+				remove_state_core = 841
 			}
 		}
 	}
@@ -1321,36 +1321,36 @@ country_event = { #수도이전
 	option = {
 		name = PRK.32.b
 		PRK = {
-			set_capital = 811
+			set_capital = 839
 		}
 		set_country_flag = communism_uniform
 		hidden_effect = {
 			MKR = {
 				remove_state_core = 525
-				remove_state_core = 810
-				remove_state_core = 817
-				remove_state_core = 807
-				remove_state_core = 809
-				remove_state_core = 808
-				remove_state_core = 813
+				remove_state_core = 838
+				remove_state_core = 845
+				remove_state_core = 835
+				remove_state_core = 837
+				remove_state_core = 836
+				remove_state_core = 841
 			}
 			ROK = {
 				remove_state_core = 525
-				remove_state_core = 810
-				remove_state_core = 817
-				remove_state_core = 807
-				remove_state_core = 809
-				remove_state_core = 808
-				remove_state_core = 813
+				remove_state_core = 838
+				remove_state_core = 845
+				remove_state_core = 835
+				remove_state_core = 837
+				remove_state_core = 836
+				remove_state_core = 841
 			}
 			KOR = {
 				remove_state_core = 525
-				remove_state_core = 810
-				remove_state_core = 817
-				remove_state_core = 807
-				remove_state_core = 809
-				remove_state_core = 808
-				remove_state_core = 813
+				remove_state_core = 838
+				remove_state_core = 845
+				remove_state_core = 835
+				remove_state_core = 837
+				remove_state_core = 836
+				remove_state_core = 841
 			}
 		}
 	}
@@ -1361,30 +1361,30 @@ country_event = { #수도이전
 		hidden_effect = { 
 			MKR = {
 				remove_state_core = 525
-				remove_state_core = 810
-				remove_state_core = 817
-				remove_state_core = 807
-				remove_state_core = 809
-				remove_state_core = 808
-				remove_state_core = 813
+				remove_state_core = 838
+				remove_state_core = 845
+				remove_state_core = 835
+				remove_state_core = 837
+				remove_state_core = 836
+				remove_state_core = 841
 			}
 			ROK = {
 				remove_state_core = 525
-				remove_state_core = 810
-				remove_state_core = 817
-				remove_state_core = 807
-				remove_state_core = 809
-				remove_state_core = 808
-				remove_state_core = 813
+				remove_state_core = 838
+				remove_state_core = 845
+				remove_state_core = 835
+				remove_state_core = 837
+				remove_state_core = 836
+				remove_state_core = 841
 			}
 			KOR = {
 				remove_state_core = 525
-				remove_state_core = 810
-				remove_state_core = 817
-				remove_state_core = 807
-				remove_state_core = 809
-				remove_state_core = 808
-				remove_state_core = 813
+				remove_state_core = 838
+				remove_state_core = 845
+				remove_state_core = 835
+				remove_state_core = 837
+				remove_state_core = 836
+				remove_state_core = 841
 			}
 		}
 	}

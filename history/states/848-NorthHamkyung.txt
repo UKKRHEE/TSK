@@ -1,6 +1,6 @@
 
 state={
-	id=820
+	id=848
 	name="함경북도"
 
 	history={

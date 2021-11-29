@@ -1,17 +1,31 @@
 
 state={
-	id=822
-	name="평안북도"
+	id=839
+	name="황해도"
 
 	history={
 		owner = PRK
 		buildings = {
 			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
 			air_base = 2
-			fuel_silo = 3
+			12040 = {
+				bunker = 8
+			}
+
 		}
 		victory_points = {
-			11835 20 
+			13243 3 
+		}
+		victory_points = {
+			1003 5 
+		}
+		victory_points = {
+			12040 20 
+		}
+		victory_points = {
+			11915 15 
 		}
 		add_core_of = PRK
 		add_core_of = KR1
@@ -32,9 +46,9 @@ state={
 	}
 
 	provinces={
-		912 9795 9918 11835 11896 
+		1003 4107 7070 7155 11915 12040 13241 13242 13243 
 	}
-	manpower=2728622
+	manpower=2310485
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=city
 }

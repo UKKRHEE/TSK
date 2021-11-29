@@ -84,10 +84,10 @@ TSK_annex_marine = {
 					has_war_with = ROK
 				}
 			}
-			809 = { is_owned_by = ROOT }
-			807 = { is_owned_by = ROOT }
-			807 = { is_controlled_by = ROOT }
-			809 = { is_controlled_by = ROOT }
+			837 = { is_owned_by = ROOT }
+			835 = { is_owned_by = ROOT }
+			835 = { is_controlled_by = ROOT }
+			837 = { is_controlled_by = ROOT }
 		}
 		
 		cost = 0
@@ -128,10 +128,10 @@ TSK_annex_marine = {
 				}
 			}
 			
-			809 = { is_owned_by = ROOT }
-			807 = { is_owned_by = ROOT }
-			807 = { is_controlled_by = ROOT }
-			809 = { is_controlled_by = ROOT }
+			837 = { is_owned_by = ROOT }
+			835 = { is_owned_by = ROOT }
+			835 = { is_controlled_by = ROOT }
+			837 = { is_controlled_by = ROOT }
 		}		
 		ai_will_do = {
 			factor = 1
@@ -152,8 +152,8 @@ TSK_annex_marine = {
 					target = JEJ
 					transfer_toops = yes
 				}
-				add_state_core = 821
-				add_state_core = 813
+				add_state_core = 849
+				add_state_core = 841
 				if = {
 					limit = {
 						has_dlc = "Man the Guns"
@@ -169,19 +169,19 @@ TSK_annex_marine = {
 				load_oob = KR1_1936_naval
 				}
 				JEJ = {
-					remove_state_core = 821
-					remove_state_core = 813
+					remove_state_core = 849
+					remove_state_core = 841
 				}
 			}		
 			if = {
 				limit = {
 					original_tag = PRK
 				}
-				transfer_state = 821
-				transfer_state = 813
+				transfer_state = 849
+				transfer_state = 841
 				JEJ = {
-					remove_state_core = 821
-					remove_state_core = 813
+					remove_state_core = 849
+					remove_state_core = 841
 				}
 				JDF = {
 					country_event = {

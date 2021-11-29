@@ -1560,10 +1560,10 @@ focus_tree = {
 		x = 29
 		y = 3
 		completion_reward = {
-			810 = {
+			838 = {
 			set_state_category = large_town
 			}
-			808 = {
+			836 = {
 			set_state_category = large_city
 			}
 			random_owned_state = {
@@ -1827,7 +1827,7 @@ focus_tree = {
 			focus = ROK_navy_reform
 		}
 		completion_reward = {
-			813 = {
+			841 = {
 				add_building_construction = {
 					type = naval_base
 					level = 3

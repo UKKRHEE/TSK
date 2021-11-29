@@ -1082,7 +1082,7 @@ units = {
 }
 	
 air_wings = {
-	818 = { 
+	846 = { 
 		m_1990_jet_multirole_equipment = {
 			owner = "PRK" 
 			amount = 40
@@ -1108,7 +1108,7 @@ air_wings = {
 			amount = 80
 		}
 	}
-	814 = { 
+	842 = { 
 		m_1980_jet_multirole_equipment = {
 			owner = "PRK" 
 			amount = 50
@@ -1118,7 +1118,7 @@ air_wings = {
 			amount = 30
 		}
 	}
-	811 = { 
+	839 = { 
 		m_1980_jet_multirole_equipment = {
 			owner = "PRK" 
 			amount = 50
@@ -1138,7 +1138,7 @@ air_wings = {
 			amount = 40
 		}
 	}
-	815 = { 
+	843 = { 
 		m_1970_jet_CAS_equipment = {
 			owner = "PRK" 
 			amount = 30

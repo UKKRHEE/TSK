@@ -1,12 +1,7 @@
 
 state={
-	id=812
-	name="함경남도"
-	resources={
-		steel=40.000
-		tungsten=30.000
-		aluminium=2.000
-	}
+	id=842
+	name="강원북도"
 
 	history={
 		owner = PRK
@@ -15,30 +10,27 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 			dockyard = 1
-			fuel_silo = 3
-			steel_mill = 1
-			steel_alloy_ind = 1
-			3981 = {
+			air_base = 2
+			848 = {
 				naval_base = 3
 
 			}
-			air_base = 2
+			9981 = {
+				bunker = 8
+			}
+			4004 = {
+				bunker = 8
+			}
+			11958 = {
+				bunker = 8
+			}
 
 		}
 		victory_points = {
-			3981 20 
+			4004 3  #평강
 		}
-		victory_points = {
-			848 10 
-		}
-		victory_points = {
-			3852 3 
-		}
-		victory_points = {
-			852 1 
-		}
-		add_core_of = KR1
 		add_core_of = PRK
+		add_core_of = KR1
 
 		1936.1.3 = {
 			remove_core_of = KR1
@@ -56,9 +48,9 @@ state={
 	}
 
 	provinces={
-		852 3852 3981 6922 6928 11770 
+		848 4004 9981 11958 
 	}
-	manpower=3080000
+	manpower=851721
 	buildings_max_level_factor=1.000
 	state_category=city
 }

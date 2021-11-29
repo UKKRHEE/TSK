@@ -4,6 +4,20 @@ on_actions = {
         effect = {
 			if = {
 				limit = {
+					OR = {
+						original_tag = KR1
+						original_tag = MKR
+						original_tag = ROK
+						original_tag = PRK
+						original_tag = PR1
+					}
+				}	
+				set_rule = {
+					
+				}
+			}
+			if = {
+				limit = {
 					original_tag = KOR
 					is_ai = no
 					not = {
@@ -50,9 +64,9 @@ on_actions = {
 			if = { #서울 함락
 				limit = {
 					tag = PRK
-					807 = { is_owned_by = MKR }
+					835 = { is_owned_by = MKR }
 					MKR = { has_war_with = PRK }
-					807 = { is_controlled_by = PRK }
+					835 = { is_controlled_by = PRK }
 					NOT = { has_global_flag = fall_of_seoul }
 					ROK = {
 						exists = yes
@@ -68,8 +82,8 @@ on_actions = {
 			if = { #서울 수복
 				limit = {
 					tag = ROK
-					807 = { is_owned_by = PRK }
-					807 = { is_controlled_by = ROK }
+					835 = { is_owned_by = PRK }
+					835 = { is_controlled_by = ROK }
 					ROK = { has_war_with = PRK }
 					NOT = { has_global_flag = return_seoul_ROK }
 					has_global_flag = fall_of_seoul
@@ -86,8 +100,8 @@ on_actions = {
 			}	
 			if = { #부산
 				limit = {
-					809 = { is_controlled_by = PRK }
-					809 = { is_owned_by = ROK }
+					837 = { is_controlled_by = PRK }
+					837 = { is_owned_by = ROK }
 					NOT = { has_global_flag = fall_of_busan_PRK }
 					has_war_with = ROK
 					tag = PRK
@@ -101,8 +115,8 @@ on_actions = {
 			}	
 			if = { #부산(내전)
 				limit = {
-					809 = { is_controlled_by = MKR }
-					809 = { is_owned_by = ROK }
+					837 = { is_controlled_by = MKR }
+					837 = { is_owned_by = ROK }
 					NOT = { has_global_flag = fall_of_busan_MKR_1 }
 					MKR = { has_war_with = ROK }
 					tag = MKR
@@ -119,8 +133,8 @@ on_actions = {
 			}	
 			if = { #부산(북괴)
 				limit = {
-					809 = { is_controlled_by = MKR }
-					809 = { is_owned_by = PRK }
+					837 = { is_controlled_by = MKR }
+					837 = { is_owned_by = PRK }
 					NOT = { has_global_flag = fall_of_busan_MKR_1 }
 					has_war_with = PRK
 					ROK = {
@@ -175,7 +189,7 @@ on_actions = {
 					NOT = {
 						has_country_flag = fall_of_busan_MKR_1
 					}
-					controls_state = 809
+					controls_state = 837
 					ROK = {
 						exists = no
 					}
