@@ -1,4 +1,4 @@
-﻿capital = 807 #South Korea - Seoul or Busan
+﻿capital = 835 #South Korea - Seoul or Busan
 oob = "KOR_1936"
 set_research_slots = 4
 add_offsite_building = {
@@ -349,75 +349,7 @@ set_popularities = {
 	communism = 15
 }
 
-create_country_leader = {
-	name = "Lee Myungbak"
-	desc = ""
-	picture = "gfx/leaders/KOR/MB.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		KOR_lee_myungbak_trait
-	}
-}
-
-create_country_leader = {
-	name = "Yi Won"
-	desc = ""
-	picture = "gfx/leaders/ROK/Portrait_Yi_won.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-		imperial_connections
-	}
-}
-
-create_country_leader = {
-	name = "Lee Seokki"
-	desc = ""
-	picture = "gfx/leaders/KOR/MB.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Park Geunhye"
-	desc = ""
-	picture = "gfx/leaders/KOR/PGH.dds"
-	expire = "1965.1.1"
-	ideology = rexism
-	traits = {
-		#
-	}
-}
-
 ### General & Admiral ###
-
-create_field_marshal = {
-	name = "Lee Myungbak"
-	picture = "MB.dds"
-	id = 2008
-	traits = { }
-	skill = 9
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-
-	create_field_marshal = {
-		name = "Han Min-goo"
-		picture = "HMK.dds"
-		id = 33000
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
 	create_corps_commander = {
 		name = "Jeong Seung-jo"
 		picture = "Jeong_Seung_Jo.png"

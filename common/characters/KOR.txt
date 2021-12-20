@@ -1,17 +1,503 @@
 characters={
-	KOR_kim_hui_sun={
-		name=KOR_kim_hui_sun
+	##국가 지도자##
+	KOR_lee_byungbak={ #이명박(민주)
+		name=KOR_lee_byungbak
 		portraits={
 			civilian={
-				large="gfx/leaders/KOR/Portrait_KOR_kim_hui_sun.png"
+				large="gfx/leaders/KOR/MB.dds"
 			}
 		}
 		country_leader={
-			desc = "KIM_HUI_SUN_DESC"
-			ideology=liberalism
-			traits={ the_democratist }
+			desc = "LEE_MYUNGBAK_DESC"
+			ideology=conservatism
+			traits={ KOR_lee_myungbak_trait }
 			expire="1965.1.1.1"
 			id=-1
+		}
+		field_marshal = {
+			traits = { }
+			skill = 9
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	KOR_yi_won={ #이원(비동맹)
+		name=KOR_yi_won
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/Portrait_Yi_won.dds"
+				small=GFX_idea_yi_won
+			}
+			army = {
+				
+			}
+		}
+		country_leader={
+			desc = "YI_WON_DESC"
+			ideology=oligarchism
+			traits={ imperial_connections }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yi_won
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				has_completed_focus = KOR_MB_middle_won
+				
+			}
+			cost = 100
+			traits = { KOR_yi_trait }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	KOR_lee_seokki={ #리석기(공산)
+		name=KOR_lee_seokki
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/LSK.dds"
+			}
+		}
+		country_leader={
+			desc = "LEE_SEOKKI_DESC"
+			ideology=stalinism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	KOR_park_geunhye={ #박근혜(파시)
+		name=KOR_park_geunhye
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/PGH.dds"
+			}
+		}
+		country_leader={
+			desc = "PARK_GEUNHYE_DESC"
+			ideology=rexism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	##정치고문##
+	KOR_roh_muhyun={ #노무현
+		name=KOR_roh_muhyun
+		portraits={
+			civilian={
+				small=GFX_idea_fkr_advisor_roh_muhyun
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = roh_muhyun
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				has_completed_focus = KOR_MB_roh_advisor
+				
+			}
+			cost = 100
+			traits = { KOR_roh_trait }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	KOR_moon_jaein={ #문재인 #재앙 #나중에 지도자 추가함
+		name=KOR_moon_jaein
+		portraits={
+			civilian={
+				small=GFX_idea_moon_jaein
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = moon_jaein
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				has_completed_focus = KOR_MB_minju_won
+				
+			}
+			cost = 100
+			traits = { KOR_moon_trait }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	KOR_hong_junpyo={ #홍준표
+		name=KOR_hong_junpyo
+		portraits={
+			civilian={
+				small=GFX_idea_hong_junpyo
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = hong_junpyo
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				has_completed_focus = KOR_MB_consorvatism_won
+				
+			}
+			cost = 100
+			traits = { KOR_hong_trait }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	KOR_lee_jaeyong={ #이재용
+		name=KOR_lee_jaeyong
+		portraits={
+			civilian={
+				small=GFX_idea_lee_jaeyong
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lee_jaeyong
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				OR = {
+				    has_completed_focus = KOR_MB_5
+				    has_completed_focus = KOR_MB_politic_election
+				}	
+				
+			}
+			cost = 100
+			traits = { KOR_samsung_trait }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	KOR_son_seokhyee={ #손석희
+		name=KOR_son_seokhyee
+		portraits={
+			civilian={
+				small=GFX_idea_son_seokhyee
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = son_seokhyee
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				has_completed_focus = KOR_MB_politic_election
+				
+			}
+			cost = 100
+			traits = { KOR_son_trait }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	KOR_lee_hoi_chang={ #이회창
+		name=KOR_lee_hoi_chang
+		portraits={
+			civilian={
+				small=GFX_idea_lee_hoi_chang
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lee_hoi_chang
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				has_completed_focus = KOR_MB_consorvatism_won
+				
+			}
+			cost = 100
+			traits = { KOR_hoi_trait }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	KOR_ahn_cheolsoo={ #안철수
+		name=KOR_ahn_cheolsoo
+		portraits={
+			civilian={
+				small=GFX_idea_ahn_cheolsoo
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ahn_cheolsoo
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				OR = {
+				    has_completed_focus = KOR_MB_5
+				    has_completed_focus = KOR_MB_politic_election
+				}	
+				
+			}
+			cost = 100
+			traits = { KOR_ahn_trait }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	KOR_roh_hoichan={ #노회찬
+		name=KOR_roh_hoichan
+		portraits={
+			civilian={
+				small=GFX_idea_roh_hoichan
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = roh_hoichan
+			allowed = {
+				original_tag = KOR 
+			}
+			available = {
+				has_completed_focus = KOR_MB_minju_won
+				
+			}
+			cost = 100
+			traits = { social_reformer }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	KOR_kim_sungho={ #김성호
+		name=KOR_kim_sungho
+		portraits={
+			civilian={
+				small=GFX_idea_kim_sungho
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = kim_sungho
+			allowed = {
+				if = {
+					limit = {
+						has_dlc = "Battle for the Bosporus"
+					}
+				}
+				original_tag = KOR
+			}
+			available = {
+				has_completed_focus = KOR_MB_politic_election
+				
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			cost = 100
+			traits = { head_of_intelligence }
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					has_intelligence_agency = no
+					factor = 0
+				}
+			}
+		}
+	}
+	KOR_han_minkoo={ #한민구
+		name=KOR_han_minkoo
+		portraits={
+			civilian={
+				small=GFX_idea_han_minkoo
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = han_minkoo
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				NOT = {
+					has_completed_focus = KOR_imperials_defence
+					has_country_flag = KOR_MB_han_was_failed
+				}
+				has_completed_focus = KOR_MB_middle_won
+				
+			}
+			on_add = {
+				country_event = {
+				    id = KOR_MB.7
+				}
+			}
+			cost = 100
+			traits = { KOR_han_trait }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	##이론가##
+	KOR_yi_yunho={ #이윤호(지식경제부 장관)
+		name=KOR_yi_yunho
+		portraits={
+			civilian={
+				small=GFX_idea_yi_yunho
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yi_yunho
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				has_completed_focus = KOR_MB_research_all
+			}
+			research_bonus = {
+				nuclear = 0.30
+			}
+			traits = { nuclear_scientist }
+		}
+	}
+	KOR_yun_jungki={ #윤중기(9대 육군 주임원사)
+		name=KOR_yun_jungki
+		portraits={
+			civilian={
+				small=GFX_idea_yun_jungki
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yun_jungki
+			ledger = army
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+			}
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			traits = { blitzkrieg_theorist }
+		}
+	}
+	KOR_jung_haechen={ #정해천(10대 육군 주임원사)
+		name=KOR_jung_haechen
+		portraits={
+			civilian={
+				small=GFX_idea_jung_haechen
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = jung_haechen
+			ledger = army
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+			}
+			research_bonus = {
+				cat_mobile_warfare = 0.15
+			}
+			traits = { mobile_warfare_expert }
+		}
+	}
+	KOR_kim_yeongpil={ #김영필(19대 공군 주임원사)
+		name=KOR_kim_yeongpil
+		portraits={
+			civilian={
+				small=GFX_idea_kim_yeongpil
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = kim_yeongpil
+			ledger = air
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+			}
+			research_bonus = {
+				cat_battlefield_support = 0.15
+			}
+			traits = { close_air_support_proponent }
+		}
+	}
+	KOR_kim_jaehwan={ #김재환(20대 공군 주임원사)
+		name=KOR_kim_jaehwan
+		portraits={
+			civilian={
+				small=GFX_idea_kim_jaehwan
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = kim_jaehwan
+			ledger = air
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+			}
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			traits = { air_warfare_theorist }
+		}
+	}
+	KOR_jung_chunseong={ #정춘성(11대 육군 주임원사)
+		name=KOR_jung_chunseong
+		portraits={
+			civilian={
+				small=GFX_idea_jung_chunseong
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = jung_chunseong
+			ledger = army
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+			}
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			traits = { dive_bomber }
 		}
 	}
 }	
