@@ -400,7 +400,6 @@ recruit_character = KOR_hwang_kicheol
 ####일반 장교진####
 #육군
 recruit_character = KOR_kim_kwanjin
-recruit_character = KOR_jeong_seungjo
 recruit_character = KOR_lee_sang_hoon
 recruit_character = KOR_lee_soon_jin
 recruit_character = KOR_kim_yong_woo

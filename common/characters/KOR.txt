@@ -900,7 +900,7 @@ characters={
 		portraits={
 			civilian={
 				small=GFX_idea_jung_seungjo
-				large="gfx/leaders/KOR/KOR_jung_seungjo.png"
+				large="gfx/leaders/KOR/jeong_seungjo.png"
 			}
 		}
 		advisor={
@@ -1138,24 +1138,7 @@ characters={
 			planning_skill = 1
 			logistics_skill = 1
 		}
-	}	
-	KOR_jeong_seungjo={ #정승조
-		name=KOR_jeong_seungjo
-		portraits={
-			civilian={
-				small="gfx/interface/ideas/KOR/idea_KOR_jeong_seungjo.png"
-				large="gfx/leaders/KOR/jeong_seungjo.png"
-			}
-		}
-		corps_commander = {
-			traits = { ROKA }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}	
+	}		
 	KOR_lee_sang_hoon={ #이상훈
 		name=KOR_lee_sang_hoon
 		portraits={
