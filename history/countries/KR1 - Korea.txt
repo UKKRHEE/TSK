@@ -1,4 +1,4 @@
-﻿capital = 807 #South Korea - Seoul or Busan
+﻿capital = 835 #South Korea - Seoul or Busan
 
 oob = "KR1_1936"
 set_research_slots = 4
@@ -201,19 +201,9 @@ set_popularities = {
 	neutrality = 0
 }
 
+recruit_character = MKR_roh_tae_whoo
 create_country_leader = {
-	name = "Rho Tae whoo"
-	desc = ""
-	picture = "Rho_Tae_Whoo.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		trait_MKR_roh_tae_woo
-	}
-}
-
-create_country_leader = {
-	    name = "Seo Wan soo"
+	    name = "서완수"
 	    desc = ""
 	    picture = "gfx/leaders/ROK/서완수.png"
 	    expire = "1965.1.1"

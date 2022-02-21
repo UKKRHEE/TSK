@@ -1,0 +1,48 @@
+characters={
+	
+	MKR_roh_tae_whoo={ 
+		name=MKR_roh_tae_whoo
+		portraits={
+			civilian={
+				large="gfx/leaders/MKR/노태우.dds"
+			}
+		}
+		country_leader={
+			desc = "ROH_TAE_WHOO_DESC"
+			ideology=conservatism
+			traits={ trait_MKR_roh_tae_woo }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MKR_chun_doo_hwan={ 
+		name=MKR_roh_tae_whoo
+		portraits={
+			civilian={
+				large="gfx/leaders/MKR/전두환.dds"
+			}
+		}
+		country_leader={
+			desc = "CHUN_DOO_HWAN_DESC"
+			ideology=despotism
+			traits={ trait_MKR_chun_doo_hwan }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MKR_lee_beom_seok={ 
+		name=MKR_lee_beom_seok
+		portraits={
+			civilian={
+				large="gfx/leaders/MKR/이범석.dds"
+			}
+		}
+		country_leader={
+			desc = "LEE_BEOM_SEOK_DESC"
+			ideology=nazism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

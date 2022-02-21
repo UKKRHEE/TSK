@@ -1,4 +1,4 @@
-﻿capital = 807 #South Korea - Seoul or Busan
+﻿capital = 835 #South Korea - Seoul or Busan
 
 oob = "1936"
 
@@ -177,39 +177,10 @@ set_popularities = {
 	communism = 0
 	neutrality = 90
 }
+recruit_character = MKR_roh_tae_whoo
+recruit_character = MKR_chun_doo_hwan
+recruit_character = MKR_lee_beom_seok
 
-create_country_leader = {
-	name = "Rho Tae Whoo"
-	desc = ""
-	picture = "Rho_Tae_Whoo.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		trait_MKR_roh_tae_woo
-	}
-}
-
-create_country_leader = {
-	name = "Chun Doo Hwan"
-	desc = ""
-	picture = "Chun_Doo_Hwan.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Lee Beom seok"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
 create_corps_commander = {
 	name = "Gu Chang hoe"
 	picture = "구창회.dds"
