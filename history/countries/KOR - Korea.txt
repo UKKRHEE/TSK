@@ -348,366 +348,128 @@ set_popularities = {
 	fascism = 15
 	communism = 15
 }
+recruit_character = KOR_lee_byungbak
+recruit_character = KOR_yi_won
+recruit_character = KOR_lee_seokki
+recruit_character = KOR_park_geunhye
+####정치고문
+recruit_character = KOR_roh_muhyun
+recruit_character = KOR_moon_jaein
+recruit_character = KOR_hong_junpyo
+recruit_character = KOR_lee_jaeyong
+recruit_character = KOR_son_seokhyee
+recruit_character = KOR_lee_hoi_chang
+recruit_character = KOR_ahn_cheolsoo
+recruit_character = KOR_roh_hoichan
+recruit_character = KOR_kim_sungho
+recruit_character = KOR_han_minkoo
+####이론가
+#민간 이론가
+recruit_character = KOR_yi_yunho
+#군 이론가
+recruit_character = KOR_yun_jungki
+recruit_character = KOR_jung_haechen
+recruit_character = KOR_kim_yeongpil
+recruit_character = KOR_kim_jaehwan
+recruit_character = KOR_jung_chunseong
+####육참총장
+recruit_character = KOR_im_chongbin
+recruit_character = KOR_cho_junghwan
+recruit_character = KOR_park_hengryul
+recruit_character = KOR_kwon_ohsung
+####공참총장
+recruit_character = KOR_lee_kyehoon
+recruit_character = KOR_park_jongheon
+recruit_character = KOR_sung_ilhwan
+####해참총장
+recruit_character = KOR_jung_okgeun
+recruit_character = KOR_kim_seongchan
+####고위 지휘관
+#육군
+recruit_character = KOR_lee_chulhui
+recruit_character = KOR_hwang_uidon
+recruit_character = KOR_jung_seungjo
+recruit_character = KOR_kim_sangki
+#공군
+recruit_character = KOR_lee_yongman
+recruit_character = KOR_chung_kyungdoo
+recruit_character = KOR_choi_chakyu
+#해군
+recruit_character = KOR_choi_yunhoi
+recruit_character = KOR_hwang_kicheol
+####일반 장교진####
+#육군
+recruit_character = KOR_kim_kwanjin
+recruit_character = KOR_jeong_seungjo
+recruit_character = KOR_lee_sang_hoon
+recruit_character = KOR_lee_soon_jin
+recruit_character = KOR_kim_yong_woo
+recruit_character = KOR_jang_jun_kyu
+recruit_character = KOR_park_chan_ju
+recruit_character = KOR_jang_kyung_suk
+recruit_character = KOR_koo_hong_mo
+recruit_character = KOR_kim_seok_jin
+recruit_character = KOR_jo_jong_seol
+recruit_character = KOR_kim_byung_joo
+recruit_character = KOR_han_ki_ho
+recruit_character = KOR_lee_jung_geun
+recruit_character = KOR_in_sung_hwan
+recruit_character = KOR_lee_jin_seong
+recruit_character = KOR_kim_jeong_sik
+recruit_character = KOR_kim_un_yong
+recruit_character = KOR_park_han_ki
+recruit_character = KOR_na_sang_woong
+recruit_character = KOR_eom_gi_hak
+recruit_character = KOR_kim_seon_ho
+recruit_character = KOR_chun_jin_gu
+recruit_character = KOR_choi_chang_ryong
+#해군
+recruit_character = KOR_um_hyun_sung
+recruit_character = KOR_jeong_jin_seob
+recruit_character = KOR_kim_chang_kyu
+recruit_character = KOR_yoon_jeong_sang
 
-### General & Admiral ###
-	create_corps_commander = {
-		name = "Jeong Seung-jo"
-		picture = "Jeong_Seung_Jo.png"
-		id = 33001
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-	create_corps_commander = {
-		name = "Kim Kwan-jin"
-		picture = "Kim_Kwan_Jin.png"
-		id = 33002
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-	create_corps_commander = {
-		name = "Lee Sang-hoon"
-		picture = "Lee_Sang_Hoon.png"
-		id = 33003
-		skill = 1
-		attack_skill = 1
-		defense_skill = 1
-		planning_skill = 1
-		logistics_skill = 1
-	}
-	create_corps_commander = {
-		name = "Lee Soon-jin"
-		picture = "Lee_Soon_Jin.png"
-		id = 33004
-		skill = 1
-		attack_skill = 1
-		defense_skill = 1
-		planning_skill = 1
-		logistics_skill = 1
-	}
-
-	create_corps_commander = {
-		name = "Kim Yong-woo"
-		picture = "gen_Kim_Yong_Woo.png"
-		traits = { }
-		id = 33005
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-	create_navy_leader = {
-		name = "Um Hyun-Seong"
-		picture = "adm_Um_Hyun_Seong.dds"
-		traits = { }
-		id = 33007
-	}
-	create_field_marshal = {
-		name = "Jang Jun-Kyu"
-		picture = "Portrait_Jang_Jun_Kyu.dds"
-		traits = { old_guard offensive_doctrine }
-		id = 33008
-		skill = 4
-		attack_skill = 4
-		defense_skill = 4
-		planning_skill = 4
-		logistics_skill = 4
-	}
-
-	create_field_marshal = {
-		name = "Jeong Kyung-Doo"
-		picture = "Portrait_Jeong_Kyung_Doo.dds"
-		traits = { logistics_wizard }
-		id = 33009
-		skill = 4
-		attack_skill = 4
-		defense_skill = 4
-		planning_skill = 4
-		logistics_skill = 4
-	}
-
-	create_field_marshal = {
-		name = "Park Chan-Ju"
-		picture = "Portrait_Park_Chan_Ju.dds"
-		traits = { thorough_planner }
-		id = 33010
-		skill = 4
-		attack_skill = 4
-		defense_skill = 4
-		planning_skill = 4
-		logistics_skill = 4
-	}
-
-	create_field_marshal = {
-		name = "Chung Kyung-Seok"
-		picture = "Portrait_Chung_Kyung_Seok.dds"
-		traits = { fast_planner }
-		id = 33011
-		skill = 4
-		attack_skill = 4
-		defense_skill = 4
-		planning_skill = 4
-		logistics_skill = 4
-	}
-
-	create_field_marshal = {
-		name = "Koo Hong-Moo"
-		picture = "Portrait_Koo_Hong_Moo.dds"
-		traits = { defensive_doctrine }
-		id = 33012
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-
-	create_corps_commander = {
-		name = "Kim Seok-Jin"
-		picture = "Portrait_Kim_Seok_Jin.dds"
-		traits = {  }
-		id = 33013
-		skill = 1
-		attack_skill = 1
-		defense_skill = 1
-		planning_skill = 1
-		logistics_skill = 1
-	}
-
-	create_corps_commander = {
-		name = "Jo Jong-Seol"
-		picture = "Portrait_Jo_Jong_Seol.dds"
-		traits = { commando urban_assault_specialist }
-		id = 33014
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-
-	create_corps_commander = {
-		name = "Kim Byung-Joo"
-		picture = "Portrait_Kim_Byung_Joo.dds"
-		traits = { trait_mountaineer }
-		id = 33015
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-
-	create_corps_commander = {
-		name = "Han Gi-Ho"
-		picture = "Portrait_Han_Gi_Ho.dds"
-		traits = { fortress_buster }
-		id = 33016
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-
-	create_corps_commander = {
-		name = "Lee Jung-Geun"
-		picture = "Portrait_Lee_Jung_Geun.dds"
-		traits = { trait_engineer }
-		id = 33017
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-
-	create_corps_commander = {
-		name = "Yong Sung-Hwan"
-		picture = "Portrait_Yong_Sung_Hwan.dds"
-		traits = { ranger }
-		id = 33018
-		skill = 2
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}
 	load_focus_tree = new_rok_focus
 	complete_national_focus = TSK_loading_focus
+	
+	#create_navy_leader = {
+	#	name = "Jung Ho-sub"
+	#	picture = "admirals/Jung_Ho_Sub.dds"
+	#	id = 33031
+	#}
+	#create_navy_leader = {
+	#	name = "Lee Ki-sik"
+	#	picture = "admirals/Lee_Ki_Sik.dds"
+	#	id = 33032
+	#}
 
-	create_corps_commander = {
-		name = "Lee Jin-Seong"
-		picture = "Portrait_Lee_Jin_Seong.dds"
-		traits = { trickster }
-		id = 33019
-		skill = 2
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}
+	#create_navy_leader = {
+	#	name = "Sim Seung-Seop"
+	#	picture = "Portrait_Sim_Seung_Seop.dds"
+	#	traits = { fly_swatter }
+	#	id = 33033
+	#}
 
-	create_corps_commander = {
-		name = "Kim Yeong-Sik"
-		picture = "Portrait_Kim_Jeong_Sik.dds"
-		traits = { panzer_leader ranger }
-		id = 33020
-		skill = 4
-		attack_skill = 4
-		defense_skill = 4
-		planning_skill = 4
-		logistics_skill = 4
-	}
+	#create_navy_leader = {
+	#	name = "Moon Byung-Ok"
+	#	picture = "Portrait_Moon_Byung_Ok.dds"
+	#	traits = { blockade_runner }
+	#	id = 33034
+	#}
 
-	create_corps_commander = {
-		name = "Kim Un-Yeong"
-		picture = "Portrait_Kim_Un_Jeong.dds"
-		traits = { hill_fighter }
-		id = 33021
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
+	#create_navy_leader = {
+	#	name = "Park Dong-Sun"
+	#	picture = "Portrait_Park_Dong_Sun.dds"
+	#	traits = { blockade_runner }
+	#	id = 33035
+	#}
 
-	create_corps_commander = {
-		name = "Park Han-Ki"
-		picture = "Portrait_Park_Han_Ki.dds"
-		traits = { swamp_fox }
-		id = 33022
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-
-	create_corps_commander = {
-		name = "Na Sang-Woong"
-		picture = "Portrait_Na_Sang_Woong.dds"
-		traits = { panzer_leader }
-		id = 33023
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-
-	create_corps_commander = {
-		name = "Yom Gi-Hak"
-		picture = "Portrait_Yom_Gi_Hak.dds"
-		traits = { panzer_leader ranger }
-		id = 33024
-		skill = 4
-		attack_skill = 4
-		defense_skill = 4
-		planning_skill = 4
-		logistics_skill = 4
-	}
-
-	create_corps_commander = {
-		name = " Kim Seon-Ho"
-		picture = "Portrait_Kim_Seon_Ho.dds"
-		traits = { ranger trickster }
-		id = 33025
-		skill = 2
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}
-
-	create_corps_commander = {
-		name = "Chun Jin-gu"
-		picture = "Portrait_Chun_Yung_Gu.dds"
-		traits = { commando naval_invader }
-		id = 33026
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-
-	create_corps_commander = {
-		name = "Choi Chang-Ryong"
-		picture = "Portrait_Choi_Chang_Ryong.dds"
-		traits = { naval_invader trait_engineer }
-		id = 33027
-		skill = 2
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}
-
-	create_navy_leader = {
-		name = "Jeong Jin-Seob"
-		picture = "Portrait_Jeong_Jin_Seob.dds"
-		traits = { ironside }
-		id = 33028
-	}
-
-	create_navy_leader = {
-		name = "Kim Chang-Kyu"
-		picture = "Portrait_Kim_Chang_Gyu.dds"
-		traits = { air_controller }
-		id = 33029
-	}
-
-	create_navy_leader = {
-		name = "Yoon Jeong-Sang"
-		picture = "Portrait_Yoon_Jeong_Sang.dds"
-		traits = { seawolf }
-		id = 33030
-	}
-	create_navy_leader = {
-		name = "Jung Ho-sub"
-		picture = "admirals/Jung_Ho_Sub.dds"
-		id = 33031
-	}
-	create_navy_leader = {
-		name = "Lee Ki-sik"
-		picture = "admirals/Lee_Ki_Sik.dds"
-		id = 33032
-	}
-
-	create_navy_leader = {
-		name = "Sim Seung-Seop"
-		picture = "Portrait_Sim_Seung_Seop.dds"
-		traits = { fly_swatter }
-		id = 33033
-	}
-
-	create_navy_leader = {
-		name = "Moon Byung-Ok"
-		picture = "Portrait_Moon_Byung_Ok.dds"
-		traits = { blockade_runner }
-		id = 33034
-	}
-
-	create_navy_leader = {
-		name = "Park Dong-Sun"
-		picture = "Portrait_Park_Dong_Sun.dds"
-		traits = { blockade_runner }
-		id = 33035
-	}
-
-	create_navy_leader = {
-		name = "Park Seong-Soo"
-		picture = "Portrait_Park_Seong_Soo.dds"
-		traits = { ironside }
-		id = 33036
-	}
+	#create_navy_leader = {
+	#	name = "Park Seong-Soo"
+	#	picture = "Portrait_Park_Seong_Soo.dds"
+	#	traits = { ironside }
+	#	id = 33036
+	#}
 
 
 

@@ -776,7 +776,7 @@ focus_tree = {
 							id = KOR_MB.2
 						}
 					create_country_leader = {
-							name = "Kim Jong-un"
+							name = "김정은"
 							desc = ""
 							picture = "gfx/leaders/KPA/KJU.dds"
 							expire = "1965.1.1"
@@ -784,17 +784,6 @@ focus_tree = {
 							traits = {
 
 							}
-						}
-					create_field_marshal = {
-							name = "Kim Jong-un"
-							desc = ""
-						traits = { inspirational_leader }
-							id = 45000
-							skill = 1
-							attack_skill = 1
-							defense_skill = 1
-							planning_skill = 1
-							logistics_skill = 1
 						}
 				}
 
@@ -918,7 +907,7 @@ focus_tree = {
 		y = 6
 			completion_reward = {
 					create_country_leader = {
-							name = "Choe Ryong hae"
+							name = "최룡해"
 							desc = ""
 							picture = "gfx/leaders/PRK/최룡해.dds"
 							expire = "1965.1.1"
@@ -1968,14 +1957,16 @@ focus_tree = {
 		y = 11
 		completion_reward = {
 			add_ideas = lee_myung_bak_pre
-			create_country_leader = {
-				name = "Yi Won"
-				desc = "이원은 대한제국 고종 황제의 증손자로서 제5대 대한제국의 황실 수장이다. 전주이씨대동종약원의 총재를 맡고 있음과 돟시의 대한민국의 총리직을 맡고 있다. 그의 본명은 이상협이다. 그는 대한제국 초대 대한제국 고종 황제의 5번째 아들인 의친왕의 9남이던 이갑의 장남으로 1962년 9월 23일 서울 종로구 혜화동에서 태어났다. 1981년 상문고등학교를 졸업한 뒤, 이듬해 아버지를 따라 도미하여, 뉴욕공과대학교(New York Institute of Technology)에서 신문방송학을 전공하였다. 이후, 미국 케이블사 홈박스오피스(HBO)의 프로듀서를 거쳐 1995년 귀국해서는 금강기획 제작 업무 및 현대방송의 프로듀서로 근무하였으며 2001년 현대홈쇼핑에 입사하여 2005년에 디지털 방송본부장으로 퇴직하였다. 황세손 '이구'가 후사를 이을 자손이 없어 전주이씨대동종약원과 황태손은 2003년 6월 1일을 기하여 의친왕 이강의 9남인 이갑의 아들 이원을 상면하고 황세손 '이구'의 계자로 입후하기로 결정을 하였다. 황세손이 2005년 7월 16일 사망하자 계자인 '이원'이 대한제국 황가의 주상으로 등극하였고 한민구의 구데타가 실패한 이후 구 황실 지지세력에 의하여 다시 한 번 대한민국은 제국의 황실 이씨의 `이원`이 통치하게 되었다. 이제 대한의 미래는 그에게 달려있다."
-				picture = "GFX_portrait_yi_won"
-				expire = "1965.1.1"
-				ideology = conservatism
-				traits = {
-					KOR_yi_trait
+			add_country_leader_role = {
+				character = KOR_yi_won
+				promote_leader = yes
+			    country_leader = {
+					ideology = conservatism
+					expire = "1965.1.1.1"
+					desc="YI_WON_DESC"
+					traits = {
+						KOR_yi_trait
+					}
 				}
 			}
 		}
@@ -2014,24 +2005,28 @@ focus_tree = {
 			}
 			hidden_effect = {
 			
-			create_country_leader = {
-				name = "Yi Won"
-				desc = "이원은 대한제국 고종 황제의 증손자로서 제5대 대한제국의 황실 수장이다. 전주이씨대동종약원의 총재를 맡고 있음과 돟시의 대한민국의 총리직을 맡고 있다. 그의 본명은 이상협이다. 그는 대한제국 초대 대한제국 고종 황제의 5번째 아들인 의친왕의 9남이던 이갑의 장남으로 1962년 9월 23일 서울 종로구 혜화동에서 태어났다. 1981년 상문고등학교를 졸업한 뒤, 이듬해 아버지를 따라 도미하여, 뉴욕공과대학교(New York Institute of Technology)에서 신문방송학을 전공하였다. 이후, 미국 케이블사 홈박스오피스(HBO)의 프로듀서를 거쳐 1995년 귀국해서는 금강기획 제작 업무 및 현대방송의 프로듀서로 근무하였으며 2001년 현대홈쇼핑에 입사하여 2005년에 디지털 방송본부장으로 퇴직하였다. 황세손 '이구'가 후사를 이을 자손이 없어 전주이씨대동종약원과 황태손은 2003년 6월 1일을 기하여 의친왕 이강의 9남인 이갑의 아들 이원을 상면하고 황세손 '이구'의 계자로 입후하기로 결정을 하였다. 황세손이 2005년 7월 16일 사망하자 계자인 '이원'이 대한제국 황가의 주상으로 등극하였고 한민구의 구데타가 실패한 이후 구 황실 지지세력에 의하여 다시 한 번 대한민국은 제국의 황실 이씨의 `이원`이 통치하게 되었다. 이제 대한의 미래는 그에게 달려있다."
-				picture = "gfx/leaders/KOR/이원.dds"
-				expire = "1965.1.1"
-				ideology = rexism
-				traits = {
-					KOR_yi_trait
+			add_country_leader_role = {
+				character = KOR_yi_won
+				promote_leader = yes
+			    country_leader = {
+					ideology = rexism
+					expire = "1965.1.1.1"
+					desc="YI_WON_DESC"
+					traits = {
+						KOR_yi_trait
+					}
 				}
 			}
-			create_country_leader = {
-				name = "Yi Won"
-				desc = "이원은 대한제국 고종 황제의 증손자로서 제5대 대한제국의 황실 수장이다. 전주이씨대동종약원의 총재를 맡고 있음과 돟시의 대한민국의 총리직을 맡고 있다. 그의 본명은 이상협이다. 그는 대한제국 초대 대한제국 고종 황제의 5번째 아들인 의친왕의 9남이던 이갑의 장남으로 1962년 9월 23일 서울 종로구 혜화동에서 태어났다. 1981년 상문고등학교를 졸업한 뒤, 이듬해 아버지를 따라 도미하여, 뉴욕공과대학교(New York Institute of Technology)에서 신문방송학을 전공하였다. 이후, 미국 케이블사 홈박스오피스(HBO)의 프로듀서를 거쳐 1995년 귀국해서는 금강기획 제작 업무 및 현대방송의 프로듀서로 근무하였으며 2001년 현대홈쇼핑에 입사하여 2005년에 디지털 방송본부장으로 퇴직하였다. 황세손 '이구'가 후사를 이을 자손이 없어 전주이씨대동종약원과 황태손은 2003년 6월 1일을 기하여 의친왕 이강의 9남인 이갑의 아들 이원을 상면하고 황세손 '이구'의 계자로 입후하기로 결정을 하였다. 황세손이 2005년 7월 16일 사망하자 계자인 '이원'이 대한제국 황가의 주상으로 등극하였고 한민구의 구데타가 실패한 이후 구 황실 지지세력에 의하여 다시 한 번 대한민국은 제국의 황실 이씨의 `이원`이 통치하게 되었다. 이제 대한의 미래는 그에게 달려있다."
-				picture = "gfx/leaders/KOR/이원.dds"
-				expire = "1965.1.1"
-				ideology = marxism
-				traits = {
-					KOR_yi_trait
+			add_country_leader_role = {
+				character = KOR_yi_won
+				promote_leader = yes
+			    country_leader = {
+					ideology = marxism
+					expire = "1965.1.1.1"
+					desc="YI_WON_DESC"
+					traits = {
+						KOR_yi_trait
+					}
 				}
 			}
 			}
@@ -2277,7 +2272,7 @@ focus_tree = {
 				remove_ideas = JAP_hirohito
 				set_cosmetic_tag = JAP_republic
 				create_country_leader = {
-					name = "General Government of Japan"
+					name = "일본총독부"
 					ideology = nazism
 					portrait_path = "gfx/leaders/KOR/Portrait_KOR_military_junta.png"
 					traits = {
@@ -3276,19 +3271,20 @@ focus_tree = {
 		x = 30
 		y = 11
 			completion_reward = {
-						hidden_effect = {
-					create_country_leader = {
-							name = "Park Geun Hye"
-							desc = ""
-							picture = "gfx/leaders/KOR/PGH.dds"
-							expire = "1965.1.1"
+				hidden_effect = {
+					add_country_leader_role = {
+						character = KOR_park_geunhye
+						promote_leader = yes
+						country_leader = {
 							ideology = rexism
+							expire = "1965.1.1.1"
+							desc=""
 							traits = {
-
-}
+							}
 						}
-						}
+					}
 				}
+			}
 
 	}
 	focus = {
@@ -3306,16 +3302,17 @@ focus_tree = {
 		y = 11
 			completion_reward = {
 						hidden_effect = {
-					create_country_leader = {
-							name = "Lee Hoi-Chang"
-							desc = ""
-							picture = "gfx/leaders/KOR/Lee_Hoi-chang.dds"
-							expire = "1965.1.1"
+					add_country_leader_role = {
+						character = KOR_lee_hoi_chang
+						promote_leader = yes
+						country_leader = {
 							ideology = rexism
+							expire = "1965.1.1.1"
+							desc=""
 							traits = {
-
-}
+							}
 						}
+					}
 						}
 				}
 
@@ -3355,7 +3352,7 @@ focus_tree = {
 			completion_reward = {
 						hidden_effect = {
 					create_country_leader = {
-							name = "Kim Moon Soo"
+							name = "김문수"
 							desc = ""
 							picture = "gfx/leaders/KOR/KMS.dds"
 							expire = "1965.1.1"
@@ -3473,27 +3470,18 @@ focus_tree = {
 					has_completed_focus = KOR_MB_park
 				}
 				
-				create_country_leader = {
-					name = "Park Geun Hye"
-					desc = ""
-					picture = "gfx/leaders/KOR/PGH.dds"
-					expire = "1965.1.1"
-					ideology = conservatism
-					traits = {
-
+				add_country_leader_role = {
+					character = KOR_park_geunhye
+					promote_leader = yes
+					country_leader = {
+						ideology = conservatism
+						expire = "1965.1.1.1"
+						desc=""
+						traits = {
+						}
 					}
 				}
 				hidden_effect = {
-					create_country_leader = {
-						name = "Park Geun Hye"
-						desc = ""
-						picture = "gfx/leaders/KOR/PGH.dds"
-						expire = "1965.1.1"
-						ideology = rexism
-						traits = {
-
-						}
-					}
 				}
 			}	
 			if = {
@@ -3502,7 +3490,7 @@ focus_tree = {
 				}
 				
 				create_country_leader = {
-					name = "Kim Moon Soo"
+					name = "김문수"
 					desc = ""
 					picture = "gfx/leaders/KOR/KMS.dds"
 					expire = "1965.1.1"
@@ -3511,43 +3499,20 @@ focus_tree = {
 
 					}
 				}
-				hidden_effect = {
-					create_country_leader = {
-						name = "Kim Moon Soo"
-						desc = ""
-						picture = "gfx/leaders/KOR/KMS.dds"
-						expire = "1965.1.1"
-						ideology = rexism
-						traits = {
-
-						}
-					}
-				}
 			}	
 			if = {
 				limit = {
 					has_completed_focus = KOR_MB_lee_hoi_chang
 				}
 				
-				create_country_leader = {
-					name = "Lee Hoi-Chang"
-					desc = ""
-					picture = "gfx/leaders/KOR/Lee_Hoi-chang.dds"
-					expire = "1965.1.1"
-					ideology = conservatism
-					traits = {
-
-					}
-				}
-				hidden_effect = {
-					create_country_leader = {
-						name = "Lee Hoi-Chang"
-						desc = ""
-						picture = "gfx/leaders/KOR/Lee_Hoi-chang.dds"
-						expire = "1965.1.1"
-						ideology = rexism
+				add_country_leader_role = {
+					character = KOR_lee_hoi_chang
+					promote_leader = yes
+					country_leader = {
+						ideology = conservatism
+						expire = "1965.1.1.1"
+						desc=""
 						traits = {
-
 						}
 					}
 				}
@@ -3883,29 +3848,34 @@ focus_tree = {
 			date > 1939.12.19
 		}	
 		completion_reward = {
-			create_country_leader = {
-				name = "Moon Jae-In"
-				picture = "gfx/leaders/KOR/Moon_Jae-in.dds"
-				expire = "1965.1.1"
-				ideology = socialism
-				traits = {
-					KOR_president_moon_disaster
-					
+				add_country_leader_role = {
+					character = KOR_moon_jaein
+					promote_leader = yes
+					country_leader = {
+						ideology = liberalism
+						expire = "1965.1.1.1"
+						desc=""
+						traits = {
+							KOR_president_moon_disaster
+						}
+					}
 				}
-			}
+
 					remove_ideas = kor_law_of_korean_5
 			remove_ideas = KOR_north_south_problem
 			hidden_effect = {
-			create_country_leader = {
-				name = "Moon Jae-In"
-				picture = "gfx/leaders/KOR/Moon_Jae-in.dds"
-				expire = "1965.1.1"
-				ideology = marxism
-				traits = {
-					KOR_president_moon_disaster
-					
+				add_country_leader_role = {
+					character = KOR_moon_jaein
+					promote_leader = yes
+					country_leader = {
+						ideology = marxism
+						expire = "1965.1.1.1"
+						desc=""
+						traits = {
+							KOR_president_moon_disaster
+						}
+					}
 				}
-			}
 			}
 		}
 

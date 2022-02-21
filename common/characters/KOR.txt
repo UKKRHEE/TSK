@@ -27,7 +27,7 @@ characters={
 		name=KOR_yi_won
 		portraits={
 			civilian={
-				large="gfx/leaders/KOR/Portrait_Yi_won.dds"
+				large="gfx/leaders/KOR/portrait_yi_won.dds"
 				small=GFX_idea_yi_won
 			}
 			army = {
@@ -36,8 +36,8 @@ characters={
 		}
 		country_leader={
 			desc = "YI_WON_DESC"
-			ideology=oligarchism
-			traits={ imperial_connections }
+			ideology=despotism
+			traits={ KOR_yi_emp_trait imperial_connections }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -219,6 +219,7 @@ characters={
 		portraits={
 			civilian={
 				small=GFX_idea_lee_hoi_chang
+				large="gfx/leaders/KOR/Lee_Hoi-chang.dds"
 			}
 		}
 		advisor={
@@ -358,7 +359,8 @@ characters={
 				factor = 1.000
 			}
 		}
-		field_marshal = {
+		corps_commander = {
+			traits = { ROKA }
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -376,7 +378,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = political_advisor
+			slot = theorist
 			idea_token = yi_yunho
 			allowed = {
 				original_tag = KOR
@@ -395,10 +397,11 @@ characters={
 		portraits={
 			civilian={
 				small=GFX_idea_yun_jungki
+				large = "gfx/leaders/KOR/KOR_yun_jungki.png"
 			}
 		}
 		advisor={
-			slot = political_advisor
+			slot = theorist
 			idea_token = yun_jungki
 			ledger = army
 			allowed = {
@@ -411,16 +414,26 @@ characters={
 			}
 			traits = { blitzkrieg_theorist }
 		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+
 	}
 	KOR_jung_haechen={ #정해천(10대 육군 주임원사)
 		name=KOR_jung_haechen
 		portraits={
 			civilian={
 				small=GFX_idea_jung_haechen
+				large="gfx/leaders/KOR/KOR_jung_haechen.png"
 			}
 		}
 		advisor={
-			slot = political_advisor
+			slot = theorist
 			idea_token = jung_haechen
 			ledger = army
 			allowed = {
@@ -433,16 +446,25 @@ characters={
 			}
 			traits = { mobile_warfare_expert }
 		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
 	}
 	KOR_kim_yeongpil={ #김영필(19대 공군 주임원사)
 		name=KOR_kim_yeongpil
 		portraits={
 			civilian={
 				small=GFX_idea_kim_yeongpil
+				large="gfx/leaders/KOR/KOR_jung_haechen.png"
 			}
 		}
 		advisor={
-			slot = political_advisor
+			slot = theorist
 			idea_token = kim_yeongpil
 			ledger = air
 			allowed = {
@@ -455,16 +477,25 @@ characters={
 			}
 			traits = { close_air_support_proponent }
 		}
+		corps_commander = {
+			traits = { air_force }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
 	}
 	KOR_kim_jaehwan={ #김재환(20대 공군 주임원사)
 		name=KOR_kim_jaehwan
 		portraits={
 			civilian={
 				small=GFX_idea_kim_jaehwan
+				large="gfx/leaders/KOR/KOR_kim_jaehwan.png"
 			}
 		}
 		advisor={
-			slot = political_advisor
+			slot = theorist
 			idea_token = kim_jaehwan
 			ledger = air
 			allowed = {
@@ -477,16 +508,25 @@ characters={
 			}
 			traits = { air_warfare_theorist }
 		}
+		corps_commander = {
+			traits = { air_force }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
 	}
 	KOR_jung_chunseong={ #정춘성(11대 육군 주임원사)
 		name=KOR_jung_chunseong
 		portraits={
 			civilian={
 				small=GFX_idea_jung_chunseong
+				large="gfx/leaders/KOR/KOR_jung_chunseong.png"
 			}
 		}
 		advisor={
-			slot = political_advisor
+			slot = theorist
 			idea_token = jung_chunseong
 			ledger = army
 			allowed = {
@@ -499,5 +539,1063 @@ characters={
 			}
 			traits = { dive_bomber }
 		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
 	}
+	#육참총장
+	KOR_im_chongbin={ #임충빈
+		name=KOR_im_chongbin
+		portraits={
+			civilian={
+				small=GFX_idea_im_chongbin
+				large="gfx/leaders/KOR/KOR_im_chongbin.png"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = im_chongbin
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { army_chief_organizational_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	KOR_cho_junghwan={ #조정환
+		name=KOR_cho_junghwan
+		portraits={
+			civilian={
+				small=GFX_idea_cho_junghwan
+				large="gfx/leaders/KOR/KOR_cho_junghwan.png"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = cho_junghwan
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { army_chief_drill_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	KOR_park_hengryul={ #박흥렬
+		name=KOR_park_hengryul
+		portraits={
+			civilian={
+				small=GFX_idea_park_hengryul
+				large="gfx/leaders/KOR/KOR_park_hengryul.png"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = park_hengryul
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { future_army_infantry }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	KOR_kwon_ohsung={ #권오성
+		name=KOR_kwon_ohsung
+		portraits={
+			civilian={
+				small=GFX_idea_kwon_ohsung
+				large="gfx/leaders/KOR/KOR_kwon_ohsung.png"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = kwon_ohsung
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { army_chief_maneuver_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	#공참총장
+	KOR_lee_kyehoon={ #이계훈
+		name=KOR_lee_kyehoon
+		portraits={
+			civilian={
+				small=GFX_idea_lee_kyehoon
+				large="gfx/leaders/KOR/KOR_lee_kyehoon.png"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = lee_kyehoon
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { air_chief_ground_support_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { air_force }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	KOR_park_jongheon={ #박종헌
+		name=KOR_park_jongheon
+		portraits={
+			civilian={
+				small=GFX_idea_park_jongheon
+				large="gfx/leaders/KOR/KOR_park_jongheon.png"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = park_jongheon
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { air_chief_all_weather_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { air_force }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	KOR_sung_ilhwan={ #성일환
+		name=KOR_sung_ilhwan
+		portraits={
+			civilian={
+				small=GFX_idea_sung_ilhwan
+				large="gfx/leaders/KOR/KOR_sung_ilhwan.png"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = sung_ilhwan
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { air_chief_reform_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { air_force }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	#해참총장
+	KOR_jung_okgeun={ #정옥근
+		name=KOR_jung_okgeun
+		portraits={
+			civilian={
+				small=GFX_idea_jung_okgeun
+				large="gfx/leaders/KOR/KOR_jung_okgeun.png"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = sung_ilhwan
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { navy_chief_decisive_battle_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+		}
+	}
+	KOR_kim_seongchan={ #김성찬
+		name=KOR_kim_seongchan
+		portraits={
+			civilian={
+				small=GFX_idea_kim_seongchan
+				large="gfx/leaders/KOR/KOR_kim_seongchan.png"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = kim_seongchan
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { navy_chief_commerce_raiding_3 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+		}
+	}
+	#고위 지휘관
+	KOR_lee_chulhui={ #이철희
+		name=KOR_lee_chulhui
+		portraits={
+			civilian={
+				small=GFX_idea_lee_chulhui
+				large="gfx/leaders/KOR/KOR_lee_chulhui.png"
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = lee_chulhui
+			ledger = army
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { army_infantry_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	KOR_hwang_uidon={ #황의돈
+		name=KOR_hwang_uidon
+		portraits={
+			civilian={
+				small=GFX_idea_hwang_uidon
+				large="gfx/leaders/KOR/KOR_hwang_uidon.png"
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = lee_chulhui
+			ledger = army
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { army_armored_3 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	KOR_jung_seungjo={ #정승조
+		name=KOR_jung_seungjo
+		portraits={
+			civilian={
+				small=GFX_idea_jung_seungjo
+				large="gfx/leaders/KOR/KOR_jung_seungjo.png"
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = jung_seungjo
+			ledger = army
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { army_regrouping_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	KOR_kim_sangki={ #김상기
+		name=KOR_kim_sangki
+		portraits={
+			civilian={
+				small=GFX_idea_kim_sangki
+				large="gfx/leaders/KOR/KOR_kim_sangki.png"
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = kim_sangki
+			ledger = army
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { army_logistics_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	###공군고위지휘관
+	KOR_lee_yongman={ #이영만
+		name=KOR_lee_yongman
+		portraits={
+			civilian={
+				small=GFX_idea_lee_yongman
+				large="gfx/leaders/KOR/KOR_lee_yongman.png"
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = lee_yongman
+			ledger = air
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { air_close_air_support_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { air_force }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	KOR_chung_kyungdoo={ #정경두
+		name=KOR_chung_kyungdoo
+		portraits={
+			civilian={
+				small=GFX_idea_chung_kyungdoo
+				large="gfx/leaders/KOR/KOR_chung_kyungdoo.png"
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = chung_kyungdoo
+			ledger = air
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { air_bomber_interception_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { air_force }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	KOR_choi_chakyu={ #최차규
+		name=KOR_choi_chakyu
+		portraits={
+			civilian={
+				small=GFX_idea_choi_chakyu
+				large="gfx/leaders/KOR/KOR_choi_chakyu.png"
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = choi_chakyu
+			ledger = air
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { air_airborne_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { air_force }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	###해군고위지휘관
+	KOR_choi_yunhoi={ #최윤회
+		name=KOR_choi_yunhoi
+		portraits={
+			civilian={
+				small=GFX_idea_choi_yunhoi
+				large="gfx/leaders/KOR/KOR_choi_yunhoi.png"
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = choi_yunhoi
+			ledger = navy
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { navy_fleet_logistics_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+		}
+	}
+	KOR_hwang_kicheol={ #황기철
+		name=KOR_hwang_kicheol
+		portraits={
+			civilian={
+				small=GFX_idea_choi_yunhoi
+				large="gfx/leaders/KOR/KOR_hwang_kicheol.png"
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = hwang_kicheol
+			ledger = navy
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			}
+			traits = { navy_anti_submarine_1 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 4
+		}
+	}
+	#######일반 장교진
+	KOR_kim_kwanjin={ #김관진
+		name=KOR_kim_kwanjin
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_kim_kwanjin.png"
+				large="gfx/leaders/KOR/Kim_Kwan_Jin.png"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_jeong_seungjo={ #정승조
+		name=KOR_jeong_seungjo
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_jeong_seungjo.png"
+				large="gfx/leaders/KOR/jeong_seungjo.png"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_lee_sang_hoon={ #이상훈
+		name=KOR_lee_sang_hoon
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_lee_sang_hoon.png"
+				large="gfx/leaders/KOR/Lee_Sang_Hoon.png"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_lee_soon_jin={ #이순진
+		name=KOR_lee_soon_jin
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_lee_soon_jin.png"
+				large="gfx/leaders/KOR/Lee_Soon_Jin.png"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	KOR_kim_yong_woo={ #김용우
+		name=KOR_kim_yong_woo
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_kim_yong_woo.png"
+				large="gfx/leaders/KOR/gen_Kim_Yong_Woo.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_jang_jun_kyu={ #장준규
+		name=KOR_jang_jun_kyu
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_jang_jun_kyu.png"
+				large="gfx/leaders/KOR/Portrait_Jang_Jun_Kyu.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_park_chan_ju={ #박찬주
+		name=KOR_park_chan_ju
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_park_chan_ju.png"
+				large="gfx/leaders/KOR/Portrait_Park_Chan_Ju.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	KOR_jang_kyung_suk={ #장경석
+		name=KOR_jang_kyung_suk
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_jang_kyung_suk.png"
+				large="gfx/leaders/KOR/Portrait_Chung_Kyung_Seok.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_koo_hong_mo={ #구홍모
+		name=KOR_koo_hong_mo
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_koo_hong_mo.png"
+				large="gfx/leaders/KOR/Portrait_Koo_Hong_Moo.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_kim_seok_jin={ #김석진
+		name=KOR_kim_seok_jin
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_kim_seok_jin.png"
+				large="gfx/leaders/KOR/Portrait_Kim_Seok_Jin.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_jo_jong_seol={ #조종설
+		name=KOR_jo_jong_seol
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_jo_jong_seol.png"
+				large="gfx/leaders/KOR/Portrait_Jo_Jong_Seol.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_kim_byung_joo={ #김병주
+		name=KOR_kim_byung_joo
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_kim_byung_joo.png"
+				large="gfx/leaders/KOR/Portrait_Kim_Byung_Joo.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_han_ki_ho={ #한기호
+		name=KOR_han_ki_ho
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_han_ki_ho.png"
+				large="gfx/leaders/KOR/Portrait_Han_Gi_Ho.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}	
+	KOR_lee_jung_geun={ #이정근
+		name=KOR_lee_jung_geun
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_lee_jung_geun.png"
+				large="gfx/leaders/KOR/Portrait_Lee_Jung_Geun.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_in_sung_hwan={ #인성환
+		name=KOR_in_sung_hwan
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_in_sung_hwan.png"
+				large="gfx/leaders/KOR/Portrait_Yong_Sung_Hwan.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_lee_jin_seong={ #이진성
+		name=KOR_lee_jin_seong
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_lee_jin_seong.png"
+				large="gfx/leaders/KOR/Portrait_Lee_Jin_Seong.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	KOR_kim_jeong_sik={ #김정식
+		name=KOR_kim_jeong_sik
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_kim_jeong_sik.png"
+				large="gfx/leaders/KOR/Portrait_Kim_Jeong_Sik.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_kim_un_yong={ #김운용
+		name=KOR_kim_un_yong
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_kim_un_yong.png"
+				large="gfx/leaders/KOR/Portrait_Kim_Un_Jeong.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_park_han_ki={ #박한기
+		name=KOR_park_han_ki
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_park_han_ki.png"
+				large="gfx/leaders/KOR/Portrait_Park_Han_Ki.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_na_sang_woong={ #나상웅
+		name=KOR_na_sang_woong
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_na_sang_woong.png"
+				large="gfx/leaders/KOR/Portrait_Na_Sang_Woong.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_eom_gi_hak={ #엄기학
+		name=KOR_eom_gi_hak
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_eom_gi_hak.png"
+				large="gfx/leaders/KOR/Portrait_Yom_Gi_Hak.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_kim_seon_ho={ #김선호
+		name=KOR_kim_seon_ho
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_kim_seon_ho.png"
+				large="gfx/leaders/KOR/Portrait_Kim_Seon_Ho.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_chun_jin_gu={ #전진구
+		name=KOR_chun_jin_gu
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_chun_jin_gu.png"
+				large="gfx/leaders/KOR/Portrait_Chun_Yung_Gu.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA commando naval_invader }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_choi_chang_ryong={ #최창룡
+		name=KOR_choi_chang_ryong
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_choi_chang_ryong.png"
+				large="gfx/leaders/KOR/Portrait_Choi_Chang_Ryong.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ROKA trait_engineer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}	
+	KOR_um_hyun_sung={ #엄현성
+		name=KOR_um_hyun_sung
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_um_hyun_sung.png"
+				large="gfx/leaders/KOR/adm_Um_Hyun_Seong.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}	
+	KOR_jeong_jin_seob={ #정진섭
+		name=KOR_jeong_jin_seob
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_jeong_jin_seop.png"
+				large="gfx/leaders/KOR/Portrait_Jeong_Jin_Seob.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}	
+	KOR_kim_chang_kyu={ #김창규
+		name=KOR_kim_chang_kyu
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_kim_chang_kyu.png"
+				large="gfx/leaders/KOR/Portrait_Kim_Chang_Gyu.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}	
+	KOR_yoon_jeong_sang={ #윤정상
+		name=KOR_yoon_jeong_sang
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/KOR/idea_KOR_yoon_jeong_sang.png"
+				large="gfx/leaders/KOR/Portrait_Yoon_Jeong_Sang.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}	
 }	
