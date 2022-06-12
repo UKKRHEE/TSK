@@ -694,6 +694,357 @@ ideas = {
 	
 	political_advisor = {
 	}
+	tank_manufacturer = { 
+		
+		designer = yes
+		
+		rok_doosanDST = { #두산 DST
+
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { heavy_tank_manufacturer }
+
+			ai_will_do = {
+				factor = 10
+			}
+
+		}
+		
+		rok_samsungtec = { #삼성 테크원
+
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		rok_hyundai_rottem = { #현대 로템
+			
+			allowed = {
+				original_tag = ROK
+				always = no
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { medium_tank_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		rok_daewoo_ship = { #대우조선해양
+
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			equipment_bonus = {
+				
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+			
+		}
+		
+		rok_hanjin_ship = { #한진해운
+
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+		}	
+		rok_hyundai_ship = { #현대중공업
+
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+		}	
+	}
+	aircraft_manufacturer = { 
+			
+		designer = yes
+		
+		rok_kai = { #KAI (중점개방)
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		rok_asiana = { #금호 아시아나 
+			allowed = {
+				original_tag = ROK
+			}
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { CAS_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+		
+
+		rok_korean_air = { #대한항공 
+
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		rok_hwanhwa = { #한화
+
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+	}
+	
+	industrial_concern = {
+		
+		rok_gs = { #GS
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
+			
+			traits = { refinery_concern }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		rok_lg = { #LG
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			research_bonus = {
+				industry = 0.15
+				
+			}
+			ai_will_do = {
+				factor = 2
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		rok_sk = { #SK
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}		
+		
+		rok_samsung = { #삼성
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}		
+		rok_doosan = { #두산
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}		
+	}
+	
+	materiel_manufacturer = {
+		
+		designer = yes
+		
+		rok_st = { #S&T
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+				# +10% arty/at/aa research speed
+			}
+		}
+		
+		rok_dasan = { #다산
+
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		
+		
+
+		
+		rok_daewoo_car = { #대우자동차
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+		rok_hyundai_car = { #현대자동차
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+	}
 
 
 	
