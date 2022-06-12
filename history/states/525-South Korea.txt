@@ -8,7 +8,7 @@ state={
 	history={
 		owner = KR1
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			arms_factory = 3
 			industrial_complex = 10
 			dockyard = 2
@@ -48,7 +48,6 @@ state={
 			air_base = 6
 			fuel_silo = 3
 			steel_alloy_ind = 2
-			infrastructure = 10
 			}
 		}
 		1936.1.3 = {

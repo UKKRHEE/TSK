@@ -13,6 +13,13 @@ characters={
 			expire="1965.1.1.1"
 			id=-1
 		}
+		country_leader={
+			desc = "ROH_TAE_WHOO_DESC"
+			ideology=despotism
+			traits={ trait_MKR_roh_tae_woo }
+			expire="1965.1.1.1"
+			id=-1
+		}
 	}
 	MKR_chun_doo_hwan={ 
 		name=MKR_chun_doo_hwan
@@ -20,13 +27,6 @@ characters={
 			civilian={
 				large="gfx/leaders/MKR/전두환.dds"
 			}
-		}
-		country_leader={
-			desc = "CHUN_DOO_HWAN_DESC"
-			ideology=despotism
-			traits={ trait_MKR_chun_doo_hwan }
-			expire="1965.1.1.1"
-			id=-1
 		}
 	}
 	MKR_lee_beom_seok={ 

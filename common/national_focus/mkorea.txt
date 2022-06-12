@@ -1,7 +1,7 @@
 focus_tree = {
 	id = mkorea_focus_tree
 	country = {
-		factor = 0
+		factor = 1000
 	}
 	default = no
 	continuous_focus_position = { x = 100 y = 1900 }
@@ -60,15 +60,15 @@ focus_tree = {
 		set_country_flag = leader_chun
 		add_popularity = { ideology = neutrality popularity = 0.6 }
 		set_politics = { ruling_party = neutrality elections_allowed = no }
-				create_country_leader = {
-					name = "Chun Doo Hwan"
-					picture = "Chun_Doo_Hwan.dds"
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-					trait_MKR_chun_doo_hwan
+					add_country_leader_role = {
+						character = MKR_chun_doo_hwan
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = despotism
+							traits = { trait_MKR_chun_doo_hwan }
+							}
+						promote_leader = yes
 					}
-			}
 		}
 		x = 6
 		y = 2
@@ -146,16 +146,19 @@ focus_tree = {
 		completion_reward = {
 		set_country_flag = leader_rho
 		set_politics = { ruling_party = democratic elections_allowed = yes }
+		MKR = {
+			recruit_character = MKR_roh_tae_whoo
+		}
 			effect_tooltip = {
-				create_country_leader = {
-					name = "Rho Tae Whoo"
-					picture = "gfx/leaders/KOR/Rho_Tae_Whoo.dds"
-					expire = "1965.1.1"
-					ideology = conservatism
-					traits = {
-					trait_MKR_roh_tae_woo
+					add_country_leader_role = {
+						character = MKR_roh_tae_whoo
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = conservatism
+							traits = { trait_MKR_roh_tae_woo }
+							}
+						promote_leader = yes
 					}
-				}
 			}
 		}
 		x = 18
@@ -692,17 +695,15 @@ focus_tree = {
 		}
 		completion_reward = {
 		set_politics = { ruling_party = fascism elections_allowed = no }
-			effect_tooltip = {
-				create_country_leader = {
-					name = "Lee Beom seok"
-					picture = "이범석.dds"
-					expire = "1965.1.1"
-					ideology = nazism
-					traits = {
-					dictator	
+					add_country_leader_role = {
+						character = MKR_lee_beom_seok
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = nazism
+							traits = { dictator }
+							}
+						promote_leader = yes
 					}
-				}
-			}
 		}
 		x = 20
 		y = 8

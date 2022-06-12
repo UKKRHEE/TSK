@@ -261,6 +261,10 @@
  KOR_coring_in_818:0 "대한민국 평양직할시"
  
  core_HWAN:0 "지구 연방 결성"
+
+ modifier_production_speed_steel_mill_factor:0 "§Y제철소§! 건설 속도"
+ modifier_production_speed_steel_alloy_ind_factor:0 "§Y특수강공장§! 건설 속도"
  
+ KOR_economic_collapse_cooldown_tt:0 "향후 몇개월 동안 새 대책을 수립할 수 없습니다."
  
- 
+ East_Asian_Defense_Union:0 "동아방위연합"

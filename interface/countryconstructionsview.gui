@@ -236,11 +236,11 @@ guiTypes = {
 				quadTextureSprite = "GFX_constructions_bg4"
 			}
 			
-			iconType = {
-				name = "constructions_bg3"
-				position = { x = 0 y = 380 }
-				quadTextureSprite = "GFX_constructions_bg1"
-			}
+			#iconType = {
+			#	name = "constructions_bg3"
+			#	position = { x = 0 y = 380 }
+			#	quadTextureSprite = "GFX_constructions_bg1"
+			#}
 
 			iconType = {
 				name = "state_constructions"
@@ -289,7 +289,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "convert_ic_button"
-				position = { x = -50 y = 332 }
+				position = { x = -45 y = 382 }
 				quadTextureSprite ="GFX_convert_ic_button"
 				buttonFont = "Main_14_black"
 				Orientation = "UPPER_RIGHT"

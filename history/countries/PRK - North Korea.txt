@@ -200,6 +200,7 @@ set_technology = {
 	ship_torpedo_sub_modern_1 = 1
 	ship_torpedo_sub_modern_2 = 1
 	ship_sts_sub_1 = 1
+	basic_train = 1
 }
 
 set_variable = { PRK_army_spylevel = 0 }

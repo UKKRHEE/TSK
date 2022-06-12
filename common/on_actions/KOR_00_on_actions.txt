@@ -194,7 +194,109 @@ on_actions = {
 						id = korea.2
 						days = 0
 					}
+				}
+				835 = {
+					set_building_level = {
+						type = bunker
+						level = 5
+						province = 7125
+					}
+				}
+				525 = {
+					set_building_level = {
+						type = bunker
+						level = 3
+						province = 13239
+					}
+					set_building_level = {
+						type = bunker
+						level = 3
+						province = 13240
+					}
+				}
+				838 = {
+					set_building_level = {
+						type = bunker
+						level = 3
+						province = 1148
+					}
+					set_building_level = {
+						type = bunker
+						level = 3
+						province = 13238
+					}
 				}	
+			}
+			if = {
+				limit = {
+					ROOT = {
+						OR = {
+							original_tag = KOR
+							original_tag = KPA
+						}
+					}
+					FROM = {
+						OR = {
+							original_tag = KOR
+							original_tag = KPA
+						}
+					}
+				}
+				835 = {
+					set_building_level = {
+						type = bunker
+						level = 8
+						province = 7125
+					}
+				}
+				525 = {
+					set_building_level = {
+						type = bunker
+						level = 1
+						province = 13239
+					}
+					set_building_level = {
+						type = bunker
+						level = 1
+						province = 13240
+					}
+				}
+				838 = {
+					set_building_level = {
+						type = bunker
+						level = 1
+						province = 1148
+					}
+					set_building_level = {
+						type = bunker
+						level = 1
+						province = 13238
+					}
+				}
+				842 = {
+					set_building_level = {
+						type = bunker
+						level = 1
+						province = 11958
+					}
+					set_building_level = {
+						type = bunker
+						level = 1
+						province = 4004
+					}
+					set_building_level = {
+						type = bunker
+						level = 1
+						province = 9981
+					}
+				}
+				839 = {
+					set_building_level = {
+						type = bunker
+						level = 1
+						province = 12040
+					}
+				}
 			}
 		}
 	}

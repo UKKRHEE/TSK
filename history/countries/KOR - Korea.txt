@@ -327,6 +327,7 @@ set_technology = {
 	advanced_encryption = 1
 	advanced_decryption = 1
 	#nukes = 1
+	basic_train = 1
 }
 
 

@@ -1,7 +1,7 @@
 
 state={
 	id=842
-	name="강원북도"
+	name="강원도"
 
 	history={
 		owner = PRK
