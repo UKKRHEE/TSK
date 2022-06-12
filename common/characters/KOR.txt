@@ -464,7 +464,7 @@ characters={
 		portraits={
 			civilian={
 				small=GFX_idea_kim_yeongpil
-				large="gfx/leaders/KOR/KOR_jung_haechen.png"
+				large="gfx/leaders/KOR/KOR_kim_yeongpil.png"
 			}
 		}
 		advisor={
