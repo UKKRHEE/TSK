@@ -698,11 +698,12 @@ ideas = {
 		
 		designer = yes
 		
-		rok_doosanDST = { #두산 DST
+		MKR_doosanDST = { #두산 DST
 
 			
+			picture = doosanDST
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 			research_bonus = {
@@ -717,11 +718,12 @@ ideas = {
 
 		}
 		
-		rok_samsungtec = { #삼성 테크원
+		MKR_samsungtec = { #삼성 테크원
 
+			picture = samsungtec
 			
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 			research_bonus = {
@@ -735,10 +737,11 @@ ideas = {
 			}
 		}
 		
-		rok_hyundai_rottem = { #현대 로템
+		MKR_hyundai_rottem = { #현대 로템
 			
+			picture = hyundai_rottem
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 				always = no
 			}
 			
@@ -758,11 +761,12 @@ ideas = {
 		
 		designer = yes
 		
-		rok_daewoo_ship = { #대우조선해양
+		MKR_daewoo_ship = { #대우조선해양
 
 			
+			picture = daewoo_ship
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 			research_bonus = {
@@ -777,11 +781,12 @@ ideas = {
 			
 		}
 		
-		rok_hanjin_ship = { #한진해운
+		MKR_hanjin_ship = { #한진해운
 
+			picture = hanjin_ship
 			
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 			research_bonus = {
@@ -795,11 +800,12 @@ ideas = {
 			}
 			
 		}	
-		rok_hyundai_ship = { #현대중공업
+		MKR_hyundai_ship = { #현대중공업
 
 			
+			picture = hyundai_ship
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 			research_bonus = {
@@ -818,12 +824,15 @@ ideas = {
 			
 		designer = yes
 		
-		rok_kai = { #KAI (중점개방)
+		MKR_kai = { #KAI (중점개방)
 			
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
-			
+			available = {
+				
+			}
+			picture = kai
 			research_bonus = {
 				air_equipment = 0.15
 			}
@@ -839,11 +848,12 @@ ideas = {
 			}
 		}
 		
-		rok_asiana = { #금호 아시아나 
+		MKR_asiana = { #금호 아시아나 
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 						
+			picture = asiana
 			research_bonus = {
 				air_equipment = 0.15
 			}
@@ -860,11 +870,11 @@ ideas = {
 		}	
 		
 
-		rok_korean_air = { #대한항공 
+		MKR_korean_air = { #대한항공 
 
-			
+			picture = korean_air
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 						
@@ -879,11 +889,12 @@ ideas = {
 			}
 		}
 		
-		rok_hwanhwa = { #한화
+		MKR_hwanhwa = { #한화
 
+			picture = hwanhwa
 			
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 			
@@ -903,10 +914,11 @@ ideas = {
 	
 	industrial_concern = {
 		
-		rok_gs = { #GS
+		MKR_gs = { #GS
 			
+			picture = gs
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 			research_bonus = {
@@ -921,10 +933,11 @@ ideas = {
 			}
 		}
 		
-		rok_lg = { #LG
+		MKR_lg = { #LG
 			
+			picture = lg
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 			research_bonus = {
@@ -938,10 +951,11 @@ ideas = {
 			traits = { industrial_concern }
 		}
 
-		rok_sk = { #SK
+		MKR_sk = { #SK
 			
+			picture = sk
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 			research_bonus = {
@@ -951,10 +965,11 @@ ideas = {
 			traits = { electronics_concern }
 		}		
 		
-		rok_samsung = { #삼성
+		MKR_samsung = { #삼성
 			
+			picture = samsung
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 			research_bonus = {
@@ -963,10 +978,11 @@ ideas = {
 			
 			traits = { electronics_concern }
 		}		
-		rok_doosan = { #두산
+		MKR_doosan = { #두산
 			
+			picture = doosan
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 			research_bonus = {
@@ -981,10 +997,11 @@ ideas = {
 		
 		designer = yes
 		
-		rok_st = { #S&T
+		MKR_st = { #S&T
 			
+			picture = st
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 			research_bonus = {
@@ -998,11 +1015,12 @@ ideas = {
 			}
 		}
 		
-		rok_dasan = { #다산
+		MKR_dasan = { #다산
 
+			picture = dasan
 			
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 			research_bonus = {
@@ -1016,13 +1034,11 @@ ideas = {
 			}
 		}
 		
-		
-
-		
-		rok_daewoo_car = { #대우자동차
+		MKR_daewoo_car = { #대우자동차
 			
+			picture = daewoo_car
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 			research_bonus = {
@@ -1032,10 +1048,11 @@ ideas = {
 			traits = { motorized_equipment_manufacturer }
 		}
 		
-		rok_hyundai_car = { #현대자동차
+		MKR_hyundai_car = { #현대자동차
 			
+			picture = hyundai_car
 			allowed = {
-				original_tag = ROK
+				original_tag = MKR
 			}
 			
 			research_bonus = {

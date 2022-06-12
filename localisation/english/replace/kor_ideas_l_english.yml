@@ -313,6 +313,30 @@
  rok_dasan:0 "다산기공"
  rok_daewoo_car:0 "대우자동차"
  rok_hyundai_car:0 "현대자동차"
+ #########
+ MKR_doosanDST:0 "두산DST"
+ MKR_samsungtec:0 "삼성테크원"
+ MKR_hyundai_rottem:0 "현대로템"
+ 
+ MKR_daewoo_ship:0 "대우조선해양"
+ MKR_hanjin_ship:0 "한진해운"
+ MKR_hyundai_ship:0 "현대중공업"
+ 
+ MKR_kai:0 "KAI"
+ MKR_asiana:0 "금호아시아나"
+ MKR_korean_air:0 "대한항공"
+ MKR_hwanhwa:0 "한화"
+ 
+ MKR_gs:0 "호남정유"
+ MKR_lg:0 "LGEI"
+ MKR_sk:0 "SK"
+ MKR_samsung:0 "삼성전자"
+ MKR_doosan:0 "두산"
+ 
+ MKR_st:0 "S&T"
+ MKR_dasan:0 "다산기공"
+ MKR_daewoo_car:0 "대우자동차"
+ MKR_hyundai_car:0 "현대자동차"
  #####
  kim_young_nam:0 "김 영남"
  choe_yung:0 "최 영림"
