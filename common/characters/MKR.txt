@@ -397,7 +397,7 @@ characters={
 			traits = { air_warfare_theorist }
 		}
 		advisor={
-			slot = high_commander
+			slot = high_command
 			idea_token = MKR_lee_yang_ho_2
 			ledger = army
 			allowed = {
@@ -738,7 +738,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_commander
+			slot = high_command
 			idea_token = MKR_lee_jun
 			ledger = army
 			allowed = {
@@ -773,7 +773,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_commander
+			slot = high_command
 			idea_token = MKR_un_yong_nam
 			ledger = army
 			allowed = {
@@ -808,7 +808,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_commander
+			slot = high_command
 			idea_token = MKR_lee_jong_gu
 			ledger = army
 			allowed = {
@@ -843,7 +843,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_commander
+			slot = high_command
 			idea_token = MKR_goo_chang_hoe
 			ledger = army
 			allowed = {
@@ -878,7 +878,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_commander
+			slot = high_command
 			idea_token = MKR_lee_gwanghak
 			ledger = air
 			allowed = {
@@ -904,7 +904,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_commander
+			slot = high_command
 			idea_token = MKR_chung_yong
 			ledger = air
 			allowed = {
@@ -930,7 +930,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_commander
+			slot = high_command
 			idea_token = MKR_lee_sooyong
 			ledger = navy
 			allowed = {
@@ -964,7 +964,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = high_commander
+			slot = high_command
 			idea_token = MKR_chang_junggil
 			ledger = navy
 			allowed = {

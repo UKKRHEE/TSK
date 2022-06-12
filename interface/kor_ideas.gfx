@@ -180,79 +180,79 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_doosanDST"
-		texturefile = "gfx/interface/ideas/두산DST.dds"
+		texturefile = "gfx/interface/ideas/두산DST.png"
 	}
 	spriteType = {
 		name = "GFX_idea_samsungtec"
-		texturefile = "gfx/interface/ideas/삼성테크원.dds"
+		texturefile = "gfx/interface/ideas/삼성테크원.png"
 	}
 	spriteType = {
 		name = "GFX_idea_hyundai_rottem"
-		texturefile = "gfx/interface/ideas/현대로템.dds"
+		texturefile = "gfx/interface/ideas/현대로템.png"
 	}
 	spriteType = {
 		name = "GFX_idea_daewoo_ship"
-		texturefile = "gfx/interface/ideas/대우조선해양.dds"
+		texturefile = "gfx/interface/ideas/대우조선해양.png"
 	}
 	spriteType = {
 		name = "GFX_idea_hanjin_ship"
-		texturefile = "gfx/interface/ideas/한진해운.dds"
+		texturefile = "gfx/interface/ideas/한진해운.png"
 	}
 	spriteType = {
 		name = "GFX_idea_hyundai_ship"
-		texturefile = "gfx/interface/ideas/현대중공업.dds"
+		texturefile = "gfx/interface/ideas/현대중공업.png"
 	}
 	spriteType = {
 		name = "GFX_idea_kai"
-		texturefile = "gfx/interface/ideas/KAI.dds"
+		texturefile = "gfx/interface/ideas/KAI.png"
 	}
 	spriteType = {
 		name = "GFX_idea_asiana"
-		texturefile = "gfx/interface/ideas/금호아시아나.dds"
+		texturefile = "gfx/interface/ideas/금호아시아나.png"
 	}
 	spriteType = {
 		name = "GFX_idea_korean_air"
-		texturefile = "gfx/interface/ideas/대한항공.dds"
+		texturefile = "gfx/interface/ideas/대한항공.png"
 	}
 	spriteType = {
 		name = "GFX_idea_hwanhwa"
-		texturefile = "gfx/interface/ideas/한화.dds"
+		texturefile = "gfx/interface/ideas/한화.png"
 	}
 	spriteType = {
 		name = "GFX_idea_gs"
-		texturefile = "gfx/interface/ideas/GS.dds"
+		texturefile = "gfx/interface/ideas/GS.png"
 	}
 	spriteType = {
 		name = "GFX_idea_lg"
-		texturefile = "gfx/interface/ideas/LG.dds"
+		texturefile = "gfx/interface/ideas/LG.png"
 	}
 	spriteType = {
 		name = "GFX_idea_sk"
-		texturefile = "gfx/interface/ideas/SK.dds"
+		texturefile = "gfx/interface/ideas/SK.png"
 	}
 	spriteType = {
 		name = "GFX_idea_samsung"
-		texturefile = "gfx/interface/ideas/삼성.dds"
+		texturefile = "gfx/interface/ideas/삼성.png"
 	}
 	spriteType = {
 		name = "GFX_idea_doosan"
-		texturefile = "gfx/interface/ideas/두산.dds"
+		texturefile = "gfx/interface/ideas/두산.png"
 	}
 	spriteType = {
 		name = "GFX_idea_st"
-		texturefile = "gfx/interface/ideas/ST.dds"
+		texturefile = "gfx/interface/ideas/ST.png"
 	}
 	spriteType = {
 		name = "GFX_idea_dasan"
-		texturefile = "gfx/interface/ideas/다산.dds"
+		texturefile = "gfx/interface/ideas/다산.png"
 	}
 	spriteType = {
 		name = "GFX_idea_daewoo_car"
-		texturefile = "gfx/interface/ideas/대우자동차.dds"
+		texturefile = "gfx/interface/ideas/대우자동차.png"
 	}
 	spriteType = {
 		name = "GFX_idea_hyundai_car"
-		texturefile = "gfx/interface/ideas/현대자동차.dds"
+		texturefile = "gfx/interface/ideas/현대자동차.png"
 	}
 	
     ##### KOR_idea
@@ -295,55 +295,55 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_kai"
-		texturefile = "gfx/interface/ideas/KAI.dds"
+		texturefile = "gfx/interface/ideas/KAI.png"
 	}
 	spriteType = {
 		name = "GFX_idea_asiana"
-		texturefile = "gfx/interface/ideas/금호아시아나.dds"
+		texturefile = "gfx/interface/ideas/금호아시아나.png"
 	}
 	spriteType = {
 		name = "GFX_idea_korean_air"
-		texturefile = "gfx/interface/ideas/대한항공.dds"
+		texturefile = "gfx/interface/ideas/대한항공.png"
 	}
 	spriteType = {
 		name = "GFX_idea_hwanhwa"
-		texturefile = "gfx/interface/ideas/한화.dds"
+		texturefile = "gfx/interface/ideas/한화.png"
 	}
 	spriteType = {
 		name = "GFX_idea_gs"
-		texturefile = "gfx/interface/ideas/GS.dds"
+		texturefile = "gfx/interface/ideas/GS.png"
 	}
 	spriteType = {
 		name = "GFX_idea_lg"
-		texturefile = "gfx/interface/ideas/LG.dds"
+		texturefile = "gfx/interface/ideas/LG.png"
 	}
 	spriteType = {
 		name = "GFX_idea_sk"
-		texturefile = "gfx/interface/ideas/SK.dds"
+		texturefile = "gfx/interface/ideas/SK.png"
 	}
 	spriteType = {
 		name = "GFX_idea_samsung"
-		texturefile = "gfx/interface/ideas/삼성.dds"
+		texturefile = "gfx/interface/ideas/삼성.png"
 	}
 	spriteType = {
 		name = "GFX_idea_doosan"
-		texturefile = "gfx/interface/ideas/두산.dds"
+		texturefile = "gfx/interface/ideas/두산.png"
 	}
 	spriteType = {
 		name = "GFX_idea_st"
-		texturefile = "gfx/interface/ideas/ST.dds"
+		texturefile = "gfx/interface/ideas/ST.png"
 	}
 	spriteType = {
 		name = "GFX_idea_dasan"
-		texturefile = "gfx/interface/ideas/다산.dds"
+		texturefile = "gfx/interface/ideas/다산.png"
 	}
 	spriteType = {
 		name = "GFX_idea_daewoo_car"
-		texturefile = "gfx/interface/ideas/대우자동차.dds"
+		texturefile = "gfx/interface/ideas/대우자동차.png"
 	}
 	spriteType = {
 		name = "GFX_idea_hyundai_car"
-		texturefile = "gfx/interface/ideas/현대자동차.dds"
+		texturefile = "gfx/interface/ideas/현대자동차.png"
 	}
 	
 	spriteType = {

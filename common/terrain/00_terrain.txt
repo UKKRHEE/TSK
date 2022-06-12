@@ -275,8 +275,10 @@ categories =  {
 		color = { 155 0 25 }
 		movement_cost = 1.2
 		ai_terrain_importance_factor = 6.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
 		sound_type = plains
-
 		units = {
 			attack = -0.5
 			movement = -0.2
@@ -290,6 +292,9 @@ categories =  {
 		color = { 155 0 25 }
 		movement_cost = 1.2
 		ai_terrain_importance_factor = 6.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
 		sound_type = plains
 
 		units = {
@@ -305,6 +310,9 @@ categories =  {
 		color = { 155 0 25 }
 		movement_cost = 1.2
 		ai_terrain_importance_factor = 6.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
 		sound_type = plains
 
 		units = {
@@ -320,6 +328,9 @@ categories =  {
 		color = { 155 0 25 }
 		movement_cost = 1.2
 		ai_terrain_importance_factor = 6.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
 		sound_type = plains
 
 		units = {
@@ -335,6 +346,9 @@ categories =  {
 		color = { 155 0 25 }
 		movement_cost = 1.2
 		ai_terrain_importance_factor = 6.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
 		sound_type = plains
 
 		units = {
@@ -350,6 +364,9 @@ categories =  {
 		color = { 155 0 25 }
 		movement_cost = 1.2
 		ai_terrain_importance_factor = 6.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
 		sound_type = plains
 
 		units = {
@@ -365,6 +382,9 @@ categories =  {
 		color = { 155 0 25 }
 		movement_cost = 1.2
 		ai_terrain_importance_factor = 6.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
 		sound_type = plains
 
 		units = {
@@ -380,6 +400,9 @@ categories =  {
 		color = { 155 0 25 }
 		movement_cost = 1.2
 		ai_terrain_importance_factor = 6.0
+		combat_width = 96
+		combat_support_width = 32
+		match_value = 4
 		sound_type = plains
 
 		units = {

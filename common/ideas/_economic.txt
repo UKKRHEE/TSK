@@ -936,6 +936,10 @@ ideas = {
 		
 		free_trade = {
 
+			
+			allowed = {
+			    NOT = { original_tag = KOR }
+			}
 			available = {
 				if = {
 					limit = {
@@ -992,6 +996,10 @@ ideas = {
 		
 		export_focus = {
 			
+			
+			allowed = {
+			    NOT = { original_tag = KOR }
+			}
 			available = {
 
 				if = {
@@ -1051,6 +1059,10 @@ ideas = {
 		}
 		
 		limited_exports = {
+			
+			allowed = {
+			    NOT = { original_tag = KOR }
+			}
 			available = {
 				OR = {
 					AND = {
@@ -1137,6 +1149,10 @@ ideas = {
 		closed_economy = {
 			
 			
+			allowed = {
+			    NOT = { original_tag = KOR }
+			}
+			
 			available = {
 				has_war = yes
 				OR = { 
@@ -1222,6 +1238,10 @@ ideas = {
 			
 			modifier = {
 				min_export = 0
+				production_speed_buildings_factor = -0.1
+				research_speed_factor = -0.05
+				civilian_intel_to_others = -20.0
+				navy_intel_to_others = -20.0
 			}
 			
 			cancel_if_invalid = no

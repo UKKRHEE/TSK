@@ -268,3 +268,7 @@
  KOR_economic_collapse_cooldown_tt:0 "향후 몇개월 동안 새 대책을 수립할 수 없습니다."
  
  East_Asian_Defense_Union:0 "동아방위연합"
+
+ TOOLTIP_IF_SEOUL_FALL_WILL_DEAD:0 "§R서울이 함락되면 게임이 종료됩니다§!"
+
+ korea_closed_economy:0 "내수 경제"

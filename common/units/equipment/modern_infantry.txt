@@ -5,6 +5,12 @@ equipments = {
 	infantry_equipment_4 = { #M14,Type58
 		year = 1936
 	
+		upgrades = {
+			gun_reliability_upgrade
+			gun_attack_upgrade
+			gun_ap_upgrade
+			gun_cost_upgrade
+		}
 		archetype = infantry_equipment
 		parent = infantry_equipment_3
 		priority = 10
@@ -25,6 +31,7 @@ equipments = {
 	}	
 	RD_infantry_equipment = { #M14,Type58
 		year = 1936
+	
 	
 		#Defensive Abilities
 		defense = 40
@@ -48,6 +55,13 @@ equipments = {
 	infantry_equipment_5 = { #M16,AKM
 		year = 1936
 	
+		upgrades = {
+			gun_reliability_upgrade
+			gun_attack_upgrade
+			gun_ap_upgrade
+			gun_cost_upgrade
+		}
+	
 		archetype = infantry_equipment
 		parent = infantry_equipment_4
 		priority = 10
@@ -70,6 +84,13 @@ equipments = {
 	# Improved weapons  ~1939
 	infantry_equipment_6 = { #K1A,Type68
 		year = 1939
+	
+		upgrades = {
+			gun_reliability_upgrade
+			gun_attack_upgrade
+			gun_ap_upgrade
+			gun_cost_upgrade
+		}
 	
 		archetype = infantry_equipment
 		parent = infantry_equipment_5
@@ -97,6 +118,13 @@ equipments = {
 	infantry_equipment_7 = { #K2,Type88
 		year = 1936
 	
+		upgrades = {
+			gun_reliability_upgrade
+			gun_attack_upgrade
+			gun_ap_upgrade
+			gun_cost_upgrade
+		}
+	
 		archetype = infantry_equipment
 		parent = infantry_equipment_6
 		priority = 10
@@ -123,6 +151,13 @@ equipments = {
 	infantry_equipment_8 = { #K2C,AK-74M
 		year = 1936
 	
+		upgrades = {
+			gun_reliability_upgrade
+			gun_attack_upgrade
+			gun_ap_upgrade
+			gun_cost_upgrade
+		}
+	
 		archetype = infantry_equipment
 		parent = infantry_equipment_7
 		priority = 10
@@ -146,6 +181,13 @@ equipments = {
 	
 	infantry_equipment_9 = {  #K2C1,AK-74MK
 		year = 1936
+	
+		upgrades = {
+			gun_reliability_upgrade
+			gun_attack_upgrade
+			gun_ap_upgrade
+			gun_cost_upgrade
+		}
 	
 		archetype = infantry_equipment
 		parent = infantry_equipment_8

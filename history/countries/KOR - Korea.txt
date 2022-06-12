@@ -46,7 +46,7 @@ add_ideas = {
 	#laws
 	korean_economy
 	korean_war
-	closed_economy
+	korea_closed_economy
 	#
 	FKR_back_down_military
 	KOR_danilminjok

@@ -72,17 +72,6 @@ country_event = {
 				add_state_core = 844
 				add_state_core = 843
 				add_state_core = 848
-		        create_country_leader = {
-	                name = "Roh Tae whoo"
-	                desc = ""
-	                picture = "gfx/leaders/KR1/Rho_Tae_Whoo.dds"
-	                expire = "1965.1.1"
-	                ideology = despotism
-	                traits = {
-						trait_MKR_roh_tae_woo
-	                }
-				
-                }
 			}	
 			ROK = {
 				annex_country = {
@@ -107,7 +96,7 @@ country_event = {
 				add_state_core = 843
 				add_state_core = 848
 		        create_country_leader = {
-	                    name = "Kim Dae-jung"
+	                    name = "김대중"
 	                    desc = ""
 	                    picture = "gfx/leaders/KR1/김대중.dds"
 	                    expire = "1965.1.1"
@@ -115,7 +104,6 @@ country_event = {
 	                    traits = {
 							trait_ROK_kim_dae_jung
 	                }
-					
                 }
 			}	
 			ROK = {
@@ -242,18 +230,6 @@ country_event = {
 				add_state_core = 844
 				add_state_core = 843
 				add_state_core = 848
-		        create_country_leader = {
-	                name = "Roh Tae whoo"
-	                desc = ""
-	                picture = "gfx/leaders/KR1/Rho_Tae_Whoo.dds"
-	                expire = "1965.1.1"
-	                ideology = despotism
-	                traits = {
-						trait_MKR_roh_tae_woo
-	                }
-				
-                	}
-				}	
 			ROK = {
 				annex_country = {
 					target = KR1
@@ -277,7 +253,7 @@ country_event = {
 				add_state_core = 843
 				add_state_core = 848
 		        	create_country_leader = {
-	                    name = "Kim Dae-jung"
+	                    name = "김대중"
 	                    desc = ""
 	                    picture = "gfx/leaders/KR1/김대중.dds"
 	                    expire = "1965.1.1"
