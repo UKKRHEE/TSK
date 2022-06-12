@@ -35,7 +35,7 @@
  KOR_lee_yongman:0 "이용만"
  KOR_chung_kyungdoo:0 "정경두"
  KOR_choi_chakyu:0 "최차규"
- KOR_choi_yunhoi:0 "최윤회"
+ KOR_choi_yunhoi:0 "최윤희"
  KOR_hwang_kicheol:0 "황기철"
  KOR_kim_kwanjin:0 "김관진"
  KOR_lee_sang_hoon:0 "이상훈"
@@ -64,3 +64,49 @@
  KOR_jeong_jin_seob:0 "정진섭"
  KOR_kim_chang_kyu:0 "김창규"
  KOR_yoon_jeong_sang:0 "윤정상"
+ 
+ 
+ #######################
+ 
+ MKR_roh_tae_whoo:0 "노태우"
+ MKR_chun_doo_hwan:0 "전두환"
+ MKR_lee_beom_seok:0 "이범석"
+ 
+ MKR_chung_won_sik:0 "정원식"
+ MKR_lee_young_man:0 "이용만"
+ MKR_chung_geun_mo:0 "정근모"
+ MKR_choi_ghakkyu:0 "최각규"
+ MKR_han_seungsoo:0 "한승수"
+ MKR_park_saejik:0 "박세직"
+ MKR_lee_ghunhui:0 "이건희"
+ #이론가
+ MKR_kim_dong_shin:0 "김동신"
+ MKR_cho_nam_pung:0 "조남풍"
+ MKR_choi_sae_chang:0 "최세창"
+ MKR_seo_dongyeol:0 "서동열"
+ MKR_lee_yang_ho:0 "이양호"
+ MKR_lee_nam_shin:0 "이남신"
+ #육군참총
+ MKR_kim_jing_yung:0 "김진영"
+ MKR_kim_dong_jin:0 "김동진"
+ MKR_lee_jin_sam:0 "이진삼"
+ MKR_do_il_kyu:0 "도일규"
+ #공군참총
+ MKR_cho_geun_hae:0 "조근해"
+ MKR_kim_hong_rae:0 "김홍래"
+ MKR_han_chuseok:0 "한주석"
+ #해군참총
+ MKR_an_byung_tae:0 "안병태"
+ MKR_yoo_samnam:0 "유삼남"
+ #고위지휘관
+ MKR_lee_jun:0 "이준"
+ MKR_un_yong_nam:0 "운용남"
+ MKR_lee_jong_gu:0 "이종구"
+ MKR_goo_chang_hoe:0 "구창회"
+ MKR_lee_gwanghak:0 "이광학"
+ MKR_lee_sooyong:0 "이수용"
+ MKR_chang_junggil:0 "장정길"
+ #장교
+ MKR_ahn_phil_jun:0 "장정길"
+ MKR_min_kyungbae:0 "민경배"
+ MKR_lee_philseob:0 "이필섭"

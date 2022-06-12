@@ -332,6 +332,10 @@ characters={
 		portraits={
 			civilian={
 				small=GFX_idea_han_minkoo
+				large = "gfx/leaders/KOR/HMK.dds"
+			}
+			army = {
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_한민구.png"
 			}
 		}
 		advisor={
@@ -554,7 +558,7 @@ characters={
 		portraits={
 			civilian={
 				small=GFX_idea_im_chongbin
-				large="gfx/leaders/KOR/KOR_im_chongbin.png"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_임충빈.png"
 			}
 		}
 		advisor={
@@ -616,7 +620,7 @@ characters={
 		portraits={
 			civilian={
 				small=GFX_idea_park_hengryul
-				large="gfx/leaders/KOR/KOR_park_hengryul.png"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_박흥렬.png"
 			}
 		}
 		advisor={
@@ -647,7 +651,7 @@ characters={
 		portraits={
 			civilian={
 				small=GFX_idea_kwon_ohsung
-				large="gfx/leaders/KOR/KOR_kwon_ohsung.png"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_권오성.png"
 			}
 		}
 		advisor={
@@ -773,7 +777,7 @@ characters={
 		portraits={
 			civilian={
 				small=GFX_idea_jung_okgeun
-				large="gfx/leaders/KOR/KOR_jung_okgeun.png"
+				large="gfx/leaders/KOR/09korea_navy/09한국_해군_정옥근.png"
 			}
 		}
 		advisor={
@@ -804,7 +808,7 @@ characters={
 		portraits={
 			civilian={
 				small=GFX_idea_kim_seongchan
-				large="gfx/leaders/KOR/KOR_kim_seongchan.png"
+				large="gfx/leaders/KOR/09korea_navy/09한국_해군_김성찬.png"
 			}
 		}
 		advisor={
@@ -831,12 +835,12 @@ characters={
 		}
 	}
 	#고위 지휘관
-	KOR_lee_chulhui={ #이철희
+	KOR_lee_chulhui={ #이철휘
 		name=KOR_lee_chulhui
 		portraits={
 			civilian={
 				small=GFX_idea_lee_chulhui
-				large="gfx/leaders/KOR/KOR_lee_chulhui.png"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_이철휘.png"
 			}
 		}
 		advisor={
@@ -868,12 +872,12 @@ characters={
 		portraits={
 			civilian={
 				small=GFX_idea_hwang_uidon
-				large="gfx/leaders/KOR/KOR_hwang_uidon.png"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_황의돈.png"
 			}
 		}
 		advisor={
 			slot = high_commander
-			idea_token = lee_chulhui
+			idea_token = hwang_uidon
 			ledger = army
 			allowed = {
 				original_tag = KOR
@@ -900,7 +904,7 @@ characters={
 		portraits={
 			civilian={
 				small=GFX_idea_jung_seungjo
-				large="gfx/leaders/KOR/jeong_seungjo.png"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_정승조.png"
 			}
 		}
 		advisor={
@@ -932,7 +936,7 @@ characters={
 		portraits={
 			civilian={
 				small=GFX_idea_kim_sangki
-				large="gfx/leaders/KOR/KOR_kim_sangki.png"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_김상기.png"
 			}
 		}
 		advisor={
@@ -1057,12 +1061,12 @@ characters={
 		}
 	}
 	###해군고위지휘관
-	KOR_choi_yunhoi={ #최윤회
+	KOR_choi_yunhoi={ #최윤희
 		name=KOR_choi_yunhoi
 		portraits={
 			civilian={
 				small=GFX_idea_choi_yunhoi
-				large="gfx/leaders/KOR/KOR_choi_yunhoi.png"
+				large="gfx/leaders/KOR/09korea_navy/09한국_해군_최윤희.png"
 			}
 		}
 		advisor={
@@ -1094,7 +1098,7 @@ characters={
 		portraits={
 			civilian={
 				small=GFX_idea_choi_yunhoi
-				large="gfx/leaders/KOR/KOR_hwang_kicheol.png"
+				large="gfx/leaders/KOR/09korea_navy/09한국_해군_황기철.png"
 			}
 		}
 		advisor={
@@ -1127,7 +1131,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_kim_kwanjin.png"
-				large="gfx/leaders/KOR/Kim_Kwan_Jin.png"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_김관진.png"
 			}
 		}
 		corps_commander = {
@@ -1161,7 +1165,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_lee_soon_jin.png"
-				large="gfx/leaders/KOR/Lee_Soon_Jin.png"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_이순진.png"
 			}
 		}
 		corps_commander = {
@@ -1178,7 +1182,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_kim_yong_woo.png"
-				large="gfx/leaders/KOR/gen_Kim_Yong_Woo.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_김용우.png"
 			}
 		}
 		corps_commander = {
@@ -1195,7 +1199,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_jang_jun_kyu.png"
-				large="gfx/leaders/KOR/Portrait_Jang_Jun_Kyu.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_장준규.png"
 			}
 		}
 		corps_commander = {
@@ -1212,7 +1216,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_park_chan_ju.png"
-				large="gfx/leaders/KOR/Portrait_Park_Chan_Ju.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_박찬주.png"
 			}
 		}
 		corps_commander = {
@@ -1229,7 +1233,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_jang_kyung_suk.png"
-				large="gfx/leaders/KOR/Portrait_Chung_Kyung_Seok.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_장경석.png"
 			}
 		}
 		corps_commander = {
@@ -1246,7 +1250,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_koo_hong_mo.png"
-				large="gfx/leaders/KOR/Portrait_Koo_Hong_Moo.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_구홍모.png"
 			}
 		}
 		corps_commander = {
@@ -1280,7 +1284,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_jo_jong_seol.png"
-				large="gfx/leaders/KOR/Portrait_Jo_Jong_Seol.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_조종설.png"
 			}
 		}
 		corps_commander = {
@@ -1297,7 +1301,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_kim_byung_joo.png"
-				large="gfx/leaders/KOR/Portrait_Kim_Byung_Joo.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_김병주.png"
 			}
 		}
 		corps_commander = {
@@ -1314,7 +1318,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_han_ki_ho.png"
-				large="gfx/leaders/KOR/Portrait_Han_Gi_Ho.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_한기호.png"
 			}
 		}
 		corps_commander = {
@@ -1331,7 +1335,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_lee_jung_geun.png"
-				large="gfx/leaders/KOR/Portrait_Lee_Jung_Geun.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_이정근.png"
 			}
 		}
 		corps_commander = {
@@ -1348,7 +1352,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_in_sung_hwan.png"
-				large="gfx/leaders/KOR/Portrait_Yong_Sung_Hwan.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_인성환.png"
 			}
 		}
 		corps_commander = {
@@ -1365,7 +1369,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_lee_jin_seong.png"
-				large="gfx/leaders/KOR/Portrait_Lee_Jin_Seong.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_이진성.png"
 			}
 		}
 		corps_commander = {
@@ -1399,7 +1403,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_kim_un_yong.png"
-				large="gfx/leaders/KOR/Portrait_Kim_Un_Jeong.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_김운용.png"
 			}
 		}
 		corps_commander = {
@@ -1416,7 +1420,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_park_han_ki.png"
-				large="gfx/leaders/KOR/Portrait_Park_Han_Ki.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_박한기.png"
 			}
 		}
 		corps_commander = {
@@ -1433,7 +1437,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_na_sang_woong.png"
-				large="gfx/leaders/KOR/Portrait_Na_Sang_Woong.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_나상웅.png"
 			}
 		}
 		corps_commander = {
@@ -1450,7 +1454,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_eom_gi_hak.png"
-				large="gfx/leaders/KOR/Portrait_Yom_Gi_Hak.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_엄기학.png"
 			}
 		}
 		corps_commander = {
@@ -1467,7 +1471,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_kim_seon_ho.png"
-				large="gfx/leaders/KOR/Portrait_Kim_Seon_Ho.dds"
+				large="gfx/leaders/KOR/09korea_army/09한국_육군_김선호.png"
 			}
 		}
 		corps_commander = {
@@ -1484,7 +1488,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_chun_jin_gu.png"
-				large="gfx/leaders/KOR/Portrait_Chun_Yung_Gu.dds"
+				large="gfx/leaders/KOR/09korea_marine/09한국_해병_전진구.png"
 			}
 		}
 		corps_commander = {
@@ -1501,7 +1505,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_choi_chang_ryong.png"
-				large="gfx/leaders/KOR/Portrait_Choi_Chang_Ryong.dds"
+				large="gfx/leaders/KOR/09korea_marine/09한국_해병_최창룡.png"
 			}
 		}
 		corps_commander = {
@@ -1518,7 +1522,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_um_hyun_sung.png"
-				large="gfx/leaders/KOR/adm_Um_Hyun_Seong.dds"
+				large="gfx/leaders/KOR/09korea_navy/09한국_해군_엄현성.png"
 			}
 		}
 		corps_commander = {
@@ -1535,7 +1539,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_jeong_jin_seop.png"
-				large="gfx/leaders/KOR/Portrait_Jeong_Jin_Seob.dds"
+				large="gfx/leaders/KOR/09korea_navy/09한국_해군_정진섭.png"
 			}
 		}
 		corps_commander = {
@@ -1569,7 +1573,7 @@ characters={
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/KOR/idea_KOR_yoon_jeong_sang.png"
-				large="gfx/leaders/KOR/Portrait_Yoon_Jeong_Sang.dds"
+				large="gfx/leaders/KOR/09korea_navy/09한국_해군_윤정상.png"
 			}
 		}
 		corps_commander = {

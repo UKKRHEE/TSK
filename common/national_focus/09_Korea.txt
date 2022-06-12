@@ -1167,6 +1167,7 @@ focus_tree = {
 							target = KPA
 							type = annex_everything
 						}
+						custom_effect_tooltip = TOOLTIP_IF_SEOUL_FALL_WILL_DEAD
 					hidden_effect = {
 
 }

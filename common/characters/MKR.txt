@@ -1,5 +1,4 @@
 characters={
-	
 	MKR_roh_tae_whoo={ 
 		name=MKR_roh_tae_whoo
 		portraits={
@@ -16,7 +15,7 @@ characters={
 		}
 	}
 	MKR_chun_doo_hwan={ 
-		name=MKR_roh_tae_whoo
+		name=MKR_chun_doo_hwan
 		portraits={
 			civilian={
 				large="gfx/leaders/MKR/전두환.dds"
@@ -43,6 +42,1002 @@ characters={
 			traits={ }
 			expire="1965.1.1.1"
 			id=-1
+		}
+	}
+	MKR_chung_won_sik = { #정원식
+		name=MKR_chung_won_sik
+		portraits={
+			civilian={
+				large = ""
+				small = ""
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_chung_won_sik
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			cost = 100
+			traits = { silent_workhorse }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	MKR_lee_young_man = { #이용만
+		name=MKR_lee_young_man
+		portraits={
+			civilian={
+				large = ""
+				small = ""
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_lee_young_man
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			cost = 100
+			traits = { financial_expert }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	MKR_chung_geun_mo = { #정근모
+		name=MKR_chung_geun_mo
+		portraits={
+			civilian={
+				large = ""
+				small = ""
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_chung_geun_mo
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			cost = 100
+			traits = { technocrat }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	MKR_choi_ghakkyu = { #최각규
+		name=MKR_choi_ghakkyu
+		portraits={
+			civilian={
+				large = ""
+				small = ""
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_choi_ghakkyu
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			cost = 100
+			traits = { economist }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	MKR_han_seungsoo = { #한승수
+		name=MKR_han_seungsoo
+		portraits={
+			civilian={
+				large = ""
+				small = ""
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_han_seungsoo
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			cost = 100
+			traits = { war_industrialist }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	MKR_park_saejik = { #박세직
+		name=MKR_park_saejik
+		portraits={
+			civilian={
+				large = ""
+				small = ""
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_park_saejik
+			available = {
+				has_intelligence_agency = yes
+			}
+			
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+				has_dlc = "La Resistance" 
+			}
+			
+			traits = { head_of_intelligence }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	MKR_lee_ghunhui = { #이건희
+		name=MKR_lee_ghunhui
+		portraits={
+			civilian={
+				large = ""
+				small = ""
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_lee_ghunhui
+			available = {
+			}
+			
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			
+			traits = { captain_of_industry }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	##########
+	MKR_cho_nam_pung = { #조남풍
+		name=MKR_cho_nam_pung
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/조남풍.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = MKR_cho_nam_pung
+			ledger = army
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			traits = { blitzkrieg_theorist }
+		}
+		corps_commander = {
+			traits = { ROKA KOR_Hanahoe }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MKR_kim_dong_shin = {
+		name=MKR_kim_dong_shin
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/김동신.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = MKR_kim_dong_shin
+			ledger = army
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			research_bonus = {
+				cat_mobile_warfare = 0.15
+			}
+			traits = { mobile_warfare_expert }
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MKR_choi_sae_chang = {
+		name=MKR_choi_sae_chang
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/최세창.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = MKR_choi_sae_chang
+			ledger = army
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			research_bonus = {
+				cat_mobile_warfare = 0.15
+			}
+			traits = { mobile_warfare_expert }
+		}
+		corps_commander = {
+			traits = { ROKA KOR_Hanahoe }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MKR_seo_dongyeol = {
+		name=MKR_seo_dongyeol
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/서동열.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = MKR_seo_dongyeol
+			ledger = air
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			research_bonus = {
+				cat_battlefield_support = 0.15
+			}
+			traits = { close_air_support_proponent }
+		}
+		#corps_commander = {
+		#	traits = { ROKAF }
+		#	skill = 1
+		#	attack_skill = 1
+		#	defense_skill = 1
+		#	planning_skill = 1
+		#	logistics_skill = 1
+		#}
+	}
+	MKR_lee_yang_ho = {
+		name=MKR_lee_yang_ho
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/이양호.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = MKR_lee_yang_ho
+			ledger = air
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+		advisor={
+			slot = high_commander
+			idea_token = MKR_lee_yang_ho_2
+			ledger = army
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			traits = { air_close_air_support_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		#corps_commander = {
+		#	traits = { ROKAF }
+		#	skill = 1
+		#	attack_skill = 1
+		#	defense_skill = 1
+		#	planning_skill = 1
+		#	logistics_skill = 1
+		#}
+	}
+	MKR_lee_nam_shin = {
+		name=MKR_lee_nam_shin
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/이남신.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = MKR_lee_nam_shin
+			ledger = air
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			traits = { air_warfare_theorist }
+		}
+		#corps_commander = {
+		#	traits = { ROKAF }
+		#	skill = 1
+		#	attack_skill = 1
+		#	defense_skill = 1
+		#	planning_skill = 1
+		#	logistics_skill = 1
+		#}
+	}
+	MKR_kim_jing_yung = {
+		name=MKR_kim_jing_yung
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/김진영.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = MKR_kim_jing_yung
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			traits = { army_chief_organizational_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA KOR_Hanahoe }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MKR_kim_dong_jin = {
+		name=MKR_kim_dong_jin
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/김동진.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = MKR_kim_dong_jin
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			traits = { army_chief_drill_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MKR_lee_jin_sam = {
+		name=MKR_lee_jin_sam
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/이진삼.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = MKR_lee_jin_sam
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			traits = { army_chief_offensive_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA KOR_Hanahoe }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MKR_do_il_kyu = {
+		name=MKR_do_il_kyu
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/도일규.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = MKR_do_il_kyu
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			traits = { army_chief_maneuver_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MKR_cho_geun_hae = {
+		name=MKR_cho_geun_hae
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/조근해.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = MKR_cho_geun_hae
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			traits = { air_chief_ground_support_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MKR_kim_hong_rae = {
+		name=MKR_kim_hong_rae
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/김홍래.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = MKR_kim_hong_rae
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			traits = { air_chief_all_weather_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MKR_han_chuseok = {
+		name=MKR_han_chuseok
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/한주석.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = MKR_han_chuseok
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			traits = { air_chief_reform_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MKR_an_byung_tae = {
+		name=MKR_an_byung_tae
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/안병태.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = MKR_an_byung_tae
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			traits = { navy_chief_decisive_battle_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	MKR_yoo_samnam = {
+		name=MKR_yoo_samnam
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/유삼남.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = MKR_yoo_samnam
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			traits = { navy_chief_commerce_raiding_3 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	MKR_lee_jun = {
+		name=MKR_lee_jun
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/이준.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = MKR_lee_jun
+			ledger = army
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+				
+			}
+			available = {
+			}
+			traits = { army_infantry_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MKR_un_yong_nam = {
+		name=MKR_un_yong_nam
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/운용남.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = MKR_un_yong_nam
+			ledger = army
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+				
+			}
+			available = {
+			}
+			traits = { army_armored_3 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MKR_lee_jong_gu = {
+		name=MKR_lee_jong_gu
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/이종구.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = MKR_lee_jong_gu
+			ledger = army
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+				
+			}
+			available = {
+			}
+			traits = { army_regrouping_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA KOR_Hanahoe }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MKR_goo_chang_hoe = {
+		name=MKR_goo_chang_hoe
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/구창회.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = MKR_goo_chang_hoe
+			ledger = army
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+				
+			}
+			available = {
+			}
+			traits = { army_logistics_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { ROKA KOR_Hanahoe }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MKR_lee_gwanghak = {
+		name=MKR_lee_gwanghak
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/이광학.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = MKR_lee_gwanghak
+			ledger = air
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			traits = { air_bomber_interception_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MKR_chung_yong = {
+		name=MKR_chung_yong
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/정용후.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = MKR_chung_yong
+			ledger = air
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			traits = { air_airborne_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MKR_lee_sooyong = {
+		name=MKR_lee_sooyong
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/이수용.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = MKR_lee_sooyong
+			ledger = navy
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			traits = { navy_fleet_logistics_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	MKR_chang_junggil = {
+		name=MKR_chang_junggil
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/장정길.dds"
+				small = ""
+			}
+		}
+		advisor={
+			slot = high_commander
+			idea_token = MKR_chang_junggil
+			ledger = navy
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+				}
+			}
+			available = {
+			}
+			traits = { navy_anti_submarine_1 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	MKR_ahn_phil_jun = {
+		name=MKR_ahn_phil_jun
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/안필준.dds"
+				small = ""
+			}
+		}
+		corps_commander = {
+			traits = { ROKA KOR_Hanahoe }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MKR_min_kyungbae = {
+		name=MKR_min_kyungbae
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/민경배.dds"
+				small = ""
+			}
+		}
+		corps_commander = {
+			traits = { ROKA KOR_Hanahoe }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MKR_lee_philseob = {
+		name=MKR_lee_philseob
+		portraits={
+			civilian={
+				large = "gfx/leaders/MKR/이필섭.dds"
+				small = ""
+			}
+		}
+		corps_commander = {
+			traits = { ROKA KOR_Hanahoe }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 }

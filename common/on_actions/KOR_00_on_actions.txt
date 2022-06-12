@@ -63,6 +63,23 @@ on_actions = {
 	    effect = {
 			if = { #서울 함락
 				limit = {
+					tag = KPA
+					835 = { is_owned_by = KOR }
+					835 = { is_controlled_by = KOR }
+					KOR = {
+						exists = yes
+						is_ai = no
+					}
+				}
+				KPA = {
+					annex_country = {
+						targer = KOR
+						transfer_troops = yes
+					}	
+				}
+			}
+			if = { #서울 함락
+				limit = {
 					tag = PRK
 					835 = { is_owned_by = MKR }
 					MKR = { has_war_with = PRK }
