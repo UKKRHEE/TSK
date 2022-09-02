@@ -502,8 +502,6 @@ sub_units = {
 		# needed since we give so much bonus to infantry even with no mech equipment
 		essential = {
 			mechanized_equipment
-			light_mun_equipment
-			heavy_mun_equipment
 		}
 
 		# this is what moves us and sets speed
@@ -513,8 +511,6 @@ sub_units = {
 			IFV_equipment = 50
 			infantry_equipment = 100
 			support_infantry_equipment = 30
-			light_mun_equipment = 160
-			heavy_mun_equipment = 100
 		}
 
 		forest = {
@@ -587,7 +583,6 @@ sub_units = {
 		# needed since we give so much bonus to infantry even with no mech equipment
 		essential = {
 			mechanized_equipment
-			light_mun_equipment
 		}
 
 		# this is what moves us and sets speed
@@ -597,7 +592,6 @@ sub_units = {
 			mechanized_equipment = 50
 			infantry_equipment = 100
 			support_infantry_equipment = 40
-			light_mun_equipment = 170
 		}
 
 		forest = {
@@ -662,7 +656,7 @@ sub_units = {
 		weight = 0.5
 		
 		essential = {
-			light_mun_equipment
+			
 		}
 		
 		supply_consumption = 0.04
@@ -671,7 +665,6 @@ sub_units = {
 			infantry_equipment = 100
 			anti_tank_equipment = 10
 			support_infantry_equipment = 30
-			light_mun_equipment = 190
 			light_vehicle_equipment = 40
 		}
 	}
@@ -717,7 +710,7 @@ sub_units = {
 		transport = motorized_equipment
 		
 		essential = {
-			light_mun_equipment
+			
 		}
 		
 		need = {
@@ -725,7 +718,6 @@ sub_units = {
 			motorized_equipment = 50
 			light_vehicle_equipment = 20
 			support_infantry_equipment = 50
-			light_mun_equipment = 180
 		}
 
 		forest = {
@@ -793,13 +785,11 @@ sub_units = {
 		supply_consumption = 0.04
 		
 		essential = {
-			light_mun_equipment
 		}
 		
 		need = {
 			infantry_equipment = 100
 			support_infantry_equipment = 50
-			light_mun_equipment = 180
 			light_vehicle_equipment = 30
 		}
 	}
@@ -843,13 +833,11 @@ sub_units = {
 		supply_consumption = 0.01
 		
 		essential = {
-			light_mun_equipment
 		}
 		
 		need = {
 			infantry_equipment = 150
 			support_infantry_equipment = 40
-			light_mun_equipment = 220
 		}
 
 		marsh = {
@@ -907,7 +895,6 @@ sub_units = {
 		# needed since we give so much bonus to infantry even with no mech equipment
 		essential = {
 			amphibious_mechanized_equipment
-			light_mun_equipment
 		}
 
 		# this is what moves us and sets speed
@@ -917,7 +904,6 @@ sub_units = {
 			amphibious_mechanized_equipment = 50
 			infantry_equipment = 100
 			support_infantry_equipment = 40
-			light_mun_equipment = 170
 		}
 
 		forest = {
@@ -994,14 +980,12 @@ sub_units = {
 
 		essential = {
 			engineer_equipment
-			light_mun_equipment
 		}
 		
 		need = {
 			infantry_equipment = 80
 			motorized_equipment = 10
 			engineer_equipment = 25
-			light_mun_equipment = 100
 		}
 
 		forest = {
@@ -1095,14 +1079,12 @@ sub_units = {
 
 		essential = {
 			engineer_equipment
-			light_mun_equipment
 		}
 
 		need = {
 			infantry_equipment = 100
 			motorized_equipment = 20
 			engineer_equipment = 50
-			light_mun_equipment = 100
 		}
 
 		forest = {
@@ -1198,13 +1180,11 @@ sub_units = {
 		transport = light_vehicle_equipment
 		
 		essential = {
-			light_mun_equipment
 		}
 		
 		need = {
 			infantry_equipment = 100
 			support_infantry_equipment = 60
-			light_mun_equipment = 300
 			light_vehicle_equipment = 20
 		}
 	}
@@ -1254,7 +1234,6 @@ sub_units = {
 			motorized_equipment = 50
 			support_infantry_equipment = 10
 			Vertical_maneuvering_equipment = 100
-			light_mun_equipment = 300
 		}
 		hills = {
 			attack = -0.2

@@ -84,34 +84,6 @@ technologies = {
 		}
 	}
 
-	light_mun_equipment = { #경탄약
-
-		enable_equipments = { 
-			light_mun_equipment_0
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-	
-	heavy_mun_equipment = { #중탄약
-
-		enable_equipments = { 
-			heavy_mun_equipment_0
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-	
 	ballistic_missile_equipment_1 = { 
 
 		enable_equipments = { 
