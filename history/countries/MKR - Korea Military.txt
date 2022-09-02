@@ -29,10 +29,9 @@ add_offsite_building = {
 	type = arms_factory
 	level = 8
 }
-
-recruit_character = MKR_roh_tae_whoo #노태우
-recruit_character = MKR_chun_doo_hwan #전두환
-recruit_character = MKR_lee_beom_seok #이범석
+recruit_character = MKR_roh_tae_whoo
+recruit_character = MKR_chun_doo_hwan
+recruit_character = MKR_lee_beom_seok
 
 recruit_character = MKR_chung_won_sik #정원식
 recruit_character = MKR_lee_young_man #이용만

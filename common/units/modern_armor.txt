@@ -1,6 +1,7 @@
 sub_units = {
 
 	modern_armor = {
+		abbreviation = "OTK"
 		sprite = "medium_armor"
 		map_icon_category = armored
 		priority = 2510
@@ -25,7 +26,7 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			modern_tank_equipment = 50
+			 = 50
 		}
 		manpower = 500
 		max_organisation = 10
@@ -35,6 +36,8 @@ sub_units = {
 		weight = 1.5
 		
 		supply_consumption = 0.25
+
+		breakthrough = 0.15
 
 		#Tanks are awesome
 		# soft_attack = 0.5
@@ -71,7 +74,6 @@ sub_units = {
 			attack = -0.7
 		}
 	}
-
 	modern_mbt = {
 		sprite = "medium_armor"
 		map_icon_category = armored
@@ -93,13 +95,13 @@ sub_units = {
 		}
 		
 		essential = {
-			modern_tank_equipment
+			modern_tank_chassis
 		}
 
 		combat_width = 2
 
 		need = {
-			modern_tank_equipment = 35
+			modern_tank_chassis = 35
 		}
 		manpower = 500
 		max_organisation = 55

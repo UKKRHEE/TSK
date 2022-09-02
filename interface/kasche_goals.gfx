@@ -216,8 +216,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/K_asche/prk_contact_with_the_South.png"
 	}
 	SpriteType = {
+		name = "GFX_조소"
+		texturefile = "gfx/interface/goals/조소.png"
+	}
+	SpriteType = {
+		name = "GFX_미제국주의"
+		texturefile = "gfx/interface/goals/미제국주의.png"
+	}
+	SpriteType = {
 		name = "GFX_prk_hundred_years_enemy"
-		texturefile = "gfx/interface/goals/K_asche/prk_hundred_years_enemy.png"
+		texturefile = "gfx/interface/goals/백년의적.png"
 	}
 	SpriteType = {
 		name = "GFX_prk_Operation_storm"

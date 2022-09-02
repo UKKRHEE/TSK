@@ -1448,10 +1448,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_prk_hundred_years_enemy_shine"
-		texturefile = "gfx/interface/goals/K_asche/prk_hundred_years_enemy.png"
+		texturefile = "gfx/interface/goals/백년의적.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/K_asche/prk_hundred_years_enemy.png"
+			animationmaskfile = "gfx/interface/goals/백년의적.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1464,7 +1464,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/K_asche/prk_hundred_years_enemy.png"
+			animationmaskfile = "gfx/interface/goals/K_asche/백년의적.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

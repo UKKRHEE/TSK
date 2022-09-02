@@ -1350,7 +1350,7 @@ focus_tree = {
 	}
 	focus = { #류경호텔 ('류경호텔' 국민정신 100일간 소비재공장 -5%)
 		id = prk_Ryugyong_Hotel
-		icon = 류경호텔
+		icon = GFX_류경호텔_shine
 		cost = 8.00
 		prerequisite = {
 			focus = prk_Kaesong_Industrial_Complex
@@ -2956,7 +2956,7 @@ focus_tree = {
 	}
 	focus = { #태평양으로 ('일본에 함선요구'디시전활성화)
 		id = prk_to_the_Pacific_Ocean
-		icon = 조소
+		icon = GFX_조소
 		cost = 8.00
 		prerequisite = {
 			focus = prk_pre_emptive_strike
@@ -2971,7 +2971,7 @@ focus_tree = {
 	}
 	focus = { #하와이 공습 (미국에 '진주만공습'이벤트발생 뉴스이벤트 '진주만 공습'발생)
 		id = prk_Hawaiian_Air_Attack
-		icon = 미제국주의
+		icon = GFX_미제국주의
 		cost = 8.00
 		prerequisite = {
 			focus = prk_to_the_Pacific_Ocean

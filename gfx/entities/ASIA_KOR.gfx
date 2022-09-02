@@ -1,0 +1,78 @@
+	
+objectTypes = {
+	pdxmesh = {
+		name = "tank_model_test_mesh"
+		file = "gfx/models/units/tanks/K2BP/K2_BP.mesh"
+	}	
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "KOR_tank_k1_mesh"
+		file = "gfx/models/units/tanks/KOR_modern_armor.mesh"
+		
+		scale = 0.75
+	}	
+}
+	
+objectTypes = {
+	pdxmesh = {
+		name = "KOR_tank_m48a5k_mesh"
+		file = "gfx/models/units/tanks/M48A5K.mesh"
+		
+		scale = 0.75
+	}	
+}
+	
+objectTypes = {
+	pdxmesh = {
+		name = "KOR_tank_m48a3k_mesh"
+		file = "gfx/models/units/tanks/M48A3K.mesh"
+		
+		scale = 0.75
+	}	
+}
+
+
+	
+objectTypes = {
+	pdxmesh = {
+		name = "PRK_tank_chonma_V_mesh"
+		file = "gfx/models/units/tanks/PRK_chonma_V.mesh"
+	}	
+}
+
+	
+objectTypes = {
+	pdxmesh = {
+		name = "PRK_tank_chonma_70_mesh"
+		file = "gfx/models/units/tanks/PRK_chonma_70.mesh"
+	}	
+}
+	
+objectTypes = {
+	pdxmesh = {
+		name = "PRK_tank_T_55_mesh"
+		file = "gfx/models/units/tanks/PRK_T_55.mesh"
+	}	
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "PRK_mig29a_mesh"
+		file = "gfx/models/units/planes/mig23ml.mesh"
+
+		scale = 0.3
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "PRK_su25k_mesh"
+		file = "gfx/models/units/planes/su25k.mesh"
+
+		scale = 0.3
+	}
+}

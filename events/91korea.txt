@@ -50,6 +50,15 @@ country_event = {
 				disband = no
 			}	
 			MKR = {
+				add_country_leader_role = {
+					Character = MKR_roh_tae_whoo
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = { }
+					}
+					promote_leader = yes
+				}
 			    set_state_owner  = 525
 			    set_state_owner  = 838
 			    set_state_owner  = 835
@@ -207,6 +216,15 @@ country_event = {
 				disband = no
 			}	
 			MKR = {
+				add_country_leader_role = {
+					Character = MKR_roh_tae_whoo
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = { }
+					}
+					promote_leader = yes
+				}
 				set_fuel_ratio = 0.8
 			    transfer_state = 525
 			    transfer_state = 838

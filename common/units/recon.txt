@@ -369,7 +369,7 @@ sub_units = {
 		hard_attack = -0.5
 		
 		essential = {
-			modern_tank_equipment
+			modern_tank_chassis
 			infantry_equipment
 			support_equipment
 			mechanized_equipment
@@ -377,7 +377,7 @@ sub_units = {
 
 		need = {
 
-			modern_tank_equipment = 5
+			modern_tank_chassis = 5
 			mechanized_equipment = 20
 			infantry_equipment = 40
 			support_equipment = 10

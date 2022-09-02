@@ -26,6 +26,7 @@ PRK_food_cris_cat = {
 	allowed = {
 		original_tag = PRK
 	}
+	priority = 9999
 }
 
 PRK_2nd_war = {
