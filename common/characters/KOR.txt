@@ -4,7 +4,7 @@ characters={
 		name=KOR_lee_byungbak
 		portraits={
 			civilian={
-				large="gfx/leaders/KOR/MB.dds"
+				large = "gfx/leaders/KOR/09korea_leader/09한국_지도자_이명박.png"
 			}
 		}
 		country_leader={
@@ -27,7 +27,7 @@ characters={
 		name=KOR_yi_won
 		portraits={
 			civilian={
-				large="gfx/leaders/KOR/portrait_yi_won.dds"
+				large = "gfx/leaders/KOR/09korea_leader/09한국_지도자_이원.png"
 				small=GFX_idea_yi_won
 			}
 			army = {
@@ -63,7 +63,7 @@ characters={
 		name=KOR_lee_seokki
 		portraits={
 			civilian={
-				large="gfx/leaders/KOR/LSK.dds"
+				large = "gfx/leaders/KOR/09korea_leader/09한국_지도자_이석기.png"
 			}
 		}
 		country_leader={
@@ -78,7 +78,7 @@ characters={
 		name=KOR_park_geunhye
 		portraits={
 			civilian={
-				large="gfx/leaders/KOR/PGH.dds"
+				large = "gfx/leaders/KOR/09korea_leader/09한국_지도자_박근혜.png"
 			}
 		}
 		country_leader={
@@ -120,6 +120,7 @@ characters={
 		portraits={
 			civilian={
 				small=GFX_idea_moon_jaein
+				large = "gfx/leaders/KOR/09korea_leader/09한국_지도자_문재인.png"
 			}
 		}
 		advisor={
