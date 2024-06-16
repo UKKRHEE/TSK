@@ -341,5 +341,33 @@ on_actions = {
 			}
 		}
 	}	
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					tag = KPA
+					has_war_with = KOR
+				}	
+				KOR = {
+					annex_country = {
+						target = KPA
+						transfer_troops = no
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = KOR
+					has_war_with = KPA
+				}	
+				KPA = {
+					annex_country = {
+						target = KOR
+						transfer_troops = no
+					}
+				}
+			}
+		}	
+	}
 }	
 
