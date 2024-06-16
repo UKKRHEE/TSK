@@ -12,8 +12,5 @@ dependencies={
 	"ZombiePush"
 }
 picture="thumbnail.png"
-replace_path="common/state_category"
-replace_path="common/terrain"
-replace_path="common/resources"
 supported_version="1.14.*"
 remote_file_id="2251411816"

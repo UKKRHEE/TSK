@@ -1,0 +1,7 @@
+resources = {
+	
+	steel_alloy = {
+		icon_frame = 7
+		cic = 0.125
+	}
+}
