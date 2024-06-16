@@ -118,6 +118,7 @@ country_event = {
 			ROK = {
 				set_fuel_ratio = 0.8
 				load_oob = ROK_civil
+				load_oob = ROK_civil_air
 				add_ideas = KOR_modern_millitary
 				add_ideas = KOR_ammo
 				country_event = {
@@ -135,6 +136,7 @@ country_event = {
 				set_fuel_ratio = 0.8
 				add_ideas = KOR_cornered
                 load_oob = MKR_civil
+                load_oob = MKR_civil_air
 				add_ideas = KOR_modern_millitary
 				add_ideas = KOR_ammo
 				set_country_flag = kor_civ
@@ -285,6 +287,7 @@ country_event = {
 						ROK = {
 							set_fuel_ratio = 0.8
 							load_oob = ROK_civil
+							load_oob = ROK_civil_air
 							add_ideas = KOR_modern_millitary
 							add_ideas = KOR_ammo
 							country_event = {
@@ -297,6 +300,7 @@ country_event = {
 							set_fuel_ratio = 0.8
 							add_ideas = KOR_cornered
 							load_oob = MKR_civil
+							load_oob = MKR_civil_air
 							add_ideas = KOR_modern_millitary
 							set_country_flag = kor_civ
 							add_ideas = KOR_ammo
@@ -1072,6 +1076,7 @@ country_event = { #민정이 ai고 승리시 군대복구
 	option = {
 		name = korea.2.a
 		load_oob = MKR_reverse
+		load_oob = MKR_reverse_air
     }	
 }
 
@@ -1094,6 +1099,7 @@ country_event = { #군정이 ai고 승리시 군대복구
 	option = {
 		name = korea.2.a
 		load_oob = ROK_reverse
+		load_oob = ROK_reverse_air
     }	
 }
 country_event = { #북한이 접촉해오다

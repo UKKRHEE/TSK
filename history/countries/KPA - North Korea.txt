@@ -45,8 +45,8 @@ if = {
 		m_1980SS = 1
 		m_1990SS = 1
 	}
-	set_naval_oob = "FKR_1936_naval"
 }
+set_air_oob = "KPA_1936_air"
 # Starting tech
 set_technology = {
 	light_vehicle_equipment_0 = 1

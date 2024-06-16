@@ -1,0 +1,76 @@
+
+air_wings = {
+	971 = { 
+		m_1970_jet_multirole_equipment = {
+			owner = "KR1" 
+			amount = 20
+		}
+		m_1970_jet_fighter_equipment = {
+			owner = "KR1" 
+			amount = 20
+		}
+
+	}
+	973 = { 
+		m_1970_jet_fighter_equipment = {
+			owner = "KR1" 
+			amount = 20
+		}
+		m_1970_jet_fighter_equipment = {
+			owner = "KR1" 
+			amount = 20
+		}
+		m_1970_jet_fighter_equipment = {
+			owner = "KR1" 
+			amount = 20
+		}
+		m_1970_jet_CAS_equipment = {
+			owner = "KR1" 
+			amount = 30
+		}
+	}
+	525 = { 
+		m_1970_jet_multirole_equipment = {
+			owner = "KR1" 
+			amount = 40
+		}
+		m_1970_attack_helicopter_equipment = {
+			owner = "KR1" 
+			amount = 20
+		}
+		m_1980_attack_helicopter_equipment = {
+			owner = "KR1" 
+			amount = 40
+		}
+	}
+	972 = { 
+		m_1980_jet_multirole_equipment = {
+			owner = "KR1" 
+			amount = 20
+		}
+		m_1970_jet_fighter_equipment = {
+			owner = "KR1" 
+			amount = 20
+		}
+	}
+	980 = { 
+		m_1990_jet_multirole_equipment = {
+			owner = "KR1" 
+			amount = 30
+		}
+		m_1990_jet_fighter_equipment = {
+			owner = "KR1" 
+			amount = 30
+		}
+		m_1990_jet_fighter_equipment = {
+			owner = "KR1" 
+			amount = 20
+		}
+		m_1990_jet_fighter_equipment = {
+			owner = "KR1" 
+			amount = 20
+		}
+	}
+	
+	
+}

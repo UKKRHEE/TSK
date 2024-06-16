@@ -1,0 +1,74 @@
+﻿
+
+
+
+
+#AIRCRAFT
+air_wings = {
+	971 = { 
+		m_1970_jet_multirole_equipment = {
+			owner = "KOR" 
+			amount = 40
+		}
+		m_1970_jet_fighter_equipment = {
+			owner = "KOR" 
+			amount = 30
+		}
+	}
+	973 = { 
+		m_1970_jet_fighter_equipment = {
+			owner = "KOR" 
+			amount = 40
+		}
+		m_1970_jet_fighter_equipment = {
+			owner = "KOR" 
+			amount = 40
+		}
+	}
+	525 = { 
+		m_1990_jet_multirole_equipment = {
+			owner = "KOR" 
+			amount = 40
+		}
+		m_1980_jet_multirole_equipment = {
+			owner = "KOR" 
+			amount = 30
+		}
+		m_1980_attack_helicopter_equipment = {
+			owner = "KOR" 
+			amount = 60
+		}
+		m_1970_jet_CAS_equipment = {
+			owner = "KOR" 
+			amount = 40
+		}
+		m_2000_jet_fighter_equipment = {
+			owner = "KOR" 
+			amount = 30
+		}
+	}
+	974 = { 
+		m_2000_jet_multirole_equipment = {
+			owner = "KOR" 
+			amount = 40
+		}
+		m_2000_jet_fighter_equipment = {
+			owner = "KOR" 
+			amount = 40
+		}
+	}
+	980 = { 
+		m_1990_jet_multirole_equipment = {
+			owner = "KOR" 
+			amount = 30
+		}
+		m_2000_jet_fighter_equipment = {
+			owner = "KOR" 
+			amount = 30
+		}
+		m_2000_jet_fighter_equipment = {
+			owner = "KOR" 
+			amount = 40
+		}
+	}	
+}

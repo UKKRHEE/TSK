@@ -49,6 +49,7 @@ if = {
 		m_1980patrol = 1
 	}
 }
+set_air_oob = "KR1_1936_air"
 set_fuel_ratio = 1.0
 set_convoys = 350
 # Starting tech

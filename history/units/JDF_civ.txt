@@ -1,6 +1,6 @@
 ﻿
 air_wings = {
-	809={
+	982={
 		m_1980_jet_multirole_equipment = {
 			owner = "JDF" 
 			amount = 10

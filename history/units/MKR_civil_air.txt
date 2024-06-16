@@ -1,0 +1,34 @@
+air_wings = {
+	973 = { 
+		m_1970_jet_fighter_equipment = {
+			owner = "MKR" 
+			amount = 40
+		}
+		m_1970_jet_fighter_equipment = {
+			owner = "MKR" 
+			amount = 40
+		}
+		m_1990_jet_fighter_equipment = {
+			owner = "MKR" 
+			amount = 40
+		}
+	}
+	525 = { 
+		m_1970_jet_multirole_equipment = {
+			owner = "MKR" 
+			amount = 40
+		}
+		m_1980_attack_helicopter_equipment = {
+			owner = "MKR" 
+			amount = 20
+		}
+		m_1990_attack_helicopter_equipment = {
+			owner = "MKR" 
+			amount = 40
+		}
+		m_1970_jet_CAS_equipment = {
+			owner = "MKR" 
+			amount = 40
+		}
+	}
+}
