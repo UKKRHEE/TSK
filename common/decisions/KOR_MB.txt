@@ -16,14 +16,14 @@ core_PRK = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
-				controls_state = 839 #황해도
-				controls_state = 840 #함경남도
-				controls_state = 842 #강원북부
-				controls_state = 843 #양강도
-				controls_state = 844 #자강도
-				controls_state = 846 #평양직할시
-				controls_state = 848 #함경북도
-				controls_state = 850 #평안북도
+				controls_state = 974 #황해도
+				controls_state = 975 #함경남도
+				controls_state = 977 #강원북부
+				controls_state = 978 #양강도
+				controls_state = 979 #자강도
+				controls_state = 981 #평양직할시
+				controls_state = 983 #함경북도
+				controls_state = 985 #평안북도
 			}
 			has_country_flag = annex_PRK_war
 		}
@@ -33,13 +33,13 @@ core_PRK = {
 		}
 
 		remove_effect = {
-			839 = {
+			974 = {
 				add_core_of = KOR
 			}
-			839 = {
+			974 = {
 				remove_core_of = KPA
 			}
-			remove_state_claim = 839
+			remove_state_claim = 974
 			set_country_flag = KOR_cored_in_839
 			hidden_effect = {
 			    country_event = {
@@ -68,14 +68,14 @@ core_PRK = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
-				controls_state = 839 #황해도
-				controls_state = 840 #함경남도
-				controls_state = 842 #강원북부
-				controls_state = 843 #양강도
-				controls_state = 844 #자강도
-				controls_state = 846 #평양직할시
-				controls_state = 848 #함경북도
-				controls_state = 850 #평안북도
+				controls_state = 974 #황해도
+				controls_state = 975 #함경남도
+				controls_state = 977 #강원북부
+				controls_state = 978 #양강도
+				controls_state = 979 #자강도
+				controls_state = 981 #평양직할시
+				controls_state = 983 #함경북도
+				controls_state = 985 #평안북도
 			}
 			has_country_flag = KOR_cored_in_839
 			has_country_flag = annex_PRK_war
@@ -87,13 +87,13 @@ core_PRK = {
 		}
 
 		remove_effect = {
-			842 = {
+			977 = {
 				add_core_of = KOR
 			}
-			842 = {
+			977 = {
 				remove_core_of = KPA
 			}
-			remove_state_claim = 842
+			remove_state_claim = 977
 			set_country_flag = KOR_cored_in_842
 			hidden_effect = {
 			    country_event = {
@@ -122,14 +122,14 @@ core_PRK = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
-				controls_state = 839 #황해도
-				controls_state = 840 #함경남도
-				controls_state = 842 #강원북부
-				controls_state = 843 #양강도
-				controls_state = 844 #자강도
-				controls_state = 846 #평양직할시
-				controls_state = 848 #함경북도
-				controls_state = 850 #평안북도
+				controls_state = 974 #황해도
+				controls_state = 975 #함경남도
+				controls_state = 977 #강원북부
+				controls_state = 978 #양강도
+				controls_state = 979 #자강도
+				controls_state = 981 #평양직할시
+				controls_state = 983 #함경북도
+				controls_state = 985 #평안북도
 			}
 			has_country_flag = KOR_cored_in_842
 			has_country_flag = annex_PRK_war
@@ -140,13 +140,13 @@ core_PRK = {
 		}
 
 		remove_effect = {
-			840 = {
+			975 = {
 				add_core_of = KOR
 			}
-			840 = {
+			975 = {
 				remove_core_of = KPA
 			}
-			remove_state_claim = 840
+			remove_state_claim = 975
 			set_country_flag = KOR_cored_in_840
 			hidden_effect = {
 			    country_event = {
@@ -175,14 +175,14 @@ core_PRK = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
-				controls_state = 839 #황해도
-				controls_state = 840 #함경남도
-				controls_state = 842 #강원북부
-				controls_state = 843 #양강도
-				controls_state = 844 #자강도
-				controls_state = 846 #평양직할시
-				controls_state = 848 #함경북도
-				controls_state = 850 #평안북도
+				controls_state = 974 #황해도
+				controls_state = 975 #함경남도
+				controls_state = 977 #강원북부
+				controls_state = 978 #양강도
+				controls_state = 979 #자강도
+				controls_state = 981 #평양직할시
+				controls_state = 983 #함경북도
+				controls_state = 985 #평안북도
 			}
 			has_country_flag = KOR_cored_in_840
 			has_country_flag = annex_PRK_war
@@ -228,14 +228,14 @@ core_PRK = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
-				controls_state = 839 #황해도
-				controls_state = 840 #함경남도
-				controls_state = 842 #강원북부
-				controls_state = 843 #양강도
-				controls_state = 844 #자강도
-				controls_state = 846 #평양직할시
-				controls_state = 848 #함경북도
-				controls_state = 850 #평안북도
+				controls_state = 974 #황해도
+				controls_state = 975 #함경남도
+				controls_state = 977 #강원북부
+				controls_state = 978 #양강도
+				controls_state = 979 #자강도
+				controls_state = 981 #평양직할시
+				controls_state = 983 #함경북도
+				controls_state = 985 #평안북도
 			}
 			has_country_flag = KOR_cored_in_527
 			has_country_flag = annex_PRK_war
@@ -246,13 +246,13 @@ core_PRK = {
 		}
 
 		remove_effect = {
-			850 = {
+			985 = {
 				add_core_of = KOR
 			}
-			850 = {
+			985 = {
 				remove_core_of = KPA
 			}
-			remove_state_claim = 850
+			remove_state_claim = 985
 			set_country_flag = KOR_cored_in_850
 			hidden_effect = {
 			    country_event = {
@@ -282,14 +282,14 @@ core_PRK = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
-				controls_state = 839 #황해도
-				controls_state = 840 #함경남도
-				controls_state = 842 #강원북부
-				controls_state = 843 #양강도
-				controls_state = 844 #자강도
-				controls_state = 846 #평양직할시
-				controls_state = 848 #함경북도
-				controls_state = 850 #평안북도
+				controls_state = 974 #황해도
+				controls_state = 975 #함경남도
+				controls_state = 977 #강원북부
+				controls_state = 978 #양강도
+				controls_state = 979 #자강도
+				controls_state = 981 #평양직할시
+				controls_state = 983 #함경북도
+				controls_state = 985 #평안북도
 			}
 			has_country_flag = KOR_cored_in_850
 			has_country_flag = annex_PRK_war
@@ -300,13 +300,13 @@ core_PRK = {
 		}
 
 		remove_effect = {
-			844 = {
+			979 = {
 				add_core_of = KOR
 			}
-			844 = {
+			979 = {
 				remove_core_of = KPA
 			}
-			remove_state_claim = 844
+			remove_state_claim = 979
 			set_country_flag = KOR_cored_in_844
 			hidden_effect = {
 			    country_event = {
@@ -335,14 +335,14 @@ core_PRK = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
-				controls_state = 839 #황해도
-				controls_state = 840 #함경남도
-				controls_state = 842 #강원북부
-				controls_state = 843 #양강도
-				controls_state = 844 #자강도
-				controls_state = 846 #평양직할시
-				controls_state = 848 #함경북도
-				controls_state = 850 #평안북도
+				controls_state = 974 #황해도
+				controls_state = 975 #함경남도
+				controls_state = 977 #강원북부
+				controls_state = 978 #양강도
+				controls_state = 979 #자강도
+				controls_state = 981 #평양직할시
+				controls_state = 983 #함경북도
+				controls_state = 985 #평안북도
 			}
 			has_country_flag = KOR_cored_in_844
 			has_country_flag = annex_PRK_war
@@ -353,13 +353,13 @@ core_PRK = {
 		}
 
 		remove_effect = {
-			843 = {
+			978 = {
 				add_core_of = KOR
 			}
-			843 = {
+			978 = {
 				remove_core_of = KPA
 			}
-			remove_state_claim = 843
+			remove_state_claim = 978
 			set_country_flag = KOR_cored_in_843
 			hidden_effect = {
 			    country_event = {
@@ -388,14 +388,14 @@ core_PRK = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
-				controls_state = 839 #황해도
-				controls_state = 840 #함경남도
-				controls_state = 842 #강원북부
-				controls_state = 843 #양강도
-				controls_state = 844 #자강도
-				controls_state = 846 #평양직할시
-				controls_state = 848 #함경북도
-				controls_state = 850 #평안북도
+				controls_state = 974 #황해도
+				controls_state = 975 #함경남도
+				controls_state = 977 #강원북부
+				controls_state = 978 #양강도
+				controls_state = 979 #자강도
+				controls_state = 981 #평양직할시
+				controls_state = 983 #함경북도
+				controls_state = 985 #평안북도
 			}
 			has_country_flag = KOR_cored_in_843
 			has_country_flag = annex_PRK_war
@@ -406,13 +406,13 @@ core_PRK = {
 		}
 
 		remove_effect = {
-			848 = {
+			983 = {
 				add_core_of = KOR
 			}
-			848 = {
+			983 = {
 				remove_core_of = KPA
 			}
-			remove_state_claim = 848
+			remove_state_claim = 983
 			hidden_effect = {
 			    country_event = {
 				id = KOR_MB.16
@@ -441,14 +441,14 @@ core_PRK = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
-				controls_state = 839 #황해도
-				controls_state = 840 #함경남도
-				controls_state = 842 #강원북부
-				controls_state = 843 #양강도
-				controls_state = 844 #자강도
-				controls_state = 846 #평양직할시
-				controls_state = 848 #함경북도
-				controls_state = 850 #평안북도
+				controls_state = 974 #황해도
+				controls_state = 975 #함경남도
+				controls_state = 977 #강원북부
+				controls_state = 978 #양강도
+				controls_state = 979 #자강도
+				controls_state = 981 #평양직할시
+				controls_state = 983 #함경북도
+				controls_state = 985 #평안북도
 			}
 			has_country_flag = KOR_cored_in_848
 			has_country_flag = annex_PRK_war
@@ -459,13 +459,13 @@ core_PRK = {
 		}
 
 		remove_effect = {
-			846 = {
+			981 = {
 				add_core_of = KOR
 			}
-			846 = {
+			981 = {
 				remove_core_of = KPA
 			}
-			remove_state_claim = 846
+			remove_state_claim = 981
 			set_country_flag = KOR_cored_in_846
 			set_country_flag = PRK_is_our
 			hidden_effect = {
@@ -474,13 +474,13 @@ core_PRK = {
 				}
 				PRK = {
 					remove_state_core = 525
-					remove_state_core = 835
-					remove_state_core = 836
-					remove_state_core = 837
-					remove_state_core = 838
-					remove_state_core = 841
-					remove_state_core = 845
-					remove_state_core = 849
+					remove_state_core = 970
+					remove_state_core = 971
+					remove_state_core = 972
+					remove_state_core = 973
+					remove_state_core = 976
+					remove_state_core = 980
+					remove_state_core = 984
 				}
 			}	
 		}

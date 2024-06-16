@@ -92,7 +92,7 @@ Reaction = {
 		
 		available = {
 			divisions_in_state = {
-				state = 837
+				state = 972
 				size > 3
 			}
 			NOT = {
@@ -106,7 +106,7 @@ Reaction = {
 		}
 
 		highlight_state_targets = {
-			state = 837
+			state = 972
 		}
 
 		ai_will_do = {
@@ -114,7 +114,7 @@ Reaction = {
 			modifier = {
 				add = 200
 				divisions_in_state = {
-					state = 837	
+					state = 972	
 					size > 3
 				}
 			}
@@ -146,13 +146,13 @@ Reaction = {
 
 		cancel_trigger = {
 			divisions_in_state = {
-				state = 837	
+				state = 972	
 				size < 4
 			}
 		}
 
 		highlight_state_targets = {
-			state = 837
+			state = 972
 		}
 
 		visible = {
@@ -176,7 +176,7 @@ Reaction = {
 		
 		available = {
 			divisions_in_state = {
-				state = 835
+				state = 970
 				size > 3
 			}
 			NOT = {
@@ -190,7 +190,7 @@ Reaction = {
 		}
 
 		highlight_state_targets = {
-			state = 835
+			state = 970
 		}
 
 		ai_will_do = {
@@ -198,7 +198,7 @@ Reaction = {
 			modifier = {
 				add = 200
 				divisions_in_state = {
-					state = 837	
+					state = 972	
 					size > 3
 				}
 			}
@@ -231,13 +231,13 @@ Reaction = {
 
 		cancel_trigger = {
 			divisions_in_state = {
-				state = 835	
+				state = 970	
 				size < 4
 			}
 		}
 
 		highlight_state_targets = {
-			state = 835
+			state = 970
 		}
 
 		visible = {
@@ -261,7 +261,7 @@ Reaction = {
 		
 		available = {
 			divisions_in_state = {
-				state = 836
+				state = 971
 				size > 3
 			}
 			NOT = {
@@ -275,7 +275,7 @@ Reaction = {
 		}
 
 		highlight_state_targets = {
-			state = 836
+			state = 971
 		}
 
 		ai_will_do = {
@@ -283,7 +283,7 @@ Reaction = {
 			modifier = {
 				add = 200
 				divisions_in_state = {
-					state = 837	
+					state = 972	
 					size > 3
 				}
 			}
@@ -316,13 +316,13 @@ Reaction = {
 
 		cancel_trigger = {
 			divisions_in_state = {
-				state = 837	
+				state = 972	
 				size < 4
 			}
 		}
 
 		highlight_state_targets = {
-			state = 837
+			state = 972
 		}
 
 		visible = {
@@ -345,7 +345,7 @@ Reaction = {
 		
 		available = {
 			divisions_in_state = {
-				state = 845
+				state = 980
 				size > 3
 			}
 			NOT = {
@@ -359,7 +359,7 @@ Reaction = {
 		}
 
 		highlight_state_targets = {
-			state = 845
+			state = 980
 		}
 
 		ai_will_do = {
@@ -367,7 +367,7 @@ Reaction = {
 			modifier = {
 				add = 200
 				divisions_in_state = {
-					state = 845
+					state = 980
 					size > 3
 				}
 			}
@@ -400,13 +400,13 @@ Reaction = {
 
 		cancel_trigger = {
 			divisions_in_state = {
-				state = 845	
+				state = 980	
 				size < 4
 			}
 		}
 
 		highlight_state_targets = {
-			state = 845
+			state = 980
 		}
 
 		visible = {
@@ -429,7 +429,7 @@ Reaction = {
 		
 		available = {
 			divisions_in_state = {
-				state = 838
+				state = 973
 				size > 3
 			}
 			NOT = {
@@ -443,7 +443,7 @@ Reaction = {
 		}
 
 		highlight_state_targets = {
-			state = 838
+			state = 973
 		}
 
 		ai_will_do = {
@@ -451,7 +451,7 @@ Reaction = {
 			modifier = {
 				add = 200
 				divisions_in_state = {
-					state = 838
+					state = 973
 					size > 3
 				}
 			}
@@ -484,13 +484,13 @@ Reaction = {
 
 		cancel_trigger = {
 			divisions_in_state = {
-				state = 838
+				state = 973
 				size < 4
 			}
 		}
 
 		highlight_state_targets = {
-			state = 838
+			state = 973
 		}
 
 		visible = {
