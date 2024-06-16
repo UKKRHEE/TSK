@@ -1247,7 +1247,7 @@ country_event = { #한국이 우리의 요청을 받아들이다.
 			annex_country = { target = USF transfer_troops = no }
 		}
 		USF = {
-		remove_state_core = 851
+		remove_state_core = 986
 		}
 		USA = {
 		country_event = { id = rok.49 days = 1 }

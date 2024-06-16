@@ -1,4 +1,4 @@
-﻿capital = 846 
+﻿capital = 981 
 
 oob = "KPA_1936"
 set_research_slots = 4

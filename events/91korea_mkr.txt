@@ -817,7 +817,7 @@ country_event = { #주한미군병사들이 본국에가길원하다
 			annex_country = { target = USF transfer_troops = no }
 		}
 		USF = {
-		remove_state_core = 851
+		remove_state_core = 986
 		}
 		USA = {
 		country_event = { id = mkorea.45 days = 1 }

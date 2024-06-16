@@ -1,0 +1,36 @@
+state={
+	id=986
+	name="STATE_PYEONGTAEK"
+	provinces={
+		13379
+	}
+	history={
+		owner = USF
+		buildings = {
+			air_base = 2
+		}
+		victory_points = {
+			13373 10 
+		}
+		add_core_of = KR1
+		add_core_of = PRK
+		add_core_of = USF
+
+		1936.1.2 = {
+			remove_core_of = PRK
+		}
+		1936.1.4 = {
+			owner = KOR
+			controller = KOR
+			remove_core_of = KR1
+			remove_core_of = USF
+			add_core_of = KOR
+			add_manpower = 34909
+			add_claim_by = KPA
+		}
+	}
+	manpower=302901
+	buildings_max_level_factor=1.000
+	
+	state_category = large_city
+}

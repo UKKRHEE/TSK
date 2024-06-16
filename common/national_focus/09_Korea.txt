@@ -23,7 +23,7 @@ focus_tree = {
 							owns_state = 527
 						}
 					KOR = {
-							owns_state = 846
+							owns_state = 981
 						}
 				}
 			completion_reward = {
@@ -90,7 +90,7 @@ focus_tree = {
 		y = 0
 			available = {
 					KOR = {
-							owns_state = 835
+							owns_state = 970
 						}
 					KOR = {
 							owns_state = 525
@@ -109,7 +109,7 @@ focus_tree = {
 							add_ideas = KOR_modern_millitary
 							set_country_flag = big_event_time_slip
 							set_country_flag = 2009_scenario
-							841 = {
+							976 = {
 								add_resource = {
 									type = oil
 									amount = 30
@@ -142,7 +142,7 @@ focus_tree = {
 		y = 0
 			available = {
 					KOR = {
-							owns_state = 835
+							owns_state = 970
 						}
 					KOR = {
 							owns_state = 525
@@ -184,7 +184,7 @@ focus_tree = {
 		x = 3
 		y = 1
 		completion_reward = {
-		    849 = {
+		    984 = {
 			    add_resource = {
 				    type = oil
 					amount = 5
@@ -272,18 +272,18 @@ focus_tree = {
 		y = 2
 			available = {
 					OR = {
-							controls_state = 837
-							controls_state = 836
+							controls_state = 972
+							controls_state = 971
 						}
 				}
 			completion_reward = {
-					837 = {
+					972 = {
 							add_resource = {
 									type = steel
 									amount = 8
 								}
 						}
-					836 = {
+					971 = {
 							add_resource = {
 									type = steel
 									amount = 7
@@ -302,10 +302,10 @@ focus_tree = {
 		x = 4
 		y = 3
 			available = {
-					controls_state = 841
+					controls_state = 976
 				}
 			completion_reward = {
-					841 = {
+					976 = {
 							add_resource = {
 									type = oil
 									amount = 8
@@ -358,10 +358,10 @@ focus_tree = {
 		x = 5
 		y = 4
 			available = {
-					controls_state = 841
+					controls_state = 976
 				}
 			completion_reward = {
-					841 = {
+					976 = {
 							add_resource = {
 									type = oil
 									amount = 28
@@ -394,7 +394,7 @@ focus_tree = {
 		x = 13
 		y = 1
 			completion_reward = {
-					835 = {
+					970 = {
 							add_extra_state_shared_building_slots = 5
 						}
 					525 = {
@@ -413,25 +413,25 @@ focus_tree = {
 		x = 11
 		y = 2
 			completion_reward = {
-					835 = {
+					970 = {
 							add_extra_state_shared_building_slots = 3
 						}
 					525 = {
 							add_extra_state_shared_building_slots = 3
 						}
-					845 = {
+					980 = {
 							add_extra_state_shared_building_slots = 3
 						}
-					837 = {
+					972 = {
 							add_extra_state_shared_building_slots = 3
 						}
-					836 = {
+					971 = {
 							add_extra_state_shared_building_slots = 3
 						}
-					841 = {
+					976 = {
 							add_extra_state_shared_building_slots = 3
 						}
-					835 = {
+					970 = {
 							add_resource = {
 									type = steel_alloy
 									amount = 10 
@@ -488,7 +488,7 @@ focus_tree = {
 		x = 12
 		y = 3
 			completion_reward = {
-					838 = {
+					973 = {
 							add_extra_state_shared_building_slots = 6
 						}
 				}
@@ -522,7 +522,7 @@ focus_tree = {
 		x = 15
 		y = 2
 			completion_reward = {
-					835 = {
+					970 = {
 							add_extra_state_shared_building_slots = 4
 							add_building_construction = {
 									type = industrial_complex
@@ -535,7 +535,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					835 = {
+					970 = {
 							add_extra_state_shared_building_slots = 2
 							add_building_construction = {
 									type = steel_alloy_ind
@@ -564,7 +564,7 @@ focus_tree = {
 		x = 14
 		y = 3
 			completion_reward = {
-					837 = {
+					972 = {
 							add_extra_state_shared_building_slots = 3
 							add_building_construction = {
 									type = industrial_complex
@@ -595,7 +595,7 @@ focus_tree = {
 		x = 16
 		y = 3
 			completion_reward = {
-					836 = {
+					971 = {
 							add_extra_state_shared_building_slots = 3
 							add_building_construction = {
 									type = industrial_complex
@@ -637,7 +637,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					835 = {
+					970 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = industrial_complex
@@ -645,7 +645,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					836 = {
+					971 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = industrial_complex
@@ -653,7 +653,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					837 = {
+					972 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = industrial_complex
@@ -661,7 +661,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					838 = {
+					973 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = industrial_complex
@@ -669,7 +669,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					845 = {
+					980 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = industrial_complex
@@ -677,7 +677,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					841 = {
+					976 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = industrial_complex
@@ -817,43 +817,43 @@ focus_tree = {
 					hidden_effect = {
 							KPA = {
 									remove_state_core = 527
-									remove_state_core = 846
-									remove_state_core = 839
-									remove_state_core = 842
-									remove_state_core = 840
-									remove_state_core = 844
-									remove_state_core = 843
-									remove_state_core = 848
-									remove_state_core = 850
+									remove_state_core = 981
+									remove_state_core = 974
+									remove_state_core = 977
+									remove_state_core = 975
+									remove_state_core = 979
+									remove_state_core = 978
+									remove_state_core = 983
+									remove_state_core = 985
 									remove_state_claim = 525
-									remove_state_claim = 835
-									remove_state_claim = 838
-									remove_state_claim = 845
-									remove_state_claim = 837
-									remove_state_claim = 836
-									remove_state_claim = 841
-									remove_state_claim = 849
-									remove_state_claim = 851
+									remove_state_claim = 970
+									remove_state_claim = 973
+									remove_state_claim = 980
+									remove_state_claim = 972
+									remove_state_claim = 971
+									remove_state_claim = 976
+									remove_state_claim = 984
+									remove_state_claim = 986
 								}
 							KOR = {
 									add_state_core = 527
-									add_state_core = 846
-									add_state_core = 839
-									add_state_core = 842
-									add_state_core = 840
-									add_state_core = 844
-									add_state_core = 843
-									add_state_core = 848
-									add_state_core = 850
+									add_state_core = 981
+									add_state_core = 974
+									add_state_core = 977
+									add_state_core = 975
+									add_state_core = 979
+									add_state_core = 978
+									add_state_core = 983
+									add_state_core = 985
 									remove_state_claim = 527
-									remove_state_claim = 846
-									remove_state_claim = 839
-									remove_state_claim = 842
-									remove_state_claim = 840
-									remove_state_claim = 844
-									remove_state_claim = 843
-									remove_state_claim = 848
-									remove_state_claim = 850
+									remove_state_claim = 981
+									remove_state_claim = 974
+									remove_state_claim = 977
+									remove_state_claim = 975
+									remove_state_claim = 979
+									remove_state_claim = 978
+									remove_state_claim = 983
+									remove_state_claim = 985
 								}
 						}
 				}
@@ -945,23 +945,23 @@ focus_tree = {
 		y = 5
 			completion_reward = {
 					add_state_core = 527
-					add_state_core = 846
-					add_state_core = 839
-					add_state_core = 842
-					add_state_core = 840
-					add_state_core = 844
-					add_state_core = 843
-					add_state_core = 848
-					add_state_core = 850
+					add_state_core = 981
+					add_state_core = 974
+					add_state_core = 977
+					add_state_core = 975
+					add_state_core = 979
+					add_state_core = 978
+					add_state_core = 983
+					add_state_core = 985
 					remove_state_claim = 527
-					remove_state_claim = 846
-					remove_state_claim = 839
-					remove_state_claim = 842
-					remove_state_claim = 840
-					remove_state_claim = 844
-					remove_state_claim = 843
-					remove_state_claim = 848
-					remove_state_claim = 850
+					remove_state_claim = 981
+					remove_state_claim = 974
+					remove_state_claim = 977
+					remove_state_claim = 975
+					remove_state_claim = 979
+					remove_state_claim = 978
+					remove_state_claim = 983
+					remove_state_claim = 985
 				}
 
 	}
@@ -1015,14 +1015,14 @@ focus_tree = {
 		}
 		available = {
 				controls_state = 527 #평안남도
-				controls_state = 839 #황해도
-				controls_state = 840 #함경남도
-				controls_state = 842 #강원북부
-				controls_state = 843 #양강도
-				controls_state = 844 #자강도
-				controls_state = 846 #평양직할시
-				controls_state = 848 #함경북도
-				controls_state = 850 #평안북도
+				controls_state = 974 #황해도
+				controls_state = 975 #함경남도
+				controls_state = 977 #강원북부
+				controls_state = 978 #양강도
+				controls_state = 979 #자강도
+				controls_state = 981 #평양직할시
+				controls_state = 983 #함경북도
+				controls_state = 985 #평안북도
 		}		
 		x = 24
 		y = 7
@@ -1032,7 +1032,7 @@ focus_tree = {
 					add_ideas = KOR_north_south_problem
 					hidden_effect = {
 					
-					841 = {
+					976 = {
 							add_resource = {
 									type = oil
 									amount = -30
@@ -1185,38 +1185,38 @@ focus_tree = {
 		y = 5
 			available = {
 					controls_state = 527
-					controls_state = 846
-					controls_state = 839
-					controls_state = 842
-					controls_state = 840
-					controls_state = 844
-					controls_state = 843
-					controls_state = 848
-					controls_state = 850
+					controls_state = 981
+					controls_state = 974
+					controls_state = 977
+					controls_state = 975
+					controls_state = 979
+					controls_state = 978
+					controls_state = 983
+					controls_state = 985
 				}
 			completion_reward = {
-					839 = {
+					974 = {
 							add_extra_state_shared_building_slots = 3
 						}
-					842 = {
+					977 = {
 							add_extra_state_shared_building_slots = 3
 						}
-					846 = {
+					981 = {
 							add_extra_state_shared_building_slots = 3
 						}
-					850 = {
+					985 = {
 							add_extra_state_shared_building_slots = 3
 						}
-					840 = {
+					975 = {
 							add_extra_state_shared_building_slots = 3
 						}
-					844 = {
+					979 = {
 							add_extra_state_shared_building_slots = 3
 						}
-					843 = {
+					978 = {
 							add_extra_state_shared_building_slots = 3
 						}
-					848 = {
+					983 = {
 							add_extra_state_shared_building_slots = 3
 						}
 				}
@@ -1233,14 +1233,14 @@ focus_tree = {
 		y = 5
 			available = {
 					controls_state = 527
-					controls_state = 846
-					controls_state = 839
-					controls_state = 842
-					controls_state = 840
-					controls_state = 844
-					controls_state = 843
-					controls_state = 848
-					controls_state = 850
+					controls_state = 981
+					controls_state = 974
+					controls_state = 977
+					controls_state = 975
+					controls_state = 979
+					controls_state = 978
+					controls_state = 983
+					controls_state = 985
 				}
 			completion_reward = {
 					custom_effect_tooltip = KOR_MB_none-kims_tooltip
@@ -1391,14 +1391,14 @@ focus_tree = {
 		}
 		available = {
 				controls_state = 527 #평안남도
-				controls_state = 839 #황해도
-				controls_state = 840 #함경남도
-				controls_state = 842 #강원북부
-				controls_state = 843 #양강도
-				controls_state = 844 #자강도
-				controls_state = 846 #평양직할시
-				controls_state = 848 #함경북도
-				controls_state = 850 #평안북도
+				controls_state = 974 #황해도
+				controls_state = 975 #함경남도
+				controls_state = 977 #강원북부
+				controls_state = 978 #양강도
+				controls_state = 979 #자강도
+				controls_state = 981 #평양직할시
+				controls_state = 983 #함경북도
+				controls_state = 985 #평안북도
 		}		
 		x = 34
 		y = 7
@@ -1407,33 +1407,33 @@ focus_tree = {
 					525 = {
 						remove_claim_by = KPA
 					}
-					836 = {
+					971 = {
 						remove_claim_by = KPA
 					}
-					835 = {
+					970 = {
 						remove_claim_by = KPA
 					}
-					838 = {
+					973 = {
 						remove_claim_by = KPA
 					}
-					837 = {
+					972 = {
 						remove_claim_by = KPA
 					}
-					845 = {
+					980 = {
 						remove_claim_by = KPA
 					}
-					846 = {
+					981 = {
 						remove_claim_by = KPA
 					}
-					849 = {
+					984 = {
 						remove_claim_by = KPA
 					}
-					841 = {
+					976 = {
 						remove_claim_by = KPA
 					}
 					hidden_effect = {
 					
-					841 = {
+					976 = {
 							add_resource = {
 									type = oil
 									amount = -30
@@ -1469,28 +1469,28 @@ focus_tree = {
 					525 = {
 						remove_claim_by = KPA
 					}
-					836 = {
+					971 = {
 						remove_claim_by = KPA
 					}
-					835 = {
+					970 = {
 						remove_claim_by = KPA
 					}
-					838 = {
+					973 = {
 						remove_claim_by = KPA
 					}
-					837 = {
+					972 = {
 						remove_claim_by = KPA
 					}
-					845 = {
+					980 = {
 						remove_claim_by = KPA
 					}
-					846 = {
+					981 = {
 						remove_claim_by = KPA
 					}
-					849 = {
+					984 = {
 						remove_claim_by = KPA
 					}
-					841 = {
+					976 = {
 						remove_claim_by = KPA
 					}
 						}
@@ -1588,8 +1588,8 @@ focus_tree = {
 		x = 38
 		y = 12
 		completion_reward = {
-			transfer_state = 847
-			add_state_core = 847
+			transfer_state = 982
+			add_state_core = 982
 			JAP = {
 			create_wargoal = {
 				type = annex_everything

@@ -17,7 +17,7 @@ focus_tree = {
 		y = 0
 			available = {
 					KPA = {
-							owns_state = 846
+							owns_state = 981
 						}
 					KPA = {
 							owns_state = 527
@@ -26,7 +26,7 @@ focus_tree = {
 			bypass = {
 				NOT = {
 					KPA = {
-							owns_state = 846
+							owns_state = 981
 						}
 					KPA = {
 							owns_state = 527
@@ -221,13 +221,13 @@ focus_tree = {
 		y = 5
 		available = {
 				KPA = {
-					controls_state = 839
+					controls_state = 974
 				}
 			}	
 		bypass = {
 			NOT = {
 				KPA = {
-					controls_state = 839
+					controls_state = 974
 				}
 			}	
 			}	
@@ -279,37 +279,37 @@ focus_tree = {
 		completion_reward = {
 			launch_nuke = {
 				province = 7125
-				state = 835
+				state = 970
 				controller = KOR
 				use_nuke = yes
 			}			
 			launch_nuke = {
-				province = 13244
+				province = 13371
 				state = 525
 				controller = KOR
 				use_nuke = yes
 			}			
 			launch_nuke = {
-				province = 13249
-				state = 845
+				province = 13376
+				state = 980
 				controller = KOR
 				use_nuke = yes
 			}		
 			launch_nuke = { 
-				province = 13248
-				state = 836
+				province = 13375
+				state = 971
 				controller = KOR
 				use_nuke = yes
 			}			
 			launch_nuke = {
 				province = 4056
-				state = 837
+				state = 972
 				controller = KOR
 				use_nuke = yes
 			}			
 			launch_nuke = {
-				province = 13250
-				state = 837
+				province = 13377
+				state = 972
 				controller = KOR
 				use_nuke = yes
 			}			
@@ -594,7 +594,7 @@ focus_tree = {
 		}
 		available = {
 				KPA = {
-					controls_state = 846
+					controls_state = 981
 				}
 			}	
 		x = 6
@@ -679,7 +679,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					846 = {
+					981 = {
 							add_extra_state_shared_building_slots = 4
 							add_building_construction = {
 									type = industrial_complex
@@ -702,7 +702,7 @@ focus_tree = {
 		available = {
 			KPA = {
 				controls_state = 525
-				controls_state = 835
+				controls_state = 970
 			}
 		}
 		completion_reward = {
@@ -806,7 +806,7 @@ focus_tree = {
 		available = {
 			KPA = {
 				controls_state = 525
-				controls_state = 835
+				controls_state = 970
 			}
 		}
 		completion_reward = {

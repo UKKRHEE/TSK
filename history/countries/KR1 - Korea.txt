@@ -1,4 +1,4 @@
-﻿capital = 835 #South Korea - Seoul or Busan
+﻿capital = 970 #South Korea - Seoul or Busan
 
 oob = "KR1_1936"
 set_research_slots = 4

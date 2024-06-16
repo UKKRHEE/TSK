@@ -160,9 +160,9 @@ country_event = {
 		    factor = 1
 		}
 		PR1 = {
-		    transfer_state = 843
-		    transfer_state = 848
-		    transfer_state = 844
+		    transfer_state = 978
+		    transfer_state = 983
+		    transfer_state = 979
 			load_oob = "KPA_1936"
             declare_war_on = {
 		        target = KOR
@@ -847,7 +847,7 @@ country_event = { #정보
 					add_manpower = 1600000
 					add_manpower = 840000
 				}
-				837 = {
+				972 = {
 					add_manpower = 1612000
 					add_manpower = 1612000
 				}
@@ -908,7 +908,7 @@ country_event = {
 					add_manpower = 1600000
 					add_manpower = 840000
 				}
-				837 = {
+				972 = {
 					add_manpower = 1612000
 					add_manpower = 1612000
 				}
@@ -968,7 +968,7 @@ country_event = { #kkshunp
 					add_manpower = 1600000
 					add_manpower = 840000
 				}
-				837 = {
+				972 = {
 					add_manpower = 1612000
 					add_manpower = 1612000
 				}
@@ -1027,7 +1027,7 @@ country_event = { #도움준사람들
 					add_manpower = 1600000
 					add_manpower = 840000
 				}
-				837 = {
+				972 = {
 					add_manpower = 1612000
 					add_manpower = 1612000
 				}
@@ -1089,7 +1089,7 @@ country_event = { #모드정보 - 육군
 					add_manpower = 1600000
 					add_manpower = 840000
 				}
-				837 = {
+				972 = {
 					add_manpower = 1612000
 					add_manpower = 1612000
 				}
@@ -1150,7 +1150,7 @@ country_event = { #모드정보 - 기타등등
 					add_manpower = 1600000
 					add_manpower = 840000
 				}
-				837 = {
+				972 = {
 					add_manpower = 1612000
 					add_manpower = 1612000
 				}

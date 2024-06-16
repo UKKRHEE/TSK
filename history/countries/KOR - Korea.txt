@@ -1,4 +1,4 @@
-﻿capital = 835 #South Korea - Seoul or Busan
+﻿capital = 970 #South Korea - Seoul or Busan
 oob = "KOR_1936"
 set_research_slots = 4
 add_offsite_building = {
@@ -62,26 +62,6 @@ add_ideas = {
 }
 set_country_flag = sead_arm
 set_variable = sead_arm
-set_party_name = {
-    ideology = communism
-    long_name = "통합진보당"
-    name = "통합진보당"
-}
-set_party_name = {
-    ideology = democratic
-    long_name = "한나라당"
-    name = "한나라당"
-}
-set_party_name = {
-    ideology = neutrality
-    long_name = "대한제국 복권파"
-    name = "대한제국 복권파"
-}
-set_party_name = {
-    ideology = fascism
-    long_name = "한나라당"
-    name = "한나라당"
-}
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -429,51 +409,9 @@ recruit_character = KOR_jeong_jin_seob
 recruit_character = KOR_kim_chang_kyu
 recruit_character = KOR_yoon_jeong_sang
 
-	load_focus_tree = new_rok_focus
-	complete_national_focus = TSK_loading_focus
+load_focus_tree = new_rok_focus
+complete_national_focus = TSK_loading_focus
 	
-	#create_navy_leader = {
-	#	name = "Jung Ho-sub"
-	#	picture = "admirals/Jung_Ho_Sub.dds"
-	#	id = 33031
-	#}
-	#create_navy_leader = {
-	#	name = "Lee Ki-sik"
-	#	picture = "admirals/Lee_Ki_Sik.dds"
-	#	id = 33032
-	#}
-
-	#create_navy_leader = {
-	#	name = "Sim Seung-Seop"
-	#	picture = "Portrait_Sim_Seung_Seop.dds"
-	#	traits = { fly_swatter }
-	#	id = 33033
-	#}
-
-	#create_navy_leader = {
-	#	name = "Moon Byung-Ok"
-	#	picture = "Portrait_Moon_Byung_Ok.dds"
-	#	traits = { blockade_runner }
-	#	id = 33034
-	#}
-
-	#create_navy_leader = {
-	#	name = "Park Dong-Sun"
-	#	picture = "Portrait_Park_Dong_Sun.dds"
-	#	traits = { blockade_runner }
-	#	id = 33035
-	#}
-
-	#create_navy_leader = {
-	#	name = "Park Seong-Soo"
-	#	picture = "Portrait_Park_Seong_Soo.dds"
-	#	traits = { ironside }
-	#	id = 33036
-	#}
-
-
-
-
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 

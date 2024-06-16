@@ -146,8 +146,8 @@ focus_tree = {
 		completion_reward = {
 			random_other_country = {
 				limit = {
-					owns_state = 835
-					controls_state = 835 
+					owns_state = 970
+					controls_state = 970 
 				}
 				effect_tooltip = {
 				PRK = { add_opinion_modifier = { target = ROOT modifier = PRK_south } }
@@ -183,8 +183,8 @@ focus_tree = {
 		completion_reward = {
 			random_other_country = {
 				limit = {
-					owns_state = 835
-					controls_state = 835 
+					owns_state = 970
+					controls_state = 970 
 				}
 				effect_tooltip = {
 				ROOT = { country_event = { id = PRK.6 } }
@@ -208,8 +208,8 @@ focus_tree = {
 		completion_reward = {
 			random_other_country = {
 				limit = {
-					owns_state = 835
-					controls_state = 835 
+					owns_state = 970
+					controls_state = 970 
 				}
 				effect_tooltip = {
 				ROOT = { country_event = { id = PRK.8 } }
@@ -355,7 +355,7 @@ focus_tree = {
 			focus = prk_south_wave_espionage
 		}
 		completion_reward = {
-			842 = {
+			977 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					custom_effect_tooltip = prk_troop_strength_1
@@ -381,7 +381,7 @@ focus_tree = {
 					}
 				}
 			}
-			839 = {
+			974 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					
@@ -1240,7 +1240,7 @@ focus_tree = {
 		x = 29
 		y = 16
 		completion_reward = {
-				839 = {
+				974 = {
 					custom_effect_tooltip = Remove_the_line
 					hidden_effect = {
 						remove_building = {
@@ -1251,7 +1251,7 @@ focus_tree = {
 						}
 					}
 				}	
-				842 = {
+				977 = {
 					custom_effect_tooltip = Remove_the_line
 					hidden_effect = {
 						remove_building = {
@@ -1336,7 +1336,7 @@ focus_tree = {
 			focus = prk_Combat_Agriculture
 		}
 		completion_reward = {
-			839 = {
+			974 = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 4

@@ -1,4 +1,4 @@
-﻿capital = 835 #South Korea - Seoul or Busan
+﻿capital = 970 #South Korea - Seoul or Busan
 
 oob = "1936"
 
