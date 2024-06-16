@@ -47,7 +47,7 @@ units = {
 		}
 		task_force = {
 			name = "2함대" 
-			location = 13244 	 
+			location = 13371 	 
 			ship = { name = "ROKS 을지문덕" definition = modern_DDH start_experience_factor = 0.3 equipment = { ddh_1 = { amount = 1 owner = KOR } } }
 			ship = { name = "ROKS 윤영하" definition = modern_PK start_experience_factor = 0.3 equipment = { pk_3 = { amount = 1 owner = KOR } } }
 			ship = { name = "ROKS 서울" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = KOR } } }
@@ -65,7 +65,7 @@ units = {
 		}
 		task_force = {
 			name = "제1 서해 고속정사령부" 
-			location = 13244 
+			location = 13371 
 			ship = { name = "PKM-326" definition = modern_PK start_experience_factor = 0.3 equipment = { pk_1 = { amount = 1 owner = KOR } } }
 			ship = { name = "PKM-327" definition = modern_PK start_experience_factor = 0.3 equipment = { pk_1 = { amount = 1 owner = KOR } } }
 			ship = { name = "PKM-328" definition = modern_PK start_experience_factor = 0.3 equipment = { pk_1 = { amount = 1 owner = KOR } } }

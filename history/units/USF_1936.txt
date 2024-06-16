@@ -35,7 +35,7 @@ units = {
 	
 	division= {
 		name = "USFK 제2보병사단"
-		location = 13252
+		location = 13379
 		division_template = "주한미군"
 		start_experience_factor = 0.8
 	}

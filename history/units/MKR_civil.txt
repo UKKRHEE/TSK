@@ -220,7 +220,7 @@ units = {
 
 	division= { #파주
 		name = "제1보병사단 '전진'"
-		location = 13240
+		location = 13367
 		division_template = "상비사단"
 		start_experience_factor = 0.4
 		force_equipment_variants = { m_1970_mbt = { owner = "MKR" } }
@@ -228,7 +228,7 @@ units = {
 	}
 	division= { #강원도 인제
 		name = "제2보병사단 '노도'"
-		location = 13238
+		location = 13365
 		division_template = "상비사단"
 		force_equipment_variants = { m_1970_mbt = { owner = "MKR" } }
 		start_experience_factor = 0.3
@@ -242,7 +242,7 @@ units = {
 	} 
 	division= { #연천
 		name = "제5보병사단 '열쇠'"
-		location = 13239
+		location = 13366
 		division_template = "상비사단"
 		force_equipment_variants = { m_1970_mbt = { owner = "MKR" } }
 		start_experience_factor = 0.3
@@ -263,14 +263,14 @@ units = {
 	}
 	division= {
 		name = "제8보병사단 '오뚜기'"
-		location = 13239
+		location = 13366
 		division_template = "상비사단"
 		start_experience_factor = 0.4
 		force_equipment_variants = { m_1970_mbt = { owner = "MKR" } }
 	}
 	division= { #고양
 		name = "제9보병사단 '백마'"
-		location = 13240
+		location = 13367
 		division_template = "상비사단"
 		force_equipment_variants = { m_1970_mbt = { owner = "MKR" } }
 		start_experience_factor = 0.3
@@ -298,7 +298,7 @@ units = {
 	}
 	division= { #고성
 		name = "제22 보병사단 '율곡'"
-		location = 13238
+		location = 13365
 		division_template = "상비사단"
 		force_equipment_variants = { m_1970_mbt = { owner = "MKR" } }
 		start_experience_factor = 0.3
@@ -312,7 +312,7 @@ units = {
 	}
 	division= { #동두천
 		name = "제28 보병사단 '태풍'"
-		location = 13239
+		location = 13366
 		division_template = "상비사단"
 		force_equipment_variants = { m_1960_mbt = { owner = "MKR" } }
 		start_experience_factor = 0.3
@@ -326,7 +326,7 @@ units = {
 	}
 	division= {
 		name = "제65 보병사단 '밀물'"
-		location = 13239
+		location = 13366
 		division_template = "상비사단"
 		force_equipment_variants = { m_1970_mbt = { owner = "MKR" } }
 		start_experience_factor = 0.3
@@ -388,7 +388,7 @@ units = {
 	#####################해병##########
 	division= {
 		name = "제2해병사단 '청룡'"
-		location = 13244
+		location = 13371
 		division_template = "대한민국 해병사단"
 		start_experience_factor = 0.5
 		force_equipment_variants = { m_1960_mbt = { owner = "MKR" } }

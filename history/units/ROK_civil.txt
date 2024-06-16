@@ -236,7 +236,7 @@ units = {
 	}
 	division= {
 		name = "제27 보병사단 '이기자'"
-		location = 13237
+		location = 13364
 		division_template = "상비사단"
 		force_equipment_variants = { m_1950_mbt = { owner = "ROK" } } 
 		force_equipment_variants = { m_1970_sp_equipment = { owner = "ROK" } }
@@ -297,7 +297,7 @@ units = {
 	
 	division= {
 		name = "제1기갑여단 '전격'"
-		location = 13237
+		location = 13364
 		division_template = "기갑여단"
 		start_experience_factor = 0.3
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "ROK" } }
@@ -305,7 +305,7 @@ units = {
 	}
 	division= {
 		name = "제3기갑여단 '번개'"
-		location = 13237
+		location = 13364
 		division_template = "기갑여단"
 		start_experience_factor = 0.3
 		force_equipment_variants = { m_1980_mbt = { owner = "ROK" } }
@@ -325,7 +325,7 @@ units = {
 	#####################향토사단##########
 	division= { #광주
 		name = "제31 보병사단 '충장'" 
-		location = 13236
+		location = 13363
 		division_template = "향토방위사단"
 		start_experience_factor = 0.2
 		force_equipment_variants = { infantry_equipment_5 = { owner = "ROK" } }
@@ -345,7 +345,7 @@ units = {
 	}
 	division= { #전북
 		name = "제35 보병사단 '충경'"
-		location = 13236
+		location = 13363
 		division_template = "향토방위사단"
 		start_experience_factor = 0.2
 		force_equipment_variants = { infantry_equipment_5 = { owner = "ROK" } }

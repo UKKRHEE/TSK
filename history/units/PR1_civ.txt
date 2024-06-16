@@ -691,7 +691,7 @@ units = {
 	### 12th Army Corps
 	division = {			
 		name = "제44 전차려단"
-		location = 13241
+		location = 13368
 		division_template = "전차려단"
 		start_experience_factor = 0.3
 		force_equipment_variants = { m_1950_mbt = { owner = "PRK" } }
@@ -702,7 +702,7 @@ units = {
 	}
 	division = {			
 		name = "제59 차량화 보병 사단"
-		location = 13241
+		location = 13368
 		division_template = "차량화 보병 사단"
 		start_experience_factor = 0.3
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "PRK" } }
@@ -713,7 +713,7 @@ units = {
 	}
 	division = {			
 		name = "제68 보병 사단"
-		location = 13241
+		location = 13368
 		division_template = "보병 사단"
 		start_experience_factor = 0.3
 		force_equipment_variants = { m_1950_mbt = { owner = "PRK" } }
