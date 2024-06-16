@@ -1,7 +1,7 @@
 
 	NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.5
 	NDefines.NMilitary.RETREAT_SPEED_FACTOR = 1.3
-	NDefines.NBuildings.MAX_SHARED_SLOTS = 40
+	NDefines.NBuildings.MAX_SHARED_SLOTS = 50
 	NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 10000
 	NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 10000
 	NDefines.NMilitary.MAX_AIR_EXPERIENCE = 10000
