@@ -1,3 +1,400 @@
 characters={
+	KR1_roh_tae_whoo = { #
+		name=KR1_roh_tae_whoo
+		portraits={
+			civilian={
+				large="gfx/leaders/MKR/노태우.dds"
+			}
+		}
+		country_leader={
+			desc = "ROH_TAE_WHOO_DESC"
+			ideology=conservatism
+			traits={ trait_MKR_roh_tae_woo }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc = "ROH_TAE_WHOO_DESC"
+			ideology=despotism
+			traits={ trait_MKR_roh_tae_woo }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#
+	KR1_lee_ghunhui = { #이건희
+		name=KR1_lee_ghunhui
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/이건희.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = KR1_lee_ghunhui
+			available = {
+				
+			}
+			visible = {
+				OR = {
+					AND = {
+						tag = MKR
+						ROK = {
+							exists = no
+						}
+					}
+					AND = {
+						tag = ROK
+						MKR = {
+							exists = no
+						}
+					}
+					AND = {
+						tag = KR1
+						ROK = {
+							exists = no
+						}
+						MKR = {
+							exists = no
+						}
+					}
+				}
+			}
+			
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+					original_tag = ROK
+				}
+			}
+			
+			traits = { captain_of_industry }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
 
+	KR1_chung_won_sik = { #정원식
+		name=MKR_chung_won_sik
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/정원식.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_chung_won_sik
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+					original_tag = ROK
+				}
+			}
+			visible = {
+				OR = {
+					AND = {
+						tag = MKR
+						ROK = {
+							exists = no
+						}
+					}
+					AND = {
+						tag = ROK
+						MKR = {
+							exists = no
+						}
+					}
+					AND = {
+						tag = KR1
+						ROK = {
+							exists = no
+						}
+						MKR = {
+							exists = no
+						}
+					}
+				}
+			}
+			available = {
+			}
+			cost = 100
+			traits = { silent_workhorse }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	KR1_lee_young_man = { #이용만
+		name=MKR_lee_young_man
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/이용만.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_lee_young_man
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+					original_tag = ROK
+				}
+			}
+			visible = {
+				OR = {
+					AND = {
+						tag = MKR
+						ROK = {
+							exists = no
+						}
+					}
+					AND = {
+						tag = ROK
+						MKR = {
+							exists = no
+						}
+					}
+					AND = {
+						tag = KR1
+						ROK = {
+							exists = no
+						}
+						MKR = {
+							exists = no
+						}
+					}
+				}
+			}
+			available = {
+			}
+			cost = 100
+			traits = { financial_expert }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	KR1_chung_geun_mo = { #정근모
+		name=MKR_chung_geun_mo
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/정근모.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_chung_geun_mo
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+					original_tag = ROK
+				}
+			}
+			visible = {
+				OR = {
+					AND = {
+						tag = MKR
+						ROK = {
+							exists = no
+						}
+					}
+					AND = {
+						tag = ROK
+						MKR = {
+							exists = no
+						}
+					}
+					AND = {
+						tag = KR1
+						ROK = {
+							exists = no
+						}
+						MKR = {
+							exists = no
+						}
+					}
+				}
+			}
+			available = {
+			}
+			cost = 100
+			traits = { technocrat }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	KR1_choi_ghakkyu = { #최각규
+		name=MKR_choi_ghakkyu
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/최각규.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_choi_ghakkyu
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+					original_tag = ROK
+				}
+			}
+			visible = {
+				OR = {
+					AND = {
+						tag = MKR
+						ROK = {
+							exists = no
+						}
+					}
+					AND = {
+						tag = ROK
+						MKR = {
+							exists = no
+						}
+					}
+					AND = {
+						tag = KR1
+						ROK = {
+							exists = no
+						}
+						MKR = {
+							exists = no
+						}
+					}
+				}
+			}
+			available = {
+			}
+			cost = 100
+			traits = { economist }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	KR1_han_seungsoo = { #한승수
+		name=MKR_han_seungsoo
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/한승수.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_han_seungsoo
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+					original_tag = ROK
+				}
+			}
+			visible = {
+				OR = {
+					AND = {
+						tag = MKR
+						ROK = {
+							exists = no
+						}
+					}
+					AND = {
+						tag = ROK
+						MKR = {
+							exists = no
+						}
+					}
+					AND = {
+						tag = KR1
+						ROK = {
+							exists = no
+						}
+						MKR = {
+							exists = no
+						}
+					}
+				}
+			}
+			available = {
+			}
+			cost = 100
+			traits = { war_industrialist }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	KR1_park_saejik = { #박세직
+		name=MKR_park_saejik
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/박세직.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_park_saejik
+			visible = {
+				OR = {
+					AND = {
+						tag = MKR
+						ROK = {
+							exists = no
+						}
+					}
+					AND = {
+						tag = ROK
+						MKR = {
+							exists = no
+						}
+					}
+					AND = {
+						tag = KR1
+						ROK = {
+							exists = no
+						}
+						MKR = {
+							exists = no
+						}
+					}
+				}
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			
+			allowed = {
+				OR = {
+					original_tag = MKR
+					original_tag = KR1
+					original_tag = ROK
+				}
+				has_dlc = "La Resistance" 
+			}
+			
+			traits = { head_of_intelligence }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
 }

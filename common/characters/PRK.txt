@@ -1,2 +1,585 @@
 characters={
+	PRK_kim_il_sung={ #
+		name=PRK_kim_il_sung
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_kim_il_sung.dds"
+			}
+		}
+		country_leader={
+			desc = ""
+			ideology=jucheism
+			traits={ trait_PRK_kim_ilsung }
+		}
+		country_leader={
+			desc = ""
+			ideology=despotism
+			traits={ }
+		}
+		field_marshal = {
+			visible = {
+				has_country_leader = {
+					character = PRK_kim_jong_un
+					ruling_only = yes
+				}
+			}
+			traits = { }
+			skill = 9
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRK_kim_jong_il={ #
+		name=PRK_kim_jong_il
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_kim_jong_il.dds"
+			}
+		}
+	}
+	PRK_kim_jong_un={ #
+		name=PRK_kim_jong_un
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_kim_jong_un.dds"
+			}
+		}
+	}
+	###
+	PRK_jang_song_taek={ #
+		name=PRK_jang_song_taek
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_jang_song_taek.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	#### Past
+	PRK_lyuh_woon_hyung={ #
+		name=PRK_lyuh_woon_hyung
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_lyuh_woon_hyung.png"
+				small = "gfx/interface/ideas/PRK/advisors/idea_PRK_lyuh_woon_hyung.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRK_lyuh_woon_hyung
+			allowed = {
+				original_tag = PRK 
+			}
+			available = {
+				
+			}
+			traits = { trait_PRK_yeo_un_hyeong smooth_talking_charmer }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	PRK_pak_hon_yong={ #
+		name=PRK_pak_hon_yong
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_pak_hon_yong.dds"
+				small = "gfx/interface/ideas/PRK/advisors/idea_PRK_pak_hon_yong.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRK_pak_hon_yong
+			allowed = {
+				original_tag = PRK 
+			}
+			available = {
+				has_completed_focus = prk_Marxism_Leninism
+			}
+			traits = { communist_revolutionary }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	PRK_cho_bong_am={ #
+		name=PRK_cho_bong_am
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/PRK/advisors/idea_PRK_cho_bong_am.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRK_cho_bong_am
+			allowed = {
+				original_tag = PRK 
+			}
+			available = {
+				has_completed_focus = prk_Marxism_Leninism
+			}
+			traits = { silent_workhorse captain_of_industry }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	PRK_kang_kon={ #
+		name=PRK_kang_kon
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_kang_kon.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+	}
+	PRK_kim_won_bong={ #
+		name=PRK_kim_won_bong
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_kim_won_bong.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+	}
+	PRK_nam_il={ #
+		name=PRK_nam_il
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_nam_il.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+	}
+	PRK_choi_yong_gun={ #
+		name=PRK_choi_yong_gun
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_choi_yong_gun.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+	}
+	####
+	PRK_kim_young_nam={ #
+		name=PRK_kim_young_nam
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/PRK/advisors/idea_PRK_kim_young_nam.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRK_kim_young_nam
+			allowed = {
+				original_tag = PRK
+			}
+			available = {
+				
+			}
+			traits = { trait_PRK_kim_yong_nam }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	PRK_choe_yung_lim={ #
+		name=PRK_choe_yung_lim
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/PRK/advisors/idea_PRK_choe_yung_lim.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRK_choe_yung_lim
+			allowed = {
+				original_tag = PRK 
+			}
+			available = {
+				
+			}
+			traits = { trait_PRK_choe_yung_lim }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	PRK_ri_byong_chol={ #
+		name=PRK_ri_byong_chol
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/PRK/advisors/idea_PRK_ri_byong_chol.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRK_ri_byong_chol
+			allowed = {
+				original_tag = PRK 
+			}
+			available = {
+				
+			}
+			traits = { war_industrialist }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	PRK_kim_doo_bong={ #
+		name=PRK_kim_doo_bong
+		portraits={
+			civilian={
+				small = "gfx/interface/ideas/PRK/advisors/idea_PRK_kim_doo_bong.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRK_kim_doo_bong
+			allowed = {
+				original_tag = PRK 
+			}
+			available = {
+				
+			}
+			traits = { trait_PRK_kim_doo_bong }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	####
+	PRK_o_il_jung={ #
+		name=PRK_o_il_jung
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_o_il_jung.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRK_jo_myong_lok={ #
+		name=PRK_jo_myong_lok
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_jo_myong_lok.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRK_o_guk_ryol={ #
+		name=PRK_o_guk_ryol
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_o_guk_ryol.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRK_o_jin_woo={ #
+		name=PRK_o_jin_woo
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_o_jin_woo.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRK_choi_kwang={ #
+		name=PRK_choi_kwang
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_choi_kwang.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRK_hwang_pyong_so={ #
+		name=PRK_hwang_pyong_so
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_hwang_pyong_so.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRK_kim_jong_gak={ #
+		name=PRK_kim_jong_gak
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_kim_jong_gak.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	#
+	PRK_ri_yong_ju={ #
+		name=PRK_ri_yong_ju
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_ri_yong_ju.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	PRK_kim_il_chul={ #
+		name=PRK_kim_il_chul
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_kim_il_chul.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	PRK_chung_myong_do={ #
+		name=PRK_chung_myong_do
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_chung_myong_do.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	PRK_han_sang_soon={ #
+		name=PRK_han_sang_soon
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_han_sang_soon.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	####
+	PRK_kim_yong_chun={ #
+		name=PRK_kim_yong_chun
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_kim_yong_chun.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	PRK_kim_yong_chol={ #
+		name=PRK_kim_yong_chol
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_kim_yong_chol.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRK_kim_yongchol_token
+			allowed = {
+				original_tag = PRK
+			}
+			available = {
+				
+			}
+			traits = { tenacious_negotiator }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	PRK_ri_myong_su={ #
+		name=PRK_ri_myong_su
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_ri_myong_su.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	PRK_hyon_yong_chol={ #
+		name=PRK_hyon_yong_chol
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_hyon_yong_chol.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	PRK_choi_ryong_hae={ #
+		name=PRK_choi_ryong_hae
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_choi_ryong_hae.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	PRK_kim_kyok_sik={ #
+		name=PRK_kim_kyok_sik
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_kim_kyok_sik.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	PRK_pak_yong_sik={ #
+		name=PRK_pak_yong_sik
+		portraits={
+			civilian={
+				large = "gfx/leaders/PRK/Portrait_PRK_pak_yong_sik.dds"
+				small="gfx/interface/ideas/PRK/advisor/idea_PRK_army_advisor.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
 }

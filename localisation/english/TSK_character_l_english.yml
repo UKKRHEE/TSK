@@ -65,9 +65,94 @@
  KOR_kim_chang_kyu:0 "김창규"
  KOR_yoon_jeong_sang:0 "윤정상"
  
+ ###
+ KPA_kim_jong_il:0 "김정일"
+ KPA_kim_jong_un:0 "김정은"
+ KPA_jang_song_taek:0 "장성택"
+ #
+ KPA_kim_yong_chun:0 "김영춘"
+ KPA_kim_yong_chol:0 "김영철"
+ KPA_ri_myong_su:0 "리명수"
+ KPA_hyon_yong_chol:0 "현영철"
+ KPA_choi_ryong_hae:0 "최룡해"
+ KPA_kim_kyok_sik:0 "김격식"
+ KPA_pak_yong_sik:0 "박영식"
+ 
+ ####################
+ PRK_kim_il_sung:0 "김일성"
+ PRK_kim_jong_il:0 "김정일"
+ PRK_kim_jong_un:0 "김정은"
+ #
+ PRK_lyuh_woon_hyung:0 "여운형"
+ PRK_pak_hon_yong:0 "박헌영"
+ PRK_cho_bong_am:0 "조봉암"
+ PRK_kang_kon:0 "강건"
+ PRK_kim_won_bong:0 "김원봉"
+ PRK_nam_il:0 "남일"
+ #
+ PRK_kim_young_nam:0 "김영남"
+ PRK_choe_yung_lim:0 "최영림"
+ PRK_ri_byong_chol:0 "리병철"
+ PRK_kim_doo_bong:0 "김두봉"
+ #
+ PRK_o_il_jung:0 "오일정"
+ PRK_jo_myong_lok:0 "조명록"
+ PRK_o_guk_ryol:0 "오극렬"
+ PRK_o_jin_woo:0 "오진우"
+ PRK_choi_kwang:0 "최광"
+ PRK_hwang_pyong_so:0 "황병서"
+ PRK_kim_jong_gak:0 "김정각"
+ PRK_ri_yong_ju:0 "리용주"
+ PRK_kim_il_chul:0 "김일철"
+ PRK_chung_myong_do:0 "정명도"
+ PRK_han_sang_soon:0 "한상순"
+ #
+ PRK_jang_song_taek:0 "장성택"
+ PRK_kim_yong_chun:0 "김영춘"
+ PRK_kim_yong_chol:0 "김영철"
+ PRK_ri_myong_su:0 "리명수"
+ PRK_hyon_yong_chol:0 "현영철"
+ PRK_choi_ryong_hae:0 "최룡해"
+ PRK_kim_kyok_sik:0 "김격식"
+ PRK_pak_yong_sik:0 "박영식"
+ 
  
  #######################
  
+ KR1_roh_tae_whoo:0 "노태우"
+ KR1_lee_ghunhui:0 "이건희"
+ 
+ #ROK
+ #정치인
+ ROK_kim_dae_jung:0 "김대중"
+ ROK_kim_yong_sam:0 "김영삼"
+ ROK_kim_koo:0 "김구"
+ #육군참총
+ ROK_kim_dong_jin:0 "김동진"
+ ROK_do_il_kyu:0 "도일규"
+ #해군참총
+ ROK_an_byung_tae:0 "안병태"
+ ROK_yoo_samnam:0 "유삼남"
+ #공군참총
+ ROK_cho_geun_hae:0 "조근해"
+ ROK_kim_hong_rae:0 "김홍래"
+ #이론가
+ ROK_kim_dong_shin:0 "김동신"
+ ROK_lee_nam_shin:0 "이남신"
+ ROK_lee_yang_ho:0 "이양호"
+ #고위지휘관
+ ROK_lee_jun:0 "이준"
+ ROK_yun_yong_nam:0 "윤용남"
+ ROK_lee_gwanghak:0 "이광학"
+ ROK_lee_sooyong:0 "이수용"
+ ROK_chang_junggil:0 "장정길"
+ ROK_chung_yong_hoo:0 "정용후"
+ #장군
+ ROK_gil_hyeong_bo:0 "길형보"
+ ROK_do_il_gyu:0 "도일규"
+ ROK_oh_ja_bok:0 "오자복"
+ 
+ #MKR
  MKR_roh_tae_whoo:0 "노태우"
  MKR_chun_doo_hwan:0 "전두환"
  MKR_lee_beom_seok:0 "이범석"
@@ -78,34 +163,18 @@
  MKR_choi_ghakkyu:0 "최각규"
  MKR_han_seungsoo:0 "한승수"
  MKR_park_saejik:0 "박세직"
- MKR_lee_ghunhui:0 "이건희"
  #이론가
- MKR_kim_dong_shin:0 "김동신"
  MKR_cho_nam_pung:0 "조남풍"
  MKR_choi_sae_chang:0 "최세창"
  MKR_seo_dongyeol:0 "서동열"
- MKR_lee_yang_ho:0 "이양호"
- MKR_lee_nam_shin:0 "이남신"
  #육군참총
  MKR_kim_jing_yung:0 "김진영"
- MKR_kim_dong_jin:0 "김동진"
  MKR_lee_jin_sam:0 "이진삼"
- MKR_do_il_kyu:0 "도일규"
  #공군참총
- MKR_cho_geun_hae:0 "조근해"
- MKR_kim_hong_rae:0 "김홍래"
  MKR_han_chuseok:0 "한주석"
- #해군참총
- MKR_an_byung_tae:0 "안병태"
- MKR_yoo_samnam:0 "유삼남"
  #고위지휘관
- MKR_lee_jun:0 "이준"
- MKR_un_yong_nam:0 "운용남"
  MKR_lee_jong_gu:0 "이종구"
  MKR_goo_chang_hoe:0 "구창회"
- MKR_lee_gwanghak:0 "이광학"
- MKR_lee_sooyong:0 "이수용"
- MKR_chang_junggil:0 "장정길"
  #장교
  MKR_ahn_phil_jun:0 "장정길"
  MKR_min_kyungbae:0 "민경배"

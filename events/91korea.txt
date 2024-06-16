@@ -104,16 +104,6 @@ country_event = {
 				add_state_core = 979
 				add_state_core = 978
 				add_state_core = 983
-		        create_country_leader = {
-	                    name = "김대중"
-	                    desc = ""
-	                    picture = "gfx/leaders/KR1/김대중.dds"
-	                    expire = "1965.1.1"
-	                    ideology = conservatism
-	                    traits = {
-							trait_ROK_kim_dae_jung
-	                }
-                }
 			}	
 			ROK = {
 				set_fuel_ratio = 0.8
@@ -273,16 +263,6 @@ country_event = {
 				add_state_core = 979
 				add_state_core = 978
 				add_state_core = 983
-		        	create_country_leader = {
-	                    name = "김대중"
-	                    desc = ""
-	                    picture = "gfx/leaders/KR1/김대중.dds"
-	                    expire = "1965.1.1"
-	                    ideology = conservatism
-	                    traits = {
-						trait_ROK_kim_dae_jung
-	                    }
-                	}
 				}	
 						ROK = {
 							set_fuel_ratio = 0.8

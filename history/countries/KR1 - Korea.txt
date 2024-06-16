@@ -203,57 +203,70 @@ set_popularities = {
 	neutrality = 0
 }
 
-recruit_character = MKR_roh_tae_whoo
-recruit_character = MKR_chun_doo_hwan
+recruit_character = KR1_roh_tae_whoo
 
-recruit_character = MKR_chung_won_sik #정원식
-recruit_character = MKR_lee_young_man #이용만
-recruit_character = MKR_chung_geun_mo #정근모
-recruit_character = MKR_choi_ghakkyu #최각규
-recruit_character = MKR_han_seungsoo #한승수
-recruit_character = MKR_park_saejik #박세직
-recruit_character = MKR_lee_ghunhui #이건희
+# 정치고문 (공통)
+recruit_character = KR1_lee_ghunhui #이건희
+recruit_character = KR1_chung_won_sik #정원식
+recruit_character = KR1_lee_young_man #이용만
+recruit_character = KR1_chung_geun_mo #정근모
+recruit_character = KR1_choi_ghakkyu #최각규
+recruit_character = KR1_han_seungsoo #한승수
+recruit_character = KR1_park_saejik #박세직
+
+# 육군참총
+recruit_character = ROK_kim_dong_jin #김동진
+recruit_character = ROK_do_il_kyu #도일규
+
+# 해군참총
+recruit_character = ROK_an_byung_tae #안병태
+recruit_character = ROK_yoo_samnam #유삼남
+
+#공군참총
+recruit_character = ROK_cho_geun_hae #조근해
+recruit_character = ROK_kim_hong_rae #김홍래
+
+# 이론가
+recruit_character = ROK_kim_dong_shin #김동신
+recruit_character = ROK_lee_nam_shin #이남신
+recruit_character = ROK_lee_yang_ho #이양호
+
+#고위지휘관
+recruit_character = ROK_lee_jun #이준
+recruit_character = ROK_yun_yong_nam #윤용남
+recruit_character = ROK_lee_gwanghak #이광학
+recruit_character = ROK_lee_sooyong #이수용
+recruit_character = ROK_chang_junggil #장정길
+recruit_character = ROK_chung_yong_hoo #정용후
+
+#장군
+recruit_character = ROK_gil_hyeong_bo #길형보
+recruit_character = ROK_oh_ja_bok #오자복
+
+  #정치고문 (공통)
+recruit_character = KR1_lee_ghunhui #이건희
+recruit_character = KR1_chung_won_sik #정원식
+recruit_character = KR1_lee_young_man #이용만
+recruit_character = KR1_chung_geun_mo #정근모
+recruit_character = KR1_choi_ghakkyu #최각규
+recruit_character = KR1_han_seungsoo #한승수
+recruit_character = KR1_park_saejik #박세직
   #이론가
-recruit_character = MKR_kim_dong_shin #김동신
 recruit_character = MKR_cho_nam_pung #조남풍
 recruit_character = MKR_choi_sae_chang #최세창
 recruit_character = MKR_seo_dongyeol #서동열
-recruit_character = MKR_lee_yang_ho #이양호
-recruit_character = MKR_lee_nam_shin #이남신
   #육군참총
 recruit_character = MKR_kim_jing_yung #김진영
-recruit_character = MKR_kim_dong_jin #김동진
 recruit_character = MKR_lee_jin_sam #이진삼
-recruit_character = MKR_do_il_kyu #도일규
   #공군참총
-recruit_character = MKR_cho_geun_hae #조근해
-recruit_character = MKR_kim_hong_rae #김홍래
 recruit_character = MKR_han_chuseok #한주석
-  #해군참총
-recruit_character = MKR_an_byung_tae #안병태
-recruit_character = MKR_yoo_samnam #유삼남
   #고위지휘관
-recruit_character = MKR_lee_jun #이준
-recruit_character = MKR_un_yong_nam #운용남
 recruit_character = MKR_lee_jong_gu #이종구
 recruit_character = MKR_goo_chang_hoe #구창회
-recruit_character = MKR_lee_gwanghak #이광학
-recruit_character = MKR_lee_sooyong #이수용
-recruit_character = MKR_chang_junggil #장정길
   #장교
 recruit_character = MKR_ahn_phil_jun #장정길
 recruit_character = MKR_min_kyungbae #민경배
 recruit_character = MKR_lee_philseob #이필섭
-create_country_leader = {
-	    name = "서완수"
-	    desc = ""
-	    picture = "gfx/leaders/ROK/서완수.png"
-	    expire = "1965.1.1"
-	    ideology = despotism
-	    traits = {
-		
-	}	
-}
 
 
 if = {

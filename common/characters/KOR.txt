@@ -15,6 +15,12 @@ characters={
 			id=-1
 		}
 		field_marshal = {
+			visible = {
+				has_country_leader = {
+					character = KOR_lee_byungbak
+					ruling_only = yes
+				}
+			}
 			traits = { }
 			skill = 9
 			attack_skill = 1

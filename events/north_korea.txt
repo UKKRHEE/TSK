@@ -37,44 +37,36 @@ country_event = {
 	option = { 
 		name = PRK.2.a
 		set_country_flag = Retrain_officer
-		create_corps_commander = {
-			name = "Nam il" #남일
-			picture = "남일.dds"
+		add_corps_commander_role = {
+			character = PRK_nam_il
 			traits = { 	unaccustomed_to_modern_warfare	}
-			id = 9998
 			skill = 2
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 2
 		}
-		create_corps_commander = {
-			name = "Kim Won bong" #김원봉
-			picture = "김원봉.dds"
+		add_corps_commander_role = {
+			character = PRK_kim_won_bong
 			traits = { 	unaccustomed_to_modern_warfare	}
-			id = 9999
 			skill = 3
 			attack_skill = 3
 			defense_skill = 4
 			planning_skill = 3
 			logistics_skill = 4
 		}
-		create_corps_commander = {
-			name = "Choi Yong geon" #최용건
-			picture = "최용건.dds"
+		add_corps_commander_role = {
+			character = PRK_choi_yong_gun
 			traits = { 	unaccustomed_to_modern_warfare	}
-			id = 9997
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
 			planning_skill = 4
 			logistics_skill = 3
 		}
-		create_corps_commander = {
-			name = "Kang Geon" #강건
-			picture = "강건.dds"
+		add_corps_commander_role = {
+			character = PRK_kang_kon
 			traits = { 	unaccustomed_to_modern_warfare	}
-			id = 9996
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -1613,7 +1605,7 @@ country_event = { #일성이 사망
 	fire_only_once = yes
 	trigger = {
 		has_country_leader = {
-			name = "Kim Il-Sung"
+			character = PRK_kim_il_sung
 			ruling_only = yes
 		}	
 		date > 1939.7.8
@@ -1621,17 +1613,17 @@ country_event = { #일성이 사망
 	
 	option = {#좋군
 		name = PRK.43.a	
-		
-		create_country_leader = {
-			name = "Kim Jong-Il"
-			desc = ""
-			picture = "gfx/leaders/PRK/김정일.dds"
-			expire = "1965.1.1"
-			ideology = jucheism
-			traits = {
-				trait_PRK_kim_jungil
+		retire_character = PRK_kim_il_sung
+		add_country_leader_role = {
+			Character = PRK_kim_jong_il
+			Promote_leader = yes
+			country_leader = {
+				desc=""
+				ideology = jucheism
+				traits={ trait_PRK_kim_jungil }
 			}
 		}
+		
 		if = {
 			limit = {
 				KR1 = {
@@ -1678,7 +1670,7 @@ country_event = { #정일 사망 (이스터에그)
 	fire_only_once = yes
 	trigger = {
 		has_country_leader = {
-			name = "Kim Jong-Il"
+			character = PRK_kim_jong_il
 			ruling_only = yes
 		}	
 		date > 1956.12.17
@@ -1686,15 +1678,14 @@ country_event = { #정일 사망 (이스터에그)
 	
 	option = {#좋군
 		name = PRK.43.a	
-		
-		create_country_leader = {
-			name = "Kim Jong-Un"
-			desc = ""
-			picture = "gfx/leaders/KPA/KJU.dds"
-			expire = "1965.1.1"
-			ideology = jucheism
-			traits = {
-				trait_PRK_kim_jungun
+		retire_character = PRK_kim_jong_il
+		add_country_leader_role = {
+			Character = PRK_kim_jong_un
+			Promote_leader = yes
+			country_leader = {
+				desc=""
+				ideology = jucheism
+				traits={ trait_PRK_kim_jungun }
 			}
 		}
 	}

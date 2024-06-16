@@ -1,3 +1,190 @@
 characters={
-
+	KPA_kim_jong_il={ #
+		name=KPA_kim_jong_il
+		portraits={
+			civilian={
+				large = "gfx/leaders/KPA/Portrait_KPA_kim_jong_il.dds"
+			}
+		}
+		country_leader={
+			desc = ""
+			ideology=jucheism
+			traits={ trait_PRK_kim_jungil }
+		}
+	}
+	KPA_kim_jong_un={ #
+		name=KPA_kim_jong_un
+		portraits={
+			civilian={
+				large = "gfx/leaders/KPA/Portrait_KPA_kim_jong_un.dds"
+			}
+		}
+		country_leader={
+			desc = ""
+			ideology=rexism
+			traits={ trait_PRK_kim_jungil }
+		}
+		field_marshal = {
+			visible = {
+				has_country_leader = {
+					character = KPA_kim_jong_un
+					ruling_only = yes
+				}
+			}
+			traits = { }
+			skill = 9
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	KPA_jang_song_taek={ #
+		name=KPA_jang_song_taek
+		portraits={
+			civilian={
+				large = "gfx/leaders/KPA/Portrait_KPA_jang_song_taek.dds"
+			}
+		}
+		country_leader={
+			desc = ""
+			ideology=despotism
+			traits={ }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	####
+	KPA_kim_yong_chun={ #
+		name=KPA_kim_yong_chun
+		portraits={
+			civilian={
+				large = "gfx/leaders/KPA/Portrait_KPA_kim_yong_chun.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	KPA_kim_yong_chol={ #
+		name=KPA_kim_yong_chol
+		portraits={
+			civilian={
+				large = "gfx/leaders/KPA/Portrait_KPA_kim_yong_chol.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = KPA_kim_yongchol_token
+			allowed = {
+				original_tag = KPA
+			}
+			available = {
+				
+			}
+			traits = { tenacious_negotiator }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	KPA_ri_myong_su={ #
+		name=KPA_ri_myong_su
+		portraits={
+			civilian={
+				large = "gfx/leaders/KPA/Portrait_KPA_ri_myong_su.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	KPA_hyon_yong_chol={ #
+		name=KPA_hyon_yong_chol
+		portraits={
+			civilian={
+				large = "gfx/leaders/KPA/Portrait_KPA_hyon_yong_chol.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	KPA_choi_ryong_hae={ #
+		name=KPA_choi_ryong_hae
+		portraits={
+			civilian={
+				large = "gfx/leaders/KPA/Portrait_KPA_choi_ryong_hae.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	KPA_kim_kyok_sik={ #
+		name=KPA_kim_kyok_sik
+		portraits={
+			civilian={
+				large = "gfx/leaders/KPA/Portrait_KPA_kim_kyok_sik.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	KPA_pak_yong_sik={ #
+		name=KPA_pak_yong_sik
+		portraits={
+			civilian={
+				large = "gfx/leaders/KPA/Portrait_KPA_pak_yong_sik.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
 }

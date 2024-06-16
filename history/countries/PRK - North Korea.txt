@@ -222,233 +222,52 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
-
 ### Country Leader ###
+# Kim Dynasty
+recruit_character = PRK_kim_il_sung
+recruit_character = PRK_kim_jong_il
+recruit_character = PRK_kim_jong_un
 
-create_country_leader = {
-	name = "Yeo Woon hyung"
-	desc = ""
-	picture = "gfx/leaders/KPA/KJU.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
+# Independential People
+recruit_character = PRK_lyuh_woon_hyung
+recruit_character = PRK_pak_hon_yong
+recruit_character = PRK_cho_bong_am
+recruit_character = PRK_kang_kon
+recruit_character = PRK_kim_won_bong
+recruit_character = PRK_nam_il
 
-create_country_leader = {
-	name = "Kim Il-Sung"
-	desc = ""
-	picture = "gfx/leaders/PRK/Kim_il_sung.dds"
-	expire = "1965.1.1"
-	ideology = jucheism
-	traits = {
-		trait_PRK_kim_ilsung
-	}
-}
+# 91 People Political
+recruit_character = PRK_kim_doo_bong
+recruit_character = PRK_kim_young_nam
+recruit_character = PRK_choe_yung_lim
+recruit_character = PRK_ri_byong_chol
+
+# 91 People General & Admiral
+recruit_character = PRK_o_il_jung
+recruit_character = PRK_jo_myong_lok
+recruit_character = PRK_o_guk_ryol
+recruit_character = PRK_o_jin_woo
+recruit_character = PRK_choi_kwang
+recruit_character = PRK_hwang_pyong_so
+recruit_character = PRK_kim_jong_gak
+#
+recruit_character = PRK_ri_yong_ju
+recruit_character = PRK_kim_il_chul
+recruit_character = PRK_chung_myong_do
+recruit_character = PRK_han_sang_soon
+
+# 09 People
+recruit_character = PRK_choi_yong_gun
+recruit_character = PRK_jang_song_taek
+recruit_character = PRK_kim_yong_chun
+recruit_character = PRK_ri_myong_su
+recruit_character = PRK_hyon_yong_chol
+recruit_character = PRK_choi_ryong_hae
+recruit_character = PRK_kim_kyok_sik
+recruit_character = PRK_pak_yong_sik
+
 
 ### General & Admiral ###
-
-create_corps_commander = {
-	name = "Oh Il jung"
-	picture = "오일정.dds"
-	traits = { }
-	skill = 1
-	id = 9982
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Jo Myeong rok"
-	picture = "조명록.dds"
-	traits = { }
-	skill = 1
-	id = 9983
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Kim Kyek sik"
-	picture = "김격식.dds"
-	traits = { }
-	skill = 1
-	id = 9995
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Kim Yeng chel"
-	picture = "김영철.dds"
-	traits = { }
-	skill = 1
-	id = 9994
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Kim Young chun"
-	picture = "김영춘.dds"
-	traits = { }
-	skill = 1
-	id = 9993
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Lee Myung Soo"
-	picture = "리명수.dds"
-	traits = { }
-	skill = 1
-	id = 9992
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Oh Geuk ryeol"
-	picture = "오극렬.dds"
-	traits = { }
-	skill = 1
-	id = 9991
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Oh Jin Woo"
-	picture = "오진우.dds"
-	traits = { }
-	skill = 1
-	id = 9990
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Choi Kwang"
-	picture = "최광.dds"
-	traits = { }
-	skill = 1
-	id = 9989
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Choe Ryong hae"
-	picture = "최룡해.dds"
-	traits = { }
-	skill = 1
-	id = 9988
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Hwang Byeong seo"
-	picture = "황병서.dds"
-	traits = { }
-	skill = 1
-	id = 9987
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Hyun Young chul"
-	picture = "현영철.dds"
-	traits = { }
-	skill = 1
-	id = 9986
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Bak Yeong sik"
-	picture = "박영식.dds"
-	traits = { }
-	skill = 1
-	id = 9985
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Kim Jung kak"
-	picture = "김정각.dds"
-	traits = { }
-	skill = 1
-	id = 9984
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_navy_leader = {
-	name = "Lee Yong ju"
-		picture = "리용주.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 1
-	coordination_skill = 1
-}
-
-create_navy_leader = {
-	name = "Kim Il chul"
-		picture = "김일철.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 1
-	coordination_skill = 1
-}
-
-create_navy_leader = {
-	name = "Chung Myung do"
-		picture = "정명도.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 1
-	coordination_skill = 1
-}
-
 
 if = {
 	limit = { has_dlc = "Man the Guns" }

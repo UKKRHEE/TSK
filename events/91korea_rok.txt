@@ -14,13 +14,13 @@ country_event = { # 14대 대선
 		name = rok.1.a
 		ai_chance = { factor = 50 }
 		set_politics = { ruling_party = democratic elections_allowed = yes }
-		create_country_leader = {
-			name = "Kim Young Sam"
-			picture = "김영삼.dds"
-			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {	
-				trait_ROK_kim_yong_sam
+		add_country_leader_role = {
+			Character = ROK_kim_yong_sam
+			Promote_leader = yes
+			country_leader = {
+				desc=""
+				ideology = conservatism
+				traits={ trait_ROK_kim_yong_sam }
 			}
 		}
 			complete_national_focus = President_Kim_Young_sam	
@@ -30,13 +30,13 @@ country_event = { # 14대 대선
 		name = rok.1.b
 		ai_chance = { factor = 50 }
 		set_politics = { ruling_party = democratic elections_allowed = yes }
-		create_country_leader = {
-			name = "Kim Gu"
-			picture = "김구.dds"
-			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {	
-				trait_ROK_kim_koo
+		add_country_leader_role = {
+			Character = ROK_kim_yong_sam
+			Promote_leader = yes
+			country_leader = {
+				desc=""
+				ideology = conservatism
+				traits={ trait_ROK_kim_koo }
 			}
 		}
 		complete_national_focus = President_Kim_Koo	
@@ -140,51 +140,33 @@ country_event = { # 독립군 장교단
 	option = { #
 		name = rok_civ.4.a
 		add_ideas = ROK_independent_officer
-		
-			create_corps_commander = {
-				name = "Kim Hong Il"
-				picture = "김홍일.dds"
-				traits = { unaccustomed_to_modern_warfare }
-				id = 20000
-				skill = 3
-				attack_skill = 3
-				defense_skill = 2
-				planning_skill = 2
-				logistics_skill = 2
-			}
-			create_corps_commander = {
-				name = "Yu Dong Yeol"
-				picture = "유동열.dds"
-				traits = { unaccustomed_to_modern_warfare }
-				id = 20001
-				skill = 3
-				attack_skill = 3
-				defense_skill = 2
-				planning_skill = 2
-				logistics_skill = 2
-			}
-			create_corps_commander = {
-				name = "Kim Hak Kyu"
-				picture = "김학규.dds"
-				traits = { unaccustomed_to_modern_warfare }
-				id = 20002
-				skill = 2
-				attack_skill = 2
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
-			create_corps_commander = {
-				name = "Kim Jun Yeop"
-				picture = "김준엽.dds"
-				traits = { unaccustomed_to_modern_warfare }
-				id = 20003
-				skill = 2
-				attack_skill = 2
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
+		add_field_marshal_role = {
+			character = ROK_yu_dong_yeol
+			traits = { 	unaccustomed_to_modern_warfare	}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		add_corps_commander_role = {
+			character = ROK_ji_cheong_chon
+			traits = { 	unaccustomed_to_modern_warfare	}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		add_corps_commander_role = {
+			character = ROK_lee_beom_seok
+			traits = { 	unaccustomed_to_modern_warfare	}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
     }	
 }
 
