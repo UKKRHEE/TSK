@@ -2004,24 +2004,6 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = tex_boom
-			every_country = {
-				limit = {
-					has_idea = economy_open_bonus_1
-				}
-				swap_ideas = {
-					remove_idea = economy_open_bonus_1
-					add_idea = economy_open_bonus_2
-				}
-			}
-			every_country = {
-				limit = {
-					has_idea = economy_open_bonus_minor_1
-				}
-				swap_ideas = {
-					remove_idea = economy_open_bonus_minor_1
-					add_idea = economy_open_bonus_minor_2
-				}
-			}
 		}
 		x = 39
 		y = 4
