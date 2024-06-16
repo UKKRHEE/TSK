@@ -688,6 +688,7 @@ country_event = { #주한미군 참전
 			create_faction = ROK_USF
 			add_to_faction = USF
             load_oob = USF_civ
+            load_oob = USF_civ_air
 		    set_country_flag = ROK_USF_1
         }
 		USF = {

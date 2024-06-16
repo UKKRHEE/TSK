@@ -51,23 +51,3 @@ units = {
         force_equipment_variants = { modern_artillery_equipment_2 = { owner = "USF" } }
 	}
 }
-	air_wings = {
-		809={
-			m_1990_jet_multirole_equipment = {
-				owner = "USF" 
-				amount = 20
-			}
-			m_1990_jet_multirole_equipment = {
-				owner = "USF" 
-				amount = 20
-			}
-			m_1990_jet_CAS_equipment = {
-				owner = "USF" 
-				amount = 20
-			}
-			m_1990_attack_helicopter_equipment = {
-				owner = "USF" 
-				amount = 40
-			}
-		}
-	}

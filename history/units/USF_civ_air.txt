@@ -1,0 +1,20 @@
+air_wings = {
+	972={
+		m_1990_jet_multirole_equipment = {
+			owner = "USF" 
+			amount = 20
+		}
+		m_1990_jet_multirole_equipment = {
+			owner = "USF" 
+			amount = 20
+		}
+		m_1990_jet_CAS_equipment = {
+			owner = "USF" 
+			amount = 20
+		}
+		m_1990_attack_helicopter_equipment = {
+			owner = "USF" 
+			amount = 40
+		}
+	}
+}

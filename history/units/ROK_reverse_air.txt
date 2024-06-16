@@ -1,0 +1,25 @@
+
+	
+air_wings = {
+	971 = { 
+		m_1970_jet_multirole_equipment = {
+			owner = "ROK" 
+			amount = 20
+		}
+		m_1970_jet_fighter_equipment = {
+			owner = "ROK" 
+			amount = 20
+		}
+
+	}
+	972 = { 
+		m_1980_jet_multirole_equipment = {
+			owner = "ROK" 
+			amount = 20
+		}
+		m_1990_jet_fighter_equipment = {
+			owner = "ROK" 
+			amount = 10
+		}
+	}
+}
