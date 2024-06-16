@@ -19,7 +19,7 @@ we_are_strong_rok = {
 
 	}
 	enable = {
-		alays = yes
+		always = yes
 	}
 
 	ai_strategy = {

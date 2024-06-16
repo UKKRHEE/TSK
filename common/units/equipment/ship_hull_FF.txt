@@ -447,10 +447,10 @@ equipments = {
 			fixed_ship_radar_slot = ship_modern_radar_1
 			fixed_ship_sts_slot = ship_missile_luncher_2
 			fixed_ship_engine_slot = light_ship_engine_modern_1
-			fixed_ship_battery_slot_1 = empty
 			rear_1_custom_slot = ship_ciws_2
 			mid_1_custom_slot = ship_missile_luncher_1
 			front_1_custom_slot = ship_missile_luncher_1
+			fixed_ship_battery_slot = empty
 		}
 		surface_detection = 25
 		sub_detection = 10

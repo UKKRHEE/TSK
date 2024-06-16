@@ -79,17 +79,7 @@ equipments = {
 		year = 1922
 
 		archetype = ship_hull_modern_submarine
-		priority = 2500
-		
-		module_slots = inherit	
-	}
-	
-	ship_hull_modern_submarine_2 = { #우즈시오급,상어급
-		year = 1944
-
-		archetype = ship_hull_modern_submarine
-		priority = 2500
-		parent = ship_hull_modern_submarine_1
+		priority = 2500		
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit 
 			fixed_ship_engine_slot = inherit
@@ -135,6 +125,15 @@ equipments = {
 		type = { 
 			submarine
 		}			
+	}
+	
+	ship_hull_modern_submarine_2 = { #우즈시오급,상어급
+		year = 1944
+
+		archetype = ship_hull_modern_submarine
+		priority = 2500
+		parent = ship_hull_modern_submarine_1
+		module_slots = inherit	
 	}
 	
 	ship_hull_modern_submarine_3 = { #유우시오급,신포급,장보고급

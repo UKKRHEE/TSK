@@ -264,13 +264,11 @@ equipments = {
 		}
 		manpower = 5000
 	}
-}
 ###Prescripted designs for people without MtG
 
 	carrier_1 = {
 		year = 1922
 		visual_level = 1
-		archetype = ship_hull_carrier		
 		priority = 1000
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
@@ -359,7 +357,6 @@ equipments = {
 	carrier_2 = {
 		year = 1936
 		visual_level = 1
-		archetype = ship_hull_carrier
 		priority = 1000
 		parent = carrier_1
 		module_slots = {
@@ -443,7 +440,6 @@ equipments = {
 	carrier_3 = {
 		year = 1940
 		visual_level = 1
-		archetype = ship_hull_carrier
 		priority = 1000
 		parent = carrier_2
 		module_slots = inherit
@@ -490,7 +486,6 @@ equipments = {
 	carrier_4 = {
 		year = 1944
 		visual_level = 1
-		archetype = ship_hull_carrier
 		priority = 1000
 		parent = carrier_3
 		module_slots = inherit

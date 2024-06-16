@@ -82,7 +82,7 @@ instant_effect = {
 	}
 	add_equipment_production = {				
 		equipment = {
-			type = ship_hull_PKM_1
+			type = ship_hull_PK_1
 			creator = "KOR" 
 			version_name = "참수리"
 		}

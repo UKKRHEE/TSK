@@ -32,13 +32,13 @@ units = {
 		task_force = {
 			name = "잠수대군" 
 			location = 10011 	 
-			ship = { name = "SS-571 Takashio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = JDF version_name = "우즈시오급" } } }
-			ship = { name = "SS-570 Kuroshio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = JDF version_name = "우즈시오급" } } }
-			ship = { name = "SS-573 Yūshio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = JDF version_name = "유우시오급" } } }		
-			ship = { name = "SS-574 Mochishio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = JDF version_name = "유우시오급" } } }
-			ship = { name = "SS-579 Akishio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = JDF version_name = "유우시오급" } } }	
-			ship = { name = "SS-583 Harushio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = JDF version_name = "하루시오급" } } }
-			ship = { name = "SS-584 Natsushio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = JDF version_name = "하루시오급" } } }			
+			ship = { name = "SS-571 Takashio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ss_3 = { amount = 1 owner = JDF version_name = "우즈시오급" } } }
+			ship = { name = "SS-570 Kuroshio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ss_3 = { amount = 1 owner = JDF version_name = "우즈시오급" } } }
+			ship = { name = "SS-573 Yūshio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ss_3 = { amount = 1 owner = JDF version_name = "유우시오급" } } }		
+			ship = { name = "SS-574 Mochishio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ss_3 = { amount = 1 owner = JDF version_name = "유우시오급" } } }
+			ship = { name = "SS-579 Akishio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ss_3 = { amount = 1 owner = JDF version_name = "유우시오급" } } }	
+			ship = { name = "SS-583 Harushio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ss_3 = { amount = 1 owner = JDF version_name = "하루시오급" } } }
+			ship = { name = "SS-584 Natsushio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ss_3 = { amount = 1 owner = JDF version_name = "하루시오급" } } }			
 		}
 	}
 }

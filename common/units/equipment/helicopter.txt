@@ -180,6 +180,14 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
+		allow_mission_type = {
+			training
+			attack_logistics
+			naval_bomber
+			naval_patrol
+			cas
+		}
+
 		air_superiority = 1
 		reliability = 0.8
 		
