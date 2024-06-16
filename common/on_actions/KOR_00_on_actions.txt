@@ -353,6 +353,10 @@ on_actions = {
 						target = KPA
 						transfer_troops = no
 					}
+					news_event = {
+						id = kor_news.1000
+						hours = 12
+					}
 				}
 			}
 			if = {

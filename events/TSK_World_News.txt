@@ -1286,3 +1286,36 @@ news_event = {
         trigger = { TAG = ROK }
     }
 }
+
+###############
+
+#한국 통일
+news_event = {
+    id = kor_news.1000
+    title = kor_news.1000.t
+    desc = kor_news.1000.desc
+    picture = GFX_내전승리_뉴스
+    
+    major = yes
+    
+    is_triggered_only = yes
+	fire_only_once = yes
+    
+    option = {
+        name = kor_news.1000.a
+        trigger = {
+            NOT = {
+                TAG = KOR
+                TAG = KPA
+            }
+        }
+    }
+    option = {
+        name = kor_news.1000.b
+        trigger = { TAG = KOR }
+    }
+    option = {
+        name = kor_news.1000.c
+        trigger = { TAG = KPA }
+    }
+}
