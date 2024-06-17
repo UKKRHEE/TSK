@@ -1,0 +1,314 @@
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+
+KOR_nine_samsungtec = {
+	include = generic_tank_organization
+	icon = GFX_idea_nine_samsungtec
+	allowed = {	
+		OR = { tag = KOR tag = KR1 tag = MKR tag = ROK } 
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability = 0.20
+		}
+	}
+} 
+KOR_nine_doosanDST = {
+	include = generic_heavy_tank_organization
+	icon = GFX_idea_nine_doosanDST
+	allowed = {	
+		OR = { tag = KOR tag = KR1 tag = MKR tag = ROK } 
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability = 0.20
+		}
+	}
+} 
+KOR_nine_hyundai_rottem = {
+	include = generic_medium_tank_organization
+	icon = GFX_idea_nine_hyundai_rottem
+	allowed = {	
+		OR = { tag = KOR tag = KR1 tag = MKR tag = ROK } 
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability = 0.20
+		}
+	}
+} 
+
+
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+
+KOR_nine_daewoo_ship = {
+	include = generic_battle_line_ship_organization
+	icon = GFX_idea_nine_daewoo_ship
+	allowed = {	
+		OR = { tag = KOR tag = KR1 tag = MKR tag = ROK } 
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability  = 0.2
+			armor_value = 0.2
+		}
+	}
+}
+
+KOR_nine_hanjin_ship = {
+	include = generic_raider_ship_organization
+	icon = GFX_idea_nine_hanjin_ship
+	allowed = {	
+		OR = { tag = KOR tag = KR1 tag = MKR tag = ROK } 
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.1
+			reliability  = 0.1
+			carrier_size = 0.1
+			naval_speed = 0.2
+			torpedo_attack = 0.2
+		}
+	}
+}
+
+KOR_nine_hyundai_ship = {
+	include = generic_raider_ship_organization
+	icon = GFX_idea_nine_hyundai_ship
+	allowed = {	
+		OR = { tag = KOR tag = KR1 tag = MKR tag = ROK } 
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.4
+		}
+	}
+}
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+
+
+KOR_nine_hwanhwa = {
+	include = generic_heavy_aircraft_organization
+	icon = GFX_idea_nine_hwanhwa
+	
+	allowed = {	 
+		OR = { tag = KOR tag = KR1 tag = MKR tag = ROK } 
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability  = 0.2
+		}
+	}
+	
+} 
+
+KOR_nine_korean_air = {
+	include = generic_range_focused_aircraft_organization
+	icon = GFX_idea_nine_korean_air
+	allowed = {	
+		OR = { tag = KOR tag = KR1 tag = MKR tag = ROK } 
+	}
+	available = {
+	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability  = 0.2
+		}
+	}
+}
+
+KOR_nine_hwanhwa = {
+	include = generic_naval_aircraft_organization
+	icon = GFX_idea_nine_hwanhwa
+	allowed = {	
+		OR = { tag = KOR tag = KR1 tag = MKR tag = ROK } 
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability  = 0.2
+		}
+	}
+}
+
+KOR_nine_asiana = {
+	include = generic_cas_aircraft_organization
+	icon = GFX_idea_nine_asiana
+	allowed = {	
+		OR = { tag = KOR tag = KR1 tag = MKR tag = ROK } 
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability  = 0.2
+		}
+	}
+}
+
+KOR_nine_kai = {
+	include = generic_high_agility_fighter_aircraft_organization
+	icon = GFX_idea_nine_kai
+	allowed = {	
+		OR = { tag = KOR tag = KR1 tag = MKR tag = ROK } 
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability  = 0.2
+		}
+	}
+}
+
+
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+KOR_nine_dasan = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_nine_dasan
+	allowed = {	
+		OR = { tag = KOR tag = KR1 tag = MKR tag = ROK } 
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+	}
+	initial_trait = {
+		equipment_bonus = {
+			soft_attack = 0.25
+			hard_attack = 0.25
+			breakthrough = 0.25
+			build_cost_ic = 0.10
+		}
+	}
+}
+
+KOR_kia_car = {
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_kia_car
+	allowed = {	
+		OR = { tag = KOR tag = KR1 tag = MKR tag = ROK } 
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+	}
+	initial_trait = {
+		equipment_bonus = {
+			maximum_speed = 0.05
+			build_cost_ic = -0.1
+		}
+	}
+} 
+KOR_nine_hyundai_car = {
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_nine_hyundai_car
+	allowed = {	
+		OR = { tag = KOR tag = KR1 tag = MKR tag = ROK } 
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+	}
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.2
+		}
+	}
+} 
+
+KOR_nine_st = {
+	include = generic_artillery_organization
+	icon = GFX_idea_nine_st
+	allowed = {	
+		OR = { tag = KOR tag = KR1 tag = MKR tag = ROK } 
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+	}
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability = 0.20
+			soft_attack = 0.25
+			hard_attack = 0.50
+		}
+	}
+}
+ 

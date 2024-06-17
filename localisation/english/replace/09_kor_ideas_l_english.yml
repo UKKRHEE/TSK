@@ -172,6 +172,25 @@
  
  KOR_ahn_trait:0 "안철수연구소"
  
+ 
+ KOR_nine_doosanDST:0 "두산DST"
+ KOR_nine_samsungtec:0 "삼성테크원"
+ KOR_nine_hyundai_rottem:0 "현대로템"
+ 
+ KOR_nine_daewoo_ship:0 "대우조선해양"
+ KOR_nine_hanjin_ship:0 "한진해운"
+ KOR_nine_hyundai_ship:0 "현대중공업"
+ 
+ KOR_nine_kai:0 "KAI"
+ KOR_nine_asiana:0 "금호아시아나"
+ KOR_nine_korean_air:0 "대한항공"
+ KOR_nine_hwanhwa:0 "한화"
+ 
+ KOR_nine_st:0 "S&T"
+ KOR_nine_dasan:0 "다산기공"
+ KOR_kia_car:0 "기아모터스"
+ KOR_nine_hyundai_car:0 "현대자동차"
+ 
  nine_doosanDST:0 "두산DST"
  nine_samsungtec:0 "삼성테크원"
  nine_hyundai_rottem:0 "현대로템"
