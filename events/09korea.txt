@@ -892,7 +892,11 @@ country_event = {
 					add_manpower = -726928
 				}
 				525 = { #경기
-					add_manpower = 5492229
+					add_manpower = 1492229
+					add_manpower = 1000000
+					add_manpower = 1000000
+					add_manpower = 1000000
+					add_manpower = 1000000
 				}
 				987 = { #충북
 					add_manpower = 123845
@@ -913,7 +917,7 @@ country_event = {
 					add_manpower = -160248
 				}
 				971 = { #제주
-					add_manpower = 56,879
+					add_manpower = 56879
 				}
 			}	
 		}
