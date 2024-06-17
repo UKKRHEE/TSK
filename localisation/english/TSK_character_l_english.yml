@@ -127,6 +127,7 @@
  #육군참총
  KR1_kim_dong_jin:0 "김동진"
  KR1_do_il_kyu:0 "도일규"
+ KR1_seo_wan_soo:0 "서완수"
  #해군참총
  KR1_an_byung_tae:0 "안병태"
  KR1_yoo_samnam:0 "유삼남"
@@ -178,6 +179,10 @@
  ROK_kim_dae_jung:0 "김대중"
  ROK_kim_yong_sam:0 "김영삼"
  ROK_kim_koo:0 "김구"
+ ROK_ji_cheong_chon:0 "지청천"
+ ROK_lee_beom_seok:0 "이범석"
+ ROK_yu_dong_yeol:0 "유동열"
+ ROK_seo_wan_soo:0 "서완수"
  #정치고문
  ROK_lee_ghunhui:0 "이건희"
  ROK_chung_won_sik:0 "정원식"

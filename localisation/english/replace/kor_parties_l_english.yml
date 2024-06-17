@@ -1,13 +1,4 @@
 ﻿l_english:
- KOR_communism_party:0 "통합진보당"
- KOR_communism_party_long:0 "통합진보당"
- KOR_democratic_party:0 "한나라당"
- KOR_democratic_party_long:0 "한나라당"
- KOR_neutrality_party:0 "한나라당"
- KOR_neutrality_party_long:0 "한나라당"
- KOR_fascism_party:0 "대한제국 복권파"
- KOR_fascism_party_long:0 "대한제국 복권파"
- 
  KR1_communism_party:0 "조선로동당"
  KR1_communism_party_long:0 "조선로동당"
  KR1_democratic_party:0 "민주정의당"
@@ -16,6 +7,15 @@
  KR1_neutrality_party_long:0 "민주정의당"
  KR1_fascism_party:0 "하나회"
  KR1_fascism_party_long:0 "하나회"
+ 
+ ROK_communism_party:0 "조선로동당"
+ ROK_communism_party_long:0 "조선로동당"
+ ROK_democratic_party:0 "평화민주당"
+ ROK_democratic_party_long:0 "평화민주당"
+ ROK_neutrality_party:0 "민주정의당"
+ ROK_neutrality_party_long:0 "민주정의당"
+ ROK_fascism_party:0 "하나회"
+ ROK_fascism_party_long:0 "하나회"
  
  MKR_communism_party:0 "조선로동당"
  MKR_communism_party_long:0 "조선로동당"

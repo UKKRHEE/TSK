@@ -94,6 +94,8 @@
  
  ROKND_1:0 "대한민국 국방부"
  ROKA:0 "대한민국 육군"
+ KOR_Hanahoe:0 "하나회"
+ KOR_Hanahoe_desc:0 "위 인물은 전두환, 노태우 등 육사 11기를 중심으로 한 하나회의 일원입니다."
  Army_Modernization_Concentration:0 "육군현대화 집중"
  Army_Air_Corps:0 "육군 항공대"
  Attack_Helicopter_Improvement:0 "공격헬기 개량"
