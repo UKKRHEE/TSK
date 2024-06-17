@@ -2,6 +2,7 @@
  FKR_comm_faction_research_tech_group_name:0 "공산 연구 연대 연구"
  FKR_comm_faction_research_tech_group_desc:0 "[FKR.GetNameDef]의 주도로 결성된 이 연구 협약은 적대 국가에게 막강한 과학력을 통해 압도적인 군사력을 선보일 것입니다."
  hydrogen_nukes:0 "수소폭탄"
+ hydrogen_nukes_desc:0 "수소폭탄, 소위 수폭이란 일반 핵폭탄을 기폭제로 이용해 수소 핵융합을 일으켜 폭발력을 증가시킨 핵폭탄을 말합니다."
  mtg_transport_2:0 "무역 수송선"
  convoy_2:0 "미래 수송선"
  convoy_2_desc:0 "더욱 크고 많은 물자를 나를 수 있게된 현대식 수송선은 상품과 자원의 국제무역에서 주로 사용됩니다."

@@ -404,6 +404,21 @@ spriteTypes = {
 		name = "GFX_KOR_m_2010_jet_CAS_equipment_medium"
 		texturefile = "gfx/interface/technologies/planes/kor_2010_CAS.dds"
 	}
+ ################################################################################
+ ######CV 
+ ################################################################################
+	SpriteType = {
+		name = "GFX_KOR_cv_m_1990_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/F-14D.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_cv_m_1970_jet_cas_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/A-7D.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_cv_m_1980_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/FA-18.dds"
+	}
 
  ################################################################################
  ######해군
