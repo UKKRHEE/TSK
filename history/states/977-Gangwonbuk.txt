@@ -26,6 +26,9 @@ state={
 
 		}
 		victory_points = {
+			848 10 
+		}
+		victory_points = {
 			4004 3  #평강
 		}
 		add_core_of = PRK

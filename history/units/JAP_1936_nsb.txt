@@ -124,7 +124,7 @@ units = {
 		location = 9859 #Ominato Naval Base
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.8
 		
 	}
 	division = {
@@ -132,7 +132,7 @@ units = {
 		location = 1399 #Shumshu
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3	
+		start_equipment_factor = 0.8	
 	}
 	division = { # "Karafuto Dokuritsu Konsei Ryodan"
 		division_name = {
@@ -141,7 +141,8 @@ units = {
 		}
 		location = 12446 #Toyohara
 		division_template = "Dokuritsu Konsei Ryodan"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+		force_equipment_variants = { light_tank_chassis_0 = { owner = JAP version_name = "Type 94 Tankette" } }
 	}
 
 	#Chuo Homengun - East Japan Army
@@ -152,7 +153,7 @@ units = {
 		}
 		location = 7087 #Shizuoka
 		division_template = "Hohei Shidan"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = { # "Konoe Shidan"
 		division_name = {
@@ -239,12 +240,13 @@ units = {
 		}
 		location = 7186 #Taipei
 		division_template = "Hohei Shidan"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 
 
 	#Chosen Gun - Korea Army
 	#is Go to 1991/2009!
+
 
 	### Island IJN Garrisons ###
 
@@ -366,21 +368,21 @@ units = {
 		location = 11771 #Mukden
 		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.7	
+		start_equipment_factor = 0.9	
 	}
 	division = {
 		name = "Kantogun Shureibu Keibitai"
 		location = 4572 #Hsinking
 		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.7		
+		start_equipment_factor = 0.9		
 	}
 	division = {
 		name = "Ryojun Kichi Shubitai"
 		location = 1150 #Dalian
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
+		start_equipment_factor = 0.9		
 	}
 	division = { # "9 'Take' Hohei Shidan"
 		division_name = {
@@ -389,7 +391,7 @@ units = {
 		}
 		location = 3944 #Near Changkufeng Lake
 		division_template = "Hohei Shidan"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = { # "14 'Sho' Hohei Shidan"
 		division_name = {
@@ -398,7 +400,7 @@ units = {
 		}
 		location = 3843 #Eastern Manchuria
 		division_template = "Hohei Shidan"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	#Hoppou Manchuko Homengun - Northern Manchukuo Army
 	division = {
@@ -587,6 +589,7 @@ units = {
 		location = 3900 #East Hebei Autonomous Council
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
+		force_equipment_variants = { light_tank_chassis_0 = { owner = JAP version_name = "Type 94 Tankette" } }
 	}
 	division = { # "11 Dokuritsu Konsei Ryodan"
 		division_name = {
@@ -596,6 +599,7 @@ units = {
 		location = 11822 #East Hebei Autonomous Council
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
+		force_equipment_variants = { light_tank_chassis_0 = { owner = JAP version_name = "Type 94 Tankette" } }
 	}
 
 	#2 Homengun - 2nd Field Army
@@ -621,15 +625,11 @@ units = {
 }
 
 
-
-
-
-
-
 #########################
 ## STARTING PRODUCTION ##
 #########################
-instant_effect = {
+instant_effect = 
+{
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
@@ -660,5 +660,17 @@ instant_effect = {
 		progress = 0.4
 		efficiency = 50
 		industrial_manufacturer = mio:JAP_osaka_army_arsenal_artillery_organization
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_chassis_1
+			creator = "JAP" 
+			version_name = "Type 95 Ha-Go"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+		industrial_manufacturer = mio:JAP_osaka_army_arsenal_organization
 	}
 }
