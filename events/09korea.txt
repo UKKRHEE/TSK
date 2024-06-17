@@ -888,37 +888,32 @@ country_event = {
 			}
 			set_global_flag = TSK_2009_scenario
 			hidden_effect = {
-				if = {
-					limit = {
-						date > 1936.1.2
-					}
-					970 = { #서울
-						add_manpower = -726928
-					}
-					525 = { #경기
-						add_manpower = 5492229
-					}
-					987 = { #충북
-						add_manpower = 123845
-					}
-					980 = { #충남
-						add_manpower = 516196
-					}
-					973 = { #강원
-						add_manpower = -41236
-					}
-					989 = { #경북
-						add_manpower = 3296
-					}
-					988 = { #전북
-						add_manpower = -172946
-					}
-					971 = { #전남
-						add_manpower = -160248
-					}
-					971 = { #제주
-						add_manpower = 56,879
-					}
+				970 = { #서울
+					add_manpower = -726928
+				}
+				525 = { #경기
+					add_manpower = 5492229
+				}
+				987 = { #충북
+					add_manpower = 123845
+				}
+				980 = { #충남
+					add_manpower = 516196
+				}
+				973 = { #강원
+					add_manpower = -41236
+				}
+				989 = { #경북
+					add_manpower = 3296
+				}
+				988 = { #전북
+					add_manpower = -172946
+				}
+				971 = { #전남
+					add_manpower = -160248
+				}
+				971 = { #제주
+					add_manpower = 56,879
 				}
 			}	
 		}
