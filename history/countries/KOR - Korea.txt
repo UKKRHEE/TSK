@@ -62,7 +62,10 @@ add_ideas = {
 	#KOR_modern_millitary #미래 군대
 }
 set_country_flag = sead_arm
-set_variable = sead_arm
+set_variable = {
+	name = sead_arm
+	value = 1
+}
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -295,7 +298,6 @@ set_technology = {
 	mechanical_computing = 1
 	radio = 1
 	radio_detection = 1
-	radar_station = 1
 	decimetric_radar = 1
 	improved_decimetric_radar = 1
 	centimetric_radar = 1

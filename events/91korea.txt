@@ -15,7 +15,6 @@ country_event = {
 		custom_effect_tooltip = rok_play
 		hidden_effect = {
 		set_global_flag = kor_civ
-			name = korea.1.a		
 			ROK = { change_tag_from = KR1 }
 			delete_unit_template_and_units = {
 				division_template = "향토방위사단" 
@@ -906,8 +905,8 @@ country_event = { #독일군 타임슬립
 			
 			hidden_effect = { set_technology = { light_vehicle_equipment_0 = 1 } }
 			hidden_effect = { set_technology = { light_vehicle_equipment_1 = 1 } }
-			hidden_effect = { set_technology = { light_mun_equipment = 1 } }
-			hidden_effect = { set_technology = { heavy_mun_equipment = 1 } }
+			# hidden_effect = { set_technology = { light_mun_equipment = 1 } }
+			# hidden_effect = { set_technology = { heavy_mun_equipment = 1 } }
 			hidden_effect = { set_technology = { engineer_equipment = 1 } }
 			hidden_effect = { set_technology = { modern_moto = 1 } }
 		}
@@ -1116,13 +1115,11 @@ country_event = { #북한이 접촉해오다
 							type = bunker
 							level = 8
 							province = 13367
-							instant_build = yes
 						}
 						remove_building = {
 							type = bunker
 							level = 8
 							province = 13366
-							instant_build = yes
 						}
 					}
 				}	
@@ -1133,13 +1130,11 @@ country_event = { #북한이 접촉해오다
 							type = bunker
 							level = 8
 							province = 1148
-							instant_build = yes
 						}
 						remove_building = {
 							type = bunker
 							level = 8
 							province = 13365
-							instant_build = yes
 						}
 					}
 				}	

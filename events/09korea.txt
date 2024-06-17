@@ -77,7 +77,7 @@ country_event = {
 				puppet = KPA
 			}	
 			KOR = { change_tag_from = KPA }
-		    add_ideas = KOR_KPA_kims
+			#add_ideas = KOR_KPA_kims
 		}
 		if = {
 		    limit = {
@@ -89,7 +89,7 @@ country_event = {
 					transfer_troops = yes 
 				}
 			}
-		    add_ideas = KOR_KPA_kims
+		   # add_ideas = KOR_KPA_kims
 			KOR = { change_tag_from = KPA }
 		}
 	}	
@@ -207,9 +207,6 @@ country_event = {
 			remove_unit_leader_role = yes
 		}
 		KOR_kim_kwanjin = {
-			remove_unit_leader_role = yes
-		}
-		KOR_jeong_seungjo = {
 			remove_unit_leader_role = yes
 		}
 		complete_national_focus = KOR_MB_kudeta

@@ -148,7 +148,7 @@ division_template = {
 		modern_motorized = { x = 1 y = 0 }
 		modern_motorized = { x = 1 y = 1 }
 		modern_motorized = { x = 1 y = 2 }
-		modern_artillery_brigade = { x = 1  = 3 }
+		modern_artillery_brigade = { x = 1 y = 3 }
 		modern_motorized = { x = 2 y = 0 }
 		modern_motorized = { x = 2 y = 1 }
 		modern_motorized = { x = 2 y = 2 }
