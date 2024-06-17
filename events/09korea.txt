@@ -843,14 +843,6 @@ country_event = { #정보
 						has_country_flag = KOR_MB_up_manpower
 					}
 				}
-				525 = {
-					add_manpower = 1600000
-					add_manpower = 840000
-				}
-				972 = {
-					add_manpower = 1612000
-					add_manpower = 1612000
-				}
 				set_country_flag = KOR_MB_up_manpower
 			}
 			KOR = {
@@ -904,14 +896,6 @@ country_event = {
 						has_country_flag = KOR_MB_up_manpower
 					}
 				}
-				525 = {
-					add_manpower = 1600000
-					add_manpower = 840000
-				}
-				972 = {
-					add_manpower = 1612000
-					add_manpower = 1612000
-				}
 				set_country_flag = KOR_MB_up_manpower
 			}
 			KOR = {
@@ -964,14 +948,6 @@ country_event = { #kkshunp
 						has_country_flag = KOR_MB_up_manpower
 					}
 				}
-				525 = {
-					add_manpower = 1600000
-					add_manpower = 840000
-				}
-				972 = {
-					add_manpower = 1612000
-					add_manpower = 1612000
-				}
 				set_country_flag = KOR_MB_up_manpower
 			}
 			KOR = {
@@ -1022,14 +998,6 @@ country_event = { #도움준사람들
 					NOT = {
 						has_country_flag = KOR_MB_up_manpower
 					}
-				}
-				525 = {
-					add_manpower = 1600000
-					add_manpower = 840000
-				}
-				972 = {
-					add_manpower = 1612000
-					add_manpower = 1612000
 				}
 				set_country_flag = KOR_MB_up_manpower
 			}
@@ -1085,14 +1053,6 @@ country_event = { #모드정보 - 육군
 						has_country_flag = KOR_MB_up_manpower
 					}
 				}
-				525 = {
-					add_manpower = 1600000
-					add_manpower = 840000
-				}
-				972 = {
-					add_manpower = 1612000
-					add_manpower = 1612000
-				}
 				set_country_flag = KOR_MB_up_manpower
 			}
 			KOR = {
@@ -1145,14 +1105,6 @@ country_event = { #모드정보 - 기타등등
 					NOT = {
 						has_country_flag = KOR_MB_up_manpower
 					}
-				}
-				525 = {
-					add_manpower = 1600000
-					add_manpower = 840000
-				}
-				972 = {
-					add_manpower = 1612000
-					add_manpower = 1612000
 				}
 				set_country_flag = KOR_MB_up_manpower
 			}

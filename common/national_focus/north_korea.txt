@@ -381,7 +381,7 @@ focus_tree = {
 					}
 				}
 			}
-			974 = {
+			991 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					
@@ -1240,7 +1240,7 @@ focus_tree = {
 		x = 29
 		y = 16
 		completion_reward = {
-				974 = {
+				991 = {
 					custom_effect_tooltip = Remove_the_line
 					hidden_effect = {
 						remove_building = {
@@ -1336,10 +1336,24 @@ focus_tree = {
 			focus = prk_Combat_Agriculture
 		}
 		completion_reward = {
+			991 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			990 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 			974 = {
 				add_building_construction = {
 					type = industrial_complex
-					level = 4
+					level = 2
 					instant_build = yes
 				}
 			}

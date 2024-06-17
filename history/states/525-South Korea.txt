@@ -1,7 +1,7 @@
 
 state={
 	id=525
-	name="경기도"
+	name="STATE_GYEONGGI"
 	resources={
 		steel_alloy = 4
 	}	
@@ -56,13 +56,14 @@ state={
 			remove_core_of = KR1
 			add_core_of = KOR
 			add_claim_by = KPA
+			manpower=11460610
 		}
 	}
 
 	provinces={
 		7221 10036 13366 13367 13371
 	}
-	manpower=13414590
+	manpower=6613094
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 }

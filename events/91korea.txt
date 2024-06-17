@@ -65,45 +65,36 @@ country_event = {
 			    transfer_state  = 525
 			    transfer_state  = 973
 			    transfer_state  = 970
-			    add_state_core  = 525
-			    add_state_core  = 973
-			    add_state_core  = 980
-			    add_state_core  = 970
-			    add_state_core  = 972
-			    add_state_core  = 971
-			    add_state_core  = 976
-				add_state_core = 974
-				add_state_core = 977
-				add_state_core = 981
-				add_state_core = 527
-				add_state_core = 975
-				add_state_core = 985
-				add_state_core = 979
-				add_state_core = 978
-				add_state_core = 983
+				every_state = {
+					limit = {
+						is_core_of = KR1
+					}
+					add_core_of = MKR
+				}
+				every_state = {
+					limit = {
+						is_claimed_by = KR1
+					}
+					add_claim_by = MKR
+				}
 			}	
 			ROK = {
 				annex_country = {
 					target = KR1
 					transfer_troops = no
 				}
-			    add_state_core  = 525
-			    add_state_core  = 973
-			    add_state_core  = 980
-			    add_state_core  = 970
-			    add_state_core  = 972
-			    add_state_core  = 971
-			    add_state_core  = 976
-				add_state_core  = 984
-				add_state_core = 974
-				add_state_core = 977
-				add_state_core = 981
-				add_state_core = 527
-				add_state_core = 975
-				add_state_core = 985
-				add_state_core = 979
-				add_state_core = 978
-				add_state_core = 983
+				every_state = {
+					limit = {
+						is_core_of = KR1
+					}
+					add_core_of = ROK
+				}
+				every_state = {
+					limit = {
+						is_claimed_by = KR1
+					}
+					add_claim_by = ROK
+				}
 			}	
 			ROK = {
 				set_fuel_ratio = 0.8
@@ -149,23 +140,18 @@ country_event = {
 				}
 			}	
 			KR1 = {
-				remove_state_core = 525
-				remove_state_core = 973
-				remove_state_core = 980
-				remove_state_core = 970
-				remove_state_core = 972
-				remove_state_core = 971
-				remove_state_core = 976
-				
-				remove_state_core = 974
-				remove_state_core = 977
-				remove_state_core = 981
-				remove_state_core = 527
-				remove_state_core = 975
-				remove_state_core = 985
-				remove_state_core = 979
-				remove_state_core = 978
-				remove_state_core = 983
+				every_state = {
+					limit = {
+						is_core_of = KR1
+					}
+					remove_core_of = KR1
+				}
+				every_state = {
+					limit = {
+						is_claimed_by = KR1
+					}
+					remove_claim_by = KR1
+				}
 			}	
         }		
 	}
@@ -224,107 +210,92 @@ country_event = {
 			    set_state_owner  = 525
 			    set_state_owner  = 973
 			    set_state_owner  = 970
-			    add_state_core  = 525
-			    add_state_core  = 973
-			    add_state_core  = 980
-			    add_state_core  = 970
-			    add_state_core  = 972
-			    add_state_core  = 971
-			    add_state_core  = 976
-				add_state_core = 974
-				add_state_core = 977
-				add_state_core = 981
-				add_state_core = 527
-				add_state_core = 975
-				add_state_core = 985
-				add_state_core = 979
-				add_state_core = 978
-				add_state_core = 983
+				every_state = {
+					limit = {
+						is_core_of = KR1
+					}
+					add_core_of = MKR
+				}
+				every_state = {
+					limit = {
+						is_claimed_by = KR1
+					}
+					add_claim_by = MKR
+				}
 			}	
 			ROK = {
 				annex_country = {
 					target = KR1
 					transfer_troops = no
 				}
-			    add_state_core  = 525
-			    add_state_core  = 973
-			    add_state_core  = 980
-			    add_state_core  = 970
-			    add_state_core  = 972
-			    add_state_core  = 971
-			    add_state_core  = 976
-				add_state_core  = 984
-				add_state_core = 974
-				add_state_core = 977
-				add_state_core = 981
-				add_state_core = 527
-				add_state_core = 975
-				add_state_core = 985
-				add_state_core = 979
-				add_state_core = 978
-				add_state_core = 983
+				every_state = {
+					limit = {
+						is_core_of = KR1
+					}
+					add_core_of = ROK
+				}
+				every_state = {
+					limit = {
+						is_claimed_by = KR1
+					}
+					add_claim_by = ROK
+				}
+			}	
+			ROK = {
+				set_fuel_ratio = 0.8
+				load_oob = ROK_civil
+				load_oob = ROK_civil_air
+				add_ideas = KOR_modern_millitary
+				add_ideas = KOR_ammo
+				country_event = {
+					id = korea.200
+					days = 2
 				}	
-						ROK = {
-							set_fuel_ratio = 0.8
-							load_oob = ROK_civil
-							load_oob = ROK_civil_air
-							add_ideas = KOR_modern_millitary
-							add_ideas = KOR_ammo
-							country_event = {
-								id = korea.200
-								days = 2
-							}	
-							set_country_flag = kor_civ
-						}	
-						MKR = {
-							set_fuel_ratio = 0.8
-							add_ideas = KOR_cornered
-							load_oob = MKR_civil
-							load_oob = MKR_civil_air
-							add_ideas = KOR_modern_millitary
-							set_country_flag = kor_civ
-							add_ideas = KOR_ammo
-							declare_war_on = {
-								target = ROK
-								type = take_core_state
-							}
-							country_event = {
-								id = korea.100
-								days = 2
-							}	
-							country_event = {
-								id = korea.300
-								days = 5
-							}			
-						}	
-						PRK = {
-							if = { 
-								limit = { is_ai = yes }
-								country_event = {
-									id = korea.2
-									days = 1
-								}
-							}
-						}	
-						KR1 = {
-							remove_state_core = 525
-							remove_state_core = 973
-							remove_state_core = 980
-							remove_state_core = 970
-							remove_state_core = 972
-							remove_state_core = 971
-							remove_state_core = 976
-							remove_state_core = 984
-				
-				remove_state_core = 974
-				remove_state_core = 977
-				remove_state_core = 981
-				remove_state_core = 527
-				remove_state_core = 975
-				remove_state_core = 985
-				remove_state_core = 979
-				remove_state_core = 978
-				remove_state_core = 983
+				set_country_flag = kor_civ
+			}	
+			MKR = {
+				set_fuel_ratio = 0.8
+				add_ideas = KOR_cornered
+				load_oob = MKR_civil
+				load_oob = MKR_civil_air
+				add_ideas = KOR_modern_millitary
+				set_country_flag = kor_civ
+				add_ideas = KOR_ammo
+				declare_war_on = {
+					target = ROK
+					type = take_core_state
+				}
+				country_event = {
+					id = korea.100
+					days = 2
+				}	
+				country_event = {
+					id = korea.300
+					days = 5
+				}			
+			}	
+			PRK = {
+				if = { 
+					limit = { is_ai = yes }
+					country_event = {
+						id = korea.2
+						days = 1
+					}
+				}
+			}	
+			KR1 = {
+				every_state = {
+					limit = {
+						is_core_of = KR1
+					}
+					remove_core_of = KR1
+				}
+				every_state = {
+					limit = {
+						is_claimed_by = KR1
+					}
+					remove_claim_by = KR1
+				}
 			}
         }				
     }		
@@ -841,6 +812,14 @@ country_event = { #낙동강 방어선
 			add_building_construction = {
 				type = bunker
 				level = 4
+				province = 12060
+				instant_build = yes
+			}		
+		}	
+		989 = {
+			add_building_construction = {
+				type = bunker
+				level = 4
 				province = 7121
 				instant_build = yes
 			}
@@ -855,14 +834,8 @@ country_event = { #낙동강 방어선
 				level = 4
 				province = 13377
 				instant_build = yes
-			}		
-			add_building_construction = {
-				type = bunker
-				level = 4
-				province = 12060
-				instant_build = yes
-			}		
-		}	
+			}	
+		}
 	}
 }
 

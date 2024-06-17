@@ -219,6 +219,7 @@ set_convoys = 50
 
 add_ideas = {
 	#laws
+	all_adults_serve
 	tot_economic_mobilisation
 	korean_war
 	closed_economy

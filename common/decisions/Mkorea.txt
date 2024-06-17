@@ -283,7 +283,7 @@ Reaction = {
 			modifier = {
 				add = 200
 				divisions_in_state = {
-					state = 972	
+					state = 971
 					size > 3
 				}
 			}
@@ -316,13 +316,13 @@ Reaction = {
 
 		cancel_trigger = {
 			divisions_in_state = {
-				state = 972	
+				state = 971
 				size < 4
 			}
 		}
 
 		highlight_state_targets = {
-			state = 972
+			state = 971
 		}
 
 		visible = {
@@ -332,7 +332,7 @@ Reaction = {
 		is_good = yes
 
 		timeout_effect = {
-			custom_effect_tooltip = MKR_busan_control_tt
+			custom_effect_tooltip = MKR_gwangju_control_tt
 			MKR_mkr_nationwide_demonstration_level_down = yes
 			clr_country_flag = MKR_rioters_gwangju
 		}

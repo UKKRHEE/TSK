@@ -14,7 +14,7 @@ state={
 			11775 3 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			air_base = 1
 
 		}
@@ -39,5 +39,5 @@ state={
 	}
 	manpower=1216864
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=rural
 }

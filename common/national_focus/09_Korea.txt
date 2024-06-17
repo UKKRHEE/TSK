@@ -273,7 +273,9 @@ focus_tree = {
 			available = {
 					OR = {
 							controls_state = 972
+							controls_state = 989
 							controls_state = 971
+							controls_state = 988
 						}
 				}
 			completion_reward = {
@@ -283,10 +285,22 @@ focus_tree = {
 									amount = 8
 								}
 						}
-					971 = {
+					989 = {
 							add_resource = {
 									type = steel
 									amount = 7
+								}
+						}
+					971 = {
+							add_resource = {
+									type = steel
+									amount = 6
+								}
+						}
+					988 = {
+							add_resource = {
+									type = steel
+									amount = 8
 								}
 						}
 				}
@@ -425,7 +439,16 @@ focus_tree = {
 					972 = {
 							add_extra_state_shared_building_slots = 3
 						}
+					989 = {
+							add_extra_state_shared_building_slots = 3
+						}
 					971 = {
+							add_extra_state_shared_building_slots = 3
+						}
+					988 = {
+							add_extra_state_shared_building_slots = 3
+						}
+					987 = {
 							add_extra_state_shared_building_slots = 3
 						}
 					976 = {
@@ -582,6 +605,24 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
+					989 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = steel_alloy_ind
+									level = 1
+									instant_build = yes
+								}
+						}
 				}
 
 	}
@@ -596,6 +637,24 @@ focus_tree = {
 		y = 3
 			completion_reward = {
 					971 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = steel_alloy_ind
+									level = 1
+									instant_build = yes
+								}
+						}
+					988 = {
 							add_extra_state_shared_building_slots = 3
 							add_building_construction = {
 									type = industrial_complex
@@ -653,7 +712,31 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
+					987 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					988 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
 					972 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					989 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = industrial_complex
@@ -816,44 +899,30 @@ focus_tree = {
 					custom_effect_tooltip = KOR_MB_none-kims_tooltip
 					hidden_effect = {
 							KPA = {
-									remove_state_core = 527
-									remove_state_core = 981
-									remove_state_core = 974
-									remove_state_core = 977
-									remove_state_core = 975
-									remove_state_core = 979
-									remove_state_core = 978
-									remove_state_core = 983
-									remove_state_core = 985
-									remove_state_claim = 525
-									remove_state_claim = 970
-									remove_state_claim = 973
-									remove_state_claim = 980
-									remove_state_claim = 972
-									remove_state_claim = 971
-									remove_state_claim = 976
-									remove_state_claim = 984
-									remove_state_claim = 986
+									every_state = {
+										limit = {
+											is_core_of = KPA
+										}
+										remove_core_of = KPA
+									}
+									every_state = {
+										limit = {
+											is_claimed_by = KPA
+										}
+										remove_claim_by = KPA
+									}
 								}
 							KOR = {
-									add_state_core = 527
-									add_state_core = 981
-									add_state_core = 974
-									add_state_core = 977
-									add_state_core = 975
-									add_state_core = 979
-									add_state_core = 978
-									add_state_core = 983
-									add_state_core = 985
-									remove_state_claim = 527
-									remove_state_claim = 981
-									remove_state_claim = 974
-									remove_state_claim = 977
-									remove_state_claim = 975
-									remove_state_claim = 979
-									remove_state_claim = 978
-									remove_state_claim = 983
-									remove_state_claim = 985
+									every_state = {
+										limit = {
+											is_claimed_by = KOR
+											NOT = {
+												is_core_of = KOR
+											}
+										}
+										add_core_of = KOR
+										remove_claim_by = KOR
+									}
 								}
 						}
 				}
@@ -947,6 +1016,8 @@ focus_tree = {
 					add_state_core = 527
 					add_state_core = 981
 					add_state_core = 974
+					add_state_core = 990
+					add_state_core = 991
 					add_state_core = 977
 					add_state_core = 975
 					add_state_core = 979
@@ -956,6 +1027,8 @@ focus_tree = {
 					remove_state_claim = 527
 					remove_state_claim = 981
 					remove_state_claim = 974
+					remove_state_claim = 990
+					remove_state_claim = 991
 					remove_state_claim = 977
 					remove_state_claim = 975
 					remove_state_claim = 979
@@ -1016,6 +1089,8 @@ focus_tree = {
 		available = {
 				controls_state = 527 #평안남도
 				controls_state = 974 #황해도
+				controls_state = 990 #황해도
+				controls_state = 991 #황해도
 				controls_state = 975 #함경남도
 				controls_state = 977 #강원북부
 				controls_state = 978 #양강도
@@ -1198,6 +1273,12 @@ focus_tree = {
 					974 = {
 							add_extra_state_shared_building_slots = 3
 						}
+					990 = {
+							add_extra_state_shared_building_slots = 3
+						}
+					991 = {
+							add_extra_state_shared_building_slots = 3
+						}
 					977 = {
 							add_extra_state_shared_building_slots = 3
 						}
@@ -1235,6 +1316,8 @@ focus_tree = {
 					controls_state = 527
 					controls_state = 981
 					controls_state = 974
+					controls_state = 990
+					controls_state = 990
 					controls_state = 977
 					controls_state = 975
 					controls_state = 979
@@ -1392,6 +1475,8 @@ focus_tree = {
 		available = {
 				controls_state = 527 #평안남도
 				controls_state = 974 #황해도
+				controls_state = 990 #황해도
+				controls_state = 991 #황해도
 				controls_state = 975 #함경남도
 				controls_state = 977 #강원북부
 				controls_state = 978 #양강도
@@ -1404,33 +1489,12 @@ focus_tree = {
 		y = 7
 			completion_reward = {
 					add_ideas = KOR_world_attack
-					525 = {
-						remove_claim_by = KPA
+				every_state = {
+					limit = {
+						is_claimed_by = KPA
 					}
-					971 = {
-						remove_claim_by = KPA
-					}
-					970 = {
-						remove_claim_by = KPA
-					}
-					973 = {
-						remove_claim_by = KPA
-					}
-					972 = {
-						remove_claim_by = KPA
-					}
-					980 = {
-						remove_claim_by = KPA
-					}
-					981 = {
-						remove_claim_by = KPA
-					}
-					984 = {
-						remove_claim_by = KPA
-					}
-					976 = {
-						remove_claim_by = KPA
-					}
+					remove_claim_by = KPA
+				}
 					hidden_effect = {
 					
 					976 = {
@@ -1457,44 +1521,23 @@ focus_tree = {
 		}
 		x = 29
 		y = 8
-			completion_reward = {
-					custom_effect_tooltip = KOR_MB_can_war
-					country_event = {
-							id = KOR_MB.4
-						}
-					hidden_effect = {
-							set_rule = {
-									can_not_declare_war = no
-								}
-					525 = {
-						remove_claim_by = KPA
-					}
-					971 = {
-						remove_claim_by = KPA
-					}
-					970 = {
-						remove_claim_by = KPA
-					}
-					973 = {
-						remove_claim_by = KPA
-					}
-					972 = {
-						remove_claim_by = KPA
-					}
-					980 = {
-						remove_claim_by = KPA
-					}
-					981 = {
-						remove_claim_by = KPA
-					}
-					984 = {
-						remove_claim_by = KPA
-					}
-					976 = {
-						remove_claim_by = KPA
-					}
-						}
+		completion_reward = {
+			custom_effect_tooltip = KOR_MB_can_war
+			country_event = {
+				id = KOR_MB.4
+			}
+			hidden_effect = {
+				set_rule = {
+					can_not_declare_war = no
 				}
+				every_state = {
+					limit = {
+						is_claimed_by = KPA
+					}
+					remove_claim_by = KPA
+				}
+			}
+		}
 
 	}
 	focus = {

@@ -33,9 +33,10 @@ state={
 			remove_core_of = PRK
 			add_core_of = KOR
 			add_claim_by = KPA
+			manpower=10208302
 		}
 	}
-	manpower=10291800
+	manpower=10935230
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 }

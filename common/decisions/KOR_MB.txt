@@ -2,7 +2,7 @@
 @MAN_HUNT_BANDITS_EQUIPMENT_COST_EFFECT = -500
 
 core_PRK = {
-	KOR_coring_in_839 = { #황해에 코어넣기
+	KOR_coring_in_hwanghae = { #황해에 코어넣기
 		icon = generic_form_nation
 
 		allowed = {
@@ -16,7 +16,9 @@ core_PRK = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
-				controls_state = 974 #황해도
+				controls_state = 974 #황해북도
+				controls_state = 990 #황해남도
+				controls_state = 991 #개성
 				controls_state = 975 #함경남도
 				controls_state = 977 #강원북부
 				controls_state = 978 #양강도
@@ -36,11 +38,25 @@ core_PRK = {
 			974 = {
 				add_core_of = KOR
 			}
+			990 = {
+				add_core_of = KOR
+			}
+			991 = {
+				add_core_of = KOR
+			}
 			974 = {
 				remove_core_of = KPA
 			}
+			990 = {
+				remove_core_of = KPA
+			}
+			991 = {
+				remove_core_of = KPA
+			}
 			remove_state_claim = 974
-			set_country_flag = KOR_cored_in_839
+			remove_state_claim = 990
+			remove_state_claim = 991
+			set_country_flag = KOR_cored_in_hwanghae
 			hidden_effect = {
 			    country_event = {
 				id = KOR_MB.9
@@ -54,7 +70,7 @@ core_PRK = {
 			factor = 200
 		}
 	}
-	KOR_coring_in_842 = { #강원북부에 코어넣기
+	KOR_coring_in_gangwonbuk = { #강원북부에 코어넣기
 		icon = generic_form_nation
 
 		allowed = {
@@ -77,7 +93,7 @@ core_PRK = {
 				controls_state = 983 #함경북도
 				controls_state = 985 #평안북도
 			}
-			has_country_flag = KOR_cored_in_839
+			has_country_flag = KOR_cored_in_hwanghae
 			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
@@ -94,7 +110,7 @@ core_PRK = {
 				remove_core_of = KPA
 			}
 			remove_state_claim = 977
-			set_country_flag = KOR_cored_in_842
+			set_country_flag = KOR_cored_in_gangwonbuk
 			hidden_effect = {
 			    country_event = {
 				id = KOR_MB.10
@@ -108,7 +124,7 @@ core_PRK = {
 			factor = 200
 		}
 	}
-	KOR_coring_in_840 = { #함경남도에 코어넣기
+	KOR_coring_in_hamnam = { #함경남도에 코어넣기
 		icon = generic_form_nation
 
 		allowed = {
@@ -131,7 +147,7 @@ core_PRK = {
 				controls_state = 983 #함경북도
 				controls_state = 985 #평안북도
 			}
-			has_country_flag = KOR_cored_in_842
+			has_country_flag = KOR_cored_in_gangwonbuk
 			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
@@ -147,7 +163,7 @@ core_PRK = {
 				remove_core_of = KPA
 			}
 			remove_state_claim = 975
-			set_country_flag = KOR_cored_in_840
+			set_country_flag = KOR_cored_in_hamnam
 			hidden_effect = {
 			    country_event = {
 				id = KOR_MB.11
@@ -161,7 +177,7 @@ core_PRK = {
 			factor = 200
 		}
 	}
-	KOR_coring_in_527 = { #평안남도에 코어넣기
+	KOR_coring_in_pyongnam = { #평안남도에 코어넣기
 		icon = generic_form_nation
 
 		allowed = {
@@ -184,7 +200,7 @@ core_PRK = {
 				controls_state = 983 #함경북도
 				controls_state = 985 #평안북도
 			}
-			has_country_flag = KOR_cored_in_840
+			has_country_flag = KOR_cored_in_hamnam
 			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
@@ -200,7 +216,7 @@ core_PRK = {
 				remove_core_of = KPA
 			}
 			remove_state_claim = 527
-			set_country_flag = KOR_cored_in_527
+			set_country_flag = KOR_cored_in_pyongnam
 			hidden_effect = {
 			    country_event = {
 				id = KOR_MB.12
@@ -214,7 +230,7 @@ core_PRK = {
 			factor = 200
 		}
 	}
-	KOR_coring_in_850 = { #평안북도에 코어넣기
+	KOR_coring_in_pyongbuk = { #평안북도에 코어넣기
 		icon = generic_form_nation
 
 		allowed = {
@@ -237,7 +253,7 @@ core_PRK = {
 				controls_state = 983 #함경북도
 				controls_state = 985 #평안북도
 			}
-			has_country_flag = KOR_cored_in_527
+			has_country_flag = KOR_cored_in_pyongnam
 			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
@@ -253,7 +269,7 @@ core_PRK = {
 				remove_core_of = KPA
 			}
 			remove_state_claim = 985
-			set_country_flag = KOR_cored_in_850
+			set_country_flag = KOR_cored_in_pyongbuk
 			hidden_effect = {
 			    country_event = {
 				id = KOR_MB.13
@@ -268,7 +284,7 @@ core_PRK = {
 		}
 	}
 	
-	KOR_coring_in_844 = { #자강도에 코어넣기
+	KOR_coring_in_jagang = { #자강도에 코어넣기
 		icon = generic_form_nation
 
 		allowed = {
@@ -291,7 +307,7 @@ core_PRK = {
 				controls_state = 983 #함경북도
 				controls_state = 985 #평안북도
 			}
-			has_country_flag = KOR_cored_in_850
+			has_country_flag = KOR_cored_in_pyongbuk
 			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
@@ -307,7 +323,7 @@ core_PRK = {
 				remove_core_of = KPA
 			}
 			remove_state_claim = 979
-			set_country_flag = KOR_cored_in_844
+			set_country_flag = KOR_cored_in_jagang
 			hidden_effect = {
 			    country_event = {
 				id = KOR_MB.14
@@ -321,7 +337,7 @@ core_PRK = {
 			factor = 200
 		}
 	}
-	KOR_coring_in_843 = { #양강도에 코어넣기
+	KOR_coring_in_yanggang = { #양강도에 코어넣기
 		icon = generic_form_nation
 
 		allowed = {
@@ -344,7 +360,7 @@ core_PRK = {
 				controls_state = 983 #함경북도
 				controls_state = 985 #평안북도
 			}
-			has_country_flag = KOR_cored_in_844
+			has_country_flag = KOR_cored_in_jagang
 			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
@@ -360,7 +376,7 @@ core_PRK = {
 				remove_core_of = KPA
 			}
 			remove_state_claim = 978
-			set_country_flag = KOR_cored_in_843
+			set_country_flag = KOR_cored_in_yanggang
 			hidden_effect = {
 			    country_event = {
 				id = KOR_MB.15
@@ -374,7 +390,7 @@ core_PRK = {
 			factor = 200
 		}
 	}
-	KOR_coring_in_848 = { #함경북도에 코어넣기
+	KOR_coring_in_hambuk = { #함경북도에 코어넣기
 		icon = generic_form_nation
 
 		allowed = {
@@ -397,7 +413,7 @@ core_PRK = {
 				controls_state = 983 #함경북도
 				controls_state = 985 #평안북도
 			}
-			has_country_flag = KOR_cored_in_843
+			has_country_flag = KOR_cored_in_yanggang
 			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
@@ -418,7 +434,7 @@ core_PRK = {
 				id = KOR_MB.16
 				}
 			}
-			set_country_flag = KOR_cored_in_848
+			set_country_flag = KOR_cored_in_hambuk
 		}
 
 		cost = 10
@@ -427,7 +443,7 @@ core_PRK = {
 			factor = 200
 		}
 	}
-	KOR_coring_in_846 = { #평양에 코어넣기
+	KOR_coring_in_pyongyang = { #평양에 코어넣기
 		icon = generic_form_nation
 
 		allowed = {
@@ -450,7 +466,7 @@ core_PRK = {
 				controls_state = 983 #함경북도
 				controls_state = 985 #평안북도
 			}
-			has_country_flag = KOR_cored_in_848
+			has_country_flag = KOR_cored_in_hambuk
 			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
@@ -472,15 +488,13 @@ core_PRK = {
 			    country_event = {
 					id = KOR_MB.17
 				}
-				PRK = {
-					remove_state_core = 525
-					remove_state_core = 970
-					remove_state_core = 971
-					remove_state_core = 972
-					remove_state_core = 973
-					remove_state_core = 976
-					remove_state_core = 980
-					remove_state_core = 984
+				KPA = {
+					every_state = {
+						limit = {
+							is_core_of = KPA
+						}
+						remove_core_of = KPA
+					}
 				}
 			}	
 		}

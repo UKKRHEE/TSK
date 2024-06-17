@@ -164,15 +164,17 @@ country_event = { #받아들이다
 		white_peace = PRK
 		ai_chance = { base = 100 }
 		ROK = {
-			    transfer_state = 525
-			    transfer_state = 970
-			    transfer_state = 973
-			    transfer_state = 980
-			    set_state_owner  = 525
-			    set_state_owner  = 970
-			    set_state_owner  = 973
-			    set_state_owner  = 980
-				set_country_flag = ROK_win_civ
+			transfer_state = 525
+			transfer_state = 970
+			transfer_state = 973
+			transfer_state = 980
+			transfer_state = 987
+			set_state_owner  = 525
+			set_state_owner  = 970
+			set_state_owner  = 973
+			set_state_owner  = 980
+			set_state_owner  = 987
+			set_country_flag = ROK_win_civ
 		}
 	}	
 }
@@ -220,22 +222,28 @@ country_event = {
 		name = korea_war.16.a
 		ai_chance = { base = 90 }
 		MKR = {
-		white_peace = PRK
+			white_peace = PRK
 		}
 		ROK = {
-		white_peace = PRK
+			white_peace = PRK
 		}
 		if = {
 			limit = {
-			PRK = {
-				controls_state = 972
-				controls_state = 980
-				controls_state = 971
-			}
+				PRK = {
+					controls_state = 972
+					controls_state = 989
+					controls_state = 980
+					controls_state = 987
+					controls_state = 971
+					controls_state = 988
+				}
 			}
 			transfer_state = 971
+			transfer_state = 988
 			transfer_state = 980
+			transfer_state = 987
 			transfer_state = 972
+			transfer_state = 989
 		}
 	}	
 	
@@ -304,8 +312,11 @@ country_event = {
 		PRK = {
 			white_peace = ROK
 			transfer_state = 972
+			transfer_state = 989
 			transfer_state = 980
+			transfer_state = 987
 			transfer_state = 971
+			transfer_state = 988
 			
 		}
 		if = {
@@ -366,8 +377,11 @@ country_event = {
 		MKR = {
 			white_peace = ROK
 			transfer_state = 972
+			transfer_state = 989
 			transfer_state = 971
+			transfer_state = 988
 			transfer_state = 980
+			transfer_state = 987
 		}
 	}
 }

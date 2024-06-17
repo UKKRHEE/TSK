@@ -1,7 +1,7 @@
 
 state={
 	id=527
-	name="평안남도"
+	name="STATE_PYONGNAM"
 
 	history={
 		owner = PRK
@@ -55,5 +55,5 @@ state={
 	}
 	manpower=5320000
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_city
 }
