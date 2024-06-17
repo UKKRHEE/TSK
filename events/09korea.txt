@@ -880,47 +880,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		if = {
-			limit = {
-				NOT = {
-					has_global_flag = TSK_2009_scenario
-				}
-			}
-			set_global_flag = TSK_2009_scenario
-			hidden_effect = {
-				970 = { #서울
-					add_manpower = -726928
-				}
-				525 = { #경기
-					add_manpower = 1492229
-					add_manpower = 1000000
-					add_manpower = 1000000
-					add_manpower = 1000000
-					add_manpower = 1000000
-				}
-				987 = { #충북
-					add_manpower = 123845
-				}
-				980 = { #충남
-					add_manpower = 516196
-				}
-				973 = { #강원
-					add_manpower = -41236
-				}
-				989 = { #경북
-					add_manpower = 3296
-				}
-				988 = { #전북
-					add_manpower = -172946
-				}
-				971 = { #전남
-					add_manpower = -160248
-				}
-				971 = { #제주
-					add_manpower = 56879
-				}
-			}	
-		}
 	}
 	
 		 
