@@ -34,13 +34,13 @@ recruit_character = MKR_chun_doo_hwan
 recruit_character = MKR_lee_beom_seok
 
   # 정치고문 (공통)
-recruit_character = KR1_lee_ghunhui #이건희
-recruit_character = KR1_chung_won_sik #정원식
-recruit_character = KR1_lee_young_man #이용만
-recruit_character = KR1_chung_geun_mo #정근모
-recruit_character = KR1_choi_ghakkyu #최각규
-recruit_character = KR1_han_seungsoo #한승수
-recruit_character = KR1_park_saejik #박세직
+recruit_character = MKR_lee_ghunhui #이건희
+recruit_character = MKR_chung_won_sik #정원식
+recruit_character = MKR_lee_young_man #이용만
+recruit_character = MKR_chung_geun_mo #정근모
+recruit_character = MKR_choi_ghakkyu #최각규
+recruit_character = MKR_han_seungsoo #한승수
+recruit_character = MKR_park_saejik #박세직
 
   #이론가
 recruit_character = MKR_cho_nam_pung #조남풍

@@ -123,13 +123,69 @@
  #######################
  
  KR1_roh_tae_whoo:0 "노태우"
+ 
+ #육군참총
+ KR1_kim_dong_jin:0 "김동진"
+ KR1_do_il_kyu:0 "도일규"
+ #해군참총
+ KR1_an_byung_tae:0 "안병태"
+ KR1_yoo_samnam:0 "유삼남"
+ #공군참총
+ KR1_cho_geun_hae:0 "조근해"
+ KR1_kim_hong_rae:0 "김홍래"
+ #이론가
+ KR1_kim_dong_shin:0 "김동신"
+ KR1_lee_nam_shin:0 "이남신"
+ KR1_lee_yang_ho:0 "이양호"
+ #고위지휘관
+ KR1_lee_jun:0 "이준"
+ KR1_yun_yong_nam:0 "윤용남"
+ KR1_lee_gwanghak:0 "이광학"
+ KR1_lee_sooyong:0 "이수용"
+ KR1_chang_junggil:0 "장정길"
+ KR1_chung_yong_hoo:0 "정용후"
+ #장군
+ KR1_gil_hyeong_bo:0 "길형보"
+ KR1_do_il_gyu:0 "도일규"
+ KR1_oh_ja_bok:0 "오자복"
+ 
  KR1_lee_ghunhui:0 "이건희"
+ KR1_chung_won_sik:0 "정원식"
+ KR1_lee_young_man:0 "이용만"
+ KR1_chung_geun_mo:0 "정근모"
+ KR1_choi_ghakkyu:0 "최각규"
+ KR1_han_seungsoo:0 "한승수"
+ KR1_park_saejik:0 "박세직"
+ #이론가
+ KR1_cho_nam_pung:0 "조남풍"
+ KR1_choi_sae_chang:0 "최세창"
+ KR1_seo_dongyeol:0 "서동열"
+ #육군참총
+ KR1_kim_jing_yung:0 "김진영"
+ KR1_lee_jin_sam:0 "이진삼"
+ #공군참총
+ KR1_han_chuseok:0 "한주석"
+ #고위지휘관
+ KR1_lee_jong_gu:0 "이종구"
+ KR1_goo_chang_hoe:0 "구창회"
+ #장교
+ KR1_ahn_phil_jun:0 "장정길"
+ KR1_min_kyungbae:0 "민경배"
+ KR1_lee_philseob:0 "이필섭"
  
  #ROK
  #정치인
  ROK_kim_dae_jung:0 "김대중"
  ROK_kim_yong_sam:0 "김영삼"
  ROK_kim_koo:0 "김구"
+ #정치고문
+ ROK_lee_ghunhui:0 "이건희"
+ ROK_chung_won_sik:0 "정원식"
+ ROK_lee_young_man:0 "이용만"
+ ROK_chung_geun_mo:0 "정근모"
+ ROK_choi_ghakkyu:0 "최각규"
+ ROK_han_seungsoo:0 "한승수"
+ ROK_park_saejik:0 "박세직"
  #육군참총
  ROK_kim_dong_jin:0 "김동진"
  ROK_do_il_kyu:0 "도일규"
@@ -160,6 +216,8 @@
  MKR_chun_doo_hwan:0 "전두환"
  MKR_lee_beom_seok:0 "이범석"
  
+ #정치고문
+ MKR_lee_ghunhui:0 "이건희"
  MKR_chung_won_sik:0 "정원식"
  MKR_lee_young_man:0 "이용만"
  MKR_chung_geun_mo:0 "정근모"

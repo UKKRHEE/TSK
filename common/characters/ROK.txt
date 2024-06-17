@@ -56,6 +56,201 @@ characters={
 		}
 	}
 	#
+	#
+	ROK_lee_ghunhui = { #이건희
+		name=ROK_lee_ghunhui
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/이건희.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ROK_lee_ghunhui
+			available = {
+				
+			}
+			visible = {
+				#
+			}
+			
+			allowed = {
+				original_tag = ROK
+			}
+			
+			traits = { captain_of_industry }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ROK_chung_won_sik = { #정원식
+		name=ROK_chung_won_sik
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/정원식.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ROK_chung_won_sik
+			allowed = {
+				original_tag = ROK
+			}
+			visible = {
+				#
+			}
+			available = {
+			}
+			cost = 100
+			traits = { silent_workhorse }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	ROK_lee_young_man = { #이용만
+		name=ROK_lee_young_man
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/이용만.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ROK_lee_young_man
+			allowed = {
+				original_tag = ROK
+			}
+			visible = {
+				#
+			}
+			available = {
+			}
+			cost = 100
+			traits = { financial_expert }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	ROK_chung_geun_mo = { #정근모
+		name=ROK_chung_geun_mo
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/정근모.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ROK_chung_geun_mo
+			allowed = {
+				original_tag = ROK
+			}
+			visible = {
+				#
+			}
+			available = {
+			}
+			cost = 100
+			traits = { technocrat }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	ROK_choi_ghakkyu = { #최각규
+		name=ROK_choi_ghakkyu
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/최각규.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ROK_choi_ghakkyu
+			allowed = {
+				original_tag = ROK
+			}
+			visible = {
+				#
+			}
+			available = {
+			}
+			cost = 100
+			traits = { economist }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	ROK_han_seungsoo = { #한승수
+		name=ROK_han_seungsoo
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/한승수.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ROK_han_seungsoo
+			allowed = {
+				original_tag = ROK
+			}
+			visible = {
+				#
+			}
+			available = {
+			}
+			cost = 100
+			traits = { war_industrialist }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	ROK_park_saejik = { #박세직
+		name=ROK_park_saejik
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/박세직.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ROK_park_saejik
+			visible = {
+				#
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			
+			allowed = {
+				original_tag = ROK
+				has_dlc = "La Resistance" 
+			}
+			
+			traits = { head_of_intelligence }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	#
 	ROK_seo_wan_soo = { #
 		name=ROK_seo_wan_soo
 		portraits={

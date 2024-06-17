@@ -45,6 +45,201 @@ characters={
 			id=-1
 		}
 	}
+	#
+	#
+	MKR_lee_ghunhui = { #이건희
+		name=MKR_lee_ghunhui
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/이건희.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_lee_ghunhui
+			available = {
+				
+			}
+			visible = {
+				#
+			}
+			
+			allowed = {
+				original_tag = MKR
+			}
+			
+			traits = { captain_of_industry }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	MKR_chung_won_sik = { #정원식
+		name=MKR_chung_won_sik
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/정원식.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_chung_won_sik
+			allowed = {
+				original_tag = MKR
+			}
+			visible = {
+				#
+			}
+			available = {
+			}
+			cost = 100
+			traits = { silent_workhorse }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	MKR_lee_young_man = { #이용만
+		name=MKR_lee_young_man
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/이용만.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_lee_young_man
+			allowed = {
+				original_tag = MKR
+			}
+			visible = {
+				#
+			}
+			available = {
+			}
+			cost = 100
+			traits = { financial_expert }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	MKR_chung_geun_mo = { #정근모
+		name=MKR_chung_geun_mo
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/정근모.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_chung_geun_mo
+			allowed = {
+				original_tag = MKR
+			}
+			visible = {
+				#
+			}
+			available = {
+			}
+			cost = 100
+			traits = { technocrat }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	MKR_choi_ghakkyu = { #최각규
+		name=MKR_choi_ghakkyu
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/최각규.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_choi_ghakkyu
+			allowed = {
+				original_tag = MKR
+			}
+			visible = {
+				#
+			}
+			available = {
+			}
+			cost = 100
+			traits = { economist }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	MKR_han_seungsoo = { #한승수
+		name=MKR_han_seungsoo
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/한승수.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_han_seungsoo
+			allowed = {
+				original_tag = MKR
+			}
+			visible = {
+				#
+			}
+			available = {
+			}
+			cost = 100
+			traits = { war_industrialist }
+			ai_will_do = { factor = 0 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	MKR_park_saejik = { #박세직
+		name=MKR_park_saejik
+		portraits={
+			civilian={
+				large = ""
+				small = "gfx/interface/ideas/ADVISOR/91/박세직.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MKR_park_saejik
+			visible = {
+				#
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			
+			allowed = {
+				original_tag = MKR
+				has_dlc = "La Resistance" 
+			}
+			
+			traits = { head_of_intelligence }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
 	##########
 	MKR_cho_nam_pung = { #조남풍
 		name=MKR_cho_nam_pung
@@ -61,7 +256,7 @@ characters={
 			allowed = {
 				OR = {
 					original_tag = MKR
-					original_tag = KR1
+					original_tag = MKR
 				}
 			}
 			available = {
@@ -95,7 +290,7 @@ characters={
 			allowed = {
 				OR = {
 					original_tag = MKR
-					original_tag = KR1
+					original_tag = MKR
 				}
 			}
 			available = {
@@ -129,7 +324,7 @@ characters={
 			allowed = {
 				OR = {
 					original_tag = MKR
-					original_tag = KR1
+					original_tag = MKR
 				}
 			}
 			available = {
@@ -162,7 +357,7 @@ characters={
 			allowed = {
 				OR = {
 					original_tag = MKR
-					original_tag = KR1
+					original_tag = MKR
 				}
 			}
 			available = {
@@ -195,7 +390,7 @@ characters={
 			allowed = {
 				OR = {
 					original_tag = MKR
-					original_tag = KR1
+					original_tag = MKR
 				}
 			}
 			available = {
@@ -228,7 +423,7 @@ characters={
 			allowed = {
 				OR = {
 					original_tag = MKR
-					original_tag = KR1
+					original_tag = MKR
 				}
 			}
 			available = {
@@ -254,7 +449,7 @@ characters={
 			allowed = {
 				OR = {
 					original_tag = MKR
-					original_tag = KR1
+					original_tag = MKR
 				}
 				
 			}
@@ -289,7 +484,7 @@ characters={
 			allowed = {
 				OR = {
 					original_tag = MKR
-					original_tag = KR1
+					original_tag = MKR
 				}
 				
 			}
