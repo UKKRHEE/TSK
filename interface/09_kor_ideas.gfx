@@ -355,4 +355,8 @@ spriteTypes = {
 		name = "GFX_idea_KOR_north_south_problem"
 		texturefile = "gfx/interface/ideas/KOR/independence_idea.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_KPA_chinese_leaders_attack"
+		texturefile = "gfx/interface/ideas/idea_KOR_peace_with_soviet.png"
+	}
 }
