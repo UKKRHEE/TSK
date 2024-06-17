@@ -1,0 +1,10 @@
+characters={
+	JAP_general_government_of_japan={ 
+		name=JAP_general_government_of_japan
+		portraits={
+			civilian={
+				large = "gfx/leaders/KOR/Portrait_KOR_military_junta.png"
+			}
+		}
+	}
+}

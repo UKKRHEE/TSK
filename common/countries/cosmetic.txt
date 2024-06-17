@@ -1323,6 +1323,10 @@ TAI_republic = {
 	color = rgb { 18 7 116 }
 	color_ui = rgb { 18 7 116 }
 }	
+JAP_republic = {
+	color = rgb { 18 7 116 }
+	color_ui = rgb { 18 7 116 }
+}	
 
 PRK_GORYEO = {
 	color = rgb { 201 36 140 }

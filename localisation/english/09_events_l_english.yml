@@ -272,6 +272,9 @@
  TAI_republic:0 "대만"
  TAI_republic_DEF:0 "대만"
  TAI_republic_ADJ:0 "대만"
+ JAP_republic:0 "일본총독부"
+ JAP_republic_DEF:0 "일본총독부"
+ JAP_republic_ADJ:0 "일본"
  
  MEN_republic_fascism:0 "몽골국"
  MEN_republic_fascism_DEF:0 "몽골국"

@@ -631,7 +631,20 @@ country_event = {
 		KOR = {
 			puppet = JAP
 		}
-		remove_ideas = JAP_hirohito
+		JAP = {
+			add_ideas = JAP_hirohito
+			set_politics = {
+				ruling_party = democratic
+				last_election = "1934.12.19"
+				election_frequency = 60
+				elections_allowed = no
+			}
+			set_popularities = {
+				democratic = 100
+				fascism = 0
+				communism = 0
+			}
+		}
 		ai_chance = {
 		    factor = 0.5
 			modifier = {

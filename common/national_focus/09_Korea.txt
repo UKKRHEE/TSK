@@ -2313,20 +2313,47 @@ focus_tree = {
 		y = 10
 		completion_reward = {
 			JAP = { 
-				remove_ideas = JAP_hirohito
+				swap_ideas = {
+					add_idea = KOR_hirohito
+					remove_idea = JAP_hirohito
+				}
 				set_cosmetic_tag = JAP_republic
-				create_country_leader = {
-					name = "일본총독부"
-					ideology = nazism
-					portrait_path = "gfx/leaders/KOR/Portrait_KOR_military_junta.png"
-					traits = {
-						KOR_general_government_of_japan
-						dictator
+				add_country_leader_role = {
+					Character = JAP_general_government_of_japan
+					Promote_leader = yes
+					country_leader = {
+						desc=""
+						ideology = yushinism
+						traits={ KOR_general_government_of_japan dictator }
 					}
 				}
-			}
-			KOR = {
-				add_ideas = KOR_hirohito
+				add_country_leader_role = {
+					Character = JAP_general_government_of_japan
+					Promote_leader = yes
+					country_leader = {
+						desc=""
+						ideology = conservatism
+						traits={ KOR_general_government_of_japan dictator }
+					}
+				}
+				add_country_leader_role = {
+					Character = JAP_general_government_of_japan
+					Promote_leader = yes
+					country_leader = {
+						desc=""
+						ideology = stalinism
+						traits={ KOR_general_government_of_japan dictator }
+					}
+				}
+				add_country_leader_role = {
+					Character = JAP_general_government_of_japan
+					Promote_leader = yes
+					country_leader = {
+						desc=""
+						ideology = despotism
+						traits={ KOR_general_government_of_japan dictator }
+					}
+				}
 			}
 		}
 
@@ -2531,7 +2558,7 @@ focus_tree = {
 			JAP = {
 				is_puppet_of = KOR
 				has_country_leader = {
-					name = "General Government of Japan"
+					character = JAP_general_government_of_japan
 					ruling_only = yes
 				}
 			}

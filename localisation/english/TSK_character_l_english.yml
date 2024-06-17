@@ -78,6 +78,9 @@
  KPA_kim_kyok_sik:0 "김격식"
  KPA_pak_yong_sik:0 "박영식"
  
+ 
+ JAP_general_government_of_japan:0 "일본총독부"
+ 
  ####################
  PRK_kim_il_sung:0 "김일성"
  PRK_kim_jong_il:0 "김정일"
@@ -179,3 +182,5 @@
  MKR_ahn_phil_jun:0 "장정길"
  MKR_min_kyungbae:0 "민경배"
  MKR_lee_philseob:0 "이필섭"
+ 
+ ########################

@@ -1,0 +1,1 @@
+recruit_character = JAP_general_government_of_japan
