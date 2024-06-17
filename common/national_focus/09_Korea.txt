@@ -2319,40 +2319,40 @@ focus_tree = {
 				}
 				set_cosmetic_tag = JAP_republic
 				add_country_leader_role = {
-					Character = JAP_general_government_of_japan
-					Promote_leader = yes
+					character = JAP_general_government_of_japan
 					country_leader = {
 						desc=""
 						ideology = yushinism
 						traits={ KOR_general_government_of_japan dictator }
 					}
+					Promote_leader = yes
 				}
 				add_country_leader_role = {
-					Character = JAP_general_government_of_japan
-					Promote_leader = yes
+					character = JAP_general_government_of_japan
 					country_leader = {
 						desc=""
 						ideology = conservatism
 						traits={ KOR_general_government_of_japan dictator }
 					}
+					Promote_leader = yes
 				}
 				add_country_leader_role = {
-					Character = JAP_general_government_of_japan
-					Promote_leader = yes
+					character = JAP_general_government_of_japan
 					country_leader = {
 						desc=""
 						ideology = stalinism
 						traits={ KOR_general_government_of_japan dictator }
 					}
+					Promote_leader = yes
 				}
 				add_country_leader_role = {
-					Character = JAP_general_government_of_japan
-					Promote_leader = yes
+					character = JAP_general_government_of_japan
 					country_leader = {
 						desc=""
 						ideology = despotism
 						traits={ KOR_general_government_of_japan dictator }
 					}
+					Promote_leader = yes
 				}
 			}
 		}
