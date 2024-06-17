@@ -10,7 +10,7 @@
  CountryInfo_Content_button_tt: "§G클릭§!하여 §Y[CountryInfo_GET_Content_Country]§! 내의 항목 보기"
  TNO_COUNTRY_INFO_BUTTON_TT: "[TNO_COUNTRY_INFO_BUTTON_TT_LOC]"
  TNO_COUNTRY_INFO_BUTTON_TT_ALL: "§Y운명이 기다리고 있습니다.§!"
- TNO_COUNTRY_INFO_BUTTON_TT_KOR: "§YPLACEHOLDER§!\n\n§Y운명이 기다리고 있습니다.§!"
+ TNO_COUNTRY_INFO_BUTTON_TT_KOR: "§Y대한사람 대한으로 길이 보전하세.§!\n\n§R운명이 기다리고 있습니다.§!"
 
 ### COUNTRY OPENING ###
  CountryInfo_tab_name_country: "국가 개요"
@@ -54,42 +54,42 @@
  CountryInfo_Development_Content.3: "제작진"
  CountryInfo_Development_Content.4: "감사한 분들"
  
- CountryInfo_Development_Content_desc.2: "안녕하세요, §PTHE LAST EMPIRE§!의 제작자 §fUKKRHEE§!입니다! 일단, 이 문구를 보신 모든 분께 이 모드를 플레이해주셔서 감사하다는 인사를 올리고 시작하겠습니다. \n\n§PTHE LAST EMPIRE§!는 "항상 역사책을 펴보면 답답하기 그지 없는 우리의 과거가 만약 일본제국 같은 동아시아의 열강이었다면 어떤 모습이었을까?" 라는 흥미로운 질문에서부터 시작된 모드입니다. 이 모드를 제작할 시점부터 많이 고민하였고, 어떻게 하면 보다 더 현실적이고 가능성 있는, 그리고 전달력 있는 스토리와 게임 플레이를 유저 분들께 전달할 수 있을지 생각하였습니다. 지금 시점에서 보면 노력을 통해 꽤나 성공적인 모습으로 구현한 것 같습니다.\n\n열화와 같은 성원에 제가 여러분들께 보답해줄 수 있는 것은 성실한 업데이트와 많은 컨텐츠 뿐일 것입니다. 계속 발전하는 §PTHE LAST EMPIRE§!가 되겠습니다, 감사합니다!"
- CountryInfo_Development_Content_desc.3: "Head Dev. \n£white_dot §fUKKRHEE§! £GFX_Point_UKKRHEE \n\n== Dev Team. ==\n£white_dot Korhal \n£white_dot 정까치 \n£white_dot Kimminsoo \n£white_dot Server \n£white_dot 트롯츠키 \n£white_dot 지원(support) \n£white_dot 백원스틱[100won] \n£white_dot ImperiumGlory \n£white_dot Frosty \n£white_dot 티라미수 \n£white_dot Gabriel Kim \n£white_dot Weimer Republic \n£white_dot snowden \n£white_dot Friedrich_von_Ebert \n£white_dot King_Elessar \n£white_dot Kudryavka \n£white_dot PETER \n£white_dot D077 \n\n== 무묘배향공신 ==\n£white_dot 김낭만 \n£white_dot ㄴㄴ \n£white_dot 벨지엄 \n"
- CountryInfo_Development_Content_desc.4: "== Special Thanks == \n£white_dot Team. PROJECT KOREA \n£white_dot kaiserreich03 \n£white_dot 봇치쨩 팬계정 \n£white_dot Vkdlsejghf \n£white_dot 정백하 \n£white_dot 파란댕댕2 \n£white_dot 팀러 \n£white_dot FrEEsTaR \n£white_dot K-AKABANE \n£white_dot QingchangchongHassan \n£white_dot Marine418 \n£white_dot Rheinlandpfalz \n£white_dot kkshunp \n£white_dot K-asche \n£white_dot BOBK235 \n£white_dot limen \n£white_dot E-SENS \n£white_dot 별화 \n£white_dot 솔피 \n£white_dot 우익훈 \n£white_dot 어음 \n£white_dot bmarx \n£white_dot 맑고고운버섯 \n£white_dot ㅈㅅㅈ \n£white_dot Imika \n£white_dot Georgy \n£white_dot 바실리카 \n£white_dot Nev \n£white_dot Human.M \n£white_dot 켈리포늄 \n£white_dot nxd.sxn \n£white_dot Shovel \n£white_dot LAX \n£white_dot 하프인큐버스(oixxta) \n£white_dot 공돌이콩 \n£white_dot DENEV \n£white_dot Sanon \n£white_dot 로시아 \n£white_dot 민쓰 \n£white_dot 오리 \n£white_dot Kebab \n£white_dot !KR_appleman \n£white_dot 시바스 \n£white_dot 먼닉 \n£white_dot 히상병\n\n그리고, §P대한제국 인게임 설명창 국가 포스터§!를 제작해주신 §fPzKpfwI§!님과 많은 영감을 주신 §P폭군 고종대왕 일대기§!의 작가 §f리첼렌§! 님, §P조선, 혁명의 시대§!의 작가 §f태사령§! 님께 감사를 올리겠습니다!\n\nPs ㅡ §f공돌이콩§! 님과 함께 만드는 후속작 HOI4 모드 §B오얏꽃 필 무렵§! 또한 많은 관심 바랍니다!"
+ CountryInfo_Development_Content_desc.2: ""
+ CountryInfo_Development_Content_desc.3: "Head Dev. \n£white_dot §fUKKRHEE§! \n£white_dot §fkkshunp§! \n\n== Dev Team. ==\n£white_dot 바실리카\n£white_dot Hyunmu_plug\n£white_dot K-asche\n£white_dot 놋위\n£white_dot DKDK\n£white_dot Munchkin\n£white_dot 폭탄\n£white_dot Mako\n£white_dot Server\n"
+ CountryInfo_Development_Content_desc.4: "== Special Thanks == \n£white_dot Team. THE LAST EMPIRE\n£white_dot 정까치\n£white_dot Korhal\n£white_dot 별화\n"
 
  ### COUNTRY ENDING ###
  CountryInfo_tab_name_ending: "Afterthought"
  
  ###KOR
- TNO_COUNTRY_INFO_BUTTON_TEXT_KOR: "PLACEHOLDER"
- KOR_CountryInfo_Folder.101: "PLACEHOLDER"
- KOR_CountryInfo_Folder.102: "PLACEHOLDER"
+ TNO_COUNTRY_INFO_BUTTON_TEXT_KOR: "만세!"
+ KOR_CountryInfo_Folder.101: "무궁화 삼천리 화려강산"
+ KOR_CountryInfo_Folder.102: "대한사람 대한으로"
  # 101
- KOR_CountryInfo_Content.1: "PLACEHOLDER"
- KOR_CountryInfo_Content_desc.1: ""
+ KOR_CountryInfo_Content.1: "여명의 끝"
+ KOR_CountryInfo_Content_desc.1: "1392년 태조 이성계는 위화도 회군의 결과로 고려 왕조의 문을 닫고 조선을 세웠습니다. 성리학적 질서와 백성들의 교화를 목적으로 한 조선 왕조는 세종, 성종, 영조, 정조 등의 걸출한 왕들을 배출하면서 찬란히 빛났으며, 국왕의 자비 하에서 수 천만 백성들은 그 은덕을 찬양하며 살아갈 것 같았습니다. 허나 그렇지 않았습니다.\n\n개화기를 맞이하여 조선은 쌓인 모든 병폐가 백일하에 들어나면서 모든 개혁의 동력을 잃어버렸습니다. 고종과 흥선대원군, 그리고 개화파 간의 정치적 갈등은 조선 왕국이 근대 국가로 걸어갈 수 있는 모든 길을 제거하였고, 정해진 죽음에서 벗어나고자 국호까지 바꾸며 발버둥친 조선은 1910년 8월 29일 한일병합조약으로 흔적만 남은 채 일본의 일부가 되었습니다.\n\n일본제국이 패망하는 1945년 8월 15일까지 삼천리 강산에 있는 모든 민중들은 언어도, 문화도, 사는 지역조차 다른 이민족에게 지배당하였고, 꿈조차 꾸지 못하며 살아갔습니다."
  
- KOR_CountryInfo_Content.2: "PLACEHOLDER"
- KOR_CountryInfo_Content_desc.2: ""
+ KOR_CountryInfo_Content.2: "도둑처럼 찾아온 광복"
+ KOR_CountryInfo_Content_desc.2: "작성 중" #아무도 상상할 수 없던 방법으로, 마치 도둑과 같이 광복은 조선인들에게 찾아왔습니다. 그것을 주도한 사람은 도쿄 사시는 이왕 전하도 아니었고, 중경 가 있는 임정도 아니었고, 민중을 외치는 조선공산당도 아니었습니다. 오직 미합중국의 압도적인 무력만이 조선민중들에게 광복을 찾아주었습니다.\n\n그러나 기쁨은 오래 가지 않았습니다.
  
- KOR_CountryInfo_Content.3: "PLACEHOLDER"
- KOR_CountryInfo_Content_desc.3: ""
+ KOR_CountryInfo_Content.3: "어둡고도 고된 나날"
+ KOR_CountryInfo_Content_desc.3: "작성 중"
  
- KOR_CountryInfo_Content.4: "PLACEHOLDER"
- KOR_CountryInfo_Content_desc.4: ""
+ KOR_CountryInfo_Content.4: "6월이여"
+ KOR_CountryInfo_Content_desc.4: "작성 중"
  
- KOR_CountryInfo_Content.5: "PLACEHOLDER"
- KOR_CountryInfo_Content_desc.5: ""
+ KOR_CountryInfo_Content.5: "우리의 상황"
+ KOR_CountryInfo_Content_desc.5: "작성 중"
  
  # 102
- KOR_CountryInfo_Content.6: "PLACEHOLDER"
- KOR_CountryInfo_Content_desc.6: ""
+ KOR_CountryInfo_Content.6: "민주공화국"
+ KOR_CountryInfo_Content_desc.6: "작성 중"
   
- KOR_CountryInfo_Content.7: "PLACEHOLDER"
- KOR_CountryInfo_Content_desc.7: ""
+ KOR_CountryInfo_Content.7: "삼권분립"
+ KOR_CountryInfo_Content_desc.7: "작성 중"
   
- KOR_CountryInfo_Content.8: "PLACEHOLDER"
- KOR_CountryInfo_Content_desc.8: ""
+ KOR_CountryInfo_Content.8: "서브프라임 모기지"
+ KOR_CountryInfo_Content_desc.8: "작성 중"
   
- KOR_CountryInfo_Content.9: "PLACEHOLDER"
- KOR_CountryInfo_Content_desc.9: ""
+ KOR_CountryInfo_Content.9: "그리고 지금은"
+ KOR_CountryInfo_Content_desc.9: "작성 중"

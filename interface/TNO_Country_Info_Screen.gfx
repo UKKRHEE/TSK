@@ -126,56 +126,7 @@ spriteTypes = {
 
 	# Posters
 	spriteType = { 
-		name = "GFX_TNO_OpeningScreen_Poster_Korea"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Korea.dds"
-	}
-	spriteType = { 
-		name = "GFX_TNO_OpeningScreen_Poster_japan"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Japan_3.png" 
-	}
-	spriteType = { 
-		name = "GFX_TNO_OpeningScreen_Poster_south_china"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_South_China.dds" 
-	}
-	spriteType = { 
-		name = "GFX_TNO_OpeningScreen_Poster_north_china"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_North_China.png" 
-	}
-	spriteType = { 
-		name = "GFX_TNO_OpeningScreen_Poster_germany"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Germany.png"
-	}
-	spriteType = { 
-		name = "GFX_TNO_OpeningScreen_Poster_soviet_union"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_soviet_union.png" 
-	}
-	spriteType = { 
-		name = "GFX_TNO_OpeningScreen_Poster_united_states"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_united_states.png" 
-	}
-	spriteType = { 
-		name = "GFX_TNO_OpeningScreen_Poster_united_kingdom"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_united_kingdom.png" 
-	}
-	spriteType = { 
-		name = "GFX_TNO_OpeningScreen_Poster_france"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_france.png" 
-	}
-	spriteType = { 
-		name = "GFX_TNO_OpeningScreen_Poster_italy"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_italy.png" 
-	}
-	spriteType = { 
-		name = "GFX_TNO_OpeningScreen_Poster_siam"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_siam.png" 
-	}
-	###
-	spriteType = { 
-		name = "GFX_Point_UKKRHEE"
-		textureFile = "gfx/interface/Countryinfo_User/Point_UKKRHEE.png" 
-	}
-	spriteType = { 
-		name = "GFX_Point_jkkacchi"
-		textureFile = "gfx/interface/Countryinfo_User/Point_jkkacchi.png" 
+		name = "GFX_TNO_OpeningScreen_Poster_2009Korea"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_2009Korea.png"
 	}
 }

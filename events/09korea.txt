@@ -235,7 +235,7 @@ country_event = {
 				expire = "1965.1.1.1"
 				desc=""
 				traits = {
-					KOR_president_moon_disaster
+					KOR_han_trait
 				}
 			}
 		}
@@ -247,7 +247,7 @@ country_event = {
 				expire = "1965.1.1.1"
 				desc=""
 				traits = {
-					KOR_president_moon_disaster
+					KOR_han_trait
 				}
 			}
 		}
