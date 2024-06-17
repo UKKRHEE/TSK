@@ -1,7 +1,12 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_buildings_strip_bg"
-		textureFile = "gfx/interface/buildings/building_icon_strip_bg.png"
+		textureFile = "gfx/interface/buildings/TSK_building_icon_strip_bg.png"
+		noOfFrames = 21
+	}
+	spriteType = {
+		name = "GFX_buildings_strip"
+		textureFile = "gfx/interface/buildings/TSK_builidng_icon_strip.png"
 		noOfFrames = 21
 	}
 }
