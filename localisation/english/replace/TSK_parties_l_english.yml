@@ -24,6 +24,12 @@
  KOR_shimintong_party:0 "시민통합당" #2011.12.7.~2011.12.16.
  KOR_shimintong_party_long:0 "시민통합당" #
  
+ KOR_tongjin_party:0 "통합진보당"
+ KOR_tongjin_party_long:0 "통합진보당"
+ 
+ KOR_eok_restored_party:0 "대한제국 복권파"
+ KOR_eok_restored_party_long:0 "대한제국 복권파"
+ 
  
  KOR_goverment_party:0 "대한민국 정부"
  KOR_goverment_party_long:0 "대한민국 정부"

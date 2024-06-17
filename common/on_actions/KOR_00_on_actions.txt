@@ -42,6 +42,28 @@ on_actions = {
 					971 = { #제주
 						add_manpower = 56879
 					}
+					KOR = {
+						set_party_name = {
+							ideology = neutrality
+							long_name = "KOR_hannara_party_long"
+							name = "KOR_hannara_party"
+						}
+						set_party_name = {
+							ideology = communism
+							long_name = "KOR_tongjin_party_long"
+							name = "KOR_tongjin_party"
+						}
+						set_party_name = {
+							ideology = fascism
+							long_name = "KOR_eok_restored_party_long"
+							name = "KOR_eok_restored_party"
+						}
+						set_party_name = {
+							ideology = democratic
+							long_name = "KOR_hannara_party_long"
+							name = "KOR_hannara_party"
+						}
+					}
 				}	
 			}
 			if = {

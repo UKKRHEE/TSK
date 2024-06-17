@@ -127,6 +127,6 @@ spriteTypes = {
 	# Posters
 	spriteType = { 
 		name = "GFX_TNO_OpeningScreen_Poster_2009Korea"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_2009Korea.png"
+		textureFile = "gfx/interface/openning_screen/TNO_OpeningScreen_Poster_2009Korea.png"
 	}
 }
