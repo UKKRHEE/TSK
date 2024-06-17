@@ -1,0 +1,95 @@
+﻿l_english:
+#  # KR Splash
+#  KR_SPLASH_TITLE: "환영합니다!"
+#  KR_SPLASH_CREDITS: "§YTHE LAST EMPIRE 제작자§!\nUKKRHEE\n\n§Y매우 고마운 사람들!§!\nKorhal, 정까치, Kimminsoo, Server, 트롯츠키, 지원(support), 백원스틱[100won], ImperiumGlory, Frosty, 티라미수, Gabriel Kim, Weimer Republic, snowden, Friedrich_von_Ebert, King_Elessar, DENEV\n§C카이저라이히, 팔년항전, Team. PROJECT KOREA, CBTS, Darkest Hour, TNO 제작진, 하인리히 뵐 기념사업회§!"
+ 
+# GUI functionality
+
+ CountryInfo_pls_click_on_entry: "== 왼쪽의 항목 클릭 =="
+ CountryInfo_Folder_button_tt: "§G클릭§!해서 §Y[CountryInfo_GET_Folder_Country]§! 국가의 항목창 켜고 끄기"
+ CountryInfo_Content_button_tt: "§G클릭§!하여 §Y[CountryInfo_GET_Content_Country]§! 내의 항목 보기"
+ TNO_COUNTRY_INFO_BUTTON_TT: "[TNO_COUNTRY_INFO_BUTTON_TT_LOC]"
+ TNO_COUNTRY_INFO_BUTTON_TT_ALL: "§Y운명이 기다리고 있습니다.§!"
+ TNO_COUNTRY_INFO_BUTTON_TT_KOR: "§YPLACEHOLDER§!\n\n§Y운명이 기다리고 있습니다.§!"
+
+### COUNTRY OPENING ###
+ CountryInfo_tab_name_country: "국가 개요"
+ 
+
+ ### TUTORIALS ###
+ CountryInfo_tab_name_tutorials: "모드 정보"
+
+ CountryInfo_Tutorial_Folder.101: "타임 슬립 코리아" # fuck you
+
+ CountryInfo_Tutorial_Content.1: "전간기"
+ CountryInfo_Tutorial_Content_desc.1: ""
+
+ CountryInfo_Tutorial_Content.3: "대한민국"
+ CountryInfo_Tutorial_Content_desc.3: "대한민국이라는 국가를 설명하는 문장은 몇 가지가 있을 것입니다. 반도의 단일 민족, 독자적인 인공문자를 사용하는 나라, 식민지배를 당하였으나 찬란히 부활하는데 성공한 유일한 국가. \n\n한국인들은 자신들의 조국이 1948년 공식적으로 선포된 것에 기뻐할 틈도 없이, 이념이라는 극독에 취해 동족을 죽이는 한국전쟁에 바로 뛰어들게 되며 일제강점기의 상흔을 치유하기는 커녕 영원히 지워지지 않을 흉터로 덧씌우게 되었습니다. \n\n수 십년의 독재, 민권의 부재와 죽기 한 발자국 전에 걸쳐있던 노동의 끝에 경제적 성과를 이루어내었습니다. 성과 뿐이겠습니까? 한국인들은 자기 자신을 억압하는 독재자를 제 손으로 끌어내렸습니다. 이는 부정할 수 없는 사실이며, 어느 국가도 대체할 수 없는 위업일 것입니다. \n\n하지만 생존만을 위해 싸워온 투쟁 끝에 아리따운 옷을 걸쳐입는 것에는 성공하였으나, 상처입은 영혼은 치유할 수 없었습니다. 단일민족으로 함께 공유하는 의식은 극단적으로 타 집단에 대한 배타적 감정을 가지고 있고, 역사적인 피해에 의거하여 애국적, 국가적 정서는 약화되었다 하지만 아직까지 강조되고 있습니다."
+
+ CountryInfo_Tutorial_Content.4: "일본국"
+ CountryInfo_Tutorial_Content_desc.4: "부정할 수 없이, 일본은 동아시아에서 가장 부유하고, 강하고, 자유로운 국가라고 할 수 있을 것입니다. 일본은 외세의 침략을 받고도 식민화되지 않고, 오히려 열강에 올라 한때 패권을 두고 미국과 경쟁까지 하였습니다. \n\n물론 근시안적인 판단으로 끝내 전쟁에서 패하긴 하였으나, 그 저력은 어디 가질 않고 2010년 중국의 부상 이전까지 독일까지 추월한 채 세계 2위의 경제력을 굳건히 유지하고 있었습니다. 전쟁에서 패한 것이 1945년인데, 올림픽을 연 것이 1964년이라는 것은 이들의 뛰어난 능력과 끈기, 그리고 저력을 분명히 보여주었습니다. \n\n그러나 일본이 무조건 좋은 나라라고 말할 수 있을까요? 역사적 맥락에서, 현 일본국의 전신인 대일본제국은 분명하게 제국주의 열강으로 반인륜적인 범죄를 행하였던 국가 중 하나입니다. 현 시점에서 이들의 국가 주도의 인륜적 범죄를 저지르고 있지는 않습니다. 하지만 옛 과업에 대한 책임은 분명히 남아있고, 이를 기억하는 사람들이 아시아 전역에 남아있습니다. \n\n옛 일을 비난하는 것에 현 세대는 분명히 불만을 가질 수는 있으나, 이를 역으로 비난해서는 안됩니다. 그들의 국가는 분명히 행하였었고, 이 업보가 현재 되돌아오는 것이니까요."
+ 
+ CountryInfo_Tutorial_Content.5: "중화인민공화국"
+ CountryInfo_Tutorial_Content_desc.5: "예전부터 세계의 중심이었으며, 지금도 세계의 중심지 중 하나인 중국은 이름답게 동아시아에서는 절대적인 경제, 문화적 중심지입니다. 수 천년 전 한고제가 중원 땅을 하나로 통일한 이래로 중국인들은 단 하나의 중국이라는 명제답게 절대로 분열되지 않고 그들이 생각하는 하늘 아래에서 확고한 통제력을 가지며 찬란한 문명을 일구었습니다. \n\n황하 문명의 발전은 필연이었고, 막대한 생산력을 자랑하는 중원 땅은 19세기에도 수 억의 인구를 자랑하며 전 세계를 호령하였었습니다. 그러나, 서쪽에서 찾아온 제국은 잔혹하기 짝이 없었고, 1842년 1차 아편전쟁과 1856년 2차 아편전쟁 끝에 중원인들의 제국은 산산조각이 나며 파편화되었습니다. \n\n1949년, 중화인민공화국이 장장 백년간 이어진 혼란 끝에 베이징에서 선포되었습니다. 중국인들은 평화에 안도하였으나, 이는 일시적이었습니다. 60년이 걸려 다시금 세계무대로 화려하게 복귀한 중국은 패권이 흔들리는 미국과 경쟁하기 시작하며 옛 위대한 제국의 길을 걸어가려 하고 있습니다. 하지만 관대함의 미덕이 상처와 함께 사라져도, 다시 옛 모습을 되찾을 수 있을까요?"
+ 
+ CountryInfo_Tutorial_Folder.102: "매커니즘"
+ 
+ CountryInfo_Tutorial_Content.6: "한국의 특수 컨텐츠"
+ CountryInfo_Tutorial_Content_desc.6: ""
+ 
+ CountryInfo_Tutorial_Content.7: "일본의 특수 컨텐츠"
+ CountryInfo_Tutorial_Content_desc.7: ""
+ 
+ CountryInfo_Tutorial_Content.8: "중국의 특수 컨텐츠"
+ CountryInfo_Tutorial_Content_desc.8: ""
+ 
+### Development ###
+ CountryInfo_tab_name_development: "모드 개발"
+ CountryInfo_Development_Folder.101: "소셜 미디어"
+ CountryInfo_Development_Content.1: "추가 정보"
+ CountryInfo_Development_Content_desc.1: "\n§Y아래§!에서 다양한 소셜 미디어 페이지를 찾아볼 수 있습니다.\n\n우리의 최신 개발 소식을 빠르게 들어보세요!"
+ CountryInfo_Development_Folder.102: "TIME SLIP KOREA 팀"
+ CountryInfo_Development_Content.2: "제작자의 말"
+ CountryInfo_Development_Content.3: "제작진"
+ CountryInfo_Development_Content.4: "감사한 분들"
+ 
+ CountryInfo_Development_Content_desc.2: "안녕하세요, §PTHE LAST EMPIRE§!의 제작자 §fUKKRHEE§!입니다! 일단, 이 문구를 보신 모든 분께 이 모드를 플레이해주셔서 감사하다는 인사를 올리고 시작하겠습니다. \n\n§PTHE LAST EMPIRE§!는 "항상 역사책을 펴보면 답답하기 그지 없는 우리의 과거가 만약 일본제국 같은 동아시아의 열강이었다면 어떤 모습이었을까?" 라는 흥미로운 질문에서부터 시작된 모드입니다. 이 모드를 제작할 시점부터 많이 고민하였고, 어떻게 하면 보다 더 현실적이고 가능성 있는, 그리고 전달력 있는 스토리와 게임 플레이를 유저 분들께 전달할 수 있을지 생각하였습니다. 지금 시점에서 보면 노력을 통해 꽤나 성공적인 모습으로 구현한 것 같습니다.\n\n열화와 같은 성원에 제가 여러분들께 보답해줄 수 있는 것은 성실한 업데이트와 많은 컨텐츠 뿐일 것입니다. 계속 발전하는 §PTHE LAST EMPIRE§!가 되겠습니다, 감사합니다!"
+ CountryInfo_Development_Content_desc.3: "Head Dev. \n£white_dot §fUKKRHEE§! £GFX_Point_UKKRHEE \n\n== Dev Team. ==\n£white_dot Korhal \n£white_dot 정까치 \n£white_dot Kimminsoo \n£white_dot Server \n£white_dot 트롯츠키 \n£white_dot 지원(support) \n£white_dot 백원스틱[100won] \n£white_dot ImperiumGlory \n£white_dot Frosty \n£white_dot 티라미수 \n£white_dot Gabriel Kim \n£white_dot Weimer Republic \n£white_dot snowden \n£white_dot Friedrich_von_Ebert \n£white_dot King_Elessar \n£white_dot Kudryavka \n£white_dot PETER \n£white_dot D077 \n\n== 무묘배향공신 ==\n£white_dot 김낭만 \n£white_dot ㄴㄴ \n£white_dot 벨지엄 \n"
+ CountryInfo_Development_Content_desc.4: "== Special Thanks == \n£white_dot Team. PROJECT KOREA \n£white_dot kaiserreich03 \n£white_dot 봇치쨩 팬계정 \n£white_dot Vkdlsejghf \n£white_dot 정백하 \n£white_dot 파란댕댕2 \n£white_dot 팀러 \n£white_dot FrEEsTaR \n£white_dot K-AKABANE \n£white_dot QingchangchongHassan \n£white_dot Marine418 \n£white_dot Rheinlandpfalz \n£white_dot kkshunp \n£white_dot K-asche \n£white_dot BOBK235 \n£white_dot limen \n£white_dot E-SENS \n£white_dot 별화 \n£white_dot 솔피 \n£white_dot 우익훈 \n£white_dot 어음 \n£white_dot bmarx \n£white_dot 맑고고운버섯 \n£white_dot ㅈㅅㅈ \n£white_dot Imika \n£white_dot Georgy \n£white_dot 바실리카 \n£white_dot Nev \n£white_dot Human.M \n£white_dot 켈리포늄 \n£white_dot nxd.sxn \n£white_dot Shovel \n£white_dot LAX \n£white_dot 하프인큐버스(oixxta) \n£white_dot 공돌이콩 \n£white_dot DENEV \n£white_dot Sanon \n£white_dot 로시아 \n£white_dot 민쓰 \n£white_dot 오리 \n£white_dot Kebab \n£white_dot !KR_appleman \n£white_dot 시바스 \n£white_dot 먼닉 \n£white_dot 히상병\n\n그리고, §P대한제국 인게임 설명창 국가 포스터§!를 제작해주신 §fPzKpfwI§!님과 많은 영감을 주신 §P폭군 고종대왕 일대기§!의 작가 §f리첼렌§! 님, §P조선, 혁명의 시대§!의 작가 §f태사령§! 님께 감사를 올리겠습니다!\n\nPs ㅡ §f공돌이콩§! 님과 함께 만드는 후속작 HOI4 모드 §B오얏꽃 필 무렵§! 또한 많은 관심 바랍니다!"
+
+ ### COUNTRY ENDING ###
+ CountryInfo_tab_name_ending: "Afterthought"
+ 
+ ###KOR
+ TNO_COUNTRY_INFO_BUTTON_TEXT_KOR: "PLACEHOLDER"
+ KOR_CountryInfo_Folder.101: "PLACEHOLDER"
+ KOR_CountryInfo_Folder.102: "PLACEHOLDER"
+ # 101
+ KOR_CountryInfo_Content.1: "PLACEHOLDER"
+ KOR_CountryInfo_Content_desc.1: ""
+ 
+ KOR_CountryInfo_Content.2: "PLACEHOLDER"
+ KOR_CountryInfo_Content_desc.2: ""
+ 
+ KOR_CountryInfo_Content.3: "PLACEHOLDER"
+ KOR_CountryInfo_Content_desc.3: ""
+ 
+ KOR_CountryInfo_Content.4: "PLACEHOLDER"
+ KOR_CountryInfo_Content_desc.4: ""
+ 
+ KOR_CountryInfo_Content.5: "PLACEHOLDER"
+ KOR_CountryInfo_Content_desc.5: ""
+ 
+ # 102
+ KOR_CountryInfo_Content.6: "PLACEHOLDER"
+ KOR_CountryInfo_Content_desc.6: ""
+  
+ KOR_CountryInfo_Content.7: "PLACEHOLDER"
+ KOR_CountryInfo_Content_desc.7: ""
+  
+ KOR_CountryInfo_Content.8: "PLACEHOLDER"
+ KOR_CountryInfo_Content_desc.8: ""
+  
+ KOR_CountryInfo_Content.9: "PLACEHOLDER"
+ KOR_CountryInfo_Content_desc.9: ""
