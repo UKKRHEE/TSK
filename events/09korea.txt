@@ -222,13 +222,13 @@ country_event = {
 		}
 		set_party_name = {
 			ideology = neutrality
-			long_name = "국가재건최고회의"
-			name = "국가재건최고회의"
+			long_name = "KOR_army_party_long"
+			name = "KOR_army_party"
 		}
 		set_party_name = {
 			ideology = fascism
-			long_name = "국가재건최고회의"
-			name = "국가재건최고회의"
+			long_name = "KOR_army_party_long"
+			name = "KOR_army_party"
 		}
 		add_country_leader_role = {
 			character = KOR_han_minkoo
@@ -498,23 +498,23 @@ country_event = {
 		}
 		set_party_name = {
 			ideology = neutrality
-			long_name = "황국협회"
-			name = "황국협회"
+			long_name = "KOR_imperial_institution_party_long"
+			name = "KOR_imperial_institution_party"
 		}
 		set_party_name = {
 			ideology = democratic
-			long_name = "새누리당"
-			name = "새누리당"
+			long_name = "KOR_saenuri_party_long"
+			name = "KOR_saenuri_party"
 		}
 		set_party_name = {
 			ideology = fascism
-			long_name = "황국협회"
-			name = "황국협회"
+			long_name = "KOR_imperial_institution_party_long"
+			name = "KOR_imperial_institution_party"
 		}
 		set_party_name = {
 			ideology = communism
-			long_name = "통합진보당"
-			name = "통합진보당"
+			long_name = "KOR_communism_party_long"
+			name = "KOR_communism_party"
 		}
 		
 		}
@@ -538,23 +538,23 @@ country_event = {
 		}
 		set_party_name = {
 			ideology = neutrality
-			long_name = "황국협회"
-			name = "황국협회"
+			long_name = "KOR_imperial_institution_party_long"
+			name = "KOR_imperial_institution_party"
 		}
 		set_party_name = {
 			ideology = democratic
-			long_name = "새누리당"
-			name = "새누리당"
+			long_name = "KOR_saenuri_party_long"
+			name = "KOR_saenuri_party"
 		}
 		set_party_name = {
 			ideology = fascism
-			long_name = "황국협회"
-			name = "황국협회"
+			long_name = "KOR_imperial_institution_party_long"
+			name = "KOR_imperial_institution_party"
 		}
 		set_party_name = {
 			ideology = communism
-			long_name = "통합진보당"
-			name = "통합진보당"
+			long_name = "KOR_communism_party_long"
+			name = "KOR_communism_party"
 		}
 		
 		}

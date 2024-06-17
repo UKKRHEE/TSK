@@ -1160,18 +1160,18 @@ focus_tree = {
 					add_political_power = 100
 					set_party_name = {
 							ideology = neutrality
-							long_name = "한나라당(중도)"
-							name = "한나라당(중도)"
+							long_name = "KOR_goverment_party_long"
+							name = "KOR_goverment_party"
 						}
 					set_party_name = {
 							ideology = communism
-							long_name = "한나라당(좌파)"
-							name = "한나라당(좌파)"
+							long_name = "KOR_goverment_party_long"
+							name = "KOR_goverment_party"
 						}
 					set_party_name = {
 							ideology = fascism
-							long_name = "한나라당(우파)"
-							name = "한나라당(우파)"
+							long_name = "KOR_goverment_party_long"
+							name = "KOR_goverment_party"
 						}
 				}
 			ai_will_do = {
@@ -2029,23 +2029,23 @@ focus_tree = {
 			#remove_ideas = lee_myung_bak_pre
 			set_party_name = {
 				ideology = neutrality
-				long_name = "이원 내각"
-				name = "이원 내각"
+				long_name = "KOR_imperial_party_long"
+				name = "KOR_imperial_party"
 			}
 			set_party_name = {
 				ideology = democratic
-				long_name = "이원 내각"
-				name = "이원 내각"
+				long_name = "KOR_imperial_party_long"
+				name = "KOR_imperial_party"
 			}
 			set_party_name = {
 				ideology = fascism
-				long_name = "이원 내각"
-				name = "이원 내각"
+				long_name = "KOR_imperial_party_long"
+				name = "KOR_imperial_party"
 			}
 			set_party_name = {
 				ideology = communism
-				long_name = "이원 내각"
-				name = "이원 내각"
+				long_name = "KOR_imperial_party_long"
+				name = "KOR_imperial_party"
 			}
 			hidden_effect = {
 			
@@ -3280,23 +3280,23 @@ focus_tree = {
 				}
 				set_party_name = {
 					ideology = fascism
-					long_name = "한나라당"
-					name = "한나라당"
+					long_name = "KOR_hannara_party_long"
+					name = "KOR_hannara_party"
 				}
 				set_party_name = {
 					ideology = neutrality
-					long_name = "한나라당"
-					name = "한나라당"
+					long_name = "KOR_hannara_party_long"
+					name = "KOR_hannara_party"
 				}
 				set_party_name = {
 					ideology = democratic
-					long_name = "한나라당"
-					name = "한나라당"
+					long_name = "KOR_hannara_party_long"
+					name = "KOR_hannara_party"
 				}
 				set_party_name = {
 					ideology = communism
-					long_name = "한나라당"
-					name = "한나라당"
+					long_name = "KOR_hannara_party_long"
+					name = "KOR_hannara_party"
 				}
 }
 
@@ -3892,6 +3892,11 @@ focus_tree = {
 			date > 1939.12.19
 		}	
 		completion_reward = {
+			set_party_name = {
+				ideology = democratic
+				long_name = "KOR_tongmin_party_long"
+				name = "KOR_tongmin_party"
+			}
 				add_country_leader_role = {
 					character = KOR_moon_jaein
 					promote_leader = yes

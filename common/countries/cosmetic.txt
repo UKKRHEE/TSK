@@ -1283,3 +1283,56 @@ JDF = {
 	color = rgb { 43  173  255 }
 	color_ui = rgb { 43  173  255 }
 }
+KOR_EAU = {
+	color = rgb { 75  114  242 }
+	color_ui = rgb { 75  114  242 }
+}
+NEW_PRK  = {
+	color = rgb { 176  26  26 }
+	color_ui = rgb { 176  26  26 }
+}
+MAN_republic = {
+	color = rgb { 18 7 116 }
+	color_ui = rgb { 18 7 116 }
+}	
+MAN_republic_of_china = {
+	color = rgb { 18 7 116 }
+	color_ui = rgb { 18 7 116 }
+}	
+MEN_republic = {
+	color = rgb { 18 7 116 }
+	color_ui = rgb { 18 7 116 }
+}	
+SHX_republic = {
+	color = rgb { 18 7 116 }
+	color_ui = rgb { 18 7 116 }
+}	
+SHX_republic_of_north = {
+	color = rgb { 18 7 116 }
+	color_ui = rgb { 18 7 116 }
+}	
+GXC_republic = {
+	color = rgb { 18 7 116 }
+	color_ui = rgb { 18 7 116 }
+}	
+GXC_republic_of_south = {
+	color = rgb { 18 7 116 }
+	color_ui = rgb { 18 7 116 }
+}	
+TAI_republic = {
+	color = rgb { 18 7 116 }
+	color_ui = rgb { 18 7 116 }
+}	
+
+PRK_GORYEO = {
+	color = rgb { 201 36 140 }
+	color_ui = rgb { 201 36 140 }
+}
+PRK_GORYEO_NORTH = {
+	color = rgb { 201 36 140 }
+	color_ui = rgb { 201 36 140 }
+}	
+KOR_GORYEO_SOUTH = {
+	color = rgb { 201 36 140 }
+	color_ui = rgb { 201 36 140 }
+}	

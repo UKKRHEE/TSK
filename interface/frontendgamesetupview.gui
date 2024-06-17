@@ -40,7 +40,7 @@ guiTypes = {
 			format = centre
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "spirit_idea_entry"
 		size = { width=60 height=66 }
@@ -63,10 +63,8 @@ guiTypes = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
 			orientation = "CENTER"
-			centerPosition = yes
-			#MODDEDv
-			#scale = 0.55
-			#MODDED^
+			position = { x = -20 y = -25 }
+			scale = 0.55
 		}
 	}
 
@@ -101,6 +99,8 @@ guiTypes = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
 			orientation = "CENTER"
+			position = { x = -15 y = -25 }
+			scale = 0.55
 		}
 		
 		iconType = {

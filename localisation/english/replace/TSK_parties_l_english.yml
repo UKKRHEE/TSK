@@ -7,3 +7,29 @@
  KOR_fascism_party_long:0 "대한제국 복권파"
  KOR_neutrality_party:0 "한나라당"
  KOR_neutrality_party_long:0 "한나라당"
+ 
+ KOR_hannara_party:0 "한나라당"
+ KOR_hannara_party_long:0 "한나라당"
+ KOR_saenuri_party:0 "새누리당"
+ KOR_saenuri_party_long:0 "새누리당"
+ 
+ KOR_tongmin_party:0 "통합민주당" #2008.2.25.~2008.7.6.
+ KOR_tongmin_party_long:0 "통합민주당"
+ KOR_mintong_party:0 "민주통합당" #2011.12.16.~2013.5.4.
+ KOR_mintong_party_long:0 "민주통합당"
+ KOR_minju_party:0 "민주당" #2008.7.6.~2011.12.16., 2013.5.4.~2014.3.26.
+ KOR_minju_party_long:0 "민주당"
+ KOR_saejungchi_party:0 "새정치민주연합" #2014.3.26.~2015.12.28.
+ KOR_saejungchi_party_long:0 "새정치민주연합"
+ KOR_shimintong_party:0 "시민통합당" #2011.12.7.~2011.12.16.
+ KOR_shimintong_party_long:0 "시민통합당" #
+ 
+ 
+ KOR_goverment_party:0 "대한민국 정부"
+ KOR_goverment_party_long:0 "대한민국 정부"
+ KOR_imperial_party:0 "이원 내각"
+ KOR_imperial_party_long:0 "이원 내각"
+ KOR_imperial_institution_party:0 "황국협회"
+ KOR_imperial_institution_party_long:0 "황국협회"
+ KOR_army_party:0 "국가재건최고회의"
+ KOR_army_party_long:0 "국가재건최고회의"
