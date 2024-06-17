@@ -1008,18 +1008,19 @@ units = {
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "PRK" } }
 	}
 	
-	division = {			
-		name = "제19 방사포사단"
-		location = 10065
-		division_template = "포병사단"
-		start_experience_factor = 0.4
-	}
-	division = {			
-		name = "제52 주체 포병사단"
-		location = 10065
-		division_template = "포병사단"
-		start_experience_factor = 0.4
-	}
+	# TODO 참조값 대체 필요
+	# division = {			
+	# 	name = "제19 방사포사단"
+	# 	location = 10065
+	# 	division_template = "포병사단"
+	# 	start_experience_factor = 0.4
+	# }
+	# division = {			
+	# 	name = "제52 주체 포병사단"
+	# 	location = 10065
+	# 	division_template = "포병사단"
+	# 	start_experience_factor = 0.4
+	# }
 	
 ######################################
 ### Special Purpose Forces Command ###

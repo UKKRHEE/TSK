@@ -1,6 +1,6 @@
 ﻿capital = 970 #South Korea - Seoul or Busan
 
-oob = "1936"
+oob = "ROK_mkr"
 set_research_slots = 4
 add_offsite_building = {
 	type = arms_factory

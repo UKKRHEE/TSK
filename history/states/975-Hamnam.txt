@@ -45,7 +45,7 @@ state={
 			remove_core_of = PRK
 			add_core_of = KPA
 			owner = KPA
-			controller  KPA
+			controller = KPA
 			add_claim_by = KOR
 		}
 		1936.8.15 = {

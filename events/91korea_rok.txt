@@ -1,3 +1,4 @@
+# TODO 주석 처리한 부분 로직 추가 필요
 add_namespace = rok
 add_namespace = rok_civ
 country_event = { # 14대 대선
@@ -54,8 +55,8 @@ country_event = { # 내전끝
 	
 	option = { #알겠네
 		name = rok.2.a
-		add_ideas = chaebol
-		add_ideas = economy_close
+		# add_ideas = chaebol
+		# add_ideas = economy_close
 		add_ideas = weak_anti_sub
 		add_ideas = rok_remnants_of_the_military
 		add_ideas = mkr_irregularities_barracks
@@ -1254,8 +1255,6 @@ country_event = { #한국이 우리의 요청을 받아들이다.
 			hidden_effect = { set_technology = { light_vehicle_equipment_0 = 1 } }
 			hidden_effect = { set_technology = { light_vehicle_equipment_1 = 1 } }
 			hidden_effect = { set_technology = { light_vehicle_equipment_2 = 1 } }
-			hidden_effect = { set_technology = { light_mun_equipment = 1 } }
-			hidden_effect = { set_technology = { heavy_mun_equipment = 1 } }
 			hidden_effect = { set_technology = { engineer_equipment = 1 } }
 			hidden_effect = { set_technology = { modern_moto = 1 } }
 		}
@@ -1419,72 +1418,72 @@ country_event = { #최후통첩을 수락한 시암
 
 }
 
-country_event = { #한국이 차관을 요청하다
-	id = rok.55
-	title = rok.55.t
-	desc = rok.55.d
-	picture = GFX_two_peo_pic
+# country_event = { #한국이 차관을 요청하다
+# 	id = rok.55
+# 	title = rok.55.t
+# 	desc = rok.55.d
+# 	picture = GFX_two_peo_pic
 
-	is_triggered_only = yes
+# 	is_triggered_only = yes
 	
-	option = { #수락한다
-		name = rok.55.a
-		ai_chance = {
-			factor = 60
-		}
-		ROK = {
-			country_event = { hours = 6 id = rok.56 }
-		}
-		add_timed_idea = {
-			idea = loan_pay
-			days = 180
-		}
-		if = {	
-			limit = { 
-			original_tag = SOV
-			}
-			ai_chance = {
-				factor = 70
-			}
-			set_country_flag = bear_business_1
-		}
-		if = {	
-			limit = { 
-			original_tag = USA
-			}
-			ai_chance = {
-				factor = 15
-			}
-		}
+# 	option = { #수락한다
+# 		name = rok.55.a
+# 		ai_chance = {
+# 			factor = 60
+# 		}
+# 		ROK = {
+# 			country_event = { hours = 6 id = rok.56 }
+# 		}
+# 		add_timed_idea = {
+# 			idea = loan_pay
+# 			days = 180
+# 		}
+# 		if = {	
+# 			limit = { 
+# 			original_tag = SOV
+# 			}
+# 			ai_chance = {
+# 				factor = 70
+# 			}
+# 			set_country_flag = bear_business_1
+# 		}
+# 		if = {	
+# 			limit = { 
+# 			original_tag = USA
+# 			}
+# 			ai_chance = {
+# 				factor = 15
+# 			}
+# 		}
 		
-    }	
+#     }	
 	
-	option = { #거부한다
-		name = rok.55.b
-		ai_chance = {
-			factor = 40
-		}
-		if = {	
-			limit = { 
-			original_tag = USA
-			}
-			ai_chance = {
-				factor = 85
-			}
-		}
-		if = {	
-			limit = { 
-			original_tag = SOV
-			}
-			ai_chance = {
-				factor = 30
-			}
-		}
-		ROK = {
-			country_event = { hours = 6 id = rok.57 }
-		}
-    }	
-}
+# 	option = { #거부한다
+# 		name = rok.55.b
+# 		ai_chance = {
+# 			factor = 40
+# 		}
+# 		if = {	
+# 			limit = { 
+# 			original_tag = USA
+# 			}
+# 			ai_chance = {
+# 				factor = 85
+# 			}
+# 		}
+# 		if = {	
+# 			limit = { 
+# 			original_tag = SOV
+# 			}
+# 			ai_chance = {
+# 				factor = 30
+# 			}
+# 		}
+# 		ROK = {
+# 			country_event = { hours = 6 id = rok.57 }
+# 		}
+#     }	
+# }
 
 
 country_event = { #차관을 제공한 
@@ -1516,61 +1515,61 @@ country_event = { #차관 제공을 거부한
 }
 
 
-country_event = { #부채를 상환하다
-	id = rok.57
-	title = rok.57.t
-	desc = rok.57.d
-	picture = GFX_two_peo_pic
+# country_event = { #부채를 상환하다
+# 	id = rok.57
+# 	title = rok.57.t
+# 	desc = rok.57.d
+# 	picture = GFX_two_peo_pic
 
-	trigger = {
-		tag = ROK
-		if = {
-			limit = { 
-				NOT = {
-				has_idea = loan_1 
-				}
-				has_country_flag = lend_loan
-				has_country_flag = loan_1
-			}
-		}
-		else_if = {
-			limit = { 
-				NOT = {
-				has_idea = loan_2
-				}
-				has_country_flag = lend_loan
-				has_country_flag = loan_2
-			}
-		}
-		else_if = {
-			limit = { 
-				NOT = {
-				has_idea = loan_3
-				}
-				has_country_flag = lend_loan
-				has_country_flag = loan_3
-			}
-		}
-		else_if = {
-			limit = { 
-				NOT = {
-				has_idea = loan_4
-				}
-				has_country_flag = lend_loan
-				has_country_flag = loan_4
-			}
-		}
-		has_country_flag = economic_collapse_end
-	}
+# 	trigger = {
+# 		tag = ROK
+# 		if = {
+# 			limit = { 
+# 				NOT = {
+# 				has_idea = loan_1 
+# 				}
+# 				has_country_flag = lend_loan
+# 				has_country_flag = loan_1
+# 			}
+# 		}
+# 		else_if = {
+# 			limit = { 
+# 				NOT = {
+# 				has_idea = loan_2
+# 				}
+# 				has_country_flag = lend_loan
+# 				has_country_flag = loan_2
+# 			}
+# 		}
+# 		else_if = {
+# 			limit = { 
+# 				NOT = {
+# 				has_idea = loan_3
+# 				}
+# 				has_country_flag = lend_loan
+# 				has_country_flag = loan_3
+# 			}
+# 		}
+# 		else_if = {
+# 			limit = { 
+# 				NOT = {
+# 				has_idea = loan_4
+# 				}
+# 				has_country_flag = lend_loan
+# 				has_country_flag = loan_4
+# 			}
+# 		}
+# 		has_country_flag = economic_collapse_end
+# 	}
 
-	option = { #이런.
-		name = rok.57.a
-		add_timed_idea = {
-			idea = repayment_loan
-			days = 500
-		}
-    }	
-}
+# 	option = { #이런.
+# 		name = rok.57.a
+# 		add_timed_idea = {
+# 			idea = repayment_loan
+# 			days = 500
+# 		}
+#     }	
+# }
 
 country_event = { #불곰사업
 	id = rok.58
@@ -1603,7 +1602,7 @@ country_event = { #불곰사업
 	option = { #훌륭한 제안이군!
 		name = rok.59.a
 		ROK = {
-			country_event = { hours = 6 id = rok.60 }
+			#country_event = { hours = 6 id = rok.60 }
 		}
     }	
 
@@ -1615,35 +1614,35 @@ country_event = { #불곰사업
     }	
 }
 
-country_event = { #우리의 제안을 수락한 소비에트 연방
-	id = rok.60
-	title = rok.60.t
-	desc = rok.60.d
-	picture = GFX_T80u
+# country_event = { #우리의 제안을 수락한 소비에트 연방
+# 	id = rok.60
+# 	title = rok.60.t
+# 	desc = rok.60.d
+# 	picture = GFX_T80u
 	
-	is_triggered_only = yes
+# 	is_triggered_only = yes
 
-	option = { #훌륭하군
-		name = rok.60.a
-		SOV = { 
-			load_oob = SOV_bear 
-			add_equipment_to_stockpile = {
-				type = light_mun_equipment
-				amount = 5000
-				producer = ROK
-			}
-			add_equipment_to_stockpile = {
-				type = heavy_mun_equipment
-				amount = 2000
-				producer = ROK
-			}
-		}
-		swap_ideas = {
-			remove_idea = repayment_loan
-			add_idea = repayment_loan_1
-		}
-    }	
-}
+# 	option = { #훌륭하군
+# 		name = rok.60.a
+# 		SOV = { 
+# 			load_oob = SOV_bear 
+# 			add_equipment_to_stockpile = {
+# 				type = light_mun_equipment
+# 				amount = 5000
+# 				producer = ROK
+# 			}
+# 			add_equipment_to_stockpile = {
+# 				type = heavy_mun_equipment
+# 				amount = 2000
+# 				producer = ROK
+# 			}
+# 		}
+# 		swap_ideas = {
+# 			remove_idea = repayment_loan
+# 			add_idea = repayment_loan_1
+# 		}
+#     }	
+# }
 
 country_event = { #불곰사업을 거부한 소비에트 연방
 	id = rok.61
@@ -1723,7 +1722,8 @@ country_event = { #한국의 경제개방 보너스
 
 	option = { #좋군
 		name = rok.63.a
-		add_ideas = economy_open_bonus
+		# 
+		#add_ideas = economy_open_bonus
     }	
 }
 country_event = { #한국의 경제개방 보너스
@@ -1736,7 +1736,7 @@ country_event = { #한국의 경제개방 보너스
 
 	option = { #좋군
 		name = rok.64.a
-		add_ideas = economy_open_bonus_minor
+		#add_ideas = economy_open_bonus_minor
     }	
 }
 country_event = { #대한민국-자위대 합동훈련
