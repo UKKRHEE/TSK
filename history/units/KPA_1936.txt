@@ -267,21 +267,21 @@ units = {
 		name = "제75 경 보병 사단"
 		location = 10065
 		division_template = "경 보병 사단"
-		start_experience_factor = 0.6
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.6
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제80 경 보병 사단"
 		location = 10065
 		division_template = "경 보병 사단"
-		start_experience_factor = 0.6
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.6
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제103 전차려단"
 		location = 10065
 		division_template = "전차려단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1960_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
@@ -292,7 +292,7 @@ units = {
 		name = "제45 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -305,7 +305,7 @@ units = {
 		name = "제5 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -318,7 +318,7 @@ units = {
 		name = "제12 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -331,7 +331,7 @@ units = {
 		name = "제25 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -347,7 +347,7 @@ units = {
 		name = "제20 보병 사단"
 		location = 10065
 		division_template = "경 보병 사단"
-		start_experience_factor = 0.6
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.6
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -361,7 +361,7 @@ units = {
 		name = "제19 경 보병 사단"
 		location = 10065
 		division_template = "경 보병 사단"
-		start_experience_factor = 0.6
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.6
 		force_equipment_variants = { infantry_equipment_4 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_atgm_equipment = { owner = "KPA" } }
@@ -370,7 +370,7 @@ units = {
 		name = "제35 전차려단"
 		location = 10065
 		division_template = "전차려단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1960_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -382,7 +382,7 @@ units = {
 		name = "제28 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -395,7 +395,7 @@ units = {
 		name = "33rd 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -409,7 +409,7 @@ units = {
 		name = "제41 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -423,7 +423,7 @@ units = {
 		name = "제26 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -439,7 +439,7 @@ units = {
 		name = "제32 경 보병 사단"
 		location = 10065
 		division_template = "경 보병 사단"
-		start_experience_factor = 0.6
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.6
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
@@ -448,7 +448,7 @@ units = {
 		name = "제2 경 보병 사단"
 		location = 10065
 		division_template = "경 보병 사단"
-		start_experience_factor = 0.6
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.6
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
@@ -457,7 +457,7 @@ units = {
 		name = "제10 경 보병 사단"
 		location = 10065
 		division_template = "경 보병 사단"
-		start_experience_factor = 0.6
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.6
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
@@ -467,7 +467,7 @@ units = {
 		name = "제107 전차려단"
 		location = 10065
 		division_template = "전차려단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1960_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -479,7 +479,7 @@ units = {
 		name = "근위 서울 제3 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.7
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.7
 		force_equipment_variants = { m_1960_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -492,7 +492,7 @@ units = {
 		name = "근위 제6 보병사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.6
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.6
 		force_equipment_variants = { m_1970_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -505,7 +505,7 @@ units = {
 		name = "제8 보병사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -519,7 +519,7 @@ units = {
 		name = "제51 경 보병 사단"
 		location = 10065
 		division_template = "경 보병 사단"
-		start_experience_factor = 0.6
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.6
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -531,7 +531,7 @@ units = {
 		name = "제28 전차려단"
 		location = 10065
 		division_template = "전차려단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1960_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -543,7 +543,7 @@ units = {
 		name = "근위 김책 제2 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.7
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.7
 		force_equipment_variants = { m_1970_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -556,7 +556,7 @@ units = {
 		name = "제13 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -569,7 +569,7 @@ units = {
 		name = "제31 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -582,7 +582,7 @@ units = {
 		name = "제46 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -601,7 +601,7 @@ units = {
 		name = "제7 기계화사단"
 		location = 10065
 		division_template = "기계화사단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1970_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -613,7 +613,7 @@ units = {
 		name = "제4 기계화사단"
 		location = 10065
 		division_template = "기계화사단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1960_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -628,7 +628,7 @@ units = {
 		name = "제27 기계화사단"
 		location = 10065
 		division_template = "기계화사단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1960_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -639,7 +639,7 @@ units = {
 		name = "제45 기계화사단"
 		location = 10065
 		division_template = "기계화사단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1960_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -651,7 +651,7 @@ units = {
 		name = "제53 전차려단"
 		location = 10065
 		division_template = "전차려단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1970_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -662,7 +662,7 @@ units = {
 		name = "제3 전차려단"
 		location = 10065
 		division_template = "전차려단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1970_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -673,7 +673,7 @@ units = {
 		name = "제32 전차려단"
 		location = 10065
 		division_template = "전차려단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1970_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -684,7 +684,7 @@ units = {
 		name = "제15 기계화 려단"
 		location = 10065
 		division_template = "기계화 려단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1960_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -696,14 +696,14 @@ units = {
 		name = "제105 근위서울 류경수 전차사단"
 		location = 10065
 		division_template = "땅크사단"
-		start_experience_factor = 0.8
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.8
 		force_equipment_variants = { m_2000_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제106 전차사단"
 		location = 10065
 		division_template = "땅크사단"
-		start_experience_factor = 0.5
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.5
 		force_equipment_variants = { m_1970_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_IFV_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -721,7 +721,7 @@ units = {
 		name = "제42 전차려단"
 		location = 10065
 		division_template = "전차려단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1960_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -732,7 +732,7 @@ units = {
 		name = "제78 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -745,7 +745,7 @@ units = {
 		name = "제79 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -758,7 +758,7 @@ units = {
 		name = "제111 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -773,7 +773,7 @@ units = {
 		name = "제23 전차려단"
 		location = 10065
 		division_template = "전차려단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1960_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -784,7 +784,7 @@ units = {
 		name = "제87 경 보병 사단"
 		location = 10065
 		division_template = "경 보병 사단"
-		start_experience_factor = 0.6
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.6
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }	
 		force_equipment_variants = { m_1970_atgm_equipment = { owner = "KPA" } }
 	}
@@ -792,7 +792,7 @@ units = {
 		name = "제10 차량화 보병 사단"
 		location = 10065
 		division_template = "차량화 보병 사단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
@@ -804,7 +804,7 @@ units = {
 		name = "제20 차량화 보병 사단"
 		location = 10065
 		division_template = "차량화 보병 사단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
@@ -818,7 +818,7 @@ units = {
 		name = "제44 전차려단"
 		location = 10065
 		division_template = "전차려단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -829,7 +829,7 @@ units = {
 		name = "제59 차량화 보병 사단"
 		location = 10065
 		division_template = "차량화 보병 사단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
@@ -841,7 +841,7 @@ units = {
 		name = "제68 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -856,7 +856,7 @@ units = {
 		name = "제16 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -873,7 +873,7 @@ units = {
 		name = "제103 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1960_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -884,7 +884,7 @@ units = {
 		name = "제106 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1960_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -895,7 +895,7 @@ units = {
 		name = "제17 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.4
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.4
 		force_equipment_variants = { m_1960_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -912,7 +912,7 @@ units = {
 		name = "제78 전차려단"
 		location = 10065
 		division_template = "전차려단"
-		start_experience_factor = 0.1
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.1
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
@@ -922,7 +922,7 @@ units = {
 		name = "제99 차량화 보병 사단"
 		location = 10065
 		division_template = "차량화 보병 사단"
-		start_experience_factor = 0.1
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.1
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
@@ -934,7 +934,7 @@ units = {
 		name = "제167 차량화 보병 사단"
 		location = 10065
 		division_template = "차량화 보병 사단"
-		start_experience_factor = 0.1
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.1
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
@@ -947,7 +947,7 @@ units = {
 		name = "제47 기계화 려단"
 		location = 10083
 		division_template = "기계화 려단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_IFV_equipment = { owner = "KPA" } }
@@ -959,7 +959,7 @@ units = {
 		name = "제56 기계화 려단"
 		location = 10083
 		division_template = "기계화 려단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_IFV_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_APC_equipment = { owner = "KPA" } }
@@ -971,7 +971,7 @@ units = {
 		name = "제29 기계화 려단"
 		location = 10083
 		division_template = "기계화 려단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_IFV_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_APC_equipment = { owner = "KPA" } }
@@ -985,7 +985,7 @@ units = {
 		name = "제24 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.2
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.2
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -998,7 +998,7 @@ units = {
 		name = "제42 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.2
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.2
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -1013,7 +1013,7 @@ units = {
 		name = "제183 보병 사단"
 		location = 10065
 		division_template = "보병 사단"
-		start_experience_factor = 0.2
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.2
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -1028,7 +1028,7 @@ units = {
 		name = "제143 보병 사단"
 		location = 6963
 		division_template = "보병 사단"
-		start_experience_factor = 0.2
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.2
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -1043,7 +1043,7 @@ units = {
 		name = "제66 기계화사단"
 		location = 10065
 		division_template = "기계화사단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -1055,7 +1055,7 @@ units = {
 		name = "제109 기계화사단"
 		location = 10065
 		division_template = "기계화사단"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.3
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -1069,7 +1069,7 @@ units = {
 		name = "제231 기계화사단"
 		location = 10065
 		division_template = "기계화사단"
-		start_experience_factor = 0.2
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.2
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -1081,7 +1081,7 @@ units = {
 		name = "제184 기계화사단"
 		location = 10065
 		division_template = "기계화사단"
-		start_experience_factor = 0.2
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.2
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
@@ -1101,14 +1101,14 @@ units = {
 		name = "제1 해상저격대"
 		location = 10065
 		division_template = "해상저격대"
-		start_experience_factor = 0.7
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.7
 		
 	}
 	division = {			
 		name = "제12 해상저격대"
 		location = 10065
 		division_template = "해상저격대"
-		start_experience_factor = 0.7
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.7
 		
 	}
 	
@@ -1117,35 +1117,35 @@ units = {
 		name = "제13 항공륙전대"
 		location = 10065
 		division_template = "항공륙전대"
-		start_experience_factor = 0.8
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.8
 		
 	}
 	division = {			
 		name = "제17 항공륙전대"
 		location = 10065
 		division_template = "항공륙전대"
-		start_experience_factor = 0.8
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.8
 		
 	}
 	division = {			
 		name = "제22 항공륙전대"
 		location = 10065
 		division_template = "항공륙전대"
-		start_experience_factor = 0.8
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.8
 		
 	}
 	division = {			
 		name = "제19 항공륙전대"
 		location = 10065
 		division_template = "항공륙전대"
-		start_experience_factor = 0.8
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.8
 		
 	}
 	division = {			
 		name = "제6 항공륙전대"
 		location = 10065
 		division_template = "항공륙전대"
-		start_experience_factor = 0.8
+		start_equipment_factor = 0.36 start_experience_factor = 0 #0.8
 		
 	}
 }
