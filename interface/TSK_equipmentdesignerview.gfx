@@ -1,0 +1,17 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_SD_tv_modern_DDG"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_ddg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SD_tv_DDH"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_DDH_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SD_tv_PCC"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_ship_hull_light_3.dds"
+	}
+}
