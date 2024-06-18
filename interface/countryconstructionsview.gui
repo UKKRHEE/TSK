@@ -330,7 +330,7 @@ guiTypes = {
 
 			iconType = {
 				name = "constructions_bg3"
-				position = { x = 0 y = 380 }
+				position = { x = 0 y = 38000 }
 				quadTextureSprite = "GFX_constructions_bg1"
 			}
 
