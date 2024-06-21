@@ -535,80 +535,80 @@ ideas = {
 	}
 
 	
-	political_advisor = {
+	# political_advisor = {
 	
-		rok_lee_hoi_chang = { #이회창 (국무총리)
+	# 	rok_lee_hoi_chang = { #이회창 (국무총리)
 
 			
-			allowed = {
-				original_tag = ROK
-			}
+	# 		allowed = {
+	# 			original_tag = ROK
+	# 		}
 			
-			traits = { }
-		}
-		rok_choi_hyung = { #최형우 (내무부 장관)
+	# 		traits = { }
+	# 	}
+	# 	rok_choi_hyung = { #최형우 (내무부 장관)
 
 			
-			allowed = {
-				original_tag = ROK
-			}
+	# 		allowed = {
+	# 			original_tag = ROK
+	# 		}
 			
-			traits = { }
+	# 		traits = { }
 
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		rok_hong_jae = { #홍재형 (재무부 장관)
-
-			
-			allowed = {
-				original_tag = ROK
-			}
-			
-			traits = { }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		rok_chu_kyung = { #추경석 (건설교통부 장관)
+	# 		ai_will_do = {
+	# 			factor = 1
+	# 		}
+	# 	}
+	# 	rok_hong_jae = { #홍재형 (재무부 장관)
 
 			
-			allowed = {
-				original_tag = ROK
-			}
+	# 		allowed = {
+	# 			original_tag = ROK
+	# 		}
 			
-			traits = { communist_revolutionary }
+	# 		traits = { }
+
+	# 		ai_will_do = {
+	# 			factor = 1
+	# 		}
+	# 	}
+
+	# 	rok_chu_kyung = { #추경석 (건설교통부 장관)
+
 			
-			ai_will_do = {
-				factor = 0
-			}
-		}	
+	# 		allowed = {
+	# 			original_tag = ROK
+	# 		}
+			
+	# 		traits = { communist_revolutionary }
+			
+	# 		ai_will_do = {
+	# 			factor = 0
+	# 		}
+	# 	}	
 		
-		rok_chung_geun_mo = { #정근모 (과학기술처 장관)
+	# 	rok_chung_geun_mo = { #정근모 (과학기술처 장관)
 			
-			allowed = {
-				original_tag = ROK
-			}
+	# 		allowed = {
+	# 			original_tag = ROK
+	# 		}
 			
-			traits = { }
+	# 		traits = { }
 
-			ai_will_do = {
-				factor = 0.5
-			}
-		}
+	# 		ai_will_do = {
+	# 			factor = 0.5
+	# 		}
+	# 	}
 		
-		rok_lee_ghun = { #이건희 (삼성그룹회장)
+	# 	rok_lee_ghun = { #이건희 (삼성그룹회장)
 			
-			allowed = {
-				original_tag = ROK
-			}
+	# 		allowed = {
+	# 			original_tag = ROK
+	# 		}
 			
-			traits = { }
-		}
-	}
+	# 		traits = { }
+	# 	}
+	# }
 	
 	tank_manufacturer = { 
 		

@@ -8,8 +8,8 @@ objectTypes = {
 		name = "future_mechanized_vec1_mesh"
 		file = "gfx/models/units/vehicles/z_future_mechanazied.mesh"
 		
-		animation = { id = "idle"			type = "generic_mechanized_01_idle_animation" }
-		animation = { id = "move"			type = "generic_mechanized_01_move_animation" }
+		animation = { id = "idle"			type = "US_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "US_mechanized_01_move_animation" }
 		animation = { id = "attack"			type = "SOV_mechanized_01_move_animation" }
 	}
 }

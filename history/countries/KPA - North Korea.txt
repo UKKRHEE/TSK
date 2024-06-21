@@ -190,7 +190,7 @@ set_technology = {
 	nukes = 1
 	hydrogen_nukes = 1
 	
-	heavy_mlrs_equipment_1 = 1
+	# heavy_mlrs_equipment_1 = 1
 	
 	modern_light_battery_1 = 1
 	ship_missile_luncher_1 = 1
@@ -220,7 +220,7 @@ add_ideas = {
 	#laws
 	all_adults_serve
 	tot_economic_mobilisation
-	korean_war
+	#korean_war
 	closed_economy
     KOR_modern_millitary
 	KPA_chinese_leaders_attack

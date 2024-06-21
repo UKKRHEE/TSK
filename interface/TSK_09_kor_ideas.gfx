@@ -86,10 +86,10 @@ spriteTypes = {
 		name = "GFX_idea_chung_kyungdoo"
 		texturefile = "gfx/interface/ideas/ADVISOR/정경두.png"
 	}
-	spriteType = {
-		name = "GFX_idea_choi_chakyu"
-		texturefile = "gfx/interface/ideas/ADVISOR/최창규.png"
-	}
+	# spriteType = {
+	# 	name = "GFX_idea_choi_chakyu"
+	# 	texturefile = "gfx/interface/ideas/ADVISOR/최창규.png"
+	# }
 	spriteType = {
 		name = "GFX_idea_choi_yunhoi"
 		texturefile = "gfx/interface/ideas/ADVISOR/최윤회.png"

@@ -13,8 +13,6 @@ left_right_joint_movement_decision_category = {
 		visible = {
 			has_completed_focus = prk_left_right_joint_movement
 		}		
-
-		is_good = yes
 		
 		modifier = {
 			communism_drift = -0.01
@@ -43,8 +41,6 @@ left_right_joint_movement_decision_category = {
 			has_completed_focus = prk_left_right_joint_movement
 		}		
 
-		is_good = yes
-		
 		modifier = {
 			communism_drift = -0.01
 			democratic_drift = 0.01
@@ -73,8 +69,6 @@ left_right_joint_movement_decision_category = {
 			has_completed_focus = prk_left_right_joint_movement
 		}		
 
-		is_good = yes
-		
 		modifier = {
 			communism_drift = 0.01
 			democratic_drift = 0.01

@@ -71,10 +71,10 @@ spriteTypes = {
 		name = "GFX_MKR_support_infantry_equipment_3_medium"
 		texturefile = "gfx/interface/technologies/infantry/KOR_support_infantry_equipment_3.dds"
 	}
-	SpriteType = {
-		name = "GFX_MKR_support_infantry_equipment_4_medium"
-		texturefile = "gfx/interface/technologies/infantry/KOR_support_infantry_equipment_4.dds"
-	}
+	# SpriteType = {
+	# 	name = "GFX_MKR_support_infantry_equipment_4_medium"
+	# 	texturefile = "gfx/interface/technologies/infantry/KOR_support_infantry_equipment_4.dds"
+	# }
 	
  ################################################################################
  ######전차
@@ -138,14 +138,14 @@ spriteTypes = {
 		name = "GFX_MKR_m_1980_mlrs_equipment_medium"
 		texturefile = "gfx/interface/technologies/art/kor_1980_mlrs.dds"
 	}
-	SpriteType = {
-		name = "GFX_MKR_m_1990_mlrs_equipment_medium"
-		texturefile = "gfx/interface/technologies/art/usf_1990_mlrs.png"
-	}
-	SpriteType = {
-		name = "GFX_MKR_m_2000_mlrs_equipment_medium"
-		texturefile = "gfx/interface/technologies/art/kor_2000_mlrs.png"
-	}
+	# SpriteType = {
+	# 	name = "GFX_MKR_m_1990_mlrs_equipment_medium"
+	# 	texturefile = "gfx/interface/technologies/art/usf_1990_mlrs.png"
+	# }
+	# SpriteType = {
+	# 	name = "GFX_MKR_m_2000_mlrs_equipment_medium"
+	# 	texturefile = "gfx/interface/technologies/art/kor_2000_mlrs.png"
+	# }
  ################################################################################
  ######APC
  ################################################################################
@@ -175,22 +175,22 @@ spriteTypes = {
  ################################################################################
  ######IFV
  ################################################################################
-	SpriteType = {
-		name = "GFX_MKR_m_1970_IFV_equipment_medium"
-		texturefile = "gfx/interface/technologies/ifv/kor_1970_ifv.png"
-	}
-	SpriteType = {
-		name = "GFX_MKR_m_1980_IFV_equipment_medium"
-		texturefile = "gfx/interface/technologies/ifv/kor_1980_ifv.png"
-	}
-	SpriteType = {
-		name = "GFX_MKR_m_1990_IFV_equipment_medium"
-		texturefile = "gfx/interface/technologies/ifv/kor_1990_ifv.png"
-	}
-	SpriteType = {
-		name = "GFX_MKR_m_2000_IFV_equipment_medium"
-		texturefile = "gfx/interface/technologies/ifv/kor_2000_ifv.png"
-	}
+	# SpriteType = {
+	# 	name = "GFX_MKR_m_1970_IFV_equipment_medium"
+	# 	texturefile = "gfx/interface/technologies/ifv/kor_1970_ifv.png"
+	# }
+	# SpriteType = {
+	# 	name = "GFX_MKR_m_1980_IFV_equipment_medium"
+	# 	texturefile = "gfx/interface/technologies/ifv/kor_1980_ifv.png"
+	# }
+	# SpriteType = {
+	# 	name = "GFX_MKR_m_1990_IFV_equipment_medium"
+	# 	texturefile = "gfx/interface/technologies/ifv/kor_1990_ifv.png"
+	# }
+	# SpriteType = {
+	# 	name = "GFX_MKR_m_2000_IFV_equipment_medium"
+	# 	texturefile = "gfx/interface/technologies/ifv/kor_2000_ifv.png"
+	# }
 	
 	SpriteType = {
 		name = "GFX_RU1_m_1990_IFV_equipment_medium"
@@ -236,14 +236,14 @@ spriteTypes = {
 		name = "GFX_MKR_m_1990_sp_equipment_medium"
 		texturefile = "gfx/interface/technologies/spg/kor_1990_sp.dds"
 	}
-	SpriteType = {
-		name = "GFX_MKR_m_2000_sp_equipment_medium"
-		texturefile = "gfx/interface/technologies/spg/kor_2000_sp.png"
-	}
-	SpriteType = {
-		name = "GFX_MKR_m_2010_sp_equipment_medium"
-		texturefile = "gfx/interface/technologies/spg/kor_2010_sp.png"
-	}
+	# SpriteType = {
+	# 	name = "GFX_MKR_m_2000_sp_equipment_medium"
+	# 	texturefile = "gfx/interface/technologies/spg/kor_2000_sp.png"
+	# }
+	# SpriteType = {
+	# 	name = "GFX_MKR_m_2010_sp_equipment_medium"
+	# 	texturefile = "gfx/interface/technologies/spg/kor_2010_sp.png"
+	# }
 	
  ################################################################################
  ######대공포
@@ -371,10 +371,10 @@ spriteTypes = {
 		name = "GFX_MKR_m_2000_jet_multirole_equipment_medium"
 		texturefile = "gfx/interface/technologies/planes/kor_2000_jet_multirole.png"
 	}
-	SpriteType = {
-		name = "GFX_MKR_m_2010_jet_multirole_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/kor_2010_jet_multirole.png"
-	}
+	# SpriteType = {
+	# 	name = "GFX_MKR_m_2010_jet_multirole_equipment_medium"
+	# 	texturefile = "gfx/interface/technologies/planes/kor_2010_jet_multirole.png"
+	# }
 	
 	
  ################################################################################
@@ -384,26 +384,26 @@ spriteTypes = {
 		name = "GFX_MKR_m_1970_jet_CAS_equipment_medium"
 		texturefile = "gfx/interface/technologies/planes/kor_1970_CAS.dds"
 	}
-	SpriteType = {
-		name = "GFX_MKR_m_1980_jet_CAS_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/kor_1980_CAS.dds"
-	}
-	SpriteType = {
-		name = "GFX_MKR_m_1990_jet_CAS_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/kor_1990_CAS.dds"
-	}
-	SpriteType = {
-		name = "GFX_MKR_m_2010_jet_CAS_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/kor_2010_CAS.dds"
-	}
-	SpriteType = {
-		name = "GFX_GER_1970_attack_helicopter_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/1970_attack_helicopter.dds"
-	}		
-	SpriteType = {
-		name = "GFX_GER_1970_util_helicopter_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/1970_util_helicopter.dds"
-	}	
+	# SpriteType = {
+	# 	name = "GFX_MKR_m_1980_jet_CAS_equipment_medium"
+	# 	texturefile = "gfx/interface/technologies/planes/kor_1980_CAS.dds"
+	# }
+	# SpriteType = {
+	# 	name = "GFX_MKR_m_1990_jet_CAS_equipment_medium"
+	# 	texturefile = "gfx/interface/technologies/planes/kor_1990_CAS.dds"
+	# }
+	# SpriteType = {
+	# 	name = "GFX_MKR_m_2010_jet_CAS_equipment_medium"
+	# 	texturefile = "gfx/interface/technologies/planes/kor_2010_CAS.dds"
+	# }
+	# SpriteType = {
+	# 	name = "GFX_GER_1970_attack_helicopter_equipment_medium"
+	# 	texturefile = "gfx/interface/technologies/planes/1970_attack_helicopter.dds"
+	# }		
+	# SpriteType = {
+	# 	name = "GFX_GER_1970_util_helicopter_equipment_medium"
+	# 	texturefile = "gfx/interface/technologies/planes/1970_util_helicopter.dds"
+	# }	
 	SpriteType = {
 		name = "GFX_GER_2000_jet_multirole_equipment_medium"
 		texturefile = "gfx/interface/technologies/planes/2000_jet_multirole.dds"
@@ -432,10 +432,10 @@ spriteTypes = {
 		name = "GFX_MKR_ship_hull_PK_1_medium"
 		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_1.png"
 	}
-    SpriteType = {
-		name = "GFX_MKR_ship_hull_PK_2_medium"
-		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_2.png"
-	}
+    # SpriteType = {
+	# 	name = "GFX_MKR_ship_hull_PK_2_medium"
+	# 	texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_2.png"
+	# }
     SpriteType = {
 		name = "GFX_MKR_ship_hull_PK_2_medium"
 		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_3.png"
@@ -461,14 +461,14 @@ spriteTypes = {
 		name = "GFX_MKR_ship_hull_modern_submarine_4_medium"
 		texturefile = "gfx/interface/technologies/navy/KOR_sub_4.png"
 	}
-    SpriteType = {
-		name = "GFX_MKR_ship_hull_modern_submarine_5_medium"
-		texturefile = "gfx/interface/technologies/navy/KOR_sub_5.png"
-	}
-    SpriteType = {
-		name = "GFX_MKR_ship_hull_modern_submarine_6_medium"
-		texturefile = "gfx/interface/technologies/navy/KOR_sub_6.png"
-	}
+    # SpriteType = {
+	# 	name = "GFX_MKR_ship_hull_modern_submarine_5_medium"
+	# 	texturefile = "gfx/interface/technologies/navy/KOR_sub_5.png"
+	# }
+    # SpriteType = {
+	# 	name = "GFX_MKR_ship_hull_modern_submarine_6_medium"
+	# 	texturefile = "gfx/interface/technologies/navy/KOR_sub_6.png"
+	# }
 	
 	
     SpriteType = {
@@ -495,10 +495,10 @@ spriteTypes = {
 		name = "GFX_MKR_pk_1_medium"
 		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_1.png"
 	}
-    SpriteType = {
-		name = "GFX_MKR_pk_2_medium"
-		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_2.png"
-	}
+    # SpriteType = {
+	# 	name = "GFX_MKR_pk_2_medium"
+	# 	texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_2.png"
+	# }
     SpriteType = {
 		name = "GFX_MKR_pk_3_medium"
 		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_3.png"
@@ -524,14 +524,14 @@ spriteTypes = {
 		name = "GFX_MKR_ss_4_medium"
 		texturefile = "gfx/interface/technologies/navy/KOR_sub_4.png"
 	}
-    SpriteType = {
-		name = "GFX_MKR_ss_5_medium"
-		texturefile = "gfx/interface/technologies/navy/KOR_sub_5.png"
-	}
-    SpriteType = {
-		name = "GFX_MKR_ss_6_medium"
-		texturefile = "gfx/interface/technologies/navy/KOR_sub_6.png"
-	}
+    # SpriteType = {
+	# 	name = "GFX_MKR_ss_5_medium"
+	# 	texturefile = "gfx/interface/technologies/navy/KOR_sub_5.png"
+	# }
+    # SpriteType = {
+	# 	name = "GFX_MKR_ss_6_medium"
+	# 	texturefile = "gfx/interface/technologies/navy/KOR_sub_6.png"
+	# }
 	
 	
 	SpriteType = {

@@ -415,7 +415,7 @@ recruit_character = KOR_kim_chang_kyu
 recruit_character = KOR_yoon_jeong_sang
 
 load_focus_tree = new_rok_focus
-complete_national_focus = TSK_loading_focus
+#complete_national_focus = TSK_loading_focus
 	
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

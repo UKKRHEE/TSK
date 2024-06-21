@@ -3,25 +3,25 @@ spriteTypes = {
  ######경차량
  ################################################################################
  
-	SpriteType = {
-		name = "GFX_light_vehicle_equipment_0_medium"
-		texturefile = "gfx/interface/technologies/경차량0.png"
-	}
-	SpriteType = {
-		name = "GFX_light_vehicle_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/경차량1.png"
-	}
-	SpriteType = {
-		name = "GFX_light_vehicle_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/경차량2.png"
-	}
+	# SpriteType = {
+	# 	name = "GFX_light_vehicle_equipment_0_medium"
+	# 	texturefile = "gfx/interface/technologies/경차량0.png"
+	# }
+	# SpriteType = {
+	# 	name = "GFX_light_vehicle_equipment_1_medium"
+	# 	texturefile = "gfx/interface/technologies/경차량1.png"
+	# }
+	# SpriteType = {
+	# 	name = "GFX_light_vehicle_equipment_2_medium"
+	# 	texturefile = "gfx/interface/technologies/경차량2.png"
+	# }
 	
-	### South GERea ###
+	# ### South GERea ###
 	
-	SpriteType = {
-		name = "GFX_modern_motorized_equipment_medium"
-		texturefile = "gfx/interface/technologies/motorized_equipment_1.png"
-	}
+	# SpriteType = {
+	# 	name = "GFX_modern_motorized_equipment_medium"
+	# 	texturefile = "gfx/interface/technologies/motorized_equipment_1.png"
+	# }
  ################################################################################
  ######보병장비
  ################################################################################
@@ -35,205 +35,205 @@ spriteTypes = {
  ######지원화기
  ################################################################################
 
-	SpriteType = {
-		name = "GFX_RD_support_infantry_equipment_medium"
-		texturefile = "gfx/interface/technologies/infantry/support_infantry_equipment_0.png"
-	}
+# 	SpriteType = {
+# 		name = "GFX_RD_support_infantry_equipment_medium"
+# 		texturefile = "gfx/interface/technologies/infantry/support_infantry_equipment_0.png"
+# 	}
 	
- ################################################################################
- ######전차
- ################################################################################
+#  ################################################################################
+#  ######전차
+#  ################################################################################
  
-	SpriteType = {
-		name = "GFX_RD_m_1980_mbt_medium"
-		texturefile = "gfx/interface/technologies/tank/mbt.png"
-	}
+# 	SpriteType = {
+# 		name = "GFX_RD_m_1980_mbt_medium"
+# 		texturefile = "gfx/interface/technologies/tank/mbt.png"
+# 	}
 
 	
- ################################################################################
- ######APC
- ################################################################################
-	SpriteType = {
-		name = "GFX_RD_m_1980_APC_equipment_medium"
-		texturefile = "gfx/interface/technologies/apc/1980_apc.png"
-	}
+#  ################################################################################
+#  ######APC
+#  ################################################################################
+# 	SpriteType = {
+# 		name = "GFX_RD_m_1980_APC_equipment_medium"
+# 		texturefile = "gfx/interface/technologies/apc/1980_apc.png"
+# 	}
 
- ################################################################################
- ######IFV
- ################################################################################
-	SpriteType = {
-		name = "GFX_RD_m_1980_IFV_equipment_medium"
-		texturefile = "gfx/interface/technologies/ifv/1980_IFV.png"
-	}
+#  ################################################################################
+#  ######IFV
+#  ################################################################################
+# 	SpriteType = {
+# 		name = "GFX_RD_m_1980_IFV_equipment_medium"
+# 		texturefile = "gfx/interface/technologies/ifv/1980_IFV.png"
+# 	}
 	
- ################################################################################
- ######대공자주포
- ################################################################################
-	SpriteType = {
-		name = "GFX_RD_m_1980_spaa_equipment_medium"
-		texturefile = "gfx/interface/technologies/spg/1980_spaa.png"
-	}
+#  ################################################################################
+#  ######대공자주포
+#  ################################################################################
+# 	SpriteType = {
+# 		name = "GFX_RD_m_1980_spaa_equipment_medium"
+# 		texturefile = "gfx/interface/technologies/spg/1980_spaa.png"
+# 	}
 	
- ################################################################################
- ######자주포
- ################################################################################
-	SpriteType = {
-		name = "GFX_RD_m_1980_sp_equipment_medium"
-		texturefile = "gfx/interface/technologies/spg/1980_sp.png"
-	}
+#  ################################################################################
+#  ######자주포
+#  ################################################################################
+# 	SpriteType = {
+# 		name = "GFX_RD_m_1980_sp_equipment_medium"
+# 		texturefile = "gfx/interface/technologies/spg/1980_sp.png"
+# 	}
 	
- ################################################################################
- ######대공포
- ################################################################################
-	SpriteType = {
-		name = "GFX_heavy_anti_air_eq_medium"
-		texturefile = "gfx/interface/technologies/aa/heavy_anti_air.png"
-	}
-	SpriteType = {
-		name = "GFX_aa_missile_medium"
-		texturefile = "gfx/interface/technologies/aa/aa_missile.png"
-	}
+#  ################################################################################
+#  ######대공포
+#  ################################################################################
+# 	SpriteType = {
+# 		name = "GFX_heavy_anti_air_eq_medium"
+# 		texturefile = "gfx/interface/technologies/aa/heavy_anti_air.png"
+# 	}
+# 	SpriteType = {
+# 		name = "GFX_aa_missile_medium"
+# 		texturefile = "gfx/interface/technologies/aa/aa_missile.png"
+# 	}
 	
- ################################################################################
- ######제공기
- ################################################################################
-	SpriteType = {
-		name = "GFX_RD_m_1990_jet_fighter_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/1990_fighter.png"
-	}
+#  ################################################################################
+#  ######제공기
+#  ################################################################################
+# 	SpriteType = {
+# 		name = "GFX_RD_m_1990_jet_fighter_equipment_medium"
+# 		texturefile = "gfx/interface/technologies/planes/1990_fighter.png"
+# 	}
 	
- ################################################################################
- ######멀티롤
- ################################################################################
-	SpriteType = {
-		name = "GFX_RD_m_1970_jet_multirole_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/1980_multirole.png"
-	}
-	
-	
- ################################################################################
- ######CAS
- ################################################################################
-	SpriteType = {
-		name = "GFX_m_1970_jet_CAS_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/1970_CAS.png"
-	}
-	SpriteType = {
-		name = "GFX_m_1980_jet_CAS_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/1980_CAS.png"
-	}
-	SpriteType = {
-		name = "GFX_m_1990_jet_CAS_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/1990_CAS.png"
-	}
-	SpriteType = {
-		name = "GFX_m_2010_jet_CAS_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/2010_CAS.png"
-	}
-	
-	SpriteType = {
-		name = "GFX_2000_jet_multirole_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/2000_jet_multirole.png"
-	}	
-    SpriteType = {
-		name = "GFX_JDF_ship_hull_modern_DDG_1_medium"
-		texturefile = "gfx/interface/technologies/navy/JDF_ship_hull_DDG_1.png"
-	}
-    SpriteType = {
-		name = "GFX_JDF_ship_hull_modern_DDH_1_medium"
-		texturefile = "gfx/interface/technologies/navy/JDF_ship_hull_DDH_1.png"
-	}
-    SpriteType = {
-		name = "GFX_JDF_ship_hull_modern_DDH_2_medium"
-		texturefile = "gfx/interface/technologies/navy/JDF_ship_hull_DDH_2.png"
-	}
-	
-    SpriteType = {
-		name = "GFX_JDF_ddg_1_medium"
-		texturefile = "gfx/interface/technologies/navy/JDF_ship_hull_DDG_1.png"
-	}
-    SpriteType = {
-		name = "GFX_JDF_ddh_1_medium"
-		texturefile = "gfx/interface/technologies/navy/JDF_ship_hull_DDH_1.png"
-	}
-    SpriteType = {
-		name = "GFX_JDF_ddh_2_medium"
-		texturefile = "gfx/interface/technologies/navy/JDF_ship_hull_DDH_2.png"
-	}
+#  ################################################################################
+#  ######멀티롤
+#  ################################################################################
+# 	SpriteType = {
+# 		name = "GFX_RD_m_1970_jet_multirole_equipment_medium"
+# 		texturefile = "gfx/interface/technologies/planes/1980_multirole.png"
+# 	}
 	
 	
-    SpriteType = {
-		name = "GFX_ship_hull_PCC_1_medium"
-		texturefile = "gfx/interface/technologies/navy/ship_hull_PCC_1.png"
-	}
-    SpriteType = {
-		name = "GFX_ship_hull_PCC_2_medium"
-		texturefile = "gfx/interface/technologies/navy/ship_hull_PCC_2.png"
-	}
-    SpriteType = {
-		name = "GFX_ship_hull_FF_1_medium"
-		texturefile = "gfx/interface/technologies/navy/ship_hull_FF_1.png"
-	}
-    SpriteType = {
-		name = "GFX_ship_hull_PK_1_medium"
-		texturefile = "gfx/interface/technologies/navy/ship_hull_PK_1.png"
-	}
+#  ################################################################################
+#  ######CAS
+#  ################################################################################
+# 	SpriteType = {
+# 		name = "GFX_m_1970_jet_CAS_equipment_medium"
+# 		texturefile = "gfx/interface/technologies/planes/1970_CAS.png"
+# 	}
+# 	SpriteType = {
+# 		name = "GFX_m_1980_jet_CAS_equipment_medium"
+# 		texturefile = "gfx/interface/technologies/planes/1980_CAS.png"
+# 	}
+# 	SpriteType = {
+# 		name = "GFX_m_1990_jet_CAS_equipment_medium"
+# 		texturefile = "gfx/interface/technologies/planes/1990_CAS.png"
+# 	}
+# 	SpriteType = {
+# 		name = "GFX_m_2010_jet_CAS_equipment_medium"
+# 		texturefile = "gfx/interface/technologies/planes/2010_CAS.png"
+# 	}
 	
-    SpriteType = {
-		name = "GFX_pcc_1_medium"
-		texturefile = "gfx/interface/technologies/navy/ship_hull_PCC_1.png"
-	}
-    SpriteType = {
-		name = "GFX_pcc_2_medium"
-		texturefile = "gfx/interface/technologies/navy/ship_hull_PCC_2.png"
-	}
-    SpriteType = {
-		name = "GFX_ff_1_medium"
-		texturefile = "gfx/interface/technologies/navy/ship_hull_FF_1.png"
-	}
-    SpriteType = {
-		name = "GFX_pk_1_medium"
-		texturefile = "gfx/interface/technologies/navy/ship_hull_PK_1.png"
-	}
+# 	SpriteType = {
+# 		name = "GFX_2000_jet_multirole_equipment_medium"
+# 		texturefile = "gfx/interface/technologies/planes/2000_jet_multirole.png"
+# 	}	
+#     SpriteType = {
+# 		name = "GFX_JDF_ship_hull_modern_DDG_1_medium"
+# 		texturefile = "gfx/interface/technologies/navy/JDF_ship_hull_DDG_1.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_JDF_ship_hull_modern_DDH_1_medium"
+# 		texturefile = "gfx/interface/technologies/navy/JDF_ship_hull_DDH_1.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_JDF_ship_hull_modern_DDH_2_medium"
+# 		texturefile = "gfx/interface/technologies/navy/JDF_ship_hull_DDH_2.png"
+# 	}
 	
-    SpriteType = {
-		name = "GFX_ship_hull_modern_submarine_3_medium"
-		texturefile = "gfx/interface/technologies/navy/sub_3.png"
-	}
-    SpriteType = {
-		name = "GFX_ship_hull_modern_submarine_4_medium"
-		texturefile = "gfx/interface/technologies/navy/sub_4.png"
-	}
-    SpriteType = {
-		name = "GFX_ship_hull_modern_submarine_5_medium"
-		texturefile = "gfx/interface/technologies/navy/sub_5.png"
-	}
-    SpriteType = {
-		name = "GFX_ship_hull_modern_submarine_6_medium"
-		texturefile = "gfx/interface/technologies/navy/sub_6.png"
-	}
+#     SpriteType = {
+# 		name = "GFX_JDF_ddg_1_medium"
+# 		texturefile = "gfx/interface/technologies/navy/JDF_ship_hull_DDG_1.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_JDF_ddh_1_medium"
+# 		texturefile = "gfx/interface/technologies/navy/JDF_ship_hull_DDH_1.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_JDF_ddh_2_medium"
+# 		texturefile = "gfx/interface/technologies/navy/JDF_ship_hull_DDH_2.png"
+# 	}
 	
-    SpriteType = {
-		name = "GFX_ss_3_medium"
-		texturefile = "gfx/interface/technologies/navy/sub_3.png"
-	}
-    SpriteType = {
-		name = "GFX_ss_4_medium"
-		texturefile = "gfx/interface/technologies/navy/sub_4.png"
-	}
-    SpriteType = {
-		name = "GFX_ss_5_medium"
-		texturefile = "gfx/interface/technologies/navy/sub_5.png"
-	}
-    SpriteType = {
-		name = "GFX_ss_6_medium"
-		texturefile = "gfx/interface/technologies/navy/sub_6.png"
-	}
 	
-	SpriteType = {
-		name = "GFX_Vertical_maneuvering_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/infantry/입체기동장치.png"
-	}
+#     SpriteType = {
+# 		name = "GFX_ship_hull_PCC_1_medium"
+# 		texturefile = "gfx/interface/technologies/navy/ship_hull_PCC_1.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_ship_hull_PCC_2_medium"
+# 		texturefile = "gfx/interface/technologies/navy/ship_hull_PCC_2.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_ship_hull_FF_1_medium"
+# 		texturefile = "gfx/interface/technologies/navy/ship_hull_FF_1.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_ship_hull_PK_1_medium"
+# 		texturefile = "gfx/interface/technologies/navy/ship_hull_PK_1.png"
+# 	}
+	
+#     SpriteType = {
+# 		name = "GFX_pcc_1_medium"
+# 		texturefile = "gfx/interface/technologies/navy/ship_hull_PCC_1.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_pcc_2_medium"
+# 		texturefile = "gfx/interface/technologies/navy/ship_hull_PCC_2.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_ff_1_medium"
+# 		texturefile = "gfx/interface/technologies/navy/ship_hull_FF_1.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_pk_1_medium"
+# 		texturefile = "gfx/interface/technologies/navy/ship_hull_PK_1.png"
+# 	}
+	
+#     SpriteType = {
+# 		name = "GFX_ship_hull_modern_submarine_3_medium"
+# 		texturefile = "gfx/interface/technologies/navy/sub_3.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_ship_hull_modern_submarine_4_medium"
+# 		texturefile = "gfx/interface/technologies/navy/sub_4.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_ship_hull_modern_submarine_5_medium"
+# 		texturefile = "gfx/interface/technologies/navy/sub_5.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_ship_hull_modern_submarine_6_medium"
+# 		texturefile = "gfx/interface/technologies/navy/sub_6.png"
+# 	}
+	
+#     SpriteType = {
+# 		name = "GFX_ss_3_medium"
+# 		texturefile = "gfx/interface/technologies/navy/sub_3.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_ss_4_medium"
+# 		texturefile = "gfx/interface/technologies/navy/sub_4.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_ss_5_medium"
+# 		texturefile = "gfx/interface/technologies/navy/sub_5.png"
+# 	}
+#     SpriteType = {
+# 		name = "GFX_ss_6_medium"
+# 		texturefile = "gfx/interface/technologies/navy/sub_6.png"
+# 	}
+	
+# 	SpriteType = {
+# 		name = "GFX_Vertical_maneuvering_equipment_1_medium"
+# 		texturefile = "gfx/interface/technologies/infantry/입체기동장치.png"
+# 	}
 	SpriteType = {
 		name = "GFX_engineer_equipment_0_medium"
 		texturefile = "gfx/interface/technologies/infantry/공병장비.png"

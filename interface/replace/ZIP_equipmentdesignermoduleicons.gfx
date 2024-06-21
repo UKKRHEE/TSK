@@ -36,10 +36,10 @@ spriteTypes = {
 		name = "GFX_SMI_ship_aegis_radar_2"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_radar_aegis_icn_2.dds"
 	}
-	spriteType = {
-		name = "GFX_SMI_ship_ciws"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_aa_ciws_icn.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_SMI_ship_ciws"
+	# 	textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_aa_ciws_icn.dds"
+	# }
 	spriteType = {
 		name = "GFX_SMI_ship_ciws_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_anti_air_icn_1.dds"

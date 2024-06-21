@@ -7,7 +7,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "JDF_tank_medium_mesh"
-		file = "gfx/models/units/tanks/JDF_Type90.mesh"
+		file = "gfx/models/units/tanks/Type_74MBT.mesh"
 		scale = 0.5
 	}	
 }

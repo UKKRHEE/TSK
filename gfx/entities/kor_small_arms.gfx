@@ -29,7 +29,7 @@ objectTypes = {
 	# M4A1
 	pdxmesh = {
 		name = "USA_infantry_weapon_m4a1_mesh"
-		file = "gfx/models/units/m4a1.mesh"
+		file = "gfx/models/units/USA_M4A1.mesh"
 		scale = 1.0
 	}
 	

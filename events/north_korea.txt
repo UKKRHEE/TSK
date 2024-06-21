@@ -638,7 +638,7 @@ country_event = { #일본 내전발발
 						owner = JAP
 					}
 				}
-				load_focus_tree = generic
+				load_focus_tree = generic_focus
 				create_corps_commander = {
 					traits = { JAP_communist_sympathizer trickster}
 					id = 750 #communist general 1
@@ -743,7 +743,7 @@ country_event = {
 		}
 		set_country_flag = achievement_JAP_sue_for_peace_CHI_completed
 		
-		ai_chance = {
+		ai_will_do = {
 			factor = 90
 		}
 	}
@@ -755,7 +755,7 @@ country_event = {
 			country_event = { id = PRK.26 }
 		}
 		
-		ai_chance = { # If Japan has lots of major enemies, the AI will not make a separate peace
+		ai_will_do = { # If Japan has lots of major enemies, the AI will not make a separate peace
 			factor = 10
 		}
 	}

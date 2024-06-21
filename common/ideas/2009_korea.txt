@@ -70,7 +70,7 @@ ideas = {
 				}
 			}	
 			equipment_bonus = {
-				ballistic_missile_equipment = {
+				ballistic_missile_equipment_4 = {
 					build_cost_ic = -0.2 
 					instant = yes
 				}
@@ -148,7 +148,7 @@ ideas = {
 				}
 			}	
 			equipment_bonus = {
-				CAS_equipment = {
+				cas = {
 					build_cost_ic = -0.3 
 					instant = yes
 				}
@@ -160,9 +160,13 @@ ideas = {
 				}
 			}	
 			equipment_bonus = {
-				amphibious_tank_equipment = {
+				amphibious_tank_equipment_1 = {
 					build_cost_ic = -0.3 
 					instant = yes
+				}
+				amphibious_tank_equipment_2 = {
+					build_cost_ic = -0.3 
+					instant = yes					
 				}
 			}	
 			equipment_bonus = {
@@ -286,7 +290,7 @@ ideas = {
 
 			picture = commie
 			
-			traits = { KOR_sead }
+			traits = {  }
 			
 			modifier = {
 			}
@@ -502,7 +506,7 @@ ideas = {
 				can_lower_tension = yes
 				can_only_justify_war_on_threat_country = no
 				can_guarantee_other_ideologies = no
-				can_host_government_in_exile = yes
+				#can_host_government_in_exile = yes
 			}
 		
 		
@@ -879,9 +883,7 @@ ideas = {
 			allowed = {
 					original_tag = KOR
 			}
-			
-			default = yes
-			
+						
 			allowed_civil_war = {
 				always = yes
 			}
@@ -896,13 +898,11 @@ ideas = {
 		}
 		
 		
-		KOR_danilminjok = { #https://en.wikipedia.org/wiki/Korean_ethnic_nationalism
+		KOR_danilminjok = { #https:/en.wikipedia.org/wiki/Korean_ethnic_nationalism
 		
 			allowed = {
 					original_tag = KOR
 			}
-			
-			default = yes
 			
 			allowed_civil_war = {
 				always = yes
@@ -928,8 +928,6 @@ ideas = {
 					  }
 			}
 			
-			default = yes
-			
 			allowed_civil_war = {
 				always = yes
 			}
@@ -948,9 +946,7 @@ ideas = {
 			allowed = {
 					original_tag = KOR
 			}
-			
-			default = yes
-			
+						
 			allowed_civil_war = {
 				always = yes
 			}

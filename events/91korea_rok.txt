@@ -974,14 +974,14 @@ country_event = { #영국과 거래
 			create_production_license = {
 				target = ENG 
 				equipment = {
-					type = m_1960_modern_tank
+					type = m_1960_mbt
 				}
 				cost_factor = 0
 			}
 			create_production_license = {
 				target = ENG 
 				equipment = {
-					type = m_1970_infantry_eq
+					type = m_1970_manpad_equipment
 				}
 				cost_factor = 0
 			}

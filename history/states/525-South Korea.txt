@@ -56,7 +56,7 @@ state={
 			remove_core_of = KR1
 			add_core_of = KOR
 			add_claim_by = KPA
-			manpower=14171189
+			#manpower=14171189
 		}
 	}
 

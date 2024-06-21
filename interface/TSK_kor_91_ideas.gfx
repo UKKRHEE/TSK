@@ -17,10 +17,10 @@ spriteTypes = {
 		name = "GFX_idea_choi_ghak"
 		texturefile = "gfx/interface/ideas/ADVISOR/91/최각규.dds"
 	}
-	spriteType = {
-		name = "GFX_idea_kim_koo"
-		texturefile = "gfx/interface/ideas/ADVISOR/91/김구.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_idea_kim_koo"
+	# 	texturefile = "gfx/interface/ideas/ADVISOR/91/김구.dds"
+	# }
 	spriteType = {
 		name = "GFX_idea_chu_kyung"
 		texturefile = "gfx/interface/ideas/ADVISOR/91/추경석.dds"
@@ -29,38 +29,38 @@ spriteTypes = {
 		name = "GFX_idea_lee_sung"
 		texturefile = "gfx/interface/ideas/ADVISOR/91/이성호.dds"
 	}
-	spriteType = {
-		name = "GFX_idea_choi_hyung"
-		texturefile = "gfx/interface/ideas/ADVISOR/91/최형우.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_idea_choi_hyung"
+	# 	texturefile = "gfx/interface/ideas/ADVISOR/91/최형우.dds"
+	# }
 
 
 	### KOR - 이론가
 
-	spriteType = {
-		name = "GFX_idea_cho_nam_pung"
-		texturefile = "gfx/interface/ideas/ADVISOR/91/조남풍.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_kim_dong_shin"
-		texturefile = "gfx/interface/ideas/ADVISOR/91/김동신.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_choi_sae_chang"
-		texturefile = "gfx/interface/ideas/ADVISOR/91/최세창.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_seo_dong"
-		texturefile = "gfx/interface/ideas/ADVISOR/91/서동열.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_lee_yang_ho"
-		texturefile = "gfx/interface/ideas/ADVISOR/91/이양호.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_lee_nam_shin"
-		texturefile = "gfx/interface/ideas/ADVISOR/91/이남신.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_idea_cho_nam_pung"
+	# 	texturefile = "gfx/interface/ideas/ADVISOR/91/조남풍.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_kim_dong_shin"
+	# 	texturefile = "gfx/interface/ideas/ADVISOR/91/김동신.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_choi_sae_chang"
+	# 	texturefile = "gfx/interface/ideas/ADVISOR/91/최세창.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_seo_dong"
+	# 	texturefile = "gfx/interface/ideas/ADVISOR/91/서동열.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_lee_yang_ho"
+	# 	texturefile = "gfx/interface/ideas/ADVISOR/91/이양호.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_lee_nam_shin"
+	# 	texturefile = "gfx/interface/ideas/ADVISOR/91/이남신.dds"
+	# }
 
 
 
@@ -231,10 +231,10 @@ spriteTypes = {
 	
     ##### KOR_idea
 	
-	spriteType = {
-		name = "GFX_idea_mkr_unstable_security"
-		texturefile = "gfx/interface/ideas/치안붕괴.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_idea_mkr_unstable_security"
+	# 	texturefile = "gfx/interface/ideas/치안붕괴.dds"
+	# }
 	spriteType = {
 		name = "GFX_idea_mkr_unorthodox_goverment"
 		texturefile = "gfx/interface/ideas/정통성없는_정부.dds"

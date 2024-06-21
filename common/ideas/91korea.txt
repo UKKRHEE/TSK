@@ -31,20 +31,6 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
-			
-			equipment_bonus = {
-				light_mun_equipment = {
-					build_cost_ic = -0.9 instant = yes
-					reliability = -2 instant = yes
-				}
-			}
-			equipment_bonus = {
-				heavy_mun_equipment = {
-					reliability = -1.5 instant = yes
-					build_cost_ic = -0.6 instant = yes
-				}
-			}
 		}
 		KOR_millitary = {
 			picture = generic_production_bonus
@@ -125,12 +111,7 @@ ideas = {
         	removal_cost = -1
 
 			equipment_bonus = {
-				m_1990_jet_multirole = {
-					build_cost_ic = -0.15 instant = yes
-					air_attack = 0.1 instant = yes
-					air_ground_attack = 0.2 instant = yes
-				}
-				m_1980_jet_multirole = {
+				jet_multirole_equipment = {
 					build_cost_ic = -0.15 instant = yes
 					air_attack = 0.1 instant = yes
 					air_ground_attack = 0.2 instant = yes
@@ -344,8 +325,6 @@ ideas = {
 				original_tag = KR1
     		}
 			
-			default = yes
-			
 			allowed_civil_war = {
 				always = yes
 			}
@@ -364,8 +343,6 @@ ideas = {
 				original_tag = MKR
 				original_tag = KR1
     		}
-			
-			default = yes
 			
 			allowed_civil_war = {
 				always = yes
@@ -1023,11 +1000,12 @@ ideas = {
 			
 			modifier = {
 				ai_focus_aggressive_factor = -10
-				targeted_modifier = {
-					tag = ROK
-					attack_bonus_against = -0.4
-					defense_bonus_against = -0.5
-				}
+			}
+			
+			targeted_modifier = {
+				tag = ROK
+				attack_bonus_against = -0.4
+				defense_bonus_against = -0.5
 			}
 		}
 		ROK_counterattack = {
@@ -1108,89 +1086,89 @@ ideas = {
 		}
 	}
 	
-	political_advisor = {
+	# political_advisor = {
 	
-		chung_won_sik = { #정원식 (국무총리)
+	# 	chung_won_sik = { #정원식 (국무총리)
 
 			
-			allowed = {
-				original_tag = KR1
-			}
+	# 		allowed = {
+	# 			original_tag = KR1
+	# 		}
 			
-			traits = { }
-		}
+	# 		traits = { }
+	# 	}
 		
-		lee_young_man = { #이용만 (재무부장관)
+	# 	lee_young_man = { #이용만 (재무부장관)
 
 			
-			allowed = {
-				original_tag = KR1
-			}
+	# 		allowed = {
+	# 			original_tag = KR1
+	# 		}
 			
-			traits = { }
+	# 		traits = { }
 
-			ai_will_do = {
-				factor = 0
-			}
-		}
+	# 		ai_will_do = {
+	# 			factor = 0
+	# 		}
+	# 	}
 		
-		chung_geun_mo = { #정근모 (과학기술처 장관)
+	# 	chung_geun_mo = { #정근모 (과학기술처 장관)
 			
-			allowed = {
-				original_tag = KR1
-			}
+	# 		allowed = {
+	# 			original_tag = KR1
+	# 		}
 			
-			traits = { }
+	# 		traits = { }
 
-			ai_will_do = {
-				factor = 0.5
-			}
-		}
+	# 		ai_will_do = {
+	# 			factor = 0.5
+	# 		}
+	# 	}
 		
-		choi_ghak = { #최각규 (경제 기획원 장관)
+	# 	choi_ghak = { #최각규 (경제 기획원 장관)
 			
-			allowed = {
-				original_tag = KR1
-			}
+	# 		allowed = {
+	# 			original_tag = KR1
+	# 		}
 			
-			traits = { }
-		}
+	# 		traits = { }
+	# 	}
 
-		han_seung = { #한승수 (산업통상자원부장관)
-
-			
-			allowed = {
-				original_tag = KR1
-			}
-			
-			traits = { }
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}	
-		park_sae = { #박세직 (안기부장)
+	# 	han_seung = { #한승수 (산업통상자원부장관)
 
 			
-			allowed = {
-				original_tag = KR1
-			}
+	# 		allowed = {
+	# 			original_tag = KR1
+	# 		}
 			
-			traits = { }
+	# 		traits = { }
 			
-			ai_will_do = {
-				factor = 0
-			}
-		}	
-		lee_ghun = { #이건희 (삼성그룹회장)
+	# 		ai_will_do = {
+	# 			factor = 0
+	# 		}
+	# 	}	
+	# 	park_sae = { #박세직 (안기부장)
+
 			
-			allowed = {
-				original_tag = KR1
-			}
+	# 		allowed = {
+	# 			original_tag = KR1
+	# 		}
 			
-			traits = { }
-		}
-	}
+	# 		traits = { }
+			
+	# 		ai_will_do = {
+	# 			factor = 0
+	# 		}
+	# 	}	
+	# 	lee_ghun = { #이건희 (삼성그룹회장)
+			
+	# 		allowed = {
+	# 			original_tag = KR1
+	# 		}
+			
+	# 		traits = { }
+	# 	}
+	# }
 	
 	tank_manufacturer = { 
 		

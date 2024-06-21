@@ -18,10 +18,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/kor_dsc.dds"
 	}
 
-	spriteType = {
-		name = "GFX_decision_aa"
-		texturefile = "gfx/interface/decisions/aa.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_decision_aa"
+	# 	texturefile = "gfx/interface/decisions/aa.dds"
+	# }
 
 	spriteType = {
 		name = "GFX_decision_prk_coup"

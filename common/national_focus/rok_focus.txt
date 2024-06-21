@@ -868,7 +868,9 @@ focus_tree = {
 				days = 365
 			}
 			USA = {
-				country_event = { id = rok.55 }
+				country_event = { 
+					id = rok.55					
+				}
 			}
 			ENG = {
 				country_event = { days = 1 id = rok.55 }
@@ -1856,10 +1858,6 @@ focus_tree = {
 		x = 35
 		y = 3
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = chaebol
-				add_idea = chaebol_1
-			}
 		}
 	}
 	focus = {
@@ -1912,10 +1910,6 @@ focus_tree = {
 		x = 37
 		y = 3
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = chaebol
-				add_idea = chaebol_2
-			}
 		}
 	}
 	focus = {
@@ -1958,7 +1952,6 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = free_trade
-			add_ideas = economy_open
 			country_event = { id = rok.62 }
 		}
 		x = 39
@@ -2053,10 +2046,6 @@ focus_tree = {
 			focus = economic_opening
 		}
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = economy_close
-				add_idea = economy_close_1
-			}
 		}
 		x = 43
 		y = 2
@@ -2071,7 +2060,6 @@ focus_tree = {
 			focus = No_export_allowed
 		}
 		completion_reward = {
-			add_ideas = mergers_and_acquisitions
 		}
 		x = 41
 		y = 3
@@ -2100,24 +2088,6 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = korean_tech_none_law
-			every_country = {
-				limit = {
-					has_idea = economy_open_bonus
-				}
-				swap_ideas = {
-					remove_idea = economy_open_bonus
-					add_idea = economy_open_bonus_1
-				}
-			}
-			every_country = {
-				limit = {
-					has_idea = economy_open_bonus_minor
-				}
-				swap_ideas = {
-					remove_idea = economy_open_bonus_minor
-					add_idea = economy_open_bonus_minor_1
-				}
-			}
 		}
 		x = 39
 		y = 3
@@ -2151,10 +2121,6 @@ focus_tree = {
 		x = 41
 		y = 5
 		completion_reward = {
-			add_timed_idea = {
-				idea = make_korea_great_again
-				days = 250
-			}
 		}
 	}
 	focus = {
@@ -2814,9 +2780,10 @@ focus_tree = {
 					limit = {
 						not = { has_tech = ship_hull_super_heavy }
 					}
-					set_technology = {
-						m_1970DDH = 1
-					}
+					# TODO (호환성 패치 필요)
+					# set_technology = {
+					# 	ship_hull_modern_DDH_1 = 1
+					# }
 				}
 				create_equipment_variant = {
 					name = "광개토대왕급"
@@ -2862,17 +2829,17 @@ focus_tree = {
 						progress = 0.4
 						amount = 1
 					}
-					add_equipment_production = {
-						equipment = {
-							type = ship_hull_modern_DDH_1
-							creator = "ROK	" 
-							version_name = "광개토대왕급"
-						}
-						name = "ROKS 양만춘" 
-						requested_factories = 1
-						progress = 0.2
-						amount = 1
-					}
+					# add_equipment_production = {
+					# 	equipment = {
+					# 		type = ship_hull_modern_DDH_1
+					# 		creator = "ROK	" 
+					# 		version_name = "광개토대왕급"
+					# 	}
+					# 	name = "ROKS 양만춘" 
+					# 	requested_factories = 1
+					# 	progress = 0.2
+					# 	amount = 1
+					# }
 				}
 		}
 		x = 35
@@ -2929,20 +2896,21 @@ focus_tree = {
 			focus = ROK_jsdf
 		}
 		completion_reward = {
-		custom_effect_tooltip = ROK_kongo
-				hidden_effect = {
-					JDF = {
-						create_production_license = {
-							target = ROK
-							equipment = {
-								type = ship_hull_modern_DDG_1
-								creator = "JDF" 
-								version_name = "공고급"
-							}
-							cost_factor = 0
-						}
-					}
-				}
+			custom_effect_tooltip = ROK_kongo
+			# TODO
+			# hidden_effect = {
+			# 	JDF = {
+			# 		create_production_license = {
+			# 			target = ROK
+			# 			equipment = {
+			# 				type = ship_hull_modern_DDG_1
+			# 				creator = "JDF" 
+			# 				version_name = "공고급"
+			# 			}
+			# 			cost_factor = 0
+			# 		}
+			# 	}
+			# }
 		}
 		x = 34
 		y = 16
@@ -2956,20 +2924,21 @@ focus_tree = {
 			focus = ROK_jsdf
 		}
 		completion_reward = {
-		custom_effect_tooltip = ROK_kongo
-				hidden_effect = {
-					JDF = {
-						create_production_license = {
-							target = ROK
-							equipment = {
-								type = ship_hull_modern_DDH_2
-								creator = "JDF"
-								version_name = "아사기리급"
-							}
-							cost_factor = 0
-						}
-					}
-				}
+			custom_effect_tooltip = ROK_kongo
+			# TODO
+			# hidden_effect = {
+			# 	JDF = {
+			# 		create_production_license = {
+			# 			target = ROK
+			# 			equipment = {
+			# 				type = ship_hull_modern_DDH_2
+			# 				creator = "JDF"
+			# 				version_name = "아사기리급"
+			# 			}
+			# 			cost_factor = 0
+			# 		}
+			# 	}
+			# }
 		}
 		x = 36
 		y = 16

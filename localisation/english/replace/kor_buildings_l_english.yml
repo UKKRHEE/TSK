@@ -1,6 +1,6 @@
 ﻿l_english:
- Constitutional_icon_value_desc:0 "입헌파(은)는 [?Root.Constitutional|+0] §H의 영향력§!를 가짐\n"
- Constitutional_icon_value:0 "[?Root.Constitutional|0H]"
+#  Constitutional_icon_value_desc: "입헌파(은)는 [?Root.Constitutional|+0] §H의 영향력§!를 가짐\n"
+#  Constitutional_icon_value: "[?Root.Constitutional|0H]"
  
  Imperial_icon_value_desc:0 "제국파(은)는 [?Root.Imperialism|+0] §H의 영향력§!를 가짐\n"
  Imperial_icon_value:0 "[?Root.Imperialism|0H]"

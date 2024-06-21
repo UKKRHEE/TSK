@@ -126,7 +126,7 @@ focus_tree = {
 				add_idea = KOR_juche_2
 			}
 		}
-		ai_chance = {
+		ai_will_do = {
 			factor = 100
 		}
 		x = 7
@@ -541,7 +541,8 @@ focus_tree = {
 			focus = prk_Marxism_Leninism
 		}
 		available = {
-			has_idea = yeo_un
+			# TODO (다른 걸로 대체)
+			#has_idea = yeo_un
 		}
 		x = 28
 		y = 8
@@ -1247,7 +1248,6 @@ focus_tree = {
 							type = bunker
 							level = 8
 							province = 12040
-							instant_build = yes
 						}
 					}
 				}	
@@ -1258,19 +1258,16 @@ focus_tree = {
 							type = bunker
 							level = 8
 							province = 9981
-							instant_build = yes
 						}
 						remove_building = {
 							type = bunker
 							level = 8
 							province = 4004
-							instant_build = yes
 						}
 						remove_building = {
 							type = bunker
 							level = 8
 							province = 11958
-							instant_build = yes
 						}
 					}
 				}	

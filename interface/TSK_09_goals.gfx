@@ -477,7 +477,7 @@ spriteTypes = {
 	}
 	frameAnimatedSpriteType = {
 		name = "GFX_gold_move_gfx"
-		texturefile = "gfx//superevent_pictures//gold_move_gfx.png"
+		texturefile = "gfx/superevent_pictures/gold_move_gfx.png"
 		legacy_lazy_load = no 
 		noOfFrames = 8
 		animation_rate_fps = 10
@@ -486,7 +486,7 @@ spriteTypes = {
 	}
 	frameAnimatedSpriteType = {
 		name = "GFX_booming_economy"
-		texturefile = "gfx//superevent_pictures//booming_economy.png"
+		texturefile = "gfx/superevent_pictures/booming_economy.png"
 		legacy_lazy_load = no 
 		noOfFrames = 6
 		animation_rate_fps = 10

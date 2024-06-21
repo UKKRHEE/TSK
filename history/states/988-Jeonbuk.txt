@@ -40,11 +40,9 @@ state={
 			controller = KOR
 			remove_core_of = KR1
 			add_core_of = KOR
-			manpower = 1854508
 			add_claim_by = KPA
-
+			#manpower = 1854508
 		}
-
 	}
 	manpower=2027454
 	buildings_max_level_factor=1.000

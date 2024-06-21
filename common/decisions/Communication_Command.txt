@@ -125,8 +125,6 @@ Communication_Command = {
 		}		
 		fire_only_once = no
 		
-		is_good = no
-
 		complete_effect = {
 			hidden_effect = {
 				add_command_power = -20
@@ -174,8 +172,6 @@ Communication_Command = {
 		}		
 		fire_only_once = no
 		
-		is_good = no
-
 		complete_effect = {
 			hidden_effect = {
 				add_command_power = -20

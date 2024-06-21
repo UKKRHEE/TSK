@@ -20,22 +20,22 @@ spriteTypes = {
 ### Category Icon
 
 #현대장비
-	spriteType = {
-		name = "GFX_SMI_ship_ciws"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_aa_ciws_icn.dds"
-	}
-	spriteType = {
-		name = "GFX_SMI_ship_ciws_2"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_aa_ciws_icn.dds"
-	}
-	spriteType = {
-		name = "GFX_SMI_ship_aa_missile_luncher_1"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_ram_luncher_icn.dds"
-	}
-	spriteType = {
-		name = "GFX_SMI_ship_aa_missile_luncher_2"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_ram_luncher_icn.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_SMI_ship_ciws"
+	# 	textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_aa_ciws_icn.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_SMI_ship_ciws_2"
+	# 	textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_aa_ciws_icn.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_SMI_ship_aa_missile_luncher_1"
+	# 	textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_ram_luncher_icn.dds"
+	# }
+	# spriteType = {
+	# 	name = "GFX_SMI_ship_aa_missile_luncher_2"
+	# 	textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_ram_luncher_icn.dds"
+	# }
 	spriteType = {
 		name = "GFX_SMI_ship_vls_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_VlS_icn.dds"
@@ -72,10 +72,10 @@ spriteTypes = {
 		name = "GFX_SMI_ship_radar_aegis"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_radar_aegis_icn.dds"
 	}
-	spriteType = {
-		name = "GFX_SMI_modern_ship_engine"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/modern_engine_icn.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_SMI_modern_ship_engine"
+	# 	textureFile = "gfx/interface/equipmentdesigner/naval/modules/modern_engine_icn.dds"
+	# }
 	
 	
 	
