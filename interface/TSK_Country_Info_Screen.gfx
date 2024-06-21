@@ -4,10 +4,10 @@ spriteTypes = {
 		name = "GFX_NEW_TLE_logo_game_tno" 
 		textureFile = "gfx/interface/country_info_screen/NEW_TLE_logo_game.png"
 	}
-	# spriteType = {
-	# 	name = "GFX_topbar_star_button"
-	# 	textureFile = "gfx/interface/topbar/topbar_star_button.dds"
-	# }
+	spriteType = {
+	 	name = "GFX_topbar_star_button"
+	 	textureFile = "gfx/interface/topbar/topbar_star_button.dds"
+	}
 
 	spriteType = {
 		name = "GFX_CountryInfo_background"

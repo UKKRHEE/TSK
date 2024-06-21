@@ -1607,7 +1607,7 @@ focus = {
 		focus = KOR_MB_consorvatism_won
 	}
 	relative_position_id = KOR_MB_politic_election
-	x = 10
+	x = 12
 	y = 1
 		available = {
 				has_country_flag = KOR_MB_has_election
@@ -3411,7 +3411,7 @@ focus = {
 		prerequisite = {
 			focus = KOR_MB_consorvatism_won
 		}
-		x = 1
+		x = 3
 		y = 1
 		relative_position_id = KOR_MB_consorvatism_won
 		
