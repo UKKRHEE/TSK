@@ -167,7 +167,7 @@ focus_tree = {
 				has_completed_focus = KOR_MB_12
 			}
 		}	
-		x = 57
+		x = 53
 		y = 6
 		completion_reward = {
 			custom_effect_tooltip = KOR_PLAN_CORE_OPEN
@@ -806,8 +806,8 @@ focus = {
 		x = -5
 		y = 1
 			available = {
-
-	}
+				always = no
+			}
 			completion_reward = {
 					set_rule = {
 							can_create_factions = yes
@@ -1134,7 +1134,7 @@ focus = {
 				controls_state = 1001 #평안북도
 		}		
 		relative_position_id = KOR_MB_aplok-duman
-		x = -1
+		x = -3
 		y = 1
 			completion_reward = {
 					add_ideas = KOR_world_attack
@@ -1382,6 +1382,13 @@ focus = {
 		focus = KOR_MB_2nd_war
 	}
 	relative_position_id = KOR_MB_northen_fight
+	available = {
+		NOT = {
+			KPA = {
+				has_completed_focus = KPA_fight_with_korea
+			}
+		}
+	}
 	x = 3
 	y = 1
 		completion_reward = {
@@ -1532,7 +1539,7 @@ focus = {
 			controls_state = 1001 #평안북도
 	}		
 	relative_position_id = KOR_MB_northen_nuke
-	x = 1
+	x = 3
 	y = 1
 		completion_reward = {
 				add_ideas = KOR_world_attack
@@ -1600,7 +1607,7 @@ focus = {
 		focus = KOR_MB_consorvatism_won
 	}
 	relative_position_id = KOR_MB_politic_election
-	x = 12
+	x = 10
 	y = 1
 		available = {
 				has_country_flag = KOR_MB_has_election
@@ -1837,7 +1844,7 @@ focus = {
 	x = 0
 	y = 1
 	completion_reward = {
-	army_experience = 5
+			remove_ideas = KOR_kowareta_katana
 	}
 
 	}
@@ -1915,7 +1922,7 @@ focus = {
 	focus = {
 	id = KOR_MB_korean_army's_father
 	icon = army_doctrine
-	cost = 20.00
+	cost = 5.00
 	prerequisite = {
 	focus = KOR_MB_army's_manship
 	}
@@ -1930,7 +1937,6 @@ focus = {
 	y = 1
 	completion_reward = {
 			add_ideas = KOR_super_army
-			remove_ideas = KOR_kowareta_katana
 		}
 
 	}
