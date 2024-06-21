@@ -318,6 +318,7 @@ add_ideas = {
 	extensive_conscription
 	
     KOR_09_modern_millitary
+    KOR_09_modern_navy
 	KOR_modern_airforce
 }
 

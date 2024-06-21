@@ -1929,6 +1929,7 @@ focus = {
 	x = 0
 	y = 1
 	completion_reward = {
+			add_ideas = KOR_super_army
 			remove_ideas = KOR_kowareta_katana
 		}
 
@@ -2262,14 +2263,7 @@ focus = {
 	x = 0
 	y = 1
 	completion_reward = {
-
-		add_ideas = hwang_kicheol
-		if = {
-			limit = {
-				has_idea = hwang_kicheol
-			}
-			add_political_power = 150
-		}
+		add_ideas = KOR_super_navy
 	}
 
 	}
@@ -2474,11 +2468,11 @@ focus = {
 		}
 		every_state = {
 			limit = {
-				tag = KOR
+				is_owned_by = KOR
 			}
 			add_building_construction = {
 				type = air_base
-				level = 2
+				level = 1
 				instant_build = yes
 			}
 		}
@@ -2800,9 +2794,9 @@ focus = {
 	x = 2
 	y = 1
 	completion_reward = {
+		add_ideas = KOR_super_airforce
 		set_technology = {
-		
-	m_2010_jet_multirole = 1
+			m_2010_jet_multirole = 1
 		}
 	}
 

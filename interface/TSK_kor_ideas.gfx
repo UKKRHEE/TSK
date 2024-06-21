@@ -327,6 +327,19 @@ spriteTypes = {
     ##### KOR_idea
 	
 	spriteType = {
+		name = "GFX_idea_KOR_super_army"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_super_army.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_super_navy"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_super_navy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_super_airforce"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_super_airforce.png"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_mkr_unstable_security"
 		texturefile = "gfx/interface/ideas/치안붕괴.png"
 	}

@@ -15,8 +15,7 @@ ideas = {
 				nuclear_production_factor = 4
 			}
 		}
-			KOR_modern_eqp_ic_2 = {
-				
+		KOR_modern_eqp_ic_2 = {
 			picture = generic_production_bonus
 			allowed = {
 				always = no
@@ -199,16 +198,13 @@ ideas = {
 					instant = yes
 				}
 			}	
-			}
-			KOR_09_modern_millitary = { #미래 국군
+		}
+		KOR_09_modern_millitary = { #미래 국군
 			picture = generic_production_bonus
 			allowed = {
 				always = no
 			}
-
 			removal_cost = -1
-			
-			
 			modifier = {
 				land_reinforce_rate = 0.2
 				attrition = -0.8
@@ -216,55 +212,55 @@ ideas = {
 				army_org_factor = 0.3
 				army_org_regain	= 0.3
 				supply_consumption_factor = -0.6
-				}
 			}
-			KOR_modern_airforce = { #미래 국군 = (왜넣음? 공군은 딱히 더 건들필요 없는데?) #북괴새끼들에게 09년 공군이 갈갈되어서 넣은거다. 09년 뽕맛 전용이니 지우지 말자
-				picture = generic_production_bonus
-				allowed = {
-					always = yes
-				}
-				
-				removal_cost = -1
-				
-				
-				modifier = {
-					air_attack_factor = 0.8
-					air_defence_factor = 0.8
-					air_agility_factor = 0.8
-					air_accidents_factor = -0.5
-					air_ace_generation_chance_factor = 0.4
-					air_bombing_targetting = 0.33
-					air_cas_efficiency = 0.2
-					air_cas_present_factor = 0.5
-					air_escort_efficiency = 0.2
-					air_night_penalty = -0.7
-					air_weather_penalty = -0.2
-				}
+		}
+		KOR_modern_airforce = { #미래 국군 = (왜넣음? 공군은 딱히 더 건들필요 없는데?) #북괴새끼들에게 09년 공군이 갈갈되어서 넣은거다. 09년 뽕맛 전용이니 지우지 말자
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
 			}
-			KOR_09_modern_navy = { #미래 해군 #09년 해상상륙 늘리는 용도
-				picture = generic_production_bonus
-				allowed = {
-					always = yes
-				}
 			
-				removal_cost = -1
+			removal_cost = -1
 			
 			
-				modifier = {
-					convoy_retreat_speed = 0.2
-					critical_receive_chance = -0.5
-					fighter_sortie_efficiency = 0.25
-					mines_sweeping_by_fleets_factor = 0.5
-					naval_coordination = 0.3
-					naval_damage_factor = 0.1
-					naval_detection = 0.3
-					naval_enemy_retreat_chance = -0.2
-					naval_invasion_capacity = 100
-					naval_torpedo_cooldown_factor = -0.3
-					navy_visibility = -0.2
-				}
+			modifier = {
+				air_attack_factor = 0.8
+				air_defence_factor = 0.8
+				air_agility_factor = 0.8
+				air_accidents_factor = -0.5
+				air_ace_generation_chance_factor = 0.4
+				air_bombing_targetting = 0.33
+				air_cas_efficiency = 0.2
+				air_cas_present_factor = 0.5
+				air_escort_efficiency = 0.2
+				air_night_penalty = -0.7
+				air_weather_penalty = -0.2
 			}
-		} 
+		}
+		KOR_09_modern_navy = { #미래 해군 #09년 해상상륙 늘리는 용도
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}
+		
+			removal_cost = -1
+		
+		
+			modifier = {
+				convoy_retreat_speed = 0.2
+				critical_receive_chance = -0.5
+				fighter_sortie_efficiency = 0.25
+				mines_sweeping_by_fleets_factor = 0.5
+				naval_coordination = 0.3
+				naval_damage_factor = 0.1
+				naval_detection = 0.3
+				naval_enemy_retreat_chance = -0.2
+				naval_invasion_capacity = 100
+				naval_torpedo_cooldown_factor = -0.3
+				navy_visibility = -0.2
+			}
+		}
+	} 
 	country = { 
 		KOR_north_south_problem = {
 			 modifier = {
@@ -1672,6 +1668,69 @@ ideas = {
 			picture = idea_pre_prison_roh
 			
 			modifier = {
+			}
+		}
+		
+		### Korean Army Ending Ideas 
+		KOR_super_army = { #미래 국군
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				land_reinforce_rate = 0.05
+				attrition = -0.1
+				land_night_attack = 0.05
+				army_org_factor = 0.1
+				army_org_regain	= 0.1
+				supply_consumption_factor = -0.1
+			}
+		}
+		KOR_super_airforce = { #미래 국군 = (왜넣음? 공군은 딱히 더 건들필요 없는데?) #북괴새끼들에게 09년 공군이 갈갈되어서 넣은거다. 09년 뽕맛 전용이니 지우지 말자
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			
+			modifier = {
+				air_attack_factor = 0.15
+				air_defence_factor = 0.15
+				air_agility_factor = 0.15
+				air_accidents_factor = -0.1
+				air_ace_generation_chance_factor = 0.1
+				air_bombing_targetting = 0.1
+				air_cas_efficiency = 0.1
+				air_cas_present_factor = 0.1
+				air_escort_efficiency = 0.1
+				air_night_penalty = -0.1
+				air_weather_penalty = -0.1
+			}
+		}
+		KOR_super_navy = { #미래 해군 #09년 해상상륙 늘리는 용도
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}
+		
+			removal_cost = -1
+		
+		
+			modifier = {
+				convoy_retreat_speed = 0.1
+				critical_receive_chance = -0.1
+				fighter_sortie_efficiency = 0.1
+				mines_sweeping_by_fleets_factor = 0.1
+				naval_coordination = 0.1
+				naval_damage_factor = 0.95
+				naval_detection = 0.1
+				naval_enemy_retreat_chance = -0.1
+				naval_invasion_capacity = 5
+				naval_torpedo_cooldown_factor = -0.1
+				navy_visibility = -0.1
 			}
 		}
 	}

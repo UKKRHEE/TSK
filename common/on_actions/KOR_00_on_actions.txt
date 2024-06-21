@@ -11,6 +11,11 @@ on_actions = {
 				}
 				set_global_flag = TSK_2009_scenario
 				hidden_effect = {
+					KOR = {
+						country_event = {
+							id = korea_cheat.1
+						}
+					}
 					970 = { #서울
 						add_manpower = -726928
 					}
