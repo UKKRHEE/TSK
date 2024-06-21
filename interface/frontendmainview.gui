@@ -530,7 +530,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "forum_button"
-			position = { x=-220 y=-112 }
+			position = { x=-220 y=-135 }
 			quadTextureSprite ="forum"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FORUM"
@@ -538,7 +538,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "facebook_button"
-			position = { x=-260 y=-112 }
+			position = { x=-260 y=-135 }
 			quadTextureSprite ="GFX_facebook"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FACEBOOK"
@@ -546,7 +546,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "twitter_button"
-			position = { x= -300 y=-112 }
+			position = { x= -300 y=-135 }
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
@@ -554,7 +554,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "discord_button"
-			position = { x= -340 y=-112 }
+			position = { x= -340 y=-135 }
 			quadTextureSprite ="GFX_discord"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_DISCORD"
