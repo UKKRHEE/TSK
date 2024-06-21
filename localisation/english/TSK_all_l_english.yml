@@ -1,6 +1,34 @@
 ﻿l_english:
- KOR_yi_emp_trait:0 "대한제국 황제"
- KPA_chinese_leaders_attack:0 "항미원조의 유산"
- ROK_death_before_surrender:0 "항복할 바에 죽으리라!"
- ROK_independent_officer:0 "독립군 장교"
- ROK_offensive:0 "총공세"
+ KOR_yi_emp_trait: "대한제국 황제"
+ KPA_chinese_leaders_attack: "항미원조의 유산"
+ ROK_death_before_surrender: "항복할 바에 죽으리라!"
+ ROK_independent_officer: "독립군 장교"
+ ROK_offensive: "총공세"
+ 
+ 
+ core_PRK: "하나된 한국"
+ KOR_coring_in_hwanghae: "대한민국 황해도 수립"
+ KOR_coring_in_gangwonbuk: "대한민국 강원도 통합"
+ KOR_coring_in_hamnam: "대한민국 함경남도 수립"
+ KOR_coring_in_pyongnam: "대한민국 평안남도 수립"
+ KOR_coring_in_pyongbuk: "대한민국 평안북도 수립"
+ KOR_coring_in_jagang: "대한민국 자강도 수립"
+ KOR_coring_in_yanggang: "대한민국 양강도 수립"
+ KOR_coring_in_hambuk: "대한민국 함경북도 수립"
+ KOR_coring_in_pyongyang: "대한민국 평양직할시"
+ 
+ KOR_cored_in_hwanghae: "대한민국 황해도 수립"
+ KOR_cored_in_gangwonbuk: "대한민국 강원도 통합"
+ KOR_cored_in_hamnam: "대한민국 함경남도 수립"
+ KOR_cored_in_pyongnam: "대한민국 평안남도 수립"
+ KOR_cored_in_pyongbuk: "대한민국 평안북도 수립"
+ KOR_cored_in_jagang: "대한민국 자강도 수립"
+ KOR_cored_in_yanggang: "대한민국 양강도 수립"
+ KOR_cored_in_hambuk: "대한민국 함경북도 수립"
+ KOR_cored_in_pyongyang: "대한민국 평양직할시"
+ 
+ form_country_PRK_tt: "북한의 멸망"
+ 
+ 
+ PRK_is_our: "한반도가 하나되다."
+ annex_PRK_war: "북한이 전쟁으로 합병되었다"
