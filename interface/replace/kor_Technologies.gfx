@@ -143,16 +143,20 @@ spriteTypes = {
  ################################################################################
  
 	SpriteType = {
+		name = "GFX_KOR_m_1970_mlrs_equipment_medium"
+		texturefile = "gfx/interface/technologies/art/MJP_1970_mlrs.png"
+	}
+	SpriteType = {
 		name = "GFX_KOR_m_1980_mlrs_equipment_medium"
 		texturefile = "gfx/interface/technologies/art/kor_1980_mlrs.dds"
 	}
 	SpriteType = {
 	 	name = "GFX_KOR_m_1990_mlrs_equipment_medium"
-	 	texturefile = "gfx/interface/technologies/art/usf_1990_mlrs.dds"
+	 	texturefile = "gfx/interface/technologies/art/USF_1990_mlrs.png"
 	}
 	SpriteType = {
 	 	name = "GFX_KOR_m_2000_mlrs_equipment_medium"
-	 	texturefile = "gfx/interface/technologies/art/kor_2000_mlrs.dds"
+	 	texturefile = "gfx/interface/technologies/art/KOR_2000_mlrs.dds"
 	}
  ################################################################################
  ######APC
@@ -268,6 +272,10 @@ spriteTypes = {
  ################################################################################
  ######맨패드
  ################################################################################
+	SpriteType = {
+		name = "GFX_KOR_m_1970_manpad_equipment_medium"
+		texturefile = "gfx/interface/technologies/aa/kor_1970_manpad.png"
+	}
 	SpriteType = {
 		name = "GFX_KOR_m_1980_manpad_equipment_medium"
 		texturefile = "gfx/interface/technologies/aa/kor_1980_manpad.dds"
