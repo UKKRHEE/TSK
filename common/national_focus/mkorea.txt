@@ -987,7 +987,7 @@ focus_tree = {
 						}
 					}
 				}
-				989 = {
+				973 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
 
@@ -1230,7 +1230,7 @@ focus_tree = {
 			focus = MKR_Sixth_Economic_Development_Plan
 		}
 		completion_reward = {
-			989 = {
+			973 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {

@@ -221,13 +221,13 @@ focus_tree = {
 		y = 5
 		available = {
 				KPA = {
-					controls_state = 991
+					controls_state = 975
 				}
 			}	
 		bypass = {
 			NOT = {
 				KPA = {
-					controls_state = 991
+					controls_state = 975
 				}
 			}	
 			}	
@@ -309,7 +309,7 @@ focus_tree = {
 			}			
 			launch_nuke = {
 				province = 13377
-				state = 989
+				state = 973
 				controller = KOR
 				use_nuke = yes
 			}			
