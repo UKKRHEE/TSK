@@ -23,6 +23,8 @@ objectTypes = {
 	pdxmesh = {
 		name = "future_infantry_rifle_mesh"
 		file = "gfx/models/units/z_future_m4a1.mesh"
+
+		scale = 0.8
 	}	
 }
 	
@@ -57,6 +59,8 @@ objectTypes = {
 		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
 		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
 		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+
+		scale = 0.8
 	}
 }
 
