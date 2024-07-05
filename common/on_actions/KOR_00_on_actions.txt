@@ -426,6 +426,7 @@ on_actions = {
 						id = kor_news.1000
 						hours = 12
 					}
+					set_country_flag = annex_PRK_war
 				}
 			}
 			if = {

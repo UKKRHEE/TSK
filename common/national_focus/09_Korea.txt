@@ -167,7 +167,7 @@ focus_tree = {
 				has_completed_focus = KOR_MB_12
 			}
 		}	
-		x = 53
+		x = 55
 		y = 6
 		completion_reward = {
 			custom_effect_tooltip = KOR_PLAN_CORE_OPEN
@@ -524,7 +524,7 @@ focus_tree = {
 			focus = KOR_MB_railload_complete
 		}
 		relative_position_id = KOR_MB_railload_complete
-		x = 1
+		x = -1
 		y = 1
 			completion_reward = {
 					973 = {
