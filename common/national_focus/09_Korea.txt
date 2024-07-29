@@ -985,7 +985,7 @@ focus = {
 			focus = KOR_MB_northen_puppet
 		}
 		relative_position_id = KOR_MB_northen_puppet
-		x = -1
+		x = -3
 		y = 1
 			completion_reward = {
 					add_war_support = 0.15
@@ -1409,7 +1409,7 @@ focus = {
 		focus = KOR_MB_diplo_kill
 	}
 	relative_position_id = KOR_MB_2nd_war
-	x = 1
+	x = 3
 	y = 1
 	available = {
 		has_war_with = KPA
